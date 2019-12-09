@@ -1,7 +1,7 @@
 ---
 title: 產品文檔
 translation-type: tm+mt
-source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
 * 根據需要控制存取設定，以增強安全性。
 
 >[!NOTE]
->控制面板僅供管理員用戶訪問，適用於AWS托管的所有客戶。 授予使用者管理員存取權的步驟，請參閱本 [節](discover/using/managing-permissions.md)。 要檢查您的執行個體是否託管在 AWS 上，請按照[本節](faq.md)詳述的步驟操作。
+>控制面板僅供管理員用戶訪問，適用於AWS托管的所有客戶。 授予使用者管理員存取權的步驟，請參閱本 [節](discover/using/managing-permissions.md)。 要檢查您的實例是否托管在AWS上，請遵循本節中詳細介紹的 [步驟](faq.md)。
 >
 >請注意，存取「控制面板」時，不需要升級至最新的「促銷活動」組建版本。
 
@@ -57,7 +57,7 @@ source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Campaign Standard的控制面板教學課程影片</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard產品檔案</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Campaign Standard 產品文件</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
