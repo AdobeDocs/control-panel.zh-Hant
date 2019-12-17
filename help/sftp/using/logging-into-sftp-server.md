@@ -2,7 +2,7 @@
 title: 登入您的SFTP伺服器
 description: 瞭解如何登入您的SFTP伺服器
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -21,25 +21,25 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 若要連線至您的SFTP伺服器，請依照下列步驟進行：
 
-1. Launch the Control Panel, then select the **[!UICONTROL Key Management]** tab from the **[!UICONTROL SFTP]** card.
+1. 啟動「控制面板」，然後從卡 **[!UICONTROL Key Management]**片中選取標**[!UICONTROL SFTP]** 簽。
 
-   ![](assets/fingerprintNEW2.png)
+   ![](assets/sftp_card.png)
 
 1. 啟動您的SFTP用戶端應用程式，然後從「控制面板」複製並貼上伺服器位址，接著是「campaign.adobe.com」，然後填入您的使用者名稱。
 
-   ![](assets/connect1.png)
+   ![](assets/do-not-localize/connect1.png)
 
-1. 在欄位 **[!UICONTROL SSH Private Key]** 中，選擇儲存在電腦中的私鑰檔案。 它對應的文字檔案與您的公開金鑰同名，沒有副檔名"。pub"（例如"enable"）。
+1. 在欄位 **[!UICONTROL SSH Private Key]**中，選擇儲存在電腦中的私鑰檔案。 它對應的文字檔案與您的公開金鑰同名，沒有副檔名&quot;。pub&quot;（例如&quot;enable&quot;）。
 
-   ![](assets/connect2.png)
+   ![](assets/do-not-localize/connect2.png)
 
-   欄位 **[!UICONTROL Password]** 會自動填入檔案的私密金鑰。
+   欄位 **[!UICONTROL Password]**會自動填入檔案的私密金鑰。
 
-   ![](assets/connect3.png)
+   ![](assets/do-not-localize/connect3.png)
 
    您可以比較私密金鑰或公開金鑰的指紋和SFTP卡的「金鑰管理」標籤中顯示的金鑰指紋，以檢查您嘗試使用的金鑰是否已儲存在「控制面板」中。
 
-   ![](assets/fingerprint3.png)
+   ![](assets/fingerprint_compare.png)
 
    >[!NOTE]
    >
@@ -47,6 +47,6 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 所有資訊填入後，按一 **[!UICONTROL Connect]** 下以登入您的SFTP伺服器。
+1. 所有資訊填入後，按一 **[!UICONTROL Connect]**下以登入您的SFTP伺服器。
 
-   ![](assets/sftpconnected.png)
+   ![](assets/do-not-localize/sftpconnected.png)
