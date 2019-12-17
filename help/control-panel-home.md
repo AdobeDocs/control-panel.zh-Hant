@@ -1,14 +1,14 @@
 ---
 title: 產品文檔
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # 說明中心 {#control-panel-documentation}
 
-![](assets/banner.png)
+![](assets/do-not-localize/banner.png)
 
 ## 關於控制面板 {#about-control-panel}
 
@@ -21,29 +21,29 @@ source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 * 根據需要控制存取設定，以增強安全性。
 
 >[!NOTE]
->控制面板僅供管理員用戶訪問，適用於AWS托管的所有客戶。 授予使用者管理員存取權的步驟，請參閱本 [節](discover/using/managing-permissions.md)。 要檢查您的實例是否托管在AWS上，請遵循本節中詳細介紹的 [步驟](faq.md)。
+>控制面板僅供管理員用戶訪問，適用於AWS托管的所有客戶。 授予使用者管理員存取權的步驟，請參閱本 [節](discover/using/managing-permissions.md)。 要檢查您的執行個體是否託管在 AWS 上，請按照[本節](faq.md)詳述的步驟操作。
 >
 >請注意，存取「控制面板」時，不需要升級至最新的「促銷活動」組建版本。
 
 <table>
 <tr>
     <td>
-        <a href="discover/using/accessing-control-panel.md"><img alt="條件" src="assets/discover.png"/></a>
+        <a href="discover/using/accessing-control-panel.md"><img alt="條件" src="assets/do-not-localize/discover.png"/></a>
         <div><a href="discover/using/accessing-control-panel.md"><strong>Discover控制面板</strong></a></div>
         <em>進一步瞭解控制面板以及如何存取它。</em>
     </td>
     <td>
-        <a href="sftp/using/about-sftp-management.md"><img alt="條件" src="assets/sftp.png"/></a>
+        <a href="sftp/using/about-sftp-management.md"><img alt="條件" src="assets/do-not-localize/sftp.png"/></a>
         <div><a href="sftp/using/about-sftp-management.md"><strong>監控您的SFTP伺服器</strong></a></div>
         <em>瞭解如何管理您的SFTP伺服器。</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="條件" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>監控您的子網域</strong></a></div>
+        <a href="subdomains-certificates/using/subdomains-branding.md"><img alt="條件" src="assets/do-not-localize/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/subdomains-branding.md"><strong>監控您的子網域</strong></a></div>
         <em>瞭解如何監控子網域及其憑證。</em>
     </td>
     <td>
-        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="條件" src="assets/instance_settings.png"/></a>
+        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="條件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="instances-settings/using/ip-whitelisting-instance-access.md"><strong>管理您的例項設定</strong></a></div>
         <br/><em>瞭解如何管理您的例項設定（僅限Campaign Classic）</em>
     </td>
