@@ -2,7 +2,7 @@
 title: 管理控制面板的權限
 description: 瞭解如何管理控制面板的權限
 translation-type: tm+mt
-source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 導覽至 [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)，然後選取 **[!UICONTROL Administration]**標籤。
 
-   ![](assets/control_panel_add_user1.png)
+   ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
@@ -21,11 +21,11 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 按一下可 **用的連結** ，啟動「管理控制台」。
 
-   ![](assets/control_panel_admin1.png)
+   ![](assets/do-not-localize/control_panel_admin1.png)
 
 1. 選擇所要的促銷活動產品。
 
-   ![](assets/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_add_user3.png)
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 此時會顯示促銷活動產品的例項清單。 選擇您要新增管理員使用者的例項。
 
-   ![](assets/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user4.png)
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 此時將顯示所選實例的產品配置檔案清單。 按一下產 **[!UICONTROL Administrators]**品設定檔以存取管理員使用者清單。
 
-   ![](assets/control_panel_add_user_5.png)
+   ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
@@ -49,4 +49,4 @@ source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 1. 會顯示管理員使用者清單。 按一下 **[!UICONTROL Add User]**按鈕以新增所需的使用者。
 
-   ![](assets/control_panel_add_user_6.png)
+   ![](assets/do-not-localize/control_panel_add_user_6.png)
