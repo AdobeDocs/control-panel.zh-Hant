@@ -2,14 +2,14 @@
 title: 續約子網域的SSL憑證
 description: 瞭解如何續約子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: 5573fc7c098128b6672c2aaf0f6fc74b80849576
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # 續約子網域的SSL憑證 {#renewing-subdomains-ssl-certificates}
 
-## 關於憑證續約程式 {#about-certificate-renewal-process}
+## 關於憑證續約 {#about-certificate-renewal-process}
 
 SSL憑證續約程式包含3個步驟，這些步驟都直接從「控制面板」執行：
 
@@ -17,7 +17,7 @@ SSL憑證續約程式包含3個步驟，這些步驟都直接從「控制面板�
 1. **購買SSL憑證**&#x200B;當產生CSR後，您就可以下載CSR，並使用它從您公司核准的認證機構購買SSL憑證。
 1. **安裝SSL憑證**&#x200B;購買SSL憑證後，即可將它安裝在所需的子網域上。
 
-### 產生憑證簽署要求(CSR) {#generating-csr}
+## 產生憑證簽署要求(CSR) {#generating-csr}
 
 若要產生憑證簽署要求(CSR)，請遵循下列步驟：
 
@@ -51,6 +51,10 @@ SSL憑證續約程式包含3個步驟，這些步驟都直接從「控制面板�
    ![](assets/renewal6.png)
 
 1. 系統會自動產生並下載與您選取範圍對應的。csr檔案。 您現在可以使用它，從您公司核准的認證機構購買SSL憑證。
+
+## 向CSR購買證書 {#purchasing-certificate}
+
+從「控制面板」取得「認證簽署要求CSR」後，請向貴組織核准的認證機構購買SSL憑證。
 
 ## 安裝SSL憑證 {#installing-ssl-certificate}
 
