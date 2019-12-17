@@ -2,7 +2,7 @@
 title: 密鑰管理
 description: 瞭解如何管理連線至SFTP伺服器的金鑰
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -41,7 +41,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >
 >以下步驟僅是SSH密鑰建立的示例，請遵循有關SSH密鑰的組織指導方針。 以下範例只是如何進行此作業的一個範例，可做為您向您的團隊或內部網路群組傳達需求時的參考點。
 
-1. 導覽至標 **[!UICONTROL Key Management]** 簽，然後按一下 **[!UICONTROL Add public key]** 按鈕。
+1. 導覽至標 **[!UICONTROL Key Management]**簽，然後按一下**[!UICONTROL Add public key]** 按鈕。
 
    ![](assets/key0.png)
 
@@ -67,21 +67,21 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
    1. 輸入以下命令： `ssh-keygen -t rsa -C <your_email@example.com>`。
    1. 在出現提示時，為您的金鑰提供名稱。 如果。ssh目錄不存在，系統將為您建立一個目錄。
    1. 在出現提示時輸入密碼短語，然後重新輸入。 也可保留為空白。
-   1. 系統會建立「name」和「name.pub」金鑰對。 搜尋"name.pub"檔案，然後開啟它。 它應有英數字串，結尾應為您指定的電子郵件地址。
+   1. 系統會建立「name」和「name.pub」金鑰對。 搜尋&quot;name.pub&quot;檔案，然後開啟它。 它應有英數字串，結尾應為您指定的電子郵件地址。
    **Windows:**
 
    您可能需要安裝協力廠商工具，協助您以相同格式「name.pub」產生私人／公用金鑰對。
 
-1. 開啟。pub檔案，然後複製並貼上以"ssh..."開頭的整個字串 到控制面板。
+1. 開啟。pub檔案，然後複製並貼上以&quot;ssh...&quot;開頭的整個字串 到控制面板。
 
    ![](assets/publickey.png)
 
-1. 按一下 **[!UICONTROL Save]** 按鈕以建立金鑰。 控制面板會儲存公開金鑰及其相關指紋，並使用SHA256格式加密。
+1. 按一下 **[!UICONTROL Save]**按鈕以建立金鑰。 控制面板會儲存公開金鑰及其相關指紋，並使用SHA256格式加密。
 
 您可以使用指紋來比對儲存在電腦上的私密金鑰與儲存在「控制面板」中的對應公開金鑰。
 
-![](assets/fingerprintNEW2.png)
+![](assets/fingerprint_compare.png)
 
-"**..**" 按鈕可讓您刪除現有的金鑰，或將其相關指紋複製到剪貼簿中。
+&quot;**..**&quot; 按鈕可讓您刪除現有的金鑰，或將其相關指紋複製到剪貼簿中。
 
 ![](assets/key_options.png)
