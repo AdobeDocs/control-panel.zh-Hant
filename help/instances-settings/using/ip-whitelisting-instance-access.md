@@ -2,7 +2,7 @@
 title: IP白名單
 description: 進一步瞭解「控制面板」中的IP白名單，例如存取
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 要將IP地址列入白名單，請執行以下步驟：
 
-1. 開啟以 **[!UICONTROL Instances Settings card]** 存取IP白名單標籤，然後按一下 **[!UICONTROL Add new IP Range]**。
+1. 開啟以 **[!UICONTROL Instances Settings card]**存取IP白名單標籤，然後按一下**[!UICONTROL Add new IP Range]**。
 
    >[!NOTE]
    >
@@ -51,11 +51,11 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
    * **[!UICONTROL IP Range]**:您要以CIDR格式將IP範圍列入白名單。 請注意，IP範圍不能與現有白名單範圍重疊。 在這種情況下，請先刪除包含重疊IP的範圍。
    >[!NOTE]
    >
-   >CIDR（無類域間路由）是使用控制面板介面添加IP範圍時支援的格式。 語法由IP位址、後接'/'字元和十進位數字組成。 本文對其格式及語法作了 [詳細說明](https://whatismyipaddress.com/cidr)。
+   >CIDR（無類域間路由）是使用控制面板介面添加IP範圍時支援的格式。 語法由IP位址、後接&#39;/&#39;字元和十進位數字組成。 本文對其格式及語法作了 [詳細說明](https://whatismyipaddress.com/cidr)。
    >
    >您可以在Internet上搜索免費的聯機工具，這些工具將幫助您將現有的IP範圍轉換為CIDR格式。
 
-   * **!UICONTROL Label]**:將顯示在白名單IP位址清單中的標籤。
+   * **[!UICONTROL Label]**:將顯示在白名單IP位址清單中的標籤。
    * **[!UICONTROL Name]**:此名稱對於「存取類型」、「例項」（對於「外部API連線」）和IP位址必須是唯一的。
 
 
@@ -66,11 +66,11 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
    * **[!UICONTROL External API connection]**:具有指定IP位址的外部API可以連線至行銷和／或訊息中心(RT)例項。 請注意，未啟用與RT實例控制台的連接。
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Click the **[!UICONTROL Save]** button. 「IP範圍」會新增至白名單的IP位址清單。
+1. Click the **[!UICONTROL Save]**button. 「IP範圍」會新增至白名單的IP位址清單。
 
    ![](assets/ip_whitelist_added.png)
 
-若要刪除白名單的IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
+若要刪除白名單的IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]**按鈕。
 
 **相關主題：**
 * [IP白名單（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
