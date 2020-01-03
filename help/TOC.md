@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
 
 ---
 
@@ -23,11 +23,6 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
    + [密鑰管理](sftp/using/key-management.md)
    + [登入您的SFTP伺服器](sftp/using/logging-into-sftp-server.md)
    + [常見問題](sftp/using/common-questions.md)
-+ 子網域和憑證 {#subdomains-and-certificates}
-   + [子網域品牌](subdomains-certificates/using/subdomains-branding.md)
-   + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [監控SSL憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [續約SSL憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + 子網域和憑證 {#subdomains-and-certificates}
    + 管理子網域 {#managing-subdomains}
       + [子網域品牌](subdomains-certificates/using/subdomains-branding.md)
