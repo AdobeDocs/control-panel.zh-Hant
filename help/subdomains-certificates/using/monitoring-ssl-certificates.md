@@ -2,12 +2,14 @@
 title: 監視子域的SSL證書
 description: 瞭解如何監控子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # 監視子域的SSL證書 {#monitoring-ssl-certificates}
+
+## 關於SSL憑證 {#about-ssl-certificates}
 
 Adobe Campaign建議您保護裝載著陸頁面的子網域，尤其是收集客戶敏感資訊的子網域。
 
@@ -19,4 +21,28 @@ Adobe Campaign建議您保護裝載著陸頁面的子網域，尤其是收集客
 
 ![](assets/no_certificate.png)
 
+## 監控SSL憑證 {#monitoring-certificates}
+
+在選擇子網域時，您的子網域SSL憑證狀態可直接從子網域清單中取 **[!UICONTROL Subdomains & Certificates]**得。
+
+子網域依SSL憑證的最近到期日排列，並提供過期的視覺化資訊（以天為單位）:
+
+* **綠色**:子網域未在未來60天內到期的憑證。
+* **橙色**:一或多個子網域有一個憑證，將在未來60天內到期。
+* **紅色**:一或多個子網域有一個憑證，將在未來30天內到期。
+* **灰色**:未為子域安裝任何證書。
+
+![](assets/subdomains_list.png)
+
+若要取得子網域的詳細資訊，請按一下 **[!UICONTROL Subdomain Details]**按鈕。
+會顯示所有相關子網域的清單。 它通常包含著陸頁面、資源頁面等的子網域。
+
+該選 **[!UICONTROL Sender info]**項卡提供有關已配置收件箱的資訊（發件人、回覆、錯誤電子郵件）。
+
+![](assets/subdomain_details.png)
+
 如果您的子網域的其中一個SSL憑證即將過期，您可以直接從「控制面板」續約。 如需更多相關資訊，請參閱本節：續 [約子網域的SSL憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
+
+>[!NOTE]
+>
+>Beta版即將提供從控制面板續約憑證的功能。 同時，請參閱本頁 [以取得](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) ，以取得如何在控制面板中監控憑證的詳細資訊。
