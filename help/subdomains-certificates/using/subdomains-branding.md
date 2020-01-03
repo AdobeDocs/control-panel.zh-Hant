@@ -2,12 +2,16 @@
 title: 子網域品牌
 description: 進一步瞭解子網域品牌
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # 子網域品牌 {#subdomains-branding}
+
+>[!NOTE]
+>
+>從「控制面板」進行子網域委派的作業目前為測試版，而且必須經常更新和修改，恕不另行通知。
 
 ## 為什麼要設定子網域？ {#why-setting-up-subdomains}
 
@@ -35,4 +39,4 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 | **完全委派** | 建立子域和命名空間記錄。 然後Adobe將設定Adobe Campaign所需的所有DNS記錄。<br/><br/>在此設定中，Adobe完全負責管理子網域和所有DNS記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子域和命名空間記錄。 然後Adobe會提供要放在DNS伺服器中的記錄，並在Adobe Campaign DNS伺服器中設定對應的值。<br/><br/>在此設定中，您和Adobe都有維護DNS的責任。 | 高 |
 
-本檔案提供有關網域委派的[其他資訊](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
+有關域委派的其他資訊，請參見 [本文檔](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
