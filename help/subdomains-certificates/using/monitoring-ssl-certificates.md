@@ -2,7 +2,7 @@
 title: 監視子域的SSL證書
 description: 瞭解如何監控子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
 
 ---
 
@@ -45,4 +45,4 @@ Adobe Campaign建議您保護裝載著陸頁面的子網域，尤其是收集客
 
 >[!NOTE]
 >
->Beta版即將提供從控制面板續約憑證的功能。 同時，請參閱本頁 [以取得](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) ，以取得如何在控制面板中監控憑證的詳細資訊。
+>在1月底，將提供從控制面板續約憑證的測試版。
