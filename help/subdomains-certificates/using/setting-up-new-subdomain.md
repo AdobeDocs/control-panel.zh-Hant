@@ -2,7 +2,7 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 ---
 
@@ -15,7 +15,12 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ## 完全子域委派 {#full-subdomain-delegation}
 
-「控制面板」可讓您將子網域完全委派給Adobe Campaign。 若要這麼做，請依照下列步驟進行：
+「控制面板」可讓您將子網域完全委派給Adobe Campaign。 若要這麼做，請依照下列步驟進行。
+
+>[!NOTE]
+>
+>如果您沒有為Adobe設定任何子網域，您要設定的第一個子網域將視為主 **要子網域**。
+>將 **會建立反向DNS記錄** ，並將其設為inbox（傳送者、回覆者、錯誤電子郵件位址）的預設傳送子網域。
 
 1. 在卡片 **[!UICONTROL Subdomains & Certificates]**中，選取所要的生產例項，然後按一下**[!UICONTROL Setup new subdomain]**。
 
@@ -23,7 +28,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
    >[!NOTE]
    >
-   >子域委派僅適用於 **生產** 例項。
+   >子網域委派僅適用於 **生產** 例項。
 
 1. 按一下 **[!UICONTROL Next]**以確認完全委託方法。
 
@@ -40,8 +45,6 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
    >設定命名空間時，請務必 **不要將根子網域委派給Adobe**。 否則，網域將只能與Adobe搭配使用。 任何其他用途都不可能，例如傳送內部電子郵件給您組織的員工。
 
    ![](assets/subdomain4.png)
-
-   請注意，如果您未設定任何子網域，您所設定的子網域將被視為主 **要子網域**。 對於稍後在此子網域上配置的所有子網域，收件箱（發送者、錯誤、回覆地址）將保持不變。
 
    使用對應的Adobe名稱伺服器資訊建立子網域後，按一下 **[!UICONTROL Next]**。
 
@@ -65,7 +68,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
    ![](assets/subdomain6.png)
 
-1. 提交子域後，控制面板將檢查它是否指向Adobe NS記錄，以及此子域不存在授權開始(SOA)記錄。
+1. 提交子網域後，控制面板會檢查它是否正確指向Adobe NS記錄，以及此子網域不存在授權開始(SOA)記錄。
 
 1. 如果檢查成功，「控制面板」將開始設定包含DNS記錄、其他URL、收件箱等的子域。 您可以按一下按鈕，以取得有關設定進度的詳細 **[!UICONTROL Process details]**資訊。
 
@@ -73,7 +76,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
    >[!NOTE]
    >
-   >在某些情況下，委派會完成，但子網域可能無法成功驗證。 子域將直接進入清單， **[!UICONTROL Verified subdomains]**其狀態**[!UICONTROL Unverified]** 和作業日誌將提供有關錯誤的資訊。 如果您無法解決問題，請聯絡客戶服務。
+   >在某些情況下，委派會完成，但子網域可能無法成功驗證。 子域將直接進入清單， **[!UICONTROL Verified subdomains]**其狀態**[!UICONTROL Unverified]** 和作業日誌將提供錯誤資訊。 如果您無法解決問題，請聯絡客戶服務。
    >
    >請注意，當子網域委派執行時，控制面板中的其他請求將會進入佇列，並僅在子網域委派完成後才執行，以避免任何效能問題。
 
@@ -82,6 +85,11 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 * **具有** 下列 **DNS記錄的子網域**:SOA、MX、CNAME、DKIM、SPF、TXT、
 * **托管鏡像** 、資源、跟蹤頁和域密鑰的附加子域、
 * **Inbox**:發件人、錯誤、回覆。
+
+>[!NOTE]
+>
+>根據預設，「控制面板」的「回覆」收件匣設定為清除電子郵件，且無法重新檢視。 如果您想要監控行銷活動的「回覆」收件匣，請勿使用此位址。
+
 
 按一下按鈕，即可取得子網域的詳細 **[!UICONTROL Subdomain Details]**資訊。
 
@@ -93,7 +101,7 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 >
 >除了處理階段外，Adobe會通知傳送能力團隊有關新子網域的資訊，以便稽核已建立的子網域。 子網域被委派後，稽核程式最多需要3天。
 >
->執行的檢查包括反饋迴路和垃圾郵件投訴迴路測試。 因此，我們建議不要在審計完成之前使用子域，因為這可能會導致子域的信譽不佳。
+>執行的檢查包括反饋迴路和垃圾郵件投訴迴路測試。 因此，我們建議在審計完成之前不要使用子域，因為這可能導致子網域信譽不佳。
 
 ## CNAME的使用 {#use-cnames}
 
