@@ -2,7 +2,7 @@
 title: 密鑰管理
 description: 瞭解如何管理連線至SFTP伺服器的金鑰
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
 
 ---
 
@@ -41,7 +41,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >
 >以下步驟僅是SSH密鑰建立的示例，請遵循有關SSH密鑰的組織指導方針。 以下範例只是如何進行此作業的一個範例，可做為您向您的團隊或內部網路群組傳達需求時的參考點。
 
-1. 導覽至標 **[!UICONTROL Key Management]**簽，然後按一下**[!UICONTROL Add public key]** 按鈕。
+1. 導覽至標 **[!UICONTROL Key Management]**簽，然後按一下**[!UICONTROL Add new public key]** 按鈕。
 
    ![](assets/key0.png)
 
