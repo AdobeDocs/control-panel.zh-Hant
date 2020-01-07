@@ -2,7 +2,7 @@
 title: 存取控制面板
 description: 瞭解如何存取控制面板
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 >[!NOTE]
 >
->對於 **Campaign Classic** 例項，您可從Campaign Classic 19.1版以後的版本存取產品。
+>產品內的存取權僅適用於Campaign Standard。
 
 1. 開啟您的促銷活動標準產品，然後從窗 **[!UICONTROL Administration]**格中選取功**[!UICONTROL Navigation]** 能表。
 
