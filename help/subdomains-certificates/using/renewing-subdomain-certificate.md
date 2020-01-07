@@ -2,16 +2,16 @@
 title: 續約子網域的SSL憑證
 description: 瞭解如何續約子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # 續約子網域的SSL憑證 {#renewing-subdomains-ssl-certificates}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->在1月底，將提供從控制面板續約憑證的測試版。
+>在1月底之前，控制面板的子網域委派將提供測試版，並在不另行通知的情況下，經常進行更新和修改。
 
 ## 關於憑證續約 {#about-certificate-renewal-process}
 
