@@ -2,16 +2,18 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # 設定新子網域 {#setting-up-subdomain}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->從「控制面板」進行子網域委派的作業目前為測試版，而且必須經常更新和修改，恕不另行通知。
+>在1月底之前，控制面板的子網域委派將提供測試版，並在不另行通知的情況下，經常進行更新和修改。
+
+如果您對子網域委派方法有任何疑問，請洽詢Adobe Deliverability團隊，或最終聯絡客戶服務以要求Deliverability諮詢。
 
 ## 完全子域委派 {#full-subdomain-delegation}
 
@@ -19,8 +21,9 @@ source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 >[!NOTE]
 >
->如果您沒有為Adobe設定任何子網域，您要設定的第一個子網域將視為主 **要子網域**。
->將 **會建立反向DNS記錄** ，並將其設為inbox（傳送者、回覆者、錯誤電子郵件位址）的預設傳送子網域。
+>如果選取的例項沒有先前設定的子網域，則委派給Adobe的第一個子網域將成為該例項的 **主要子網域** ，您將來將無法變更它。
+>
+>使用主子域為其他子域建立反向DNS記錄。 其他子網域的回覆和反彈位址會從主要子網域產生。
 
 1. 在卡片 **[!UICONTROL Subdomains & Certificates]**中，選取所要的生產例項，然後按一下**[!UICONTROL Setup new subdomain]**。
 
@@ -105,4 +108,4 @@ source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 ## CNAME的使用 {#use-cnames}
 
-Adobe不建議使用CNAME進行子網域委派，也不支援透過「控制面板」使用。 若要使用此方法，請聯絡Adobe客戶服務。
+「控制面板」不支援使用CNAME進行子網域委派。 若要使用此方法，請聯絡Adobe客戶服務。
