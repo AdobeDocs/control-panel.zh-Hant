@@ -1,7 +1,7 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 *2020年1月22日*
 
-定義
+我們已新增功能，讓管理員使用者可從「控制面板」委派子網域並續約SSL憑證。
+
+如需詳細資訊，請參閱以下頁面：
+* [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [續約子網域的SSL憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>這些功能將可在測試版中使用，而且可能會經常更新和修改，恕不另行通知。
 
 ## 2019年9月 {#september-2019}
 
