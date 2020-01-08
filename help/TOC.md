@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
+source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
 
 ---
 
@@ -26,13 +26,11 @@ source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
    + [登入您的SFTP伺服器](sftp/using/logging-into-sftp-server.md)
    + [常見問題](sftp/using/common-questions.md)
 + 子網域和憑證 {#subdomains-and-certificates}
-   + 管理子網域 {#managing-subdomains}
-      + [子網域品牌](subdomains-certificates/using/subdomains-branding.md)
-      + [監控子網域](subdomains-certificates/using/monitoring-subdomains.md)
-      + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + 管理SSL憑證 {#managing-certificates}
-      + [監控SSL憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
-      + [續約SSL憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [子網域品牌](subdomains-certificates/using/subdomains-branding.md)
+   + [監控子網域](subdomains-certificates/using/monitoring-subdomains.md)
+   + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [監控SSL憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + [續約SSL憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + 例項設定(Campaign Classic) {#instances-settings}
    + [實例訪問的IP白名單](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL權限](instances-settings/using/url-permissions.md)
