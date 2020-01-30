@@ -2,7 +2,7 @@
 title: 控制面板常見問答集
 description: 與控制面板相關的常見問題
 translation-type: tm+mt
-source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
+source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 
 ---
 
@@ -41,7 +41,7 @@ One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experi
 
 要檢查您的實例是否托管在AWS上，請執行以下步驟：
 
-1. 擷取您的登入URL。 它是您用來登入Campaign例項的URL，最終結束為&quot;。campaign.adobe.com&quot;。
+1. 擷取您的登入URL。 它是您用來登入Campaign例項的URL，最終結束為&quot;。campaign.adobe.com&quot;或&quot;。neolane.net&quot;。
 1. 開啟終端，然後對您的登 **[!DNL nslookup]**入URL執行操作。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
