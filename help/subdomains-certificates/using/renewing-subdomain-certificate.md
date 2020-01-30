@@ -2,7 +2,7 @@
 title: 續約子網域的SSL憑證
 description: 瞭解如何續約子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -101,3 +101,9 @@ SSL憑證續約程式包含3個步驟：
    ![](assets/install2.png)
 
 安裝SSL憑證後，憑證的到期日和狀態圖示會隨之更新。
+
+**相關主題：**
+
+* [新增SSL憑證（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [子網域品牌](../../subdomains-certificates/using/subdomains-branding.md)
+* [監控子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
