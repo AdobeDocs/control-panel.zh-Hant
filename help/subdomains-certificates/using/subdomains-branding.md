@@ -2,7 +2,7 @@
 title: 子網域品牌
 description: 進一步瞭解子網域品牌
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -42,3 +42,9 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 有關域委派的其他資訊，請參見 [本文檔](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
 
 如果您對子網域委派方法有任何疑問，請洽詢Adobe Deliverability團隊，或最終聯絡客戶服務以要求Deliverability諮詢。
+
+**相關主題：**
+
+* [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [委派子網域（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [監控子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
