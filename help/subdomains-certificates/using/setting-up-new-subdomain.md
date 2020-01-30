@@ -2,7 +2,7 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 >
 >如果選取的例項沒有先前設定的子網域，則委派給Adobe的第一個子網域將成為該例項的 **主要子網域** ，您將來將無法變更它。
 >
->使用主子域為其他子域建立反向DNS記錄。 其他子網域的回覆和反彈位址會從主要子網域產生。
+>使用主子域為其他子域建立反向DNS記錄。 其他子網域的回覆和彈回位址會從主要子網域產生。
 
 1. 在卡片 **[!UICONTROL Subdomains & Certificates]**中，選取所要的生產例項，然後按一下**[!UICONTROL Setup new subdomain]**。
 
@@ -109,3 +109,9 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 ## CNAME的使用 {#use-cnames}
 
 「控制面板」不支援使用CNAME進行子網域委派。 若要使用此方法，請聯絡Adobe客戶服務。
+
+**相關主題：**
+
+* [委派子網域（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [子網域品牌](../../subdomains-certificates/using/subdomains-branding.md)
+* [監控子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
