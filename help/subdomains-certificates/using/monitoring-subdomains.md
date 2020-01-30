@@ -2,7 +2,7 @@
 title: 監視子域的SSL證書
 description: 瞭解如何監控子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -24,3 +24,9 @@ source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
 啟動驗證時，會執行數個操作以檢查子網域的設定是否正確（例項租用戶檢查、電子郵件傳送測試等）
 
 如果子網域的驗證失敗，請聯絡Adobe客戶服務以進一步調查。
+
+**相關主題：**
+
+* [新增SSL憑證（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [續約子網域的SSL憑證](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [子網域品牌](../../subdomains-certificates/using/subdomains-branding.md)
