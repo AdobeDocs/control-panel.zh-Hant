@@ -2,7 +2,7 @@
 title: 存取控制面板
 description: 瞭解如何存取控制面板
 translation-type: tm+mt
-source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ## 從Experience cloud平台存取 {#access-experience-cloud-platform}
 
-若要從 Experience Cloud Platform 存取「控制面板」，請導覽至 [Experience Cloud Platform 首頁](https://amc.experiencecloud.adobe.com/)，然後按一下&#x200B;**「快速存取」**&#x200B;區段中的專用連結。
+若要從 Experience Cloud Platform 存取「控制面板」，請導覽至 [Experience Cloud Platform 首頁](https://experiencecloud.adobe.com/)，然後按一下&#x200B;**「快速存取」**&#x200B;區段中的專用連結。
 
 ![](assets/do-not-localize/quickaccess.png)
 
 您也可以從Experience Cloud platform解決方案選擇器存取「控 **制面板」**:
 
-1. 導覽至 [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/)，然後從解決方案 **選擇器選擇「Campaign** 」。
+1. 導覽至 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然後從解決方案 **選擇器選擇「Campaign** 」。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
