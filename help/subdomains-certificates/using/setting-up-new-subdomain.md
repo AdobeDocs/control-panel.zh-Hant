@@ -2,7 +2,7 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 >[!IMPORTANT]
 >
->在1月底之前，控制面板的子網域委派將提供測試版，並在不另行通知的情況下，經常進行更新和修改。
+>從「控制面板」進行子網域委派的測試版可供使用，但必須經常更新和修改，恕不另行通知。
 
 如果您對子網域委派方法有任何疑問，請洽詢Adobe Deliverability團隊，或最終聯絡客戶服務以要求Deliverability諮詢。
 
