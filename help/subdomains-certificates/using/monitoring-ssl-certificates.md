@@ -2,7 +2,7 @@
 title: 監視子域的SSL證書
 description: 瞭解如何監控子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign建議您保護裝載著陸頁面的子網域，尤其是收集客
 
 ## 監控SSL憑證 {#monitoring-certificates}
 
-在選擇子網域時，您的子網域SSL憑證狀態可直接從子網域清單中取 **[!UICONTROL Subdomains & Certificates]**得。
+在選擇子網域時，您的子網域SSL憑證狀態可直接從子網域清單中取 **[!UICONTROL Subdomains & Certificates]** 得。
 
 子網域依SSL憑證的最近到期日排列，並提供過期的視覺化資訊（以天為單位）:
 
@@ -34,10 +34,10 @@ Adobe Campaign建議您保護裝載著陸頁面的子網域，尤其是收集客
 
 ![](assets/subdomains_list.png)
 
-若要取得子網域的詳細資訊，請按一下 **[!UICONTROL Subdomain Details]**按鈕。
+若要取得子網域的詳細資訊，請按一下 **[!UICONTROL Subdomain Details]** 按鈕。
 會顯示所有相關子網域的清單。 它通常包含著陸頁面、資源頁面等的子網域。
 
-該選 **[!UICONTROL Sender info]**項卡提供有關已配置收件箱的資訊（發件人、回覆、錯誤電子郵件）。
+該選 **[!UICONTROL Sender info]** 項卡提供有關已配置收件箱的資訊（發件人、回覆、錯誤電子郵件）。
 
 ![](assets/subdomain_details.png)
 
@@ -45,7 +45,7 @@ Adobe Campaign建議您保護裝載著陸頁面的子網域，尤其是收集客
 
 >[!IMPORTANT]
 >
->在1月底之前，可在測試版中取得從「控制面板」續約憑證的功能，而且必須經常更新和修改，恕不另行通知。
+>Control Panel的憑證續約功能提供測試版，而且必須經常更新和修改，恕不另行通知。
 
 **相關主題：**
 
