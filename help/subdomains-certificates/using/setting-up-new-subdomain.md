@@ -2,7 +2,7 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -12,8 +12,6 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >[!IMPORTANT]
 >
 >從「控制面板」進行子網域委派的測試版可供使用，但必須經常更新和修改，恕不另行通知。
-
-如果您對子網域委派方法有任何疑問，請洽詢Adobe Deliverability團隊，或最終聯絡客戶服務以要求Deliverability諮詢。
 
 ## 完全子域委派 {#full-subdomain-delegation}
 
@@ -25,7 +23,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >
 >使用主子域為其他子域建立反向DNS記錄。 其他子網域的回覆和彈回位址會從主要子網域產生。
 
-1. 在卡片 **[!UICONTROL Subdomains & Certificates]**中，選取所要的生產例項，然後按一下**[!UICONTROL Setup new subdomain]**。
+1. 在卡片 **[!UICONTROL Subdomains & Certificates]** 中，選取所要的生產例項，然後按一下 **[!UICONTROL Setup new subdomain]**。
 
    ![](assets/subdomain1.png)
 
@@ -33,7 +31,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
    >
    >子網域委派僅適用於 **生產** 例項。
 
-1. 按一下 **[!UICONTROL Next]**以確認完全委託方法。
+1. 按一下 **[!UICONTROL Next]** 以確認完全委託方法。
 
    ![](assets/subdomain3.png)
 
@@ -73,13 +71,13 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 1. 提交子網域後，控制面板會檢查它是否正確指向Adobe NS記錄，以及此子網域不存在授權開始(SOA)記錄。
 
-1. 如果檢查成功，「控制面板」將開始設定包含DNS記錄、其他URL、收件箱等的子域。 您可以按一下按鈕，以取得有關設定進度的詳細 **[!UICONTROL Process details]**資訊。
+1. 如果檢查成功，「控制面板」將開始設定包含DNS記錄、其他URL、收件箱等的子域。 您可以按一下按鈕，以取得有關設定進度的詳細 **[!UICONTROL Process details]** 資訊。
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >在某些情況下，委派會完成，但子網域可能無法成功驗證。 子域將直接進入清單， **[!UICONTROL Verified subdomains]**其狀態**[!UICONTROL Unverified]** 和作業日誌將提供錯誤資訊。 如果您無法解決問題，請聯絡客戶服務。
+   >在某些情況下，委派會完成，但子網域可能無法成功驗證。 子域將直接進入清單， **[!UICONTROL Verified subdomains]** 其狀態 **[!UICONTROL Unverified]** 和作業日誌將提供錯誤資訊。 如果您無法解決問題，請聯絡客戶服務。
    >
    >請注意，當子網域委派執行時，控制面板中的其他請求將會進入佇列，並僅在子網域委派完成後才執行，以避免任何效能問題。
 
@@ -94,15 +92,15 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 >根據預設，「控制面板」的「回覆」收件匣設定為清除電子郵件，且無法重新檢視。 如果您想要監控行銷活動的「回覆」收件匣，請勿使用此位址。
 
 
-按一下按鈕，即可取得子網域的詳細 **[!UICONTROL Subdomain Details]**資訊。
+按一下按鈕，即可取得子網域的詳細 **[!UICONTROL Subdomain Details]** 資訊。
 
 ![](assets/subdomain_details_general.png)
 
 ![](assets/subdomains_details_senderinfo.png)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->除了處理階段外，Adobe會通知傳送能力團隊有關新子網域的資訊，以便稽核已建立的子網域。 子網域被委派後，稽核程式最多需要3天。
+>在處理階段後，您應向Adobe客戶服務確認已提交審核請求，讓交付能力團隊審核已建立的新子網域。 子網域被委派後，稽核程式最多需要3 10個工作天。
 >
 >執行的檢查包括反饋迴路和垃圾郵件投訴迴路測試。 因此，我們建議在審計完成之前不要使用子域，因為這可能導致子網域信譽不佳。
 
