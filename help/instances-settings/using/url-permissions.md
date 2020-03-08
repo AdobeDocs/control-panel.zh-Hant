@@ -2,12 +2,18 @@
 title: URL權限
 description: 瞭解如何在「控制面板」中管理URL權限
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # URL權限 {#url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_urlpermissions&quot;
+>title=&quot;關於URL權限&quot;
+>abstract=&quot;管理Adobe Campaign例項可連線至的URL。&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
 >[!CAUTION]
 >
@@ -34,6 +40,11 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 * 「控制面板」支 **援http**、 **https**&#x200B;和 **sftp** 通訊協定。 輸入無效的URL或通訊協定將會導致錯誤。
 
 ## 管理URL權限 {#managing-url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_url_add&quot;
+>title=&quot;Add new URL&quot;
+>abstract=&quot;新增URL以允許連線至您的促銷活動例項。&quot;
 
 若要新增您的例項可連線至的URL，請依照下列步驟進行：
 
@@ -67,7 +78,7 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
    >[!NOTE]
    >
-   >"/.*"字元會自動新增至您在驗證後所輸入之URL的尾端，以涵蓋所輸入頁面的所有子頁面。
+   >&quot;/.*」字元會自動新增至您在驗證後所輸入之URL的尾端，以涵蓋所輸入頁面的所有子頁面。
 
    ![](assets/add_url_listnew.png)
 
