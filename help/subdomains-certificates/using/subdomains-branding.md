@@ -2,12 +2,18 @@
 title: 子網域品牌
 description: 進一步瞭解子網域品牌
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 子網域品牌 {#subdomains-branding}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_certificate_management&quot;
+>title=&quot;關於子網域和SSL憑證&quot;
+>abstract=&quot;監控您的子網域和相關的SSL憑證。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;How to monitor your subdomains&#39; SSL certificates&quot;
 
 >[!IMPORTANT]
 >
