@@ -2,12 +2,19 @@
 title: 例項詳細資訊
 description: 在「控制面板」中瞭解如何監控您的例項詳細資訊
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 例項詳細資訊 {#instance-details}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_instancedetails&quot;
+>title=&quot;關於例項詳細資訊&quot;
+>abstract=&quot;檢視Adobe Campaign例項的詳細資訊：類型、名稱、建置資訊和可能的升級建議。」
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic發行說明&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard版本注意事項&quot;
 
 >[!CAUTION]
 >
@@ -17,7 +24,7 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 您的Adobe Campaign Classic實例架構可包含數個伺服器，以提供行銷活動的彈性。 例如，您可以有行銷、即時（或訊息中心）和中端採購伺服器支援您的例項。
 
-「實例詳細資訊」功能允許您查看實例的平面體系結構。 除了伺服器資訊外，它還可讓您知道您的執行個體組建版本是否為最新版本，並建議視需要升級。
+「例項詳細資訊」功能可讓您檢視例項的平面架構。 除了伺服器資訊外，它還可讓您知道您的執行個體組建版本是否為最新版本，並建議視需要升級。
 
 >[!NOTE]
 >
@@ -64,6 +71,6 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 **我在實例體系結構上沒有看到MID伺服器，這是否表示我的實例無法正常工作？ 我是否需要RT例項才能做到今天無法做到的事？**
 
-您自己的實例看起來可能非常不同，它可能不是所有類型的伺服器，也可能有多個相同的伺服器。 沒有一種或另一種類型的伺服器並不意味著您不能發送即時消息或執行其他類型的活動。 您可以要求額外的伺服器容量，但需支付額外費用。
+您自己的實例看起來可能非常不同，它可能並不是所有類型的伺服器，也可能有多個相同的伺服器。 沒有一種或另一種類型的伺服器並不意味著您不能發送即時消息或執行其他類型的活動。 您可以要求額外的伺服器容量，但需支付額外費用。
 
 如果您認為「例項詳細資訊」頁面中未顯示某些伺服器，請連絡客戶服務。 請務必在訊息中記下特定例項URL。
