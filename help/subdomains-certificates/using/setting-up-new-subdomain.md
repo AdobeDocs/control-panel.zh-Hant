@@ -2,12 +2,18 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 設定新子網域 {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;設定新子網域並管理憑證&quot;
+>abstract=&quot;您需要設定新的子網域並管理您子網域的SSL憑證，以開始使用Adobe Campaign傳送電子郵件或發佈登陸頁面。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;How to monitor your subdomains&#39; SSL certificates&quot;
 
 >[!IMPORTANT]
 >
@@ -21,7 +27,7 @@ source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 >
 >如果選取的例項沒有先前設定的子網域，則委派給Adobe的第一個子網域將成為該例項的 **主要子網域** ，您將來將無法變更它。
 >
->使用主子域為其他子域建立反向DNS記錄。 其他子網域的回覆和彈回位址會從主要子網域產生。
+>使用主子域為其他子域建立反向DNS記錄。 其他子網域的回覆和反彈位址會從主要子網域產生。
 
 1. 在卡片 **[!UICONTROL Subdomains & Certificates]** 中，選取所要的生產例項，然後按一下 **[!UICONTROL Setup new subdomain]**。
 
@@ -43,7 +49,7 @@ source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
    >[!CAUTION]
    >
-   >設定命名空間時，請務必 **不要將根子網域委派給Adobe**。 否則，網域將只能與Adobe搭配使用。 任何其他用途都不可能，例如傳送內部電子郵件給您組織的員工。
+   >設定命名空間時，請務必 **不要將根子網域委派給Adobe**。 否則，網域只能與Adobe搭配使用。 任何其他用途都不可能，例如傳送內部電子郵件給您組織的員工。
 
    ![](assets/subdomain4.png)
 
