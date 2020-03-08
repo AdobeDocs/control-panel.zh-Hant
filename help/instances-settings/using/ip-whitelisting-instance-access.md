@@ -2,12 +2,18 @@
 title: IP白名單
 description: 進一步瞭解「控制面板」中的IP白名單，例如存取
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # IP白名單 {#ip-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange&quot;
+>title=&quot;關於IP白名單&quot;
+>abstract=&quot;管理IP白名單以存取您的例項。&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
 >[!CAUTION]
 >
@@ -33,9 +39,14 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ## 實例訪問的白名單IP地址 {#whistelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_iprange_add&quot;
+>title=&quot;Add New Ip Range&quot;
+>abstract=&quot;定義您要將其列入白名單以連接至實例的IP範圍。&quot;
+
 要將IP地址列入白名單，請執行以下步驟：
 
-1. 開啟以 **[!UICONTROL Instances Settings card]**存取IP白名單標籤，然後按一下**[!UICONTROL Add new IP Range]**。
+1. 開啟以 **[!UICONTROL Instances Settings card]** 存取IP白名單標籤，然後按一下 **[!UICONTROL Add new IP Range]**。
 
    >[!NOTE]
    >
@@ -56,7 +67,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
    >您可以在Internet上搜索免費的聯機工具，這些工具將幫助您將現有的IP範圍轉換為CIDR格式。
 
    * **[!UICONTROL Label]**:將顯示在白名單IP位址清單中的標籤。
-   * **[!UICONTROL Name]**:此名稱對於「存取類型」、「例項」（對於「外部API連線」）和IP位址必須是唯一的。
+   * **[!UICONTROL Name]**:此名稱必須是「存取類型」、「例項」（若是外部API連線）以及IP位址的唯一名稱。
 
 
 1. 指定要授予IP位址的存取類型：
@@ -66,11 +77,11 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
    * **[!UICONTROL External API connection]**:具有指定IP位址的外部API可以連線至行銷和／或訊息中心(RT)例項。 請注意，未啟用與RT實例控制台的連接。
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Click the **[!UICONTROL Save]**button. 「IP範圍」會新增至白名單的IP位址清單。
+1. Click the **[!UICONTROL Save]** button. 「IP範圍」會新增至白名單的IP位址清單。
 
    ![](assets/ip_whitelist_added.png)
 
-若要刪除白名單的IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]**按鈕。
+若要刪除白名單的IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
 
 **相關主題：**
 * [IP白名單（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
