@@ -2,12 +2,18 @@
 title: IP範圍白名單
 description: 瞭解如何為SFTP伺服器存取的IP範圍加入白名單
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # IP範圍白名單 {#ip-range-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_ip_whitelist&quot;
+>title=&quot;關於IP白名單&quot;
+>abstract=&quot;在此標籤中，您可以將IP範圍列入白名單，以建立與SFTP伺服器的連線。 此處僅顯示您可存取的SFTP伺服器。 請連絡您的管理員以要求存取其他SFTP伺服器。」
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Watch demo video&quot;
 
 SFTP伺服器受到保護。 為了能夠訪問這些檔案或編寫新檔案，您需要將訪問伺服器的系統或客戶端的公共IP地址列入白名單。
 
@@ -30,10 +36,15 @@ CIDR（無類域間路由）是使用控制面板介面添加IP範圍時支援�
 
 ## 白名單IP位址 {#whitelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_sftp_iprange_add&quot;
+>title=&quot;Add New Ip Range&quot;
+>abstract=&quot;定義您要將IP範圍列入白名單以連接至SFTP伺服器。&quot;
+
 要將IP範圍列入白名單，請執行以下步驟：
 
-1. 開啟資 **[!UICONTROL SFTP]**訊卡，然後選取標**[!UICONTROL IP Whistelisting]** 簽。
-1. 會針對每個例項顯示白名單IP位址清單。 從左側清單中選取所要的例項，然後按一下按 **[!UICONTROL Add new IP range]**鈕。
+1. 開啟資 **[!UICONTROL SFTP]** 訊卡，然後選取標 **[!UICONTROL IP Whistelisting]** 簽。
+1. 會針對每個例項顯示白名單IP位址清單。 從左側清單中選取所要的例項，然後按一下按 **[!UICONTROL Add new IP range]** 鈕。
 
    ![](assets/control_panel_add_range.png)
 
@@ -54,9 +65,9 @@ CIDR（無類域間路由）是使用控制面板介面添加IP範圍時支援�
 
    ![](assets/control_panel_add_range3.png)
 
-1. Click the **[!UICONTROL Save]**button. IP白名單新增項目將顯示為「待定」，直到完全處理請求為止。 這隻需要幾秒鐘。
+1. Click the **[!UICONTROL Save]** button. IP白名單新增項目將顯示為「待定」，直到完全處理請求為止。 這隻需要幾秒鐘。
 
-若要刪除白名單的IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]**按鈕。
+若要刪除白名單的IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -66,7 +77,7 @@ CIDR（無類域間路由）是使用控制面板介面添加IP範圍時支援�
 
 ## 監控更改 {#monitoring-changes}
 
-「控 **[!UICONTROL Job Logs]**制面板」首頁中的「控制面板」可讓您監控對列入白名單的IP位址所做的所有變更。
+「控 **[!UICONTROL Job Logs]** 制面板」首頁中的「控制面板」可讓您監控對列入白名單的IP位址所做的所有變更。
 
 有關「Control Panel（控制面板）」介面的詳細資訊，請參 [閱本節](../../discover/using/discovering-the-interface.md)。
 
