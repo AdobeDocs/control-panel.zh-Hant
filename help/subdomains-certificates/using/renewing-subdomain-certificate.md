@@ -2,12 +2,19 @@
 title: 續約子網域的SSL憑證
 description: 瞭解如何續約子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # 續約子網域的SSL憑證 {#renewing-subdomains-ssl-certificates}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_add_ssl_certificate&quot;
+>title=&quot;Add SSL certificate&quot;
+>abstract=&quot;若要新增SSL憑證，您必須產生CSR、為您的子網域購買SSL憑證並安裝憑證搭售。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generating a Certificate Signing Request(CSR)&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate&quot; text=&quot;如何安裝SSL憑證&quot;
 
 >[!IMPORTANT]
 >
@@ -18,7 +25,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 SSL憑證續約程式包含3個步驟：
 
 1. **產生憑證簽署要求(CSR)** Adobe客戶服務會為您產生CSR。 您需要提供產生CSR所需的一些資訊（例如公用名稱、組織名稱和地址等）。
-1. **購買SSL憑證**&#x200B;當產生CSR後，您就可以下載CSR，並使用它從您公司核准的認證機構購買SSL憑證。
+1. **購買SSL憑證**&#x200B;當產生CSR後，您就可以下載CSR，並使用它從您公司核准的認證授權機構購買SSL憑證。
 1. **安裝SSL憑證**&#x200B;購買SSL憑證後，即可將它安裝在所需的子網域上。
 
 >[!NOTE]
@@ -27,13 +34,25 @@ SSL憑證續約程式包含3個步驟：
 
 ## 產生憑證簽署要求(CSR) {#generating-csr}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_generate_csr&quot;
+>title=&quot;Generate CSR&quot;
+>abstract=&quot;您必須在購買憑證之前，針對您打算保護的例項和子網域產生憑證簽署要求。&quot;
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_select_subdomains&quot;
+>title=&quot;選擇CSR的子網域&quot;
+>abstract=&quot;您可以選擇將所有或僅特定的子網域納入您的認證簽署請求。 只有選取的子網域才會透過購買的SSL憑證取得認證。」
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generating a Certificate Signing Request(CSR)&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;關於子網域品牌推廣&quot;
+
 若要產生憑證簽署要求(CSR)，請遵循下列步驟：
 
-1. 在資訊 **[!UICONTROL Subdomains & Certificates]**卡中，選取所要的例項，然後按一下**[!UICONTROL Manage Certificate]** 按鈕。
+1. 在資訊 **[!UICONTROL Subdomains & Certificates]** 卡中，選取所要的例項，然後按一下 **[!UICONTROL Manage Certificate]** 按鈕。
 
    ![](assets/renewal1.png)
 
-1. 選 **[!UICONTROL Generate a CSR]**擇，然**[!UICONTROL Next]** 後按一下啟動嚮導，引導您完成CSR生成過程。
+1. 選 **[!UICONTROL Generate a CSR]**&#x200B;擇，然 **[!UICONTROL Next]** 後按一下啟動嚮導，引導您完成CSR生成過程。
 
    ![](assets/renewal2.png)
 
@@ -43,7 +62,7 @@ SSL憑證續約程式包含3個步驟：
 
    * **[!UICONTROL Organization]**:正式組織名稱。
    * **[!UICONTROL Organization Unit]**:連結至子網域的單位(範例：行銷，IT)。
-   * **[!UICONTROL Instance]**（預填）:與子網域相關聯之促銷活動例項的URL。
+   * **[!UICONTROL Instance]** （預填）:與子網域相關聯之促銷活動例項的URL。
    ![](assets/renewal3.png)
 
 1. 選擇要包含在CSR中的子域，然後按一下 **[!UICONTROL OK]**。
@@ -54,7 +73,7 @@ SSL憑證續約程式包含3個步驟：
 
    ![](assets/renewal5.png)
 
-1. 將顯示要包括在CSR中的子域的概要。 按一 **[!UICONTROL Submit]**下以確認您的請求。
+1. 將顯示要包括在CSR中的子域的概要。 按一 **[!UICONTROL Submit]** 下以確認您的請求。
 
    ![](assets/renewal6.png)
 
@@ -69,6 +88,12 @@ SSL憑證續約程式包含3個步驟：
 從「控制面板」取得「認證簽署要求CSR」後，請向貴組織核准的認證機構購買SSL憑證。
 
 ## 安裝SSL憑證 {#installing-ssl-certificate}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_install_ssl_certificate&quot;
+>title=&quot;安裝SSL憑證&quot;
+>abstract=&quot;安裝您從貴組織核准的認證機構購買的SSL憑證。&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;關於子網域品牌推廣&quot;
 
 在購買SSL憑證後，您就可以將它安裝在您的例項上。 在繼續之前，請確定您已瞭解下列必要條件：
 
@@ -88,11 +113,11 @@ SSL憑證續約程式包含3個步驟：
 
 若要安裝憑證，請依照下列步驟進行：
 
-1. 在資訊 **[!UICONTROL Subdomains & Certificates]**卡中，選取所要的例項，然後按一下**[!UICONTROL Manage Certificate]** 按鈕。
+1. 在資訊 **[!UICONTROL Subdomains & Certificates]** 卡中，選取所要的例項，然後按一下 **[!UICONTROL Manage Certificate]** 按鈕。
 
    ![](assets/renewal1.png)
 
-1. 按一 **[!UICONTROL Install SSL Certificate]**下，**[!UICONTROL Next]** 然後啟動精靈，引導您完成憑證安裝程式。
+1. 按一 **[!UICONTROL Install SSL Certificate]**&#x200B;下， **[!UICONTROL Next]** 然後啟動精靈，引導您完成憑證安裝程式。
 
    ![](assets/install1.png)
 
