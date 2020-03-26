@@ -2,7 +2,7 @@
 title: 例項詳細資訊
 description: 在「控制面板」中瞭解如何監控您的例項詳細資訊
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic發行說明&quot;
 >additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard版本注意事項&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >此功能僅適用於Campaign Classic例項。
 
