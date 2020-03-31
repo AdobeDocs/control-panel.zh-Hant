@@ -2,7 +2,7 @@
 title: 續約子網域的SSL憑證
 description: 瞭解如何續約子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 
 ---
 
@@ -124,6 +124,10 @@ SSL憑證續約程式包含3個步驟：
 1. 選取包含要安裝之憑證的。zip檔案，然後按一下 **[!UICONTROL Submit]**。
 
    ![](assets/install2.png)
+
+>[!NOTE]
+>
+>此憑證將安裝在CSR中包含的所有網域／子網域上。 證書中存在的任何附加域／子域都不會被考慮在內。
 
 安裝SSL憑證後，憑證的到期日和狀態圖示會隨之更新。
 
