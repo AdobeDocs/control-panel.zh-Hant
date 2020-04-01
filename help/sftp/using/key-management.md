@@ -2,7 +2,7 @@
 title: 密鑰管理
 description: 瞭解如何管理連線至SFTP伺服器的金鑰
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -25,7 +25,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >
 >目前無法刪除SSH公鑰。
 
-## 最佳實務 {#best-practices}
+## 最佳作法 {#best-practices}
 
 **關於公共SSH密鑰**
 
@@ -35,7 +35,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 在極少數情況下，某些SFTP伺服器會啟用密碼驗證。 Adobe建議您使用基於金鑰的驗證，因為此方法更有效率且更安全。 您可以聯絡客戶服務，要求切換至基於金鑰的驗證。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >如果您的密碼過期，即使系統上已安裝密鑰，您也無法登入SFTP帳戶。
 
@@ -48,7 +48,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >title=&quot;Add New Public Key&quot;
 >abstract=&quot;為實例添加新的公鑰。&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >以下步驟僅是SSH密鑰建立的示例，請遵循有關SSH密鑰的組織指導方針。 以下範例只是如何進行此作業的一個範例，可做為您向您的團隊或內部網路群組傳達需求時的參考點。
 
