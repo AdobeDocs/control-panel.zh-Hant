@@ -2,7 +2,7 @@
 title: 監視子域的SSL證書
 description: 瞭解如何監控子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -11,13 +11,13 @@ source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 您必須監控子網域，以確保所有子網域皆已正確設定，以搭配Adobe Campaign運作。
 
-選取卡片時，可直接存取每個生產例項的子網域清 **[!UICONTROL Subdomains & Certificates]**單。
+選取卡片時，可直接存取每個生產例項的子網域清 **[!UICONTROL Subdomains & Certificates]** 單。
 
-該 **[!UICONTROL Last verification]**列指示上次驗證子域的時間。** 您隨時都可以按一下…… **./按**[!UICONTROL Verify subdomain]** 鈕。
+該 **[!UICONTROL Last verification]** 列指示上次驗證子域的時間。 您隨時都可以按一下…… **.** /按 **[!UICONTROL Verify subdomain]** 鈕。
 
 ![](assets/subdomain_verification.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有某些傳送能力問題。
 
