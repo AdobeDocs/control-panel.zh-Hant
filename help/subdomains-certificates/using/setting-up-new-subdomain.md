@@ -2,7 +2,7 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 
 ---
 
@@ -47,9 +47,11 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 1. 在您組織使用的代管解決方案中建立所需的子網域和名稱伺服器。 若要這麼做，請複製並貼上精靈中顯示的Adobe Nameserver資訊。 如需如何在代管解決方案中建立子網域的詳細資訊，請參閱教學 [課程影片](https://video.tv.adobe.com/v/30175?captions=chi_hant)。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
-   >設定命名空間時，請務必 **不要將根子網域委派給Adobe**。 否則，網域只能與Adobe搭配使用。 任何其他用途都不可能，例如傳送內部電子郵件給您組織的員工。
+   >設定命名空間時，請務必 **不要將根子網域委派給Adobe**。 否則，網域將只能與Adobe搭配使用。 任何其他用途都不可能，例如傳送內部電子郵件給您組織的員工。
+   >
+   >此外， **請勿為此新子網域建立個別的區域** 檔案。
 
    ![](assets/subdomain4.png)
 
@@ -59,19 +61,21 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
    * **行銷通訊**:用於商業目的的通訊。 範例：銷售電子郵件宣傳。
    * **交易與營運通訊**:交易通訊包含的資訊旨在完成收件者與您一起開始的程式。 範例：購買確認、密碼重設電子郵件。 組織通訊與組織內外的資訊、想法和意見交換有關，無商業目的。
+   ![](assets/subdomain5.png)
+
+   **根據使用案例劃分子網域是提供能力的最佳實務**。 這樣，每個子域的信譽就會被隔離和保護。 例如，如果行銷通訊的子網域最終被網際網路服務供應商列入黑名單，您的交易通訊子網域將不會受到影響，而且會持續傳送通訊。
+
+   **您可以針對行銷和交易使用案例委派子網域**:
+
+   * 對於行銷使用案例，子網域將設定在 **MID** (Mid sourcing)例項上。
+   * 對於事務性使用案例，子網域將配置在所有 **RT** （消息中心／即時消息）實例上，以確保連接性。 因此，子網域將會與您的所有RT例項一起運作。
    >[!NOTE]
    >
-   >根據使用案例劃分子網域是提供能力的最佳實務。 這樣，每個子域的信譽就會被隔離和保護。
-   >
-   >例如，如果行銷通訊的子網域最終被網際網路服務供應商列入黑名單，您的交易通訊子網域將不會受到影響，而且會持續傳送通訊。
-
-   ![](assets/subdomain5.png)
+   >如果您使用Campaign Classic,「控制面板」可讓您查看哪些RT/MID例項已連接至您正在使用的Marketing例項。 如需詳細資訊，請參閱[本小節](../../instances-settings/using/instance-details.md)。
 
 1. 輸入您建立的子網域至您的代管解決方案，然後按一下 **[!UICONTROL Submit]**。
 
-   >[!NOTE]
-   >
-   > 請務必填寫要委 **派的子網域** 的完整名稱。 例如，若要委派&quot;usoffers.email.weretail.com&quot;子網域，請輸入&quot;usoffers.email.weretail.com&quot;。
+   請務必填寫要委 **派的子網域** 的完整名稱。 例如，若要委派&quot;usoffers.email.weretail.com&quot;子網域，請輸入&quot;usoffers.email.weretail.com&quot;。
 
    ![](assets/subdomain6.png)
 
