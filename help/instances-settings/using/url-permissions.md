@@ -2,7 +2,7 @@
 title: URL權限
 description: 瞭解如何在「控制面板」中管理URL權限
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;管理Adobe Campaign例項可連線至的URL。&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >此功能僅適用於Campaign Classic例項。
 
@@ -33,7 +33,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 * [外發連接保護](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
 * [新增URL權限（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
-## 最佳實務 {#best-practices}
+## 最佳作法 {#best-practices}
 
 * 請勿將您的促銷活動例項連線至您不想連線至的網站／伺服器。
 * 刪除您不再使用的URL。 不過，請注意，如果您公司的其他區段仍連線至您刪除的URL，則沒有人會再使用它。
