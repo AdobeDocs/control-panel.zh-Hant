@@ -2,7 +2,7 @@
 title: IP白名單
 description: 進一步瞭解「控制面板」中的IP白名單，例如存取
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;管理IP白名單以存取您的例項。&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >此功能僅適用於Campaign Classic例項。
 
@@ -29,7 +29,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 一旦將IP位址列入白名單，您就可以建立Campaign運算子並將其連結至這些運算子，讓使用者可以存取該例項。
 
-## 最佳實務 {#best-practices}
+## 最佳作法 {#best-practices}
 
 在「控制面板」中將IP位址加入白名單時，請務必遵循下列建議和限制。
 
