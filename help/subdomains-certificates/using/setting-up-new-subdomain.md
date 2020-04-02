@@ -2,7 +2,7 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
+source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 
    >[!IMPORTANT]
    >
-   >設定命名空間時，請務必 **不要將根子網域委派給Adobe**。 否則，網域將只能與Adobe搭配使用。 任何其他用途都不可能，例如傳送內部電子郵件給您組織的員工。
+   >設定命名空間時，請務必 **不要將根子網域委派給Adobe**。 否則，網域只能與Adobe搭配使用。 任何其他用途都不可能，例如傳送內部電子郵件給您組織的員工。
    >
    >此外， **請勿為此新子網域建立個別的區域** 檔案。
 
@@ -101,12 +101,13 @@ source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
 >
 >根據預設，「控制面板」的「回覆」收件匣設定為清除電子郵件，且無法重新檢視。 如果您想要監控行銷活動的「回覆」收件匣，請勿使用此位址。
 
+您可以按一下和按鈕，以取得子網域的更 **[!UICONTROL Subdomain details]** 多詳 **[!UICONTROL Sender info]** 細資訊。
 
-按一下按鈕，即可取得子網域的詳細 **[!UICONTROL Subdomain Details]** 資訊。
+![](assets/detail_buttons.png)
 
-![](assets/subdomain_details_general.png)
+![](assets/subdomain_details.png)
 
-![](assets/subdomains_details_senderinfo.png)
+![](assets/sender_info.png)
 
 >[!IMPORTANT]
 >
