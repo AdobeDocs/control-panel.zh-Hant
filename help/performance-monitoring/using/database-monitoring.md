@@ -2,7 +2,7 @@
 title: 資料庫監控
 description: 瞭解如何在「控制面板」中監控您的Campaign資料庫
 translation-type: tm+mt
-source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
+source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 ---
 
@@ -21,11 +21,13 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
 
 >[!NOTE]
 >
->請注意，當前資料庫空間容量與合同中指定的不同時間段的容量之間可能存在一些差異，以確保效能更高。
+>控制面板中顯示的資料庫空間量可能不反映合同中指定的資料庫空間量。 通常，系統會暫時提供較大的資料庫空間，以確保系統的效能。
 
 ## 監控資料庫使用情況 {#monitoring-instances-database}
 
-1. 開啟資 **[!UICONTROL Health Monitoring]** 訊卡，然後選取標 **[!UICONTROL Databases]** 簽。
+「控制面板」可讓您監控每個促銷活動例項的資料庫使用情形。 若要這麼做，請依照下列步驟進行。
+
+1. 開啟資 **[!UICONTROL Performance Monitoring]** 訊卡，然後選取標 **[!UICONTROL Databases]** 簽。
 
 1. 從中選擇所需的實例 **[!UICONTROL Instance List]**。
 
@@ -38,6 +40,10 @@ source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
    將滑鼠指標暫留在圖形上，可讓您取得所選時段的詳細資訊。
 
    ![](assets/databases_dashboard_detail.png)
+
+>[!NOTE]
+>
+>您也可以在其中一個資料庫達到容量時收到通知。 若要這麼做，請訂閱電子郵 [件警報](../../performance-monitoring/using/email-alerting.md)
 
 ## 防止資料庫過載 {#preventing-database-overload}
 
@@ -52,7 +58,7 @@ Campaign Standard和Classic提供多種方法來防止資料庫磁碟空間過�
 
 **資料庫維護**
 
-* 資料庫清除技術工[作流程(Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflowshtml#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* 資料庫清除技術工[作流程(Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [資料庫維護指南](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [資料庫效能疑難排解](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [資料庫相關選項](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
