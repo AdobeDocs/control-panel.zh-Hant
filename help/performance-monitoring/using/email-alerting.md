@@ -2,7 +2,7 @@
 title: 電子郵件警報
 description: 瞭解如何在您的促銷活動例項發生問題時接收電子郵件通知
 translation-type: tm+mt
-source-git-commit: 819d9257775e244c5a84e214a86f324830e0ad74
+source-git-commit: e79ad202a1d3c3eb8c9944a352cb7d614953bcd4
 
 ---
 
@@ -17,15 +17,16 @@ source-git-commit: 819d9257775e244c5a84e214a86f324830e0ad74
 
 1. 按一下「Control **[!UICONTROL Alerting notifications]** Panel（控制面板）」中任意位置的可用按鈕，然後按一下 **[!UICONTROL Subscribe]**。
 
-![](assets/subscribing.png)
+   ![](assets/subscribing.png)
 
 1. 系統會傳送電子郵件以確認您的訂閱。
 
-![](assets/email_subscription.png)
+   ![](assets/email_subscription.png)
 
-訂閱後，控制面板會通知系統問題，並建議您採取動作。
+1. 訂閱後，控制面板會通知系統問題，並建議您採取動作。 電子郵件警報會傳送給已註冊所有執行個體( **其為** 「管理員」)的每個人。
 
-電子郵件警報會傳送給已註冊所有執行個體( **其為** 「管理員」)的每個人。
+   ![](assets/alert_sample.png)
+
 
 警報清單如下：
 
@@ -34,3 +35,4 @@ source-git-commit: 819d9257775e244c5a84e214a86f324830e0ad74
 * **資料庫使用**:其中一個實例的資料庫已達到其容量的80%以上。 請參 [閱資料庫監控](../../performance-monitoring/using/database-monitoring.md)。
 
 * **SSL憑證到期**:您其中一個子網域的SSL憑證已過期，或將在60天或更短時間內到期。 請參 [閱監視子域的SSL證書](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
+
