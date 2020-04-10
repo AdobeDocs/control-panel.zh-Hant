@@ -2,7 +2,7 @@
 title: 資料庫監控
 description: 瞭解如何在「控制面板」中監控您的Campaign資料庫
 translation-type: tm+mt
-source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
+source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
 
 ---
 
@@ -35,7 +35,11 @@ source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
    ![](assets/databases_dashboard.png)
 
-   下方區域提供過去7天中資料庫利用率的圖形表示。 您可以使用右上角的可用篩選器來變更顯示的時段。
+   下方區域以圖形方式表示過去7天內最低、平均和最大資料庫利用率，以及90%資料庫利用率閾值，用紅色虛曲線表示。
+
+   您可以使用右上角的可用篩選器來變更顯示的時段。
+
+   為了提高可讀性，您也可以在圖形中加亮一或多條曲線。 若要這麼做，請從圖例中選取 **[!UICONTROL Aggregation Type]** 它們。
 
    將滑鼠指標暫留在圖形上，可讓您取得所選時段的詳細資訊。
 
@@ -43,7 +47,7 @@ source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 >[!NOTE]
 >
->您也可以在其中一個資料庫達到容量時收到通知。 若要這麼做，請訂閱電子郵 [件警報](../../performance-monitoring/using/email-alerting.md)
+>此控制面板外，您也可以在其中一個資料庫達到其容量時收到通知。 若要這麼做，請訂閱電子郵 [件警報](../../performance-monitoring/using/email-alerting.md)
 
 ## 防止資料庫過載 {#preventing-database-overload}
 
