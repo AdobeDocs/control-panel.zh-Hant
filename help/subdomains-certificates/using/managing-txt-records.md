@@ -2,7 +2,7 @@
 title: 管理TXT記錄
 description: 瞭解如何管理TXT記錄以進行網域擁有權驗證。
 translation-type: tm+mt
-source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
@@ -10,9 +10,13 @@ source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
 # 管理TXT記錄 {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_siteverification_add&quot;
->title=&quot;管理TXT記錄&quot;
->abstract=&quot;Google等某些服務要求您在網域設定中新增TXT記錄，以確認您擁有網域。&quot;
+>id="cp_siteverification_add"
+>title="管理TXT記錄"
+>abstract="有些服務（例如Google）會要求您在網域設定中新增TXT記錄，以確認您擁有網域。"
+
+>[!IMPORTANT]
+>
+>4月底之前，控制面板中的TXT記錄管理將可供使用。
 
 ## 關於TXT記錄 {#about-txt-records}
 
@@ -21,6 +25,11 @@ TXT記錄是一種DNS記錄，用於提供域的文本資訊，可由外部源�
 為了確保高收件匣率和低垃圾郵件率，Google等服務要求您在網域設定中新增TXT記錄，以確認您擁有網域。
 
 目前，Gmail是最受歡迎的電子郵件地址提供商之一。 為了確保電子郵件的傳送能力良好，並能成功傳送至Gmail位址，Adobe Campaign可讓您在您的子網域中新增特殊的Google網站驗證TXT記錄，以確保其經過驗證。
+
+其他資源：
+
+* [Campaign Standard教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)。
+* [Campaign Classic教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
 
 ## 新增子網域的Google TXT記錄 {#adding-a-google-txt-record}
 
@@ -42,9 +51,10 @@ TXT記錄是一種DNS記錄，用於提供域的文本資訊，可由外部源�
 
 新增TXT記錄後，您必須由Google驗證。 若要這麼做，請導覽至G套裝管理工具，然後啟動驗證步驟(請參閱 [G套裝管理說明](https://support.google.com/a/answer/183895))。
 
-
 要刪除記錄，請從記錄清單中選擇該記錄，然後按一下刪除按鈕。
 
 >[!NOTE]
 >
 >從DNS記錄清單中刪除的唯一記錄是您先前新增的記錄（在我們的例子中是Google TXT記錄）。
+
+
