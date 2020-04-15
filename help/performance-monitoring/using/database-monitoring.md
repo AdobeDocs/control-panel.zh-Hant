@@ -2,12 +2,16 @@
 title: 資料庫監控
 description: 瞭解如何在「控制面板」中監控您的Campaign資料庫
 translation-type: tm+mt
-source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # 資料庫監控 {#database-monitoring}
+
+>[!IMPORTANT]
+>
+>4月底之前，將可使用「控制面板」中的資料庫監控。
 
 ## 關於實例資料庫 {#about-instances-databases}
 
