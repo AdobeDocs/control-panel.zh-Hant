@@ -2,7 +2,7 @@
 title: 管理TXT記錄
 description: 瞭解如何管理TXT記錄以進行網域擁有權驗證。
 translation-type: tm+mt
-source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
@@ -13,10 +13,6 @@ source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 >id="cp_siteverification_add"
 >title="管理TXT記錄"
 >abstract="有些服務（例如Google）會要求您在網域設定中新增TXT記錄，以確認您擁有網域。"
-
->[!IMPORTANT]
->
->4月底之前，控制面板中的TXT記錄管理將可供使用。
 
 ## 關於TXT記錄 {#about-txt-records}
 
