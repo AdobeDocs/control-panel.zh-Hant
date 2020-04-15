@@ -2,12 +2,16 @@
 title: 電子郵件警報
 description: 瞭解如何在您的促銷活動例項發生問題時接收電子郵件通知
 translation-type: tm+mt
-source-git-commit: e79ad202a1d3c3eb8c9944a352cb7d614953bcd4
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # 電子郵件警報 {#email-alerting}
+
+>[!IMPORTANT]
+>
+>在4月底之前，將可從控制面板收到電子郵件警報。
 
 ## 關於電子郵件警報 {#about-email-alerts}
 
