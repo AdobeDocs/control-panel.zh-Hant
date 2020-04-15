@@ -2,12 +2,16 @@
 title: 關於效能監視
 description: 在「控制面板」中瞭解如何監控執行個體效能
 translation-type: tm+mt
-source-git-commit: 34dc95481fa7f2db162dbfc19a462782ee825739
+source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
 
 ---
 
 
 # 關於效能監視 {#about-performance-monitoring}
+
+>[!IMPORTANT]
+>
+>在4月底之前，將可使用「控制面板」的效能監控功能。
 
 「控制面板」提供多項功能，可協助您監控執行個體並確保最佳效能。
 
