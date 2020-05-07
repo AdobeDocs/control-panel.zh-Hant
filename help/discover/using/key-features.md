@@ -2,7 +2,10 @@
 title: 存取控制面板
 description: 瞭解如何存取控制面板
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 8%
 
 ---
 
@@ -10,10 +13,10 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # 主要功能 {#key-features}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_overview&quot;
->title=&quot;關於控制面板&quot;
->abstract=&quot;「控制面板」首頁可讓您存取可在促銷活動例項上執行的所有動作。&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;Disconging the interface&quot;
+>id="cp_overview"
+>title="關於控制面板"
+>abstract="「控制面板」首頁可讓您存取所有可在促銷活動例項上執行的動作。"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="探索介面"
 
 「控制面板」可協助您以Adobe Campaign Standard和／或Classic產品管理員的身分，管理每個例項的設定並追蹤使用實例，進而提高工作效率。 其直覺式介面可讓您輕鬆監控關鍵資產的使用情況，並執行管理工作，例如IP位址白名單、SFTP儲存監控、金鑰管理等。
 
@@ -24,7 +27,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 * 根據需要控制存取設定，以增強安全性。
 
 >[!NOTE]
->控制面板僅供管理員用戶訪問，適用於AWS托管的所有客戶。 授予使用者管理員存取權的步驟，請參閱本 [節](../../discover/using/managing-permissions.md)。 要檢查您的執行個體是否託管在 AWS 上，請按照[本節](../../faq.md)詳述的步驟操作。
+>控制面板僅供管理員用戶訪問，適用於AWS托管的所有客戶，但混合環境尚未受支援除外。 授予使用者管理員存取權的步驟，請參閱本 [節](../../discover/using/managing-permissions.md)。 要檢查您的執行個體是否託管在 AWS 上，請按照[本節](../../faq.md)詳述的步驟操作。
 >
 >請注意，存取「控制面板」時，不需要升級至最新的「促銷活動」組建版本。
 
