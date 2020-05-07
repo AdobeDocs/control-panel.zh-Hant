@@ -1,7 +1,10 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 0%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 >[!NOTE]
 >
->請注意，控制面板僅適用於AWS托管的客戶。 訪問控制面板不需要升級。 請確定您是管理員使用者，才能加以存取。
+>請注意，控制面板僅適用於AWS托管的客戶，但混合環境尚未受到支援除外。 . 訪問控制面板不需要升級。 請確定您是管理員使用者，才能加以存取。
 
 ## 2020年4月 {#april-2020}
 
