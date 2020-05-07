@@ -2,7 +2,10 @@
 title: 設定新子網域
 description: 瞭解如何為您的促銷活動例項設定新的子網域
 translation-type: tm+mt
-source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
+source-git-commit: b27c6c8db765bc61b4e2afcadf446b28b15d3a93
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 0%
 
 ---
 
@@ -10,10 +13,10 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 # 設定新子網域 {#setting-up-subdomain}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_management&quot;
->title=&quot;設定新子網域並管理憑證&quot;
->abstract=&quot;您需要設定新的子網域並管理您子網域的SSL憑證，以開始使用Adobe Campaign傳送電子郵件或發佈登陸頁面。&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;How to monitor your subdomains&#39; SSL certificates&quot;
+>id="cp_subdomain_management"
+>title="設定新子網域並管理憑證"
+>abstract="您必須設定新的子網域並管理子網域的SSL憑證，才能開始使用Adobe Campaign傳送電子郵件或發佈登陸頁面。"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何監控子網域的SSL憑證"
 
 >[!IMPORTANT]
 >
@@ -59,8 +62,8 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 1. 選擇子網域的所需使用案例：
 
-   * **行銷通訊**:用於商業目的的通訊。 範例：銷售電子郵件宣傳。
-   * **交易與營運通訊**:交易通訊包含的資訊旨在完成收件者與您一起開始的程式。 範例：購買確認、密碼重設電子郵件。 組織通訊與組織內外的資訊、想法和意見交換有關，無商業目的。
+   * **行銷通訊**: 用於商業目的的通訊。 範例： 銷售電子郵件宣傳。
+   * **交易與營運通訊**: 交易通訊包含的資訊旨在完成收件者與您一起開始的程式。 範例： 購買確認、密碼重設電子郵件。 組織通訊與組織內外的資訊、想法和意見交換有關，無商業目的。
    ![](assets/subdomain5.png)
 
    **根據使用案例劃分子網域是提供能力的最佳實務**。 這樣，每個子域的信譽就會被隔離和保護。 例如，如果行銷通訊的子網域最終被網際網路服務供應商列入黑名單，您的交易通訊子網域將不會受到影響，而且會持續傳送通訊。
@@ -81,25 +84,29 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 1. 提交子網域後，控制面板會檢查它是否正確指向Adobe NS記錄，以及此子網域不存在授權開始(SOA)記錄。
 
-1. 如果檢查成功，「控制面板」將開始設定包含DNS記錄、其他URL、收件箱等的子域。 您可以按一下按鈕，以取得有關設定進度的詳細 **[!UICONTROL Process details]** 資訊。
+   >[!NOTE]
+   >
+   >請注意，當子網域委派執行時，控制面板中的其他請求將會進入佇列，並僅在子網域委派完成後才執行，以避免任何效能問題。
+
+1. 如果檢查成功，「控制面板」將開始設定包含DNS記錄、其他URL、收件箱等的子域。
+
+   最終，Deliverability團隊將會收到有關新子網域的通知，以便進行審核。 子網域被委派後，稽核程式最多需要3-10個工作天。 執行的檢查包括反饋迴路和垃圾郵件投訴迴路測試。 因此，我們建議在審計完成之前不要使用子域，因為這可能導致子網域信譽不佳。
+
+   您可以按一下按鈕，以取得有關設定進度的詳細 **[!UICONTROL Process details]** 資訊。
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >在某些情況下，委派會完成，但子網域可能無法成功驗證。 子域將直接進入清單， **[!UICONTROL Verified subdomains]** 其狀態 **[!UICONTROL Unverified]** 和作業日誌將提供錯誤資訊。 如果您無法解決問題，請聯絡客戶服務。
-   >
-   >請注意，當子網域委派執行時，控制面板中的其他請求將會進入佇列，並僅在子網域委派完成後才執行，以避免任何效能問題。
+   >在某些情況下，委派會完成，但子網域可能無法成功驗證。 子域將保留在清單中，並 **[!UICONTROL Processing]** 有提供錯誤資訊的作業日誌。 如果您無法解決問題，請聯絡客戶服務。
 
 在程式結束時，子網域將設定為可搭配您的Adobe Campaign例項運作，並建立下列元素：
 
-* **具有** 下列 **DNS記錄的子網域**:SOA、MX、CNAME、DKIM、SPF、TXT、
+* **具有以下DNS記錄的子域**: SOA、MX、CNAME、DKIM、SPF、TXT、
 * **托管鏡像** 、資源、跟蹤頁和域密鑰的附加子域、
-* **Inbox**:發件人、錯誤、回覆。
+* **Inbox**: 發件人、錯誤、回覆。
 
->[!NOTE]
->
->根據預設，「控制面板」的「回覆」收件匣設定為清除電子郵件，且無法重新檢視。 如果您想要監控行銷活動的「回覆」收件匣，請勿使用此位址。
+   根據預設，「控制面板」的「回覆」收件匣設定為清除電子郵件，且無法重新檢視。 如果您想要監控行銷活動的「回覆」收件匣，請勿使用此位址。
 
 您可以按一下和按鈕，以取得子網域的更 **[!UICONTROL Subdomain details]** 多詳 **[!UICONTROL Sender info]** 細資訊。
 
@@ -108,12 +115,6 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
-
->[!IMPORTANT]
->
->在處理階段後，您應向Adobe客戶服務確認已提交審核請求，讓交付能力團隊審核已建立的新子網域。 子網域被委派後，稽核程式最多需要3 10個工作天。
->
->執行的檢查包括反饋迴路和垃圾郵件投訴迴路測試。 因此，我們建議在審計完成之前不要使用子域，因為這可能導致子網域信譽不佳。
 
 ## CNAME的使用 {#use-cnames}
 
