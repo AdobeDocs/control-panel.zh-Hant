@@ -2,7 +2,10 @@
 title: 管理TXT記錄
 description: 瞭解如何管理TXT記錄以進行網域擁有權驗證。
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -52,5 +55,3 @@ TXT記錄是一種DNS記錄，用於提供域的文本資訊，可由外部源�
 >[!NOTE]
 >
 >從DNS記錄清單中刪除的唯一記錄是您先前新增的記錄（在我們的例子中是Google TXT記錄）。
-
-
