@@ -2,7 +2,10 @@
 title: 控制面板常見問答集
 description: 與控制面板相關的常見問題
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 5%
 
 ---
 
@@ -13,15 +16,15 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 **什麼是IMS組織ID?**
 
-這是您第一次登入Adobe Experience cloud時，提供給您實例的唯一ID。 它的格式應為：xxx@AdobeOrg。
+這是您第一次登入Adobe Experience Cloud時，提供給您實例的唯一ID。 它的格式應為： xxx@AdobeOrg。
 
-如需詳細資訊，請參閱 [Adobe Experience cloud檔案](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
+如需詳細資訊，請參閱 [Adobe Experience Cloud檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
 **我可以在哪裡找到我的IMS組織ID?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. 您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)中找到更多詳細資訊。
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration **[!UICONTROL Quick Access]** section. 您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)中找到更多詳細資訊。
 
-另一種方式是啟動 **Admin Console**。 您的IMS組織ID將會顯示在您的URL中，其外觀應該類似：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
+另一種方式是啟動 **Admin Console**。 您的IMS組織ID將會顯示在您的URL中，其外觀應該類似： https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
 **我為何需要知道我的IMS組織ID?**
 
@@ -42,7 +45,7 @@ One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.
 要檢查您的實例是否托管在AWS上，請執行以下步驟：
 
 1. 擷取您的登入URL。 它是您用來登入Campaign例項的URL，最終結束為&quot;。campaign.adobe.com&quot;或&quot;。neolane.net&quot;。
-1. 開啟終端，然後對您的登 **[!DNL nslookup]**入URL執行操作。
+1. 開啟終端，然後對您的登 **[!DNL nslookup]** 入URL執行操作。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
@@ -99,7 +102,7 @@ One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.
 
 **我可以使用控制面板嗎？**
 
-控制面板僅開放給在AWS上代管Adobe Campaign的現有客戶的產品管理員。
+控制面板僅開放給在AWS上代管Adobe Campaign的現有客戶的產品管理員。 請注意，目前尚未支援混合環境。
 
 如果您不是管理員，但想要存取權，請連絡您的產品管理員，協助您新增為管理員。
 
