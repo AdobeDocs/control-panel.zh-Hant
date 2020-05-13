@@ -2,7 +2,7 @@
 title: GPG密鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
+source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -69,9 +69,9 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
    >[!NOTE]
    >
-   >您可使用開放原始碼免費軟體來產生金鑰。 不過，請務必遵循貴組織的准則，並使用IT/安全性組織建議的PGP公用程式。
+   >提供可產生金鑰的開放原始碼免費軟體。 不過，請務必遵循貴機構的准則，並使用IT/安全性機構建議的GPG公用程式。
 
-1. 安裝該實用程式後，在Mac終端或Windows電腦中運行以下命令。
+1. 安裝該實用程式後，在Mac終端機或Windows命令中運行以下命令。
 
    `gpg --full-generate-key`
 
@@ -111,7 +111,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 然後，此金鑰便可用於Adobe Campaign工作流程。 使用資料擷取活動時，您可使用它來加密資料。
 
-如需詳細資訊，請參閱Adobe Campaign檔案：
+如需更多相關資訊，請參閱Adobe Campaign檔案：
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
@@ -147,7 +147,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 公共密鑰隨後可用於與任何外部系統共用。 Adobe Campaign將能夠在資料載入活動中使用私密金鑰來解密使用公開金鑰加密的資料。
 
-如需詳細資訊，請參閱Adobe Campaign檔案：
+如需更多相關資訊，請參閱Adobe Campaign檔案：
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
