@@ -2,7 +2,7 @@
 title: GPG密鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
+source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -65,7 +65,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 為此，您需要從PGP加密工具生成GPG密鑰對，然後將公共密鑰安裝到「控制面板」中。 然後，您就可以在從實例發送資料之前加密資料。 若要這麼做，請依照下列步驟進行：
 
-1. 使用 [OpenPGP簡化後的GPG加密工具產生公用／私用金鑰對](https://www.openpgp.org/about/standard/)。 為此，請安裝GPG實用程式或GNuPG軟體。
+1. 使用 [OpenPGP簡化後的GPG加密工具產生公用／私用金鑰對](https://www.openpgp.org/about/standard/)。 為此，請安裝GPG實用程式或GNuGP軟體。
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
    * **密碼短語**
    ![](assets/gpg_command.png)
 
-1. 確認後，指令碼將生成一個鍵，您可以將其導出到檔案，或直接貼上到「控制面板」中。 要導出檔案，請運行此命令，然後運行生成的鍵的指標。
+1. 確認後，指令碼將生成一個鍵，您可以將其導出到檔案，或直接貼上到「控制面板」中。 要導出檔案，請運行此命令，然後運行生成的密鑰的指紋。
 
    `gpg -a --export <fingerprint>`
 
@@ -105,7 +105,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 1. Click the **!UICONTROL Install Key]** button.
 
-在安裝公開金鑰後，它會顯示在清單中。 您可以使用 **...** 按鈕，以下載或複製其指紋。
+在安裝公開金鑰後，它會顯示在清單中。 您可以使用 **...** 按鈕，以下載或複製指紋。
 
 ![](assets/gpg_install_download.png)
 
