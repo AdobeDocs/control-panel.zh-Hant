@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,31 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請注意，控制面板僅適用於AWS托管的客戶，但混合環境尚未受到支援除外。 . 訪問控制面板不需要升級。 請確定您是管理員使用者，才能加以存取。
+>請注意，控制面板僅適用於AWS托管的客戶，但混合環境尚未受到支援除外。 訪問控制面板不需要升級。 請確定您是管理員使用者，才能加以存取。
+
+## 2020年5月（#2020年5月）
+
+**GPG密鑰管理**
+
+在行銷實例上安裝及／或產生GPG金鑰，以加密從Campaign傳送的資料並解密傳入的資料。 [閱讀更多資訊](../..//instances-settings/using/gpg-keys-management.md)
+
+**CNAME子網域的憑證管理**
+
+控制面板現在可讓您續約已透過CNAME方法委派之子網域的SSL憑證。 [閱讀更多資訊](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020年4月 {#april-2020}
 
-**Google TXT記錄管理**&#x200B;將Google TXT網站驗證記錄新增至您所有透過「促銷活動控制面板」傳送電子郵件至Gmail位址的子網域。
+**Google TXT記錄管理**
 
-**資料庫空間監**&#x200B;控促銷活動控制面板具備資料庫監控功能，可讓您隨選及隨時檢視資料庫空間使用率。
+將Google TXT網站驗證記錄新增至您所有透過「促銷活動控制面板」傳送電子郵件至Gmail位址的子網域。 [閱讀更多資訊](../../subdomains-certificates/using/managing-txt-records.md)
 
-**電子郵件警報**「促銷活動控制面板」配備即時電子郵件警報功能，讓您登入「控制面板」，並在系統有效能降低的風險時註冊以接收警報，或需要採取行動以確保未來的高效能。
+**資料庫空間監控**
+
+「促銷活動控制面板」具備資料庫監控功能，可讓您隨選及隨時檢視您的資料庫空間使用率。 [閱讀更多資訊](../../performance-monitoring/using/database-monitoring.md)
+
+**電子郵件警報**
+
+促銷活動控制面板具備即時電子郵件警報功能，可讓您登入控制面板，並在系統有效能降低的風險時註冊以接收警報，或需要採取行動以確保日後的高效能。 [閱讀更多資訊](../../performance-monitoring/using/email-alerting.md)
 
 ## 2020年1月 {#january-2020}
 
