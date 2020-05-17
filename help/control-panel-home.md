@@ -1,7 +1,10 @@
 ---
 title: 產品文件
 translation-type: tm+mt
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 11%
 
 ---
 
@@ -12,17 +15,13 @@ source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ## 新增功能
 
-* [Google TXT記錄管理](subdomains-certificates/using/managing-txt-records.md)
+* [GPG密鑰管理](instances-settings/using/gpg-keys-management.md)
 
-   將Google TXT網站驗證記錄新增至您所有透過「促銷活動控制面板」傳送電子郵件至Gmail位址的子網域。
+   在行銷實例上安裝及／或產生GPG金鑰，以加密從Campaign傳送的資料並解密傳入的資料。
 
-* [資料庫空間監控](performance-monitoring/using/database-monitoring.md)
+* [CNAME子網域的憑證管理](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
-   按需查看資料庫空間利用率，並隨時查看。
-
-* [電子郵件警報](performance-monitoring/using/email-alerting.md)
-
-   登入控制面板，在系統有效能降低的風險或需要採取行動以確保未來的高效能時，註冊以接收警報。
+   控制面板現在可讓您續約已透過CNAME方法委派之子網域的SSL憑證。
 
 ## 其他資源 {#additional-resources}
 
