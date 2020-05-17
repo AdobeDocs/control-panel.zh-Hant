@@ -2,9 +2,9 @@
 title: GPG密鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -25,39 +25,6 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 * **加密發送的資料**: Adobe Campaign使用已安裝的公開金鑰加密資料後，會將資料傳出。
 
 * **解密傳入資料**: Adobe Campaign會使用從「控制面板」下載的公開金鑰，從外部系統接收加密的資料。 Adobe Campaign會使用從「控制面板」產生的私密金鑰解密資料。
-
-## 監控GPG密鑰
-
-若要存取已安裝並產生的GPG金鑰，請開啟資訊卡， **[!UICONTROL Instance settings]** 然後選取索 **[!UICONTROL GPG keys]** 引標籤。
-
-![](assets/gpg_list.png)
-
-該清單顯示為實例安裝和生成的所有加密和解密GPG密鑰，其中包含每個密鑰的詳細資訊：
-
-* **[!UICONTROL Name]**: 安裝或生成密鑰時已定義的名稱。
-* **[!UICONTROL Use case]**: 此列指定鍵的使用案例：
-
-   ![](assets/gpg_icon_encrypt.png): 已安裝該密鑰以進行資料加密。
-
-   ![](assets/gpg_icon_decrypt.png): 已生成密鑰以允許資料解密。
-
-* **[!UICONTROL Fingerprint]**: 鑰匙的指紋。
-* **[!UICONTROL Expires]**: 密鑰的到期日。 請注意，當主要指示即將到期時，控制面板將提供視覺指示：
-
-   * 30天前會顯示緊急（紅色）。
-   * 警告（黃色）在60天前顯示。
-   * 當金鑰過期時，會顯示「已過期」的紅色橫幅。
-   >[!NOTE]
-   >
-   >請注意，控制面板不會傳送任何電子郵件通知。
-
-建議您移除不再需要的任何金鑰，這是最佳實務。 若要這麼做，請按一下 **...** 按鈕，然後選 **[!UICONTROL Delete Key]擇。**.
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->在移除金鑰之前，請確定未在任何Adobe Campaign工作流程中使用金鑰，以防止金鑰失敗。
 
 ## 加密資料 {#encrypting-data}
 
@@ -89,7 +56,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
    `gpg -a --export <fingerprint>`
 
-1. 若要將公開金鑰安裝至「控制面板」，請存 **[!UICONTROL GPG Keys]** 取標籤，然後選取所要的例項。
+1. 若要將公開金鑰安裝至「控制面板」，請開 **[!UICONTROL Instance settings]** 啟資訊卡，然後選取 **[!UICONTROL GPG keys]** 標籤和所要的例項。
 
 1. Click the **[!UICONTROL Install Key]** button.
 
@@ -134,7 +101,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 要在「Control Panel（控制面板）」中生成鍵對，請執行以下步驟：
 
-1. 存取標 **[!UICONTROL GPG Keys]** 簽，然後選取所要的Adobe Campaign例項。
+1. 開啟資 **[!UICONTROL Instance settings]** 訊卡，然後選取標 **[!UICONTROL GPG keys]** 簽和所要的Adobe Campaign例項。
 
 1. Click the **[!UICONTROL Generate Key]** button.
 
@@ -163,3 +130,36 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 * [管理加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [載入檔案活動](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## 監控GPG密鑰
+
+若要存取已安裝並產生的GPG金鑰，請開啟資訊卡， **[!UICONTROL Instance settings]** 然後選取索 **[!UICONTROL GPG keys]** 引標籤。
+
+![](assets/gpg_list.png)
+
+該清單顯示為實例安裝和生成的所有加密和解密GPG密鑰，其中包含每個密鑰的詳細資訊：
+
+* **[!UICONTROL Name]**: 安裝或生成密鑰時已定義的名稱。
+* **[!UICONTROL Use case]**: 此列指定鍵的使用案例：
+
+   ![](assets/gpg_icon_encrypt.png): 已安裝該密鑰以進行資料加密。
+
+   ![](assets/gpg_icon_decrypt.png): 已生成密鑰以允許資料解密。
+
+* **[!UICONTROL Fingerprint]**: 鑰匙的指紋。
+* **[!UICONTROL Expires]**: 密鑰的到期日。 請注意，當主要指示即將到期時，控制面板將提供視覺指示：
+
+   * 30天前會顯示緊急（紅色）。
+   * 警告（黃色）在60天前顯示。
+   * 當金鑰過期時，會顯示「已過期」的紅色橫幅。
+   >[!NOTE]
+   >
+   >請注意，控制面板不會傳送任何電子郵件通知。
+
+建議您移除不再需要的任何金鑰，這是最佳實務。 若要這麼做，請按一下 **...** 按鈕，然後選 **[!UICONTROL Delete Key]擇。**.
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>在移除金鑰之前，請確定未在任何Adobe Campaign工作流程中使用金鑰，以防止金鑰失敗。
