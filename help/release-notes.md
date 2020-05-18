@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **GPG密鑰管理**
 
-在行銷實例上安裝及／或產生GPG金鑰，以加密從Campaign傳送的資料並解密傳入的資料。 [閱讀更多資訊](instances-settings/using/gpg-keys-management.md)
+控制面板現在可讓您產生一對GPG金鑰，因此您可以輕鬆解密來自外部的Campaign資料。 此外，我們新增了一項功能，讓您可以安裝公用GPG金鑰來加密離開Campaign的資料。 [閱讀更多資訊](instances-settings/using/gpg-keys-management.md)
 
 **CNAME子網域的憑證管理**
 
