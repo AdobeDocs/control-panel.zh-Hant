@@ -2,7 +2,10 @@
 title: 續約子網域的SSL憑證
 description: 瞭解如何續約子網域的SSL憑證
 translation-type: tm+mt
-source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
+source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 0%
 
 ---
 
@@ -10,11 +13,11 @@ source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 # 續約子網域的SSL憑證 {#renewing-subdomains-ssl-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_add_ssl_certificate&quot;
->title=&quot;Add SSL certificate&quot;
->abstract=&quot;若要新增SSL憑證，您必須產生CSR、為您的子網域購買SSL憑證並安裝憑證搭售。&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generating a Certificate Signing Request(CSR)&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate&quot; text=&quot;如何安裝SSL憑證&quot;
+>id="cp_add_ssl_certificate"
+>title="新增SSL憑證"
+>abstract="若要新增SSL憑證，您必須產生CSR、購買子網域的SSL憑證並安裝憑證套裝。"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="產生憑證簽署要求(CSR)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="如何安裝SSL憑證"
 
 >[!IMPORTANT]
 >
@@ -28,23 +31,19 @@ SSL憑證續約程式包含3個步驟：
 1. **購買SSL憑證**&#x200B;當產生CSR後，您就可以下載CSR，並使用它從您公司核准的認證授權機構購買SSL憑證。
 1. **安裝SSL憑證**&#x200B;購買SSL憑證後，即可將它安裝在所需的子網域上。
 
->[!NOTE]
->
->只有完全授權的子網域才能透過「控制面板」 **續約SSL憑證** 。
-
 ## 產生憑證簽署要求(CSR) {#generating-csr}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_generate_csr&quot;
->title=&quot;Generate CSR&quot;
->abstract=&quot;您必須在購買憑證之前，針對您打算保護的例項和子網域產生憑證簽署要求。&quot;
+>id="cp_generate_csr"
+>title="生成CSR"
+>abstract="您必須在購買憑證之前，先針對您打算保護的例項和子網域產生憑證簽署要求。"
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_select_subdomains&quot;
->title=&quot;選擇CSR的子網域&quot;
->abstract=&quot;您可以選擇將所有或僅特定的子網域納入您的認證簽署請求。 只有選取的子網域才會透過購買的SSL憑證取得認證。」
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr&quot; text=&quot;Generating a Certificate Signing Request(CSR)&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;關於子網域品牌推廣&quot;
+>id="cp_select_subdomains"
+>title="選擇CSR的子域"
+>abstract="您可以選擇將所有或僅特定子網域納入您的認證簽署請求。 只有選取的子網域才會透過購買的SSL憑證取得認證。"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="產生憑證簽署要求(CSR)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="關於子網域品牌"
 
 若要產生憑證簽署要求(CSR)，請遵循下列步驟：
 
@@ -52,7 +51,7 @@ SSL憑證續約程式包含3個步驟：
 
    ![](assets/renewal1.png)
 
-1. 選 **[!UICONTROL Generate a CSR]**&#x200B;擇，然 **[!UICONTROL Next]** 後按一下啟動嚮導，引導您完成CSR生成過程。
+1. 選 **[!UICONTROL 1 - Generate a CSR]**&#x200B;擇，然 **[!UICONTROL Next]** 後按一下啟動嚮導，引導您完成CSR生成過程。
 
    ![](assets/renewal2.png)
 
@@ -60,9 +59,9 @@ SSL憑證續約程式包含3個步驟：
 
    請確定您完整且正確地填寫所要求的資訊，否則不會續約憑證（如有必要，請連絡您的內部團隊、安全性和IT團隊），然後按一下 **[!UICONTROL Next]**。
 
-   * **[!UICONTROL Organization]**:正式組織名稱。
-   * **[!UICONTROL Organization Unit]**:連結至子網域的單位(範例：行銷，IT)。
-   * **[!UICONTROL Instance]** （預填）:與子網域相關聯之促銷活動例項的URL。
+   * **[!UICONTROL Organization]**: 正式組織名稱。
+   * **[!UICONTROL Organization Unit]**: 連結至子網域的單位(範例： 行銷，IT)。
+   * **[!UICONTROL Instance]** （預填）: 與子網域相關聯之促銷活動例項的URL。
    ![](assets/renewal3.png)
 
 1. 選擇要包含在CSR中的子域，然後按一下 **[!UICONTROL OK]**。
@@ -90,10 +89,10 @@ SSL憑證續約程式包含3個步驟：
 ## 安裝SSL憑證 {#installing-ssl-certificate}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_install_ssl_certificate&quot;
->title=&quot;安裝SSL憑證&quot;
->abstract=&quot;安裝您從貴組織核准的認證機構購買的SSL憑證。&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html&quot; text=&quot;關於子網域品牌推廣&quot;
+>id="cp_install_ssl_certificate"
+>title="安裝SSL憑證"
+>abstract="安裝您從貴組織核准的認證機構購買的SSL憑證。"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="關於子網域品牌"
 
 在購買SSL憑證後，您就可以將它安裝在您的例項上。 在繼續之前，請確定您已瞭解下列必要條件：
 
@@ -117,7 +116,7 @@ SSL憑證續約程式包含3個步驟：
 
    ![](assets/renewal1.png)
 
-1. 按一 **[!UICONTROL Install SSL Certificate]**&#x200B;下， **[!UICONTROL Next]** 然後啟動精靈，引導您完成憑證安裝程式。
+1. 選 **[!UICONTROL 3 - Install Certificate Bundle]**&#x200B;擇，然後單 **[!UICONTROL Next]** 擊啟動嚮導，該嚮導將引導您完成證書安裝過程。
 
    ![](assets/install1.png)
 
