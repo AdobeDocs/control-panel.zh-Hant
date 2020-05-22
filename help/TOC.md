@@ -4,9 +4,9 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: 控制面板說明
 translation-type: tm+mt
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
@@ -43,5 +43,4 @@ ht-degree: 6%
    + [實例訪問的IP白名單](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL權限](instances-settings/using/url-permissions.md)
    + [例項詳細資訊](instances-settings/using/instance-details.md)
-   + [GPG金鑰管理](instances-settings/using/gpg-keys-management.md)
 + [常見問答集](faq.md)
