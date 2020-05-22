@@ -1,10 +1,10 @@
 ---
 title: 產品文件
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 14%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 11%
 ![](assets/do-not-localize/banner.png)
 
 ## 新增功能
-
-* [GPG密鑰管理](instances-settings/using/gpg-keys-management.md)
-
-   在行銷實例上安裝及／或產生GPG金鑰，以加密從Campaign傳送的資料並解密傳入的資料。
 
 * [CNAME子網域的憑證管理](subdomains-certificates/using/renewing-subdomain-certificate.md))
 
