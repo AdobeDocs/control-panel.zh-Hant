@@ -1,9 +1,9 @@
 ---
 title: 控制面板版本
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 >請注意，控制面板僅適用於AWS托管的客戶，但混合環境尚未受到支援除外。 訪問控制面板不需要升級。 請確定您是管理員使用者，才能加以存取。
 
 ## 2020年5月（#2020年5月）
-
-**GPG密鑰管理**
-
-控制面板現在可讓您產生一對GPG金鑰，因此您可以輕鬆解密來自外部的Campaign資料。 此外，我們新增了一項功能，讓您可以安裝公用GPG金鑰來加密離開Campaign的資料。 [閱讀更多資訊](instances-settings/using/gpg-keys-management.md)
 
 **CNAME子網域的憑證管理**
 
