@@ -1,45 +1,48 @@
 ---
-title: SFTP儲存管理
-description: 瞭解如何監控和管理SFTP伺服器的儲存空間
-translation-type: tm+mt
+title: SFTP 儲存空間管理
+description: 瞭解如何監視和管理您的 SFTP 伺服器儲存空間
+translation-type: ht
 source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
+workflow-type: ht
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 
 
-# SFTP儲存管理 {#sftp-storage-management}
+# SFTP 儲存空間管理{#sftp-storage-management}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_storage&quot;
->title=&quot;關於儲存容量&quot;
->abstract=&quot;在此頁籤中，您可以查看SFTP伺服器的儲存容量和利用率資訊。 此處僅顯示您可存取的SFTP伺服器。 請連絡您的管理員以要求存取其他SFTP伺服器。」
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
+>id="cp_storage"
+>title="關於儲存容量"
+>abstract="在此標籤中，您可以檢視 SFTP 伺服器的儲存容量和使用率資訊。此處僅顯示您可存取的 SFTP 伺服器。請聯絡您的管理員以要求存取其他 SFTP 伺服器。"
+>additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
-根據您的合約條款，您的SFTP伺服器上可能會布建不同的儲存容量。
+視您的合約條款而定，您的 SFTP 伺服器上可能會佈建不同的儲存容量。
 
-您必須定期監控每個SFTP伺服器的可用空間。 否則，您可能無法再在伺服器上儲存任何其他檔案，或無法成功執行依賴此伺服器更新的工作流程。
+您必須定期監視每個 SFTP 伺服器的可用空間，否則，您可能無法再在伺服器上儲存任何其他檔案，或是無法成功執行須依賴此伺服器更新的工作流程。
 
 **相關主題：**
 
-* [Campaign Standard教學課程影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
-* [Campaign Classic教學課程影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
+* [Campaign Standard 教學課程影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
+* [Campaign Classic 教學課程影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
-## 訪問儲存容量資訊 {#accessing-storage-capacity-information}
+## 存取儲存容量資訊{#accessing-storage-capacity-information}
 
-SFTP卡的標籤中提供您有權存取的所有執行個體所使用之 **[!UICONTROL Storage]** 空間的相關資訊。 每次重新整理頁面時都會更新。
+SFTP 卡片「**[!UICONTROL Storage]**」標籤中會提供關於您有權存取之所有執行個體使用的空間資訊。每次重新整理頁面時都會更新。
 
 ![](assets/control_panel_space.png)
 
-對於每個實例，可視警報可讓您知道其儲存容量何時超過：
+每個執行個體都會提供視覺化的警報，在執行個體的儲存空間超過其容量時通知您：
 
-* **橙色**:案件量超過了80%,
-* **紅色**:這次的比賽超過了90%的產能。
+* **橙色**：執行個體已超出其容量的 80%。
+* **紅色**：執行個體已超出其容量的 90%。
 
-此外，您還可取得其他提示，以協助您瞭解如何在伺服器接近容量時繼續作業。
+此外，我們還提供其他提示，協助您瞭解在伺服器達到其容量上限時應如何處理。
 
-## 儲存容量用完時的最佳做法 {#best-practices-when-capacity-runs-out}
+## 儲存容量耗盡時的最佳實務{#best-practices-when-capacity-runs-out}
 
-1. **從舊的或不必要的檔案清除SFTP伺服器**。 有關如何訪問SFTP伺服器資料夾的詳細資訊，請參 [閱本節](../../sftp/using/logging-into-sftp-server.md)。
-1. 請確定清除 **SFTP伺服器** 的工作流程正在成功執行。 如需Adobe Campaign技術工作流程的詳細資訊，請參閱專屬的 [Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) 和 [Campaign Standard檔案](https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html) 。
-1. 請洽詢您的客戶團隊，以索 **取更多儲存空間** （可能需支付額外費用）。
+1. **從舊有或不必要的檔案清除 SFTP 伺服器**。如需進一步瞭解如何存取您的 SFTP 伺服器資料夾，請參閱[本章節](../../sftp/using/logging-into-sftp-server.md)。
+1. 請確定清除 SFTP 伺服器的&#x200B;**工作流程**&#x200B;成功執行。如需 Adobe Campaign 技術工作流程的詳細資訊，請參閱專屬的 [Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) 和 [Campaign Standard](https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html) 文件。
+1. 請聯繫您的客戶團隊，以&#x200B;**要求取更多儲存空間** (可能需支付額外費用)。
 1. 如果您認為有問題，請聯繫&#x200B;**客戶服務**。
