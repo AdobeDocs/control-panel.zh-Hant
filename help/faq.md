@@ -1,55 +1,55 @@
 ---
-title: 控制面板常見問答集
-description: 與控制面板相關的常見問題
-translation-type: tm+mt
+title: 「控制面板」常見問答集
+description: 與「控制面板」相關的常見問題
+translation-type: ht
 source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
-# 常見問答集 {#faq}
+# 常見問答集{#faq}
 
-## IMS組織ID {#ims-org-id}
+## IMS 組織 ID{#ims-org-id}
 
-**什麼是IMS組織ID?**
+**什麼是 IMS 組織 ID？**
 
-這是您第一次登入Adobe Experience Cloud時，提供給您實例的唯一ID。 它的格式應為： xxx@AdobeOrg。
+這是您第一次登入 Adobe Experience Cloud 時，針對您的執行個體提供的唯一 ID，其格式應為：xxx@AdobeOrg。
 
-如需詳細資訊，請參閱 [Adobe Experience Cloud檔案](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
+如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
-**我可以在哪裡找到我的IMS組織ID?**
+**我可以在哪裡找到我的 IMS 組織 ID？**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration **[!UICONTROL Quick Access]** section. 您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)中找到更多詳細資訊。
+一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)中找到更多詳細資訊。
 
-另一種方式是啟動 **Admin Console**。 您的IMS組織ID將會顯示在您的URL中，其外觀應該類似： https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
+另一種方式是啟動 **Admin Console**。您的 IMS 組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
-**我為何需要知道我的IMS組織ID?**
+**為什麼我需要知道我的 IMS 組織 ID?**
 
-為了讓您管理實例的設定，我們希望確保您針對正確的實例獲得正確的資訊，以備您公司使用多個實例時使用。
+為了方便您管理執行個體的設定，我們希望確保您對公司使用多個執行個體時，能針對正確的執行個體獲得正確的資訊。
 
-**如果我有多個IMS組織ID該怎麼辦？**
+**如果我有多個 IMS 組織 ID，該怎麼辦？**
 
-如果您擁有多個Adobe解決方案的存取權，可能會有多個IMS組織ID。 在此情況下，您應使用的正確IMS組織ID是您在Adobe Campaign例項下看到的IMS組織ID。
+如果您擁有多個 Adobe 解決方案的存取權限，您可能會有超過一個 IMS 組織 ID。在此情況下，您在 Adobe Campaign 執行個體下看到的 IMS 組織 ID 就是您應使用的正確 ID。
 
 >[!NOTE]
 >
->如果您有相同的Adobe Campaign和Adobe Analytics IMS組織ID，這就太好了。 如果您打算整合解決方案，以利用購物車放棄（針對AA + AC）等複雜的使用案例，則需要在Analytics和Campaign之間擁有一個IMS組織ID是必要條件。
+>如果您的 Adobe Campaign 和 Adobe Analytics 擁有相同的 IMS 組織 ID，這是最理想的情況。如果您打算整合解決方案，以善用購物車放棄 (針對 AA + AC) 等複雜的使用案例，Analytics 和 Campaign 之間便需要共用同一個 IMS 組織 ID。
 >
->如果您有不同的Adobe Campaign和Adobe Analytics IMS組織ID，請聯絡客戶服務以協調它們。
+>如果您的 Adobe Campaign 和 Adobe Analytics 擁有不同的 IMS 組織 ID，請聯絡客戶服務進行整合。
 
-**我要如何得知我的Adobe Campaign實例是否在AWS上托管？**
+**我如何得知我的 Adobe Campaign 執行個體是否託管在 AWS 上？**
 
-要檢查您的實例是否托管在AWS上，請執行以下步驟：
+要檢查您的執行個體是否托管在 AWS 上，請執行下列步驟：
 
-1. 擷取您的登入URL。 它是您用來登入Campaign例項的URL，最終結束為&quot;。campaign.adobe.com&quot;或&quot;。neolane.net&quot;。
-1. 開啟終端，然後對您的登 **[!DNL nslookup]** 入URL執行操作。
+1. 擷取您的登入 URL。這是您用來登入 Campaign 執行個體的 URL，通常會以「.campaign.adobe.com」或「.neolane.net」為結尾。
+1. 開啟終端機，然後對您的登入 URL 執行 **[!DNL nslookup]**&#x200B;操作。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
-1. 回應會傳回您實例的資訊。
+1. 回應會傳回您執行個體的資訊。
 
    ```
    doe-macOS% nslookup myinstance.campaign.adobe.com
@@ -65,11 +65,11 @@ One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.
    Address: 12.34.567.89
    ```
 
-1. 對返回 **的IP地址** ，執行nslookup操作。
+1. 對傳回 IP 位址執行 **nslookup** 操作。
 
    `doe-macOS% nslookup 12.34.567.89`
 
-1. 在傳回的結果中檢查「名稱」值。 如果包含「amazonaws.com」，表示您的實例是在AWS上托管的。
+1. 在傳回的結果中檢查「name」值。如果結果包含「amazonaws.com」，表示您的執行個體託管在 AWS 上。
 
    ```
    doe-macOS% nslookup 12.34.567.89
@@ -82,34 +82,34 @@ One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.
 
 >[!NOTE]
 >
->如果您希望遷移到AWS，請聯繫您的Customer Success Manager以啟動該過程。
+>如果您想要移轉到 AWS，請聯絡您的客戶成功經理以展開程序。
 
-## 控制面板 {#control-panel}
+## 控制面板{#control-panel}
 
-**什麼是控制面板？**
+**什麼是「控制面板」？**
 
-「控制面板」可讓產品管理員直接管理各種設定，並監控連接至Adobe Campaign的SFTP伺服器的容量。
+「控制面板」可讓產品管理員直接管理各種設定，並監視連線至 Adobe Campaign 的 SFTP 伺服器容量。
 
-**控制面板當前有哪些功能？**
+**「控制面板」目前有哪些功能？**
 
-「控制面板」允許您根據自己的需求和其他操作，自行跟蹤SFTP伺服器的儲存、白名單IP並管理SSH密鑰。
+「控制面板」允許您根據自己的需求，自行追蹤 SFTP 伺服器的儲存空間、白名單 IP 並管理 SSH 金鑰和執行其他操作。
 
-有關詳細資訊，請參閱「控制面板」支援的操作文檔。
+有關詳細資訊，請參閱「控制面板」支援的動作文件。
 
-**「控制面板」是否只適用於Adobe Campaign?**
+**「控制面板」是否只適用於 Adobe Campaign？**
 
-是的，您只能在「控制面板」中管理Adobe Campaign的設定。
+是的，您只能在「控制面板」中管理 Adobe Campaign 的設定。
 
-**我可以使用控制面板嗎？**
+**我可以使用「控制面板」嗎？**
 
-控制面板僅開放給在AWS上代管Adobe Campaign的現有客戶的產品管理員。 請注意，目前尚未支援混合環境。
+「控制面板」僅開放給將 Adobe Campaign 託管在 AWS 上之現有客戶的產品管理員。請注意，我們目前並不支援混合環境。
 
-如果您不是管理員，但想要存取權，請連絡您的產品管理員，協助您新增為管理員。
+如果您不是管理員，但想要取得存取權限，請聯絡您的產品管理員，並協助將您新增為管理員。
 
-**如何存取控制面板？**
+**如何存取「控制面板」？**
 
-請按照訪問控制面板文檔中的詳細說明操作。
+如需存取「控制面板」文件，請依照下列詳細指示操作。
 
-**使用控制面板是否需要額外付費？**
+**使用「控制面板」是否需要額外付費？**
 
-否。如果您目前是Adobe Campaign的客戶，則不需額外付費。
+否。如果您是 Adobe Campaign 的現有客戶，則無須額外付費。
