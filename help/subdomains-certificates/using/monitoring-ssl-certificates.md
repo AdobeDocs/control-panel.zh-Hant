@@ -1,59 +1,62 @@
 ---
-title: 監視子域的SSL證書
-description: 瞭解如何監控子網域的SSL憑證
-translation-type: tm+mt
+title: 監視子網域的 SSL 憑證
+description: 瞭解如何監視子網域的 SSL 憑證
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+workflow-type: ht
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
 
-# 監視子域的SSL證書 {#monitoring-ssl-certificates}
+# 監視子網域的 SSL 憑證{#monitoring-ssl-certificates}
 
-## 關於SSL憑證 {#about-ssl-certificates}
+## 關於 SSL 憑證{#about-ssl-certificates}
 
-Adobe Campaign建議您保護裝載著陸頁面的子網域，尤其是收集客戶敏感資訊的子網域。
+Adobe Campaign 建議您保護託管登陸頁面之子網域的安全，尤其是收集客戶敏感資訊的子網域。
 
-**SSL(安全通訊端層** )加密可確保您委派給Adobe的子網域安全無虞。 當您的客戶填寫網頁表格或造訪Adobe Campaign代管的登陸頁面時，依預設會透過非安全通訊協定(HTTP)傳送資訊。 為確保額外的安全性，請使用HTTPS通訊協定來保護傳送的資訊。 例如，您的「http://info.mywebsite.com/」子網域位址現在會是「https://info.mywebsite.com/」。
+**SSL (安全通訊端層) 加密**&#x200B;可確保您委派給 Adobe 的子網域安全無虞。當您的客戶填寫網頁表格或造訪 Adobe Campaign 託管的登陸頁面時，系統會依預設透過非安全通訊協定 (HTTP) 傳送資訊。為確保多一層安全性，請使用 HTTPS 通訊協定來保護傳送的資訊。舉例來說，您的「http://info.mywebsite.com/」子網域位址現在會成為「https://info.mywebsite.com/」。
 
-**委派的子網域本身不會安裝SSL憑證**。 它們會安裝在相關的子網域上，主要是裝載著陸頁面、資源頁面等的子網域。
+**委派的子網域本身並不會安裝 SSL 憑證**。它們會安裝在相關聯的子網域上，主要是託管登陸頁面、資源頁面等子網域。
 
-**SSL憑證會提供特定時段** （1年、60天等）。 一旦憑證過期，您在存取登陸頁面或使用子網域的資源時可能會遇到問題。 為避免此問題，「控制面板」可讓您監控子網域的SSL憑證，並啟動其續約程式。
+**在特定時間內提供 SSL 憑證** (1年、60 天等等)。憑證過期後，您在存取登陸頁面或使用子網域的資源時，就可能會遇到問題。為避免出現此問題，「控制面板」可讓您監視子網域的 SSL 憑證，並啟動其續約流程。
 
 ![](assets/no_certificate.png)
 
-## 監控SSL憑證 {#monitoring-certificates}
+## 監視 SSL 憑證{#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_details&quot;
->title=&quot;子網域詳細資料&quot;
->abstract=&quot;擷取子網域的資訊。&quot;
+>id="cp_subdomain_details"
+>title="子網域詳細資訊"
+>abstract="擷取子網域的相關資訊。"
 
-在選擇子網域時，您的子網域SSL憑證狀態可直接從子網域清單中取 **[!UICONTROL Subdomains & Certificates]** 得。
+選取「**[!UICONTROL Subdomains & Certificates]**」卡片時，您可以直接從子網域清單中取得子網域 SSL 憑證的狀態。
 
-子網域依SSL憑證的最近到期日排列，並提供過期的視覺化資訊（以天為單位）:
+子網域會依 SSL 憑證的最近到期日排序，並提供過期的視覺化資訊 (以天為單位)：
 
-* **綠色**:子網域未在未來60天內到期的憑證。
-* **橙色**:一或多個子網域有一個憑證，將在未來60天內到期。
-* **紅色**:一或多個子網域有一個憑證，將在未來30天內到期。
-* **灰色**:未為子域安裝任何證書。
+* **綠色**：子網域在未來 60 天內沒有到期的憑證。
+* **橙色**：一或多個子網域有一個會在未來 60 天內到期的憑證。
+* **紅色**：一或多個子網域有一個會在未來 30 天內到期的憑證
+* **灰色**：未為子網域安裝任何憑證。
 
 ![](assets/subdomains_list.png)
 
-若要取得子網域的詳細資訊，請按一下 **[!UICONTROL Subdomain Details]** 按鈕。
-會顯示所有相關子網域的清單。 它通常包含著陸頁面、資源頁面等的子網域。
+若要取得子網域的詳細資訊，請按一下&#x200B;**[!UICONTROL Subdomain Details]**按鈕。
+隨即顯示所有相關子網域的清單。這通常會包括登陸頁面、資源頁面等等的子網域。
 
-該選 **[!UICONTROL Sender info]** 項卡提供有關已配置收件箱的資訊（發件人、回覆、錯誤電子郵件）。
+「**[!UICONTROL Sender info]**」標籤提供有關已設定收件匣的資訊 (寄件人、回覆、錯誤電子郵件)。
 
 ![](assets/subdomain_details.png)
 
-如果您的子網域的其中一個SSL憑證即將過期，您可以直接從「控制面板」續約。 如需更多相關資訊，請參閱本節：續 [約子網域的SSL憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
+如果子網域的其中一個 SSL 憑證即將到期，您可以直接從「控制面板」續約。如需更多資訊，請參閱本節：[續約子網域的 SSL 憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
 
 >[!IMPORTANT]
 >
->Control Panel的憑證續約功能提供測試版，而且必須經常更新和修改，恕不另行通知。
+>從「控制面板」續約憑證的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
 
 **相關主題：**
 
-* [新增SSL憑證（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [續約子網域的SSL憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [子網域品牌](../../subdomains-certificates/using/subdomains-branding.md)
+* [新增 SSL 憑證 (教學課程影片)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [續約子網域的 SSL 憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [子網域名稱](../../subdomains-certificates/using/subdomains-branding.md)
