@@ -1,9 +1,9 @@
 ---
 title: 金鑰管理
 description: 瞭解如何管理連線至 SFTP 伺服器的金鑰
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
    **Linux 和 Mac：**
 
    使用「終端機」產生公開和私密金鑰組：
-   1. 輸入以下命令：`ssh-keygen -t rsa -C <your_email@example.com>`。
+   1. 輸入以下命令：`ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`。
    1. 在提示出現時提供您金鑰的名稱。如果 .ssh 目錄不存在，系統將會為您建立一個目錄。
    1. 在提示出現時輸入複雜密碼，然後再輸入一次。您也可保留空白。
    1. 系統會建立「name」和「name.pub」金鑰組。搜尋「name.pub」檔案並開啟，其中應包含英數字串，結尾應為您指定的電子郵件地址。
