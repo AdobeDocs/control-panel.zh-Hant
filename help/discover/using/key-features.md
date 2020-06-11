@@ -1,11 +1,11 @@
 ---
 title: 存取「控制面板」
 description: 瞭解如何存取「控制面板」
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,12 @@ ht-degree: 100%
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="條件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>管理您的執行個體設定</strong></a></div>
-        <br/><em>瞭解如何管理您的執行個體設定 (僅限 Campaign Classic)</em>
+        <br/><em>瞭解如何管理您的執行個體設定 (僅限 Campaign Classic).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="條件" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>監視器效能</strong></a></div>
+        <br/><em>瞭解如何監控實例上關鍵資源的利用率。</em>
     </td>
 </tr>
 </table>
