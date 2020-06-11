@@ -1,10 +1,10 @@
 ---
 title: 產品文件
 translation-type: tm+mt
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ## 新增功能
 
-[CNAME 子網域的憑證管理](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[活動配置檔案監控](performance-monitoring/using/active-profiles-monitoring.md)
 
-「控制面板」現在可讓您續約已透過 CNAME 方法委派之子網域的 SSL 憑證。
+「控制面板」現在可讓您監控執行個體使用並計為計費用的作用中描述檔數目。
 
 ## 其他資源{#additional-resources}
 
