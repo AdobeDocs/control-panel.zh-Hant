@@ -1,14 +1,16 @@
 ---
-title: 資料庫監控
+title: 資料庫監視
 description: 瞭解如何在「控制面板」中監控您的Campaign資料庫
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 4%
 
 ---
 
 
-# 資料庫監控 {#database-monitoring}
-
+# 資料庫監視 {#database-monitoring}
 
 ## 關於實例資料庫 {#about-instances-databases}
 
@@ -26,9 +28,9 @@ source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ## 監控資料庫使用情況 {#monitoring-instances-database}
 
-「控制面板」可讓您監控每個促銷活動例項的資料庫使用情形。 若要這麼做，請依照下列步驟進行。
+「控制面板」可讓您監控每個促銷活動例項的資料庫使用情形。 請依照下列步驟以執行此操作。
 
-1. 開啟資 **[!UICONTROL Performance Monitoring]** 訊卡，然後選取標 **[!UICONTROL Databases]** 簽。
+1. 開啟「**[!UICONTROL Performance Monitoring]**」卡片，然後選取「**[!UICONTROL Databases]**」標籤。
 
 1. 從中選擇所需的實例 **[!UICONTROL Instance List]**。
 
