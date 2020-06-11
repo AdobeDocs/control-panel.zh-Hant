@@ -1,10 +1,10 @@
 ---
 title: 「控制面板」發行版本
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 99%
+source-wordcount: '453'
+ht-degree: 82%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 99%
 >[!NOTE]
 >
 >請注意，「控制面板」僅適用於託管在 AWS 的客戶，我們目前並不支援混合環境。存取「控制面板」並不需要升級。請確定您是管理員使用者，才能加以存取。
+
+## 2020年6月 {#june-2020}
+
+**活動配置檔案監控**
+
+「控制面板」現在可讓您監控執行個體使用並計為計費用的作用中描述檔數目。 [詳細內容](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>Beta版提供「控制面板」中的作用中描述檔監控功能，並會經常更新和修改，恕不另行通知。
+>
+>此功能適用於AWS上代管的客戶，這些客戶來自Campaign Standard 10368構建版和Campaign Classic 8931構建版。 如果您使用舊版軟體，則需要升級才能使用此功能。
 
 ## 2020年5月 {#may-2020}
 
