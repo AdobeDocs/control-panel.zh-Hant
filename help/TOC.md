@@ -4,10 +4,10 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: 「控制面板」說明
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '97'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 + 效能監視{#performance-monitoring}
    + [關於效能監視](performance-monitoring/using/about-performance-monitoring.md)
    + [資料庫監視](performance-monitoring/using/database-monitoring.md)
+   + [活動配置檔案監控](performance-monitoring/using/active-profiles-monitoring.md)
    + [電子郵件警報](performance-monitoring/using/email-alerting.md)
 + 執行個體設定 (Campaign Classic){#instances-settings}
    + [執行個體存取權限的 IP 白名單](instances-settings/using/ip-whitelisting-instance-access.md)
