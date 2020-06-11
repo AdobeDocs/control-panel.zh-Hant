@@ -2,14 +2,15 @@
 title: 電子郵件警報
 description: 瞭解如何在您的促銷活動例項發生問題時接收電子郵件通知
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
 
 # 電子郵件警報 {#email-alerting}
-
-## 關於電子郵件警報 {#about-email-alerts}
 
 為了為您的工作提供更大的彈性，控制面板配備了即時電子郵件警報功能。
 
@@ -30,9 +31,9 @@ source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 警報清單如下：
 
-* **SFTP儲存空間使用**:其中一台SFTP伺服器已達其容量的80%以上。 請參 [閱SFTP儲存管理](../../sftp/using/sftp-storage-management.md)。
+* **SFTP儲存空間使用**: 其中一台SFTP伺服器已達其容量的80%以上。 See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
 
-* **資料庫使用**:其中一個實例的資料庫已達到其容量的80%以上。 請參 [閱資料庫監控](../../performance-monitoring/using/database-monitoring.md)。
+* **資料庫使用**: 其中一個實例的資料庫已達到其容量的80%以上。 請參 [閱資料庫監控](../../performance-monitoring/using/database-monitoring.md)。
 
-* **SSL憑證到期**:您其中一個子網域的SSL憑證已過期，或將在60天或更短時間內到期。 請參 [閱監視子域的SSL證書](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
+* **SSL憑證到期**: 您其中一個子網域的SSL憑證已過期，或將在60天或更短時間內到期。 See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
