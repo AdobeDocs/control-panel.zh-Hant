@@ -1,11 +1,11 @@
 ---
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
-translation-type: ht
-source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
-workflow-type: ht
-source-wordcount: '932'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
    * **交易與營運通訊**：交易通訊包含的資訊旨在完成收件者與您開展的流程。範例：購買確認函、密碼重設電子郵件。組織通訊與組織內外的資訊、構思和意見交換有關，並無任何商業目的。
    ![](assets/subdomain5.png)
 
-   **根據使用案例劃分子網域是傳遞能力的最佳實務**。如此一來，就能分隔和保護每個子網域的信譽。舉例來說，如果行銷通訊的子網域最後被網際網路服務供應商列入黑名單，您的交易通訊子網域將不會受到影響，而且會繼續傳送通訊。
+   **根據使用案例劃分子網域是傳遞能力的最佳實務**。如此一來，就能分隔和保護每個子網域的信譽。例如，如果行銷通訊的子網域最終被網際網路服務供應商新增至區塊清單，您的交易通訊子網域將不會受到影響，而且會持續傳送通訊。
 
    **您可以為行銷和交易使用案例委派子網域**：
 
