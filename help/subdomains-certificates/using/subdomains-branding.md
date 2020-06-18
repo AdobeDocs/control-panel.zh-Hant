@@ -1,11 +1,11 @@
 ---
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 「Info.mybrand.com」子網域用來進行交易通訊 (購買確認函、密碼重設等等)；
 * 「marketing.mybrand.com」子網域則用來傳送電子郵件給潛在客戶。
 
-您可以藉此維護網域和其他子網域的信譽。舉例來說，如果「marketing.mybrand.com」子網域因傳遞能力不佳而被網際網路服務供應商列入黑名單，這樣做就能防止整個「mybrand.com」網域和「info.mybrand.com」子網域被列入黑名單。
+您可以藉此維護網域和其他子網域的信譽。例如，如果「marketing.mybrand.com」子網域因傳送能力不佳而被網際網路服務供應商新增至區塊清單中，則會阻止將整個「mybrand.com」網域和「info.mybrand.com」子網域新增至區塊清單。
 
 ## 子網域委派方法{#subdomain-delegation-methods}
 
