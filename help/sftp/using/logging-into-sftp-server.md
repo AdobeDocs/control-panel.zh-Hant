@@ -1,13 +1,16 @@
 ---
-title: 登入您的SFTP伺服器
+title: 登入您的 SFTP 伺服器
 description: 瞭解如何登入您的SFTP伺服器
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 5%
 
 ---
 
 
-# 登入您的SFTP伺服器 {#logging-into-sft-server}
+# 登入您的 SFTP 伺服器 {#logging-into-sft-server}
 
 以下步驟詳細說明如何透過SFTP用戶端應用程式連接SFTP伺服器。
 
@@ -16,12 +19,12 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 * 您的SFTP伺服器 **由Adobe代管**。
 * 已為伺服器設定您的&#x200B;**使用者名稱**。You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * 您有一 **對私用和公用密鑰** ，可登入SFTP伺服器。 有關如 [何添加SSH密鑰](../../sftp/using/key-management.md) ，請參閱本節。
-* 您 **的公用IP位址已列入** SFTP伺服器的白名單。 如果沒有，請參 [閱本節](../../sftp/using/ip-range-whitelisting.md) ，以取得如何將IP範圍列入白名單的詳細資訊。
+* 您 **的公用IP位址已新增至SFTP伺服器上的允許清單** 。 如果沒有，請參 [閱本節](../../sftp/using/ip-range-whitelisting.md) ，以取得如何將IP範圍新增至允許清單的詳細資訊。
 * 您可以存取 **SFTP用戶端軟體**。 您可以洽詢IT部門，以取得建議使用的SFTP用戶端應用程式，或在您的公司政策允許的情況下，在網際網路上搜尋。
 
 若要連線至您的SFTP伺服器，請依照下列步驟進行：
 
-1. 啟動「控制面板」，然後從卡 **[!UICONTROL Key Management]**片中選取標**[!UICONTROL SFTP]** 簽。
+1. 啟動「控制面板」，然後從卡 **[!UICONTROL Key Management]** 片中選取標 **[!UICONTROL SFTP]** 簽。
 
    ![](assets/sftp_card.png)
 
@@ -29,11 +32,11 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
    ![](assets/do-not-localize/connect1.png)
 
-1. 在欄位 **[!UICONTROL SSH Private Key]**中，選擇儲存在電腦中的私鑰檔案。 它對應的文字檔案與您的公開金鑰同名，沒有副檔名&quot;。pub&quot;（例如&quot;enable&quot;）。
+1. 在欄位 **[!UICONTROL SSH Private Key]** 中，選擇儲存在電腦中的私鑰檔案。 它對應的文字檔案與您的公開金鑰同名，沒有副檔名&quot;。pub&quot;（例如&quot;enable&quot;）。
 
    ![](assets/do-not-localize/connect2.png)
 
-   欄位 **[!UICONTROL Password]**會自動填入檔案的私密金鑰。
+   欄位 **[!UICONTROL Password]** 會自動填入檔案的私密金鑰。
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -47,6 +50,6 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 所有資訊填入後，按一 **[!UICONTROL Connect]**下以登入您的SFTP伺服器。
+1. 所有資訊填入後，按一 **[!UICONTROL Connect]** 下以登入您的SFTP伺服器。
 
    ![](assets/do-not-localize/sftpconnected.png)
