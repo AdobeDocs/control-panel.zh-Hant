@@ -2,10 +2,10 @@
 title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 92%
 
 ---
 
@@ -93,4 +93,4 @@ ht-degree: 95%
 
 **我新增了新的 URL，但我執行個體仍然無法連線至該 URL。為什麼？**
 
-在某些情況下，您嘗試連結的 URL 需要列入白名單、輸入密碼或其他驗證形式。「控制面板」不會管理其他驗證。
+在某些情況下，您嘗試連線的URL會要求允許列出、輸入密碼或其他驗證形式。 「控制面板」不會管理其他驗證。
