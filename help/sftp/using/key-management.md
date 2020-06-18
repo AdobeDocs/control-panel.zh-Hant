@@ -2,10 +2,10 @@
 title: 金鑰管理
 description: 瞭解如何管理連線至 SFTP 伺服器的金鑰
 translation-type: tm+mt
-source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 以下說明了產生公開 SSH 金鑰以及新增金鑰以存取 SFTP 伺服器的步驟，還有身份驗證相關的建議。
 
-設定了伺服器的存取權限後，請記得將存取伺服器所需的 **IP 位址列入白名單**，這樣您才能連線至伺服器。如需詳細資訊，請參閱[本章節](../../instances-settings/using/ip-whitelisting-instance-access.md)。
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需詳細資訊，請參閱[本章節](../../instances-settings/using/ip-whitelisting-instance-access.md)。
 
 >[!NOTE]
 >
