@@ -2,10 +2,10 @@
 title: 存取「控制面板」
 description: 瞭解如何存取「控制面板」
 translation-type: tm+mt
-source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 95%
+source-wordcount: '291'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 >abstract="「控制面板」首頁可讓您存取所有可在 Campaign 執行個體上執行的動作。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/discover-control-panel/discovering-the-interface.html" text="探索介面"
 
-您可以透過「控制面板」，以 Adobe Campaign Standard 和/或 Classic 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址白名單、SFTP 儲存空間監控、金鑰管理等等。
+您可以透過「控制面板」，以 Adobe Campaign Standard 和/或 Classic 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。其直覺式介面可讓您輕鬆監控關鍵資產的使用情況，並執行管理工作，例如允許新增清單、SFTP儲存監控、金鑰管理等。
 
 主要優點：
 
