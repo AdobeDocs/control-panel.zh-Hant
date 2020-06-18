@@ -4,10 +4,10 @@ sub-product: 控制面板
 audience: end-user
 user-guide-title: 「控制面板」說明
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 96%
+source-wordcount: '99'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 + SFTP 管理{#sftp-management}
    + [關於 SFTP 管理](sftp/using/about-sftp-management.md)
    + [SFTP 儲存空間管理](sftp/using/sftp-storage-management.md)
-   + [將 IP 範圍列入白名單](sftp/using/ip-range-whitelisting.md)
+   + [IP範圍允許清單](sftp/using/ip-range-whitelisting.md)
    + [金鑰管理](sftp/using/key-management.md)
    + [登入您的 SFTP 伺服器](sftp/using/logging-into-sftp-server.md)
    + [常見問題](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 96%
    + [活動配置檔案監控](performance-monitoring/using/active-profiles-monitoring.md)
    + [電子郵件警報](performance-monitoring/using/email-alerting.md)
 + 執行個體設定 (Campaign Classic){#instances-settings}
-   + [執行個體存取權限的 IP 白名單](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [IP允許列出實例訪問](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL 權限](instances-settings/using/url-permissions.md)
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
 + [常見問答集](faq.md)
