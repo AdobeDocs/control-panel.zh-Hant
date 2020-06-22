@@ -1,10 +1,10 @@
 ---
 title: 產品文件
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 51%
+source-wordcount: '112'
+ht-degree: 66%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 51%
 
 ## 新增功能
 
-* 「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 產品UI、選項名稱和內部代碼中可能仍會出現這些詞語，但在即將發行的促銷活動版本中，這些詞語會以「blocklist」和「allowlist」取代。
+* 「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 [詳細內容](release-notes.md)
 
-* [活動配置檔案監控](performance-monitoring/using/active-profiles-monitoring.md): 「控制面板」現在可讓您監控執行個體使用並計為計費用的作用中描述檔數目。
+* **活動配置檔案監控**: 「控制面板」現在可讓您監控執行個體使用並計為計費用的作用中描述檔數目。 [詳細內容](performance-monitoring/using/active-profiles-monitoring.md)
 
 ## 其他資源{#additional-resources}
 
