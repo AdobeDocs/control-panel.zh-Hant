@@ -1,9 +1,9 @@
 ---
 title: 「控制面板」發行版本
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '577'
 ht-degree: 70%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 70%
 >請注意，「控制面板」僅適用於託管在 AWS 的客戶，我們目前並不支援混合環境。存取「控制面板」並不需要升級。請確定您是管理員使用者，才能加以存取。
 
 ## 2020年6月 {#june-2020}
+
+**子網域傳遞能力審核**
+
+委派新子網域後，「控制面板」現在可讓您追蹤「傳遞性」團隊執行的稽核。 [詳細內容](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**GPG 金鑰管理**
+
+「控制面板」現在可讓您產生一對 GPG 金鑰，讓您可以輕鬆解密從外部傳到 Campaign 的資料。此外，我們新增了一項功能，讓您可以安裝公用 GPG 金鑰來加密離開 Campaign 的資料。[詳細內容](instances-settings/using/gpg-keys-management.md)
 
 **刪除「白名單」/「黑名單」**
 
