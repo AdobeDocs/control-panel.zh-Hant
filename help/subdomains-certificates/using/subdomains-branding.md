@@ -2,10 +2,10 @@
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 | 委派方法 | 運作方式 | 所需投入的精力 |
 |---|---|---|
-| **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
+| **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe完全負責管理子網域和所有DNS記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
 如需網域委派的其他資訊，請參閱[本文件](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
