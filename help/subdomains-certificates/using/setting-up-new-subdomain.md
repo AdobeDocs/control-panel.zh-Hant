@@ -2,10 +2,10 @@
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 96%
+source-wordcount: '995'
+ht-degree: 81%
 
 ---
 
@@ -24,13 +24,7 @@ ht-degree: 96%
 
 ## 完全子網域委派{#full-subdomain-delegation}
 
-「控制面板」可讓您將子網域完全委派給 Adobe Campaign。請依照下列步驟以執行此操作。
-
->[!NOTE]
->
->如果選取的執行個體沒有先前設定好的子網域，則委派給 Adobe 的第一個子網域將成為該執行個體的&#x200B;**主要子網域**，而您將來並無法進行任何變更。
->
->使用主要子網域為其他子網域建立反向 DNS 記錄。其他子網域的回覆和退信地址會從主要子網域產生。
+「控制面板」可讓您將子網域完全委派給 Adobe Campaign。若要這麼做，請依照下列步驟進行：
 
 1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的生產執行個體，再按一下「**[!UICONTROL Setup new subdomain]**」。
 
@@ -39,14 +33,14 @@ ht-degree: 96%
    >[!NOTE]
    >
    >子網域委派僅適用於&#x200B;**生產**&#x200B;執行個體。
+   >
+   >如果選取的執行個體沒有先前設定好的子網域，則委派給 Adobe 的第一個子網域將成為該執行個體的&#x200B;**主要子網域**，而您將來並無法進行任何變更。使用主要子網域為其他子網域建立反向 DNS 記錄。其他子網域的回覆和退信地址會從主要子網域產生。
 
 1. 按一下「**[!UICONTROL Next]**」以確認完全委派方法。
 
-   ![](assets/subdomain3.png)
+   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
 
-   >[!NOTE]
-   >
-   >「控制面板」目前不支援 [CNAME](#use-cnames) 和自訂方法。
+   ![](assets/subdomain3.png)
 
 1. 在您組織使用的託管解決方案中，建立所需的子網域和名稱伺服器。若要這麼做，請複製並貼上精靈中顯示的 Adobe Nameserver 資訊。如需進一步瞭解如何在託管解決方案中建立子網域，請參考[教學課程影片](https://video.tv.adobe.com/v/30175?captions=chi_hant)。
 
@@ -58,7 +52,7 @@ ht-degree: 96%
 
    ![](assets/subdomain4.png)
 
-   使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下「**[!UICONTROL Next]**」。
+1. 使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下「**[!UICONTROL Next]**」。
 
 1. 選取子網域所需的使用案例：
 
@@ -74,7 +68,7 @@ ht-degree: 96%
    * 若是交易使用案例，子網域將會設定在 ALL **RT** (Message Center/即時傳送訊息) 執行個體上，以確保連線能力。因此，子網域將會搭配您所有 RT 執行個體一起運作。
    >[!NOTE]
    >
-   >如果您使用 Campaign Classic，「控制面板」可讓您查看哪些 RT/MID 執行個體已連線至您正在使用的行執行個體。如需詳細資訊，請參閱[本章節](../../instances-settings/using/instance-details.md)。
+   >如果您使用 Campaign Classic，「控制面板」可讓您查看哪些 RT/MID 執行個體已連線至您正在使用的行執行個體。有關詳情，請參閱「例 [項詳細資訊](../../instances-settings/using/instance-details.md) 」。
 
 1. 輸入您建立到託管解決方案的子網域，再按一下「**[!UICONTROL Submit]**」。
 
@@ -84,25 +78,33 @@ ht-degree: 96%
 
 1. 提交子網域後，「控制面板」會檢查它是否正確指向 Adobe NS 記錄，以及此子網域不存在開始授權 (SOA) 記錄。
 
-1. 如果檢查成功，「控制面板」將會開始設定包含 DNS 記錄、其他 URL、收件箱等等的子網域。您可以按一下 **[!UICONTROL Process details]**&#x200B;按鈕，以取得有關設定進度的詳細資訊。
-
-   ![](assets/subdomain7.png)
-
    >[!NOTE]
-   >
-   >在某些情況下會完成委派，但可能無法成功驗證子網域。子網域將直接進入 **[!UICONTROL Verified subdomains]**&#x200B;清單，並含有狀態&#x200B;**[!UICONTROL Unverified]** 以及提供錯誤相關資訊的工作記錄。如果您無法解決問題，請聯絡客戶服務。
    >
    >請注意，子網域委派執行時，透過「控制面板」中的其他請求將會進入佇列，並只會在子網域委派完成後才執行，以免出現任何效能問題。
 
+1. 如果檢查成功，「控制面板」將會開始設定包含 DNS 記錄、其他 URL、收件箱等等的子網域。
+
+   ![](assets/subdomain7.png)
+
+   最終，Deliverability團 **隊會收到** 「新子網域」的通知，以便進行審核。 子網域被委派後，稽核程式最多需要10個工作天。 執行的檢查包括意見反應機制和垃圾郵件投訴迴圈測試。因此，我們不建議在稽核完成之前使用子網域，因為這可能導致子網域信譽不佳。
+
+   您可以按一下 **[!UICONTROL Process details]**&#x200B;按鈕，以取得有關設定進度的詳細資訊。
+
+   ![](assets/subdomain_audit.png)
+
+   **疑難排解:**
+
+   * 在某些情況下會完成委派，但可能無法成功驗證子網域。子域將保留在清單中，並 **[!UICONTROL Configured]** 有提供錯誤資訊的作業日誌。 如果您無法解決問題，請聯絡客戶服務。
+   * 如果子網域在設定後顯示為「未驗證」，請啟動新的子網域驗證(**...** / **[!UICONTROL Verify subdomain]**)。 如果它仍顯示相同的狀態，原因可能是對收件者架構進行了某些自訂，無法使用標準流程來驗證。 請嘗試使用該子網域傳送促銷活動。
+   * 如果子網域組態在交付能力稽核步驟中耗時過長（超過10個工作天），請聯絡客戶服務。
+
 程序結束時，子網域將設定為與您的 Adobe Campaign 執行個體搭配使用，並會建立下列元素：
 
-* 具有下列 **DNS 記錄**&#x200B;的&#x200B;**子網域**：SOA、MX、CNAME、DKIM、SPF、TXT，
+* 具有下列 DNS 記錄&#x200B;**的**&#x200B;子網域：SOA、MX、CNAME、DKIM、SPF、TXT，
 * 託管鏡射、資源、追蹤頁面和網域金鑰的&#x200B;**其他子網域**，
 * **收件匣**：寄件人、錯誤、回覆。
 
->[!NOTE]
->
->依預設，「控制面板」的「回覆」收件匣會設為清除電子郵件，且無法重新檢視。如果您想要監視行銷活動的「回覆」收件匣，請勿使用此位址。
+   依預設，「控制面板」的「回覆」收件匣會設為清除電子郵件，且無法重新檢視。如果您想要監視行銷活動的「回覆」收件匣，請勿使用此位址。
 
 您可以按一下 **[!UICONTROL Subdomain details]**&#x200B;和 **[!UICONTROL Sender info]** 按鈕，以取得子網域的詳細資訊。
 
@@ -111,12 +113,6 @@ ht-degree: 96%
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
-
->[!IMPORTANT]
->
->在處理階段後，您應向 Adobe 客戶服務確認已提交稽核請求，讓傳遞團隊稽核已建立的新子網域。委派子網域後，稽核流程最多需要 3 至 10 個工作天的時間。
->
->執行的檢查包括意見反應機制和垃圾郵件投訴迴圈測試。因此，我們不建議在稽核完成之前使用子網域，因為這可能導致子網域信譽不佳。
 
 ## CNAME 的使用{#use-cnames}
 
