@@ -1,10 +1,10 @@
 ---
 title: 產品文件
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 66%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 66%
 
 ## 新增功能
 
-* 「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 [詳細內容](release-notes.md)
+* **子網域傳遞能力審核**
 
-* **活動配置檔案監控**: 「控制面板」現在可讓您監控執行個體使用並計為計費用的作用中描述檔數目。 [詳細內容](performance-monitoring/using/active-profiles-monitoring.md)
+   委派新子網域後，「控制面板」現在可讓您追蹤「傳遞性」團隊執行的稽核。 [詳細內容](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **GPG 金鑰管理**
+
+   在行銷執行個體上安裝和/或產生 GPG 金鑰，以加密從 Campaign 傳送的資料並解密傳入的資料。[詳細內容](instances-settings/using/gpg-keys-management.md)
+
+* 「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 [詳細內容](release-notes.md)
 
 ## 其他資源{#additional-resources}
 
