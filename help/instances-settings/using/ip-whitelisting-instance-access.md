@@ -2,10 +2,10 @@
 title: IP允許清單
 description: 瞭解如何將IP位址新增至「控制面板」中的允許清單，以進行例項存取
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 50%
+ht-degree: 49%
 
 ---
 
@@ -87,5 +87,5 @@ ht-degree: 50%
 若要從允許清單刪除IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
 
 **相關主題：**
-* [IP允許清單（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [IP允許清單（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [將安全區域連結到運算子](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
