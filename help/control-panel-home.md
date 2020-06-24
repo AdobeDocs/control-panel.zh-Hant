@@ -1,10 +1,10 @@
 ---
 title: 產品文件
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '122'
+ht-degree: 81%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 75%
 * **GPG 金鑰管理**
 
    在行銷執行個體上安裝和/或產生 GPG 金鑰，以加密從 Campaign 傳送的資料並解密傳入的資料。[詳細內容](instances-settings/using/gpg-keys-management.md)
-
-* 「白名單」和「黑名單」詞語都已從Adobe Campaign檔案中移除。 [詳細內容](release-notes.md)
 
 ## 其他資源{#additional-resources}
 
