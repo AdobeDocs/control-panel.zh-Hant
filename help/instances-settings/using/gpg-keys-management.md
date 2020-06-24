@@ -2,9 +2,9 @@
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1110'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,12 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 * **加密發送的資料**: Adobe Campaign使用已安裝的公開金鑰加密資料後，會將資料傳出。
 
 * **解密傳入資料**: Adobe Campaign會使用從「控制面板」下載的公開金鑰，從外部系統接收加密的資料。 Adobe Campaign會使用從「控制面板」產生的私密金鑰解密資料。
+
+**相關主題：**
+
+* [Campaign Standard 教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Campaign Classic 教學課程影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## 加密資料 {#encrypting-data}
 
