@@ -1,7 +1,7 @@
 ---
 title: 「控制面板」發行版本
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 68%
@@ -84,7 +84,7 @@ Campaign「控制面板」具備即時電子郵件警報功能，可讓您登入
 我們已新增功能，讓管理員使用者將IP位址新增至允許清單，以便連線至Campaign Classic例項。
 此外，管理員使用者現在可以檢視 Campaign Classic 執行個體的清單和資格，以建立升級。
 
-如需詳細資訊，請參閱[專屬文件](instances-settings/using/ip-whitelisting-instance-access.md)。
+如需詳細資訊，請參閱[專屬文件](instances-settings/using/ip-allow-listing-instance-access.md)。
 
 ## 2019 年 8 月{#august-2019}
 
