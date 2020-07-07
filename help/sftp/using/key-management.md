@@ -2,7 +2,7 @@
 title: 金鑰管理
 description: 瞭解如何管理連線至 SFTP 伺服器的金鑰
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 94%
@@ -22,7 +22,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 以下說明了產生公開 SSH 金鑰以及新增金鑰以存取 SFTP 伺服器的步驟，還有身份驗證相關的建議。
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需詳細資訊，請參閱[本章節](../../instances-settings/using/ip-whitelisting-instance-access.md)。
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需詳細資訊，請參閱[本章節](../../instances-settings/using/ip-allow-listing-instance-access.md)。
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ Once access to the server is set up, remember to **add the IP addresses that wil
 >[!IMPORTANT]
 >
 >如果您的密碼過期，即使系統上已安裝金鑰，您也無法登入 SFTP 帳戶。
-
-![](assets/control_panel_passwordexpires.png)
 
 ## 安裝 SSH 金鑰{#installing-ssh-key}
 
