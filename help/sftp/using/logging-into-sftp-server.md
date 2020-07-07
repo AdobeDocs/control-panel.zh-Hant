@@ -2,7 +2,7 @@
 title: 登入您的 SFTP 伺服器
 description: 瞭解如何登入您的SFTP伺服器
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 * 您的SFTP伺服器 **由Adobe代管**。
 * 已為伺服器設定您的&#x200B;**使用者名稱**。You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * 您有一 **對私用和公用密鑰** ，可登入SFTP伺服器。 有關如 [何添加SSH密鑰](../../sftp/using/key-management.md) ，請參閱本節。
-* 您 **的公用IP位址已新增至SFTP伺服器上的允許清單** 。 如果沒有，請參 [閱本節](../../sftp/using/ip-range-whitelisting.md) ，以取得如何將IP範圍新增至允許清單的詳細資訊。
+* 您 **的公用IP位址已新增至SFTP伺服器上的允許清單** 。 如果沒有，請參 [閱本節](../../sftp/using/ip-range-allow-listing.md) ，以取得如何將IP範圍新增至允許清單的詳細資訊。
 * 您可以存取 **SFTP用戶端軟體**。 您可以洽詢IT部門，以取得建議使用的SFTP用戶端應用程式，或在您的公司政策允許的情況下，在網際網路上搜尋。
 
 若要連線至您的SFTP伺服器，請依照下列步驟進行：
