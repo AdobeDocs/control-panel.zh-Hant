@@ -2,10 +2,10 @@
 title: IP允許清單
 description: 瞭解如何將IP位址新增至「控制面板」中的允許清單，以進行例項存取
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 49%
 
    >[!NOTE]
    >
-   >如果「控制面板」首頁上並未顯示「執行個體設定」卡片，表示您的 IMS 組織 ID 未與任何 Adobe Campaign Classic 執行個體建立關聯
+   >如果「控制面板」的首頁上未顯示「例項設定」卡片，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關聯
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -63,6 +63,7 @@ ht-degree: 49%
 
    * **[!UICONTROL Instance(s)]**：IP 位址可連線的執行個體，可同時操作多個執行個體。例如，IP允許清單可透過相同步驟同時在生產與階段例項上執行。
    * **[!UICONTROL IP Range]**: 要添加到允許清單的IP範圍，格式為CIDR。 請注意，IP範圍不能與允許清單上的現有範圍重疊。 在該情況下，請先刪除包含重疊 IP 的範圍。
+
    >[!NOTE]
    >
    >CIDR (無類別域間路由) 是使用「控制面板」介面新增 IP 範圍時支援的格式。語法由 IP 位址、後面加上「/」字元和十進位數字組成。[本文](https://whatismyipaddress.com/cidr)會詳細說明格式及其語法。
@@ -78,6 +79,7 @@ ht-degree: 49%
    * **[!UICONTROL Campaign Console Access]**：IP 位址可連線至 Campaign Classic Console。請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
    * **[!UICONTROL AEM connection]**：指定的 AEM IP 位址可以連線至行銷執行個體。
    * **[!UICONTROL External API connection]**：具有指定 IP 位址的外部 API 可以連線至行銷和/或 Message Center (RT) 執行個體。請注意，系統並未啟用與 RT 執行個體控制台的連線。
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕。IP範圍會新增至允許清單。
