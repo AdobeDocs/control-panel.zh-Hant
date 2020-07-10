@@ -2,10 +2,10 @@
 title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >如果「控制面板」首頁上並未顯示「執行個體設定」卡片，表示您的 IMS 組織 ID 未與任何 Adobe Campaign Classic 執行個體建立關聯
+   >如果「控制面板」的首頁上未顯示「例項設定」卡片，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關聯
    >
    ><b><span class="uicontrol">「URL 權限</span></b>」標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 
