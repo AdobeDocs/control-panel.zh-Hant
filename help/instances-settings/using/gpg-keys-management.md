@@ -2,9 +2,9 @@
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1112'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,8 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 **相關主題：**
 
-* [Campaign Standard 教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic 教學課程影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Campaign Standard教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic教學課程影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## 加密資料 {#encrypting-data}
 
@@ -56,6 +55,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
    * **注釋**: 在注釋欄位中新增標籤，可協助您輕鬆識別用來加密資料的金鑰。
    * **有效期**: 日期或「0」，表示無到期日。
    * **密碼短語**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. 確認後，指令碼將生成一個帶有其相關指紋的密鑰，您可以將其導出到檔案中，或直接貼上到「控制面板」中。 要導出檔案，請運行此命令，然後運行生成的密鑰的指紋。
@@ -158,6 +158,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
    * 30天前會顯示緊急（紅色）。
    * 警告（黃色）在60天前顯示。
    * 當金鑰過期時，會顯示「已過期」的紅色橫幅。
+
    >[!NOTE]
    >
    >請注意，控制面板不會傳送任何電子郵件通知。
