@@ -4,8 +4,8 @@ description: 瞭解如何管理連線至 SFTP 伺服器的金鑰
 translation-type: tm+mt
 source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '601'
+ht-degree: 100%
 
 ---
 
