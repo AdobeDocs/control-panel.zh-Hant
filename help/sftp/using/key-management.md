@@ -4,8 +4,8 @@ description: 瞭解如何管理連線至 SFTP 伺服器的金鑰
 translation-type: tm+mt
 source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 以下說明了產生公開 SSH 金鑰以及新增金鑰以存取 SFTP 伺服器的步驟，還有身份驗證相關的建議。
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. 如需詳細資訊，請參閱[本章節](../../instances-settings/using/ip-allow-listing-instance-access.md)。
+設定了伺服器的存取權限後，請記得&#x200B;**將存取伺服器所需的 IP 位址新增至允許清單**，如此您才能連線至伺服器。如需詳細資訊，請參閱[本章節](../../instances-settings/using/ip-allow-listing-instance-access.md)。
 
 >[!NOTE]
 >
@@ -53,11 +53,11 @@ Once access to the server is set up, remember to **add the IP addresses that wil
 >
 >以下步驟只是 SSH 金鑰建立的範例，請依照貴組織關於 SSH 金鑰方針。以下只是如何進行此作業的範例，這可做為您向團隊或內部網路群組溝通需求時的有用參考。
 
-1. 導覽至「**[!UICONTROL Key Management]**」標籤，然後按一下 **[!UICONTROL Add new public key]** 按鈕。
+1. 導覽至 **[!UICONTROL Key Management]** 索引標籤，然後按一下 **[!UICONTROL Add new public key]** 按鈕。
 
    ![](assets/key0.png)
 
-1. 在開啟的對話框中，選取想要建立公開金鑰的使用者名稱，以及您想要啟用金鑰的伺服器。
+1. 在開啟的對話方塊中，選取想要建立公開金鑰的使用者名稱，以及您想要啟用金鑰的伺服器。
 
    >[!NOTE]
    >
@@ -80,6 +80,7 @@ Once access to the server is set up, remember to **add the IP addresses that wil
    1. 在提示出現時提供您金鑰的名稱。如果 .ssh 目錄不存在，系統將會為您建立一個目錄。
    1. 在提示出現時輸入複雜密碼，然後再輸入一次。您也可保留空白。
    1. 系統會建立「name」和「name.pub」金鑰組。搜尋「name.pub」檔案並開啟，其中應包含英數字串，結尾應為您指定的電子郵件地址。
+
    **Windows：**
 
    您可能需要安裝協力廠商工具，協助您以相同格式「name.pub」產生私密/公開金鑰組。
