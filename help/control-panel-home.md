@@ -1,10 +1,10 @@
 ---
 title: 產品文件
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## 新增功能
 
-* **子網域傳遞能力審核**
+* **子網域傳遞稽核**
 
-   委派新子網域後，「控制面板」現在可讓您追蹤「傳遞性」團隊執行的稽核。 [詳細內容](subdomains-certificates/using/setting-up-new-subdomain.md)
+   委派新子網域後，「控制面板」現在可讓您追蹤傳遞團隊所執行的稽核。[詳細內容](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **GPG 金鑰管理**
 
