@@ -4,8 +4,8 @@ description: 與「控制面板」相關的常見問題
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '629'
+ht-degree: 71%
 
 ---
 
