@@ -6,8 +6,8 @@ user-guide-title: 「控制面板」說明
 translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 85%
 + SFTP 管理{#sftp-management}
    + [關於 SFTP 管理](sftp/using/about-sftp-management.md)
    + [SFTP 儲存空間管理](sftp/using/sftp-storage-management.md)
-   + [IP範圍允許清單](sftp/using/ip-range-allow-listing.md)
+   + [IP 範圍允許清單](sftp/using/ip-range-allow-listing.md)
    + [金鑰管理](sftp/using/key-management.md)
    + [登入您的 SFTP 伺服器](sftp/using/logging-into-sftp-server.md)
    + [常見問題](sftp/using/common-questions.md)
@@ -38,10 +38,10 @@ ht-degree: 85%
 + 效能監視{#performance-monitoring}
    + [關於效能監視](performance-monitoring/using/about-performance-monitoring.md)
    + [資料庫監視](performance-monitoring/using/database-monitoring.md)
-   + [活動配置檔案監控](performance-monitoring/using/active-profiles-monitoring.md)
+   + [作用中設定檔監控](performance-monitoring/using/active-profiles-monitoring.md)
    + [電子郵件警報](performance-monitoring/using/email-alerting.md)
-+ Instances settings {#instances-settings}
-   + [IP允許列出實例訪問](instances-settings/using/ip-allow-listing-instance-access.md)
++ 執行個體設定 {#instances-settings}
+   + [IP 允許執行個體存取清單](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 權限](instances-settings/using/url-permissions.md)
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
    + [GPG 金鑰管理](instances-settings/using/gpg-keys-management.md)
