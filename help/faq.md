@@ -4,8 +4,8 @@ description: 與「控制面板」相關的常見問題
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 66%
 
 **「控制面板」目前有哪些功能？**
 
-「控制面板」允許您根據自己的需要和其他操作來跟蹤儲存、將IP添加到允許清單，並管理SFTP伺服器的SSH密鑰。
+「控制面板」可讓您追蹤儲存情形、將 IP 新增至允許清單，以及根據您的需求自行管理 SFTP 的 SSH 金鑰並執行其他動作。
 
 有關詳細資訊，請參閱「控制面板」支援的動作文件。
 
