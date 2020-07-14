@@ -3,8 +3,8 @@ title: 「控制面板」發行版本
 translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 72%
 >
 >請注意，「控制面板」僅適用於託管在 AWS 的客戶，我們目前並不支援混合環境。存取「控制面板」並不需要升級。請確定您是管理員使用者，才能加以存取。
 
-## 2020年6月 {#june-2020}
+## 2020 年 6 月 {#june-2020}
 
-**子網域傳遞能力審核**
+**子網域傳遞稽核**
 
-委派新子網域後，「控制面板」現在可讓您追蹤「傳遞性」團隊執行的稽核。 [詳細內容](subdomains-certificates/using/setting-up-new-subdomain.md)
+委派新子網域後，「控制面板」現在可讓您追蹤傳遞團隊所執行的稽核。[詳細內容](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **GPG 金鑰管理**
 
@@ -29,17 +29,17 @@ ht-degree: 72%
 * [Campaign Standard教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
 * [Campaign Classic教學課程影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
-**活動配置檔案監控**
+**作用中設定檔監控**
 
-「控制面板」現在可讓您監控執行個體使用並計為計費用的作用中描述檔數目。 [詳細內容](performance-monitoring/using/active-profiles-monitoring.md)
+「控制面板」現在可讓您監控執行個體使用的作用中設定檔數目，而且會計算這些設定檔數目以結算費用。[詳細內容](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->Beta版提供「控制面板」中的作用中描述檔監控功能，並會經常更新和修改，恕不另行通知。
+>從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
 >
->此功能適用於AWS上代管的客戶，這些客戶來自Campaign Standard 10368構建版和Campaign Classic 8931構建版。 如果您使用舊版軟體，則需要升級才能使用此功能。
+>此功能適用於 AWS 代管的客戶，這些客戶來自 Campaign Standard 10368 組建及 Campaign Classic 8931 組建。如果您使用舊版組建，則需進行升級，才能使用此功能。
 
-## 2020年5月 {#may-2020}
+## 2020 年 5 月 {#may-2020}
 
 **CNAME 子網域的憑證管理**
 
@@ -77,7 +77,7 @@ Campaign「控制面板」具備即時電子郵件警報功能，可讓您登入
 
 *2019 年 9 月 16 日*
 
-我們已新增功能，讓管理員使用者將IP位址新增至允許清單，以便連線至Campaign Classic例項。
+我們已新增功能，讓管理員使用者將 IP 位址新增至允許清單，以便連線至 Campaign Classic 執行個體。
 此外，管理員使用者現在可以檢視 Campaign Classic 執行個體的清單和資格，以建立升級。
 
 如需詳細資訊，請參閱[專屬文件](instances-settings/using/ip-allow-listing-instance-access.md)。
