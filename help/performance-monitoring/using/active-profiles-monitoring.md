@@ -1,59 +1,59 @@
 ---
-title: 活動配置檔案監控
-description: 瞭解如何取得每個促銷活動例項的最新和歷史「作用中描述檔」使用和演變的即時資訊。
-translation-type: tm+mt
+title: 作用中設定檔監控
+description: 瞭解如何取得每個 Campaign 執行個體之最新和歷史「作用中設定檔」使用量和演化的即時資訊。
+translation-type: ht
 source-git-commit: 024eb750021ff2446b34d648b5abfb016eabc289
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
 
-# 活動配置檔案監控 {#active-profiles-monitoring}
+# 作用中設定檔監控{#active-profiles-monitoring}
 
 >[!IMPORTANT]
 >
->Beta版提供「控制面板」中的作用中描述檔監控功能，並會經常更新和修改，恕不另行通知。
+>從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
 >
->此功能適用於AWS上代管的客戶，這些客戶來自Campaign Standard 10368構建版和Campaign Classic 8931構建版。 如果您使用舊版軟體，則需要升級才能使用此功能。
+>此功能適用於 AWS 代管的客戶，這些客戶來自 Campaign Standard 10368 組建及 Campaign Classic 8931 組建。如果您使用舊版組建，則需進行升級，才能使用此功能。
 
-## 關於作用中的描述檔 {#about-active-profiles}
+## 關於作用中設定檔 {#about-active-profiles}
 
-根據您的合約，您的每個促銷活動例項都會布建特定數量的作用中描述檔，並計為計費用用途。 請參閱您的最新合約，以取得有關已購買之有效設定檔數目的參考。
+根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。
 
-Profile 是指一筆代表終端客戶或潛在客戶之資訊的紀錄 (例如：nmsRecipient 表格或外部表格中的記錄，包含 cookie 識別碼、客戶識別碼、行動識別碼或特定通路相關的其他資訊)。
+「設定檔」是指一筆代表終端客戶或潛在客戶之資訊的記錄 (例如：nmsRecipient 表格或外部表格中的記錄，包含 cookie 識別碼、客戶識別碼、行動識別碼或特定通路相關的其他資訊)。
 
-如果設定檔在過去12個月中透過任何通道被鎖定或通訊，則會視為作用中。
+如果設定檔在過去 12 個月期間，曾經透過任何通道而被設為目標或進行通訊，請將此類設定檔視為「作用中」。
 
 >[!NOTE]
 >
 >Facebook 和 Twitter 通路不包含在內。
 
-有關「作用中」描述檔的詳細資訊，請參 [閱Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign Classic檔案](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 。
+如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 文件。
 
-## 監視活動配置檔案 {#monitoring-active-profiles}
+## 監視作用中設定檔 {#monitoring-active-profiles}
 
-「控制面板」可讓您監控每個促銷活動例項的作用中描述檔使用情形。
+「控制面板」可讓您監控每個 Campaign 執行個體的作用中設定檔使用量。
 
-若要這麼做，請依照下列步驟進行：
+要執行此操作，請依照下列步驟執行：
 
-1. 開啟「**[!UICONTROL Performance Monitoring]**」卡片，然後選取「**[!UICONTROL Active Profiles]**」標籤。
+1. 開啟 **[!UICONTROL Performance Monitoring]** 卡片，然後選取 **[!UICONTROL Active Profiles]** 索引標籤。
 
-1. 從中選擇所需的實例 **[!UICONTROL Instance List]**。
+1. 從 **[!UICONTROL Instance List]** 中選擇所需的執行個體。
 
-1. 此時會顯示例項使用的作用中描述檔數目，以及上次在例項上執行帳單工作流程的時間。
+1. 此時會顯示執行個體使用的作用中設定檔數目，也會顯示上次在執行個體上執行計費工作流程的時間。
 
 ![](assets/active-profiles-graph.png)
 
 >[!NOTE]
 >
->活動的個人檔案會根據每天在您執行個體上執行的專屬技術工作流程計數：
+>會依據每天在執行個體上執行的專屬技術工作流程，來計算作用中設定檔。
 >
->* Campaign Standard的 [「帳單」](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html) 工作流程、
->* Campaign [Classic的「作用中帳單設定檔數](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) 」工作流程。
+>* Campaign Standard的[「計費」](https://docs.adobe.com/help/zh-Hant/campaign-standard/using/administrating/application-settings/technical-workflows.html)工作流程、
+>* Campaign Classic 的[「作用中計費設定檔數目」](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html)工作流程。
 
 
-下方區域提供過去30天中作用中描述檔使用情形的圖形表示。 您可以使用右上角的可用篩選器，將顯示的時段變更為1年。
+下方區域以圖形化表示過去 30 天的作用中設定檔使用量。您可以使用右上方的可用篩選器，將顯示的時段變更為 1 年。
 
-將滑鼠指標暫留在其中一個圖形列上，可讓您取得所選時段上使用的「作用中」描述檔的確切數目。
+將滑鼠指標暫留在其中一個圖形列上，這可讓您取得所選時段使用之作用中設定檔的確切數目。
