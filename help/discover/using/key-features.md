@@ -4,8 +4,8 @@ description: 瞭解如何存取「控制面板」
 translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '291'
+ht-degree: 100%
 
 ---
 
