@@ -4,8 +4,8 @@ description: 瞭解如何在「控制面板」中管理 URL 權限
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->此功能僅適用於Campaign Classic例項（來自build 8850）。 如果您使用舊版軟體，則需要升級才能使用此功能。
+>此功能僅適用於 8850 組建的 Campaign Classic 執行個體。如果您使用舊版組建，則需進行升級，才能使用此功能。
 
 ## 關於 URL 權限{#about-url-permissions}
 
@@ -51,15 +51,15 @@ ht-degree: 87%
 
 若要新增您執行個體可連線的 URL，請執行下列步驟：
 
-1. 開啟「**[!UICONTROL Instances Settings]**」卡片以存取「**[!UICONTROL URL Permissions]**」標籤。
+1. 開啟 **[!UICONTROL Instances Settings]** 卡片以存取 **[!UICONTROL URL Permissions]** 索引標籤。
 
    >[!NOTE]
    >
    >如果「控制面板」的首頁上未顯示「例項設定」卡片，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關聯
    >
-   ><b><span class="uicontrol">「URL 權限</span></b>」標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
+   ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 
-1. 在左側窗格中選取想要的執行個體，然後按一下 **[!UICONTROL Add new URL]**&#x200B;按鈕。
+1. 在左側窗格中選取想要的執行個體，然後按一下 **[!UICONTROL Add new URL]** 按鈕。
 
    ![](assets/add_url1.png)
 
@@ -93,4 +93,4 @@ ht-degree: 87%
 
 **我新增了新的 URL，但我執行個體仍然無法連線至該 URL。為什麼？**
 
-在某些情況下，您嘗試連線的URL會要求允許列出、輸入密碼或其他驗證形式。 「控制面板」不會管理其他驗證。
+在某些情況下，您嘗試連結的 URL 需要列入清單、輸入密碼或其他驗證形式。「控制面板」不會管理其他驗證。
