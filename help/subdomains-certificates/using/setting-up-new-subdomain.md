@@ -1,11 +1,11 @@
 ---
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b7e8126789690662e72e72c885700b971362004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 81%
 
 ## 完全子網域委派{#full-subdomain-delegation}
 
-「控制面板」可讓您將子網域完全委派給 Adobe Campaign。若要這麼做，請依照下列步驟進行：
+「控制面板」可讓您將子網域完全委派給 Adobe Campaign。要執行此操作，請依照下列步驟執行：
 
 1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的生產執行個體，再按一下「**[!UICONTROL Setup new subdomain]**」。
 
@@ -36,9 +36,9 @@ ht-degree: 81%
    >
    >如果選取的執行個體沒有先前設定好的子網域，則委派給 Adobe 的第一個子網域將成為該執行個體的&#x200B;**主要子網域**，而您將來並無法進行任何變更。使用主要子網域為其他子網域建立反向 DNS 記錄。其他子網域的回覆和退信地址會從主要子網域產生。
 
-1. 按一下「**[!UICONTROL Next]**」以確認完全委派方法。
+1. 按一下　**[!UICONTROL Next]**　以確認完全委派方法。
 
-   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
+   請注意，「控制面板」目前不支援 [CNAME](#use-cnames) 和自訂方法。
 
    ![](assets/subdomain3.png)
 
@@ -56,11 +56,11 @@ ht-degree: 81%
 
 1. 選取子網域所需的使用案例：
 
-   * **行銷通訊**：用於商業目的的通訊。範例：銷售電子促銷活動。
+   * **行銷通訊**：用於商業目的的通訊。範例：銷售電子行銷活動。
    * **交易與營運通訊**：交易通訊包含的資訊旨在完成收件者與您開展的流程。範例：購買確認函、密碼重設電子郵件。組織通訊與組織內外的資訊、構思和意見交換有關，並無任何商業目的。
    ![](assets/subdomain5.png)
 
-   **根據使用案例劃分子網域是傳遞能力的最佳實務**。如此一來，就能分隔和保護每個子網域的信譽。例如，如果行銷通訊的子網域最終被網際網路服務供應商新增至區塊清單，您的交易通訊子網域將不會受到影響，而且會持續傳送通訊。
+   **根據使用案例劃分子網域是傳遞能力的最佳實務**。如此一來，就能分隔和保護每個子網域的信譽。舉例來說，如果行銷通訊的子網域最後被網際網路服務提供者新增至封鎖清單，您的交易通訊子網域將不會受到影響，而且會繼續傳送通訊。
 
    **您可以為行銷和交易使用案例委派子網域**：
 
@@ -68,7 +68,7 @@ ht-degree: 81%
    * 若是交易使用案例，子網域將會設定在 ALL **RT** (Message Center/即時傳送訊息) 執行個體上，以確保連線能力。因此，子網域將會搭配您所有 RT 執行個體一起運作。
    >[!NOTE]
    >
-   >如果您使用 Campaign Classic，「控制面板」可讓您查看哪些 RT/MID 執行個體已連線至您正在使用的行執行個體。有關詳情，請參閱「例 [項詳細資訊](../../instances-settings/using/instance-details.md) 」。
+   >如果您使用 Campaign Classic，「控制面板」可讓您查看哪些 RT/MID 執行個體已連線至您正在使用的行執行個體。有關詳情，請參閱[執行個體詳細資訊](../../instances-settings/using/instance-details.md)區段。
 
 1. 輸入您建立到託管解決方案的子網域，再按一下「**[!UICONTROL Submit]**」。
 
@@ -86,7 +86,7 @@ ht-degree: 81%
 
    ![](assets/subdomain7.png)
 
-   最終，Deliverability團 **隊會收到** 「新子網域」的通知，以便進行審核。 子網域被委派後，稽核程式最多需要10個工作天。 執行的檢查包括意見反應機制和垃圾郵件投訴迴圈測試。因此，我們不建議在稽核完成之前使用子網域，因為這可能導致子網域信譽不佳。
+   最後，**傳遞團隊**&#x200B;將會收到關於新子網域的通知，以便稽核該子網域。委派子網域後，稽核流程最多需要 至 10 個工作天的時間。執行的檢查包括意見反應機制和垃圾郵件投訴迴圈測試。因此，我們不建議在稽核完成之前使用子網域，因為這可能導致子網域信譽不佳。
 
    您可以按一下 **[!UICONTROL Process details]**&#x200B;按鈕，以取得有關設定進度的詳細資訊。
 
@@ -94,9 +94,9 @@ ht-degree: 81%
 
    **疑難排解:**
 
-   * 在某些情況下會完成委派，但可能無法成功驗證子網域。子域將保留在清單中，並 **[!UICONTROL Configured]** 有提供錯誤資訊的作業日誌。 如果您無法解決問題，請聯絡客戶服務。
-   * 如果子網域在設定後顯示為「未驗證」，請啟動新的子網域驗證(**...** / **[!UICONTROL Verify subdomain]**)。 如果它仍顯示相同的狀態，原因可能是對收件者架構進行了某些自訂，無法使用標準流程來驗證。 請嘗試使用該子網域傳送促銷活動。
-   * 如果子網域組態在交付能力稽核步驟中耗時過長（超過10個工作天），請聯絡客戶服務。
+   * 在某些情況下會完成委派，但可能無法成功驗證子網域。會將子網域持續列在 **[!UICONTROL Configured]** 清單中，而且會包含作業記錄，其中會提供關於錯誤的資訊。如果您無法解決問題，請聯絡客戶服務。
+   * 如果在設定後，子網域顯示為「未驗證」，請啟動新的子網域驗證　(**...** / **[!UICONTROL Verify subdomain]**)。如果它仍顯示相同的狀態，原因可能是對收件者架構進行某些自訂，而無法使用標準流程進行驗證。請嘗試使用該子網域傳送行銷活動。
+   * 如果子網域設定在進行傳遞稽核步驟時花費太長時間（超過 10 個工作日），請聯繫客戶服務。
 
 程序結束時，子網域將設定為與您的 Adobe Campaign 執行個體搭配使用，並會建立下列元素：
 
@@ -120,6 +120,6 @@ ht-degree: 81%
 
 **相關主題：**
 
-* [委派子網域 (教學課程影片)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [委派子網域（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [子網域名稱](../../subdomains-certificates/using/subdomains-branding.md)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
