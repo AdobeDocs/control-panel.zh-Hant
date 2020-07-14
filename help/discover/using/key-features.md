@@ -4,8 +4,8 @@ description: 瞭解如何存取「控制面板」
 translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 >abstract="「控制面板」首頁可讓您存取所有可在 Campaign 執行個體上執行的動作。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/discover-control-panel/discovering-the-interface.html" text="探索介面"
 
-您可以透過「控制面板」，以 Adobe Campaign Standard 和/或 Classic 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。其直覺式介面可讓您輕鬆監控關鍵資產的使用情況，並執行管理工作，例如允許新增清單、SFTP儲存監控、金鑰管理等。
+您可以透過「控制面板」，以 Adobe Campaign Standard 和/或 Classic 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址允許清單新增、SFTP 儲存空間監控、金鑰管理等等。
 
 主要優點：
 
@@ -55,8 +55,8 @@ ht-degree: 84%
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="條件" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>監視器效能</strong></a></div>
-        <br/><em>瞭解如何監控實例上關鍵資源的利用率。</em>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>監控效能</strong></a></div>
+        <br/><em>瞭解如何監控執行個體上關鍵資源的使用率。</em>
     </td>
 </tr>
 </table>
