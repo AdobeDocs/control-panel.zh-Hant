@@ -3,8 +3,8 @@ title: 「控制面板」發行版本
 translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
