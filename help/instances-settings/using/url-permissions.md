@@ -4,8 +4,8 @@ description: 瞭解如何在「控制面板」中管理 URL 權限
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
