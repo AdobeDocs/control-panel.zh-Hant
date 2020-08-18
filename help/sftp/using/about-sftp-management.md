@@ -1,7 +1,7 @@
 ---
 title: 關於 SFTP 管理
 description: 在「控制面板」中進一步瞭解SFTP管理
-testing: SSECD-836
+testing: SSECD-836 2
 translation-type: tm+mt
 source-git-commit: 9fe5f25ef2f3d7dafe9ae63d430279c354fce25a
 workflow-type: tm+mt
