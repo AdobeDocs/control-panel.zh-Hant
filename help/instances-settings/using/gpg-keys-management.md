@@ -2,10 +2,10 @@
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -18,13 +18,13 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 在實施後，您可以在傳輸之前解密傳入的資料並加密傳出的資料，以確保沒有有效匹配密鑰對的任何人不會訪問這些資料。
 
-若要使用Campaign實作GPG加密，管理員使用者必須直接從控制面板在行銷實例上安裝和／或產生GPG金鑰。
+若要使用 Campaign實作 GPG加密，管理員使用者必須直接從控制面板在行銷執行實例安裝及/或產生 GPG 金鑰。
 
 然後，您將能夠：
 
-* **加密發送的資料**: Adobe Campaign使用已安裝的公開金鑰加密資料後，會將資料傳出。
+* **加密發送的資料**:Adobe Campaign使用已安裝的公開金鑰加密資料後，會將資料傳出。
 
-* **解密傳入資料**: Adobe Campaign會使用從「控制面板」下載的公開金鑰，從外部系統接收加密的資料。 Adobe Campaign會使用從「控制面板」產生的私密金鑰解密資料。
+* **解密傳入資料**:Adobe Campaign會使用從「控制面板」下載的公開金鑰，從外部系統接收加密的資料。 Adobe Campaign會使用從「控制面板」產生的私密金鑰解密資料。
 
 **相關主題：**
 
@@ -33,9 +33,9 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 ## 加密資料 {#encrypting-data}
 
-「控制面板」可讓您加密從Adobe Campaign例項傳出的資料。
+「控制面板」可以讓您加密從 Adobe Campaign 執行個體傳出的資料。
 
-為此，您需要從PGP加密工具生成GPG密鑰對，然後將公共密鑰安裝到「控制面板」中。 然後，您就可以在從實例發送資料之前加密資料。 若要這麼做，請依照下列步驟進行：
+為此，您需要從PGP加密工具生成GPG密鑰對，然後將公共密鑰安裝到「控制面板」中。 然後，您就可以在從實例發送資料之前加密資料。 要執行此操作，請依照下列步驟執行：
 
 1. 使用遵循 [OpenPGP規格的PGP加密工具產生公用／私用金鑰對](https://www.openpgp.org/about/standard/)。 為此，請安裝GPG實用程式或GNuGP軟體。
 
@@ -49,11 +49,11 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 1. 出現提示時，請指定您的索引鍵所需的參數。 所需參數為：
 
-   * **鍵類型**: RSA
-   * **鍵長**: 1024 - 4096比特
-   * **真實姓名** 和電 **子郵件地址**: 允許跟蹤建立密鑰對的人。 輸入連結至您的組織或部門的名稱和電子郵件地址。
-   * **注釋**: 在注釋欄位中新增標籤，可協助您輕鬆識別用來加密資料的金鑰。
-   * **有效期**: 日期或「0」，表示無到期日。
+   * **鍵類型**:RSA
+   * **鍵長**:1024 - 4096比特
+   * **真實姓名** 和電 **子郵件地址**:允許跟蹤建立密鑰對的人。 輸入連結至您的組織或部門的名稱和電子郵件地址。
+   * **注釋**:在注釋欄位中新增標籤，可協助您輕鬆識別用來加密資料的金鑰。
+   * **有效期**:日期或「0」，表示無到期日。
    * **密碼短語**
 
    ![](assets/do-not-localize/gpg_command.png)
@@ -64,7 +64,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 1. 若要將公開金鑰安裝至「控制面板」，請開 **[!UICONTROL Instance settings]** 啟資訊卡，然後選取 **[!UICONTROL GPG keys]** 標籤和所要的例項。
 
-1. 按一下&#x200B;**[!UICONTROL Install Key]**&#x200B;按鈕。
+1. 按一下 **[!UICONTROL Install Key]** 按鈕。
 
    ![](assets/gpg_install_button.png)
 
@@ -76,7 +76,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
    ![](assets/gpg_install_paste.png)
 
-1. 按一下&#x200B;**[!UICONTROL Install Key]**&#x200B;按鈕。
+1. 按一下 **[!UICONTROL Install Key]** 按鈕。
 
 在安裝公開金鑰後，它會顯示在清單中。 您可以使用 **...** 按鈕，以下載或複製指紋。
 
@@ -89,12 +89,12 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 **Campaign Classic:**
 
 * [壓縮或加密檔案](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [使用案例： 使用控制面板上安裝的密鑰加密和導出資料](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [使用案例：使用控制面板上安裝的密鑰加密和導出資料](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [管理加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [使用案例： 使用控制面板上安裝的密鑰加密和導出資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [使用案例：使用控制面板上安裝的密鑰加密和導出資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## 解密資料 {#decrypting-data}
 
@@ -109,11 +109,11 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 1. 開啟資 **[!UICONTROL Instance settings]** 訊卡，然後選取標 **[!UICONTROL GPG keys]** 簽和所要的Adobe Campaign例項。
 
-1. 按一下&#x200B;**[!UICONTROL Generate Key]**&#x200B;按鈕。
+1. 按一下 **[!UICONTROL Generate Key]** 按鈕。
 
    ![](assets/gpg_generate.png)
 
-1. 指定索引鍵的名稱，然後按一下 **!UICONTROL Generate Key]**。 此名稱可協助您識別促銷活動工作流程中用於解密的金鑰
+1. 指定索引鍵的名稱，然後按一下 **[!UICONTROL Generate Key]**。 此名稱可協助您識別促銷活動工作流程中用於解密的金鑰
 
    ![](assets/gpg_generate_name.png)
 
@@ -130,12 +130,12 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 **Campaign Classic:**
 
 * [在處理前解壓縮或解密檔案](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [使用案例： 匯入使用控制面板產生的金鑰加密的資料](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [管理加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [使用案例： 匯入使用控制面板產生的金鑰加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## 監控GPG密鑰
 
@@ -145,15 +145,15 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 該清單顯示為實例安裝和生成的所有加密和解密GPG密鑰，其中包含每個密鑰的詳細資訊：
 
-* **[!UICONTROL Name]**: 安裝或生成密鑰時已定義的名稱。
-* **[!UICONTROL Use case]**: 此列指定鍵的使用案例：
+* **[!UICONTROL Name]**:安裝或生成密鑰時已定義的名稱。
+* **[!UICONTROL Use case]**:此列指定鍵的使用案例：
 
-   ![](assets/gpg_icon_encrypt.png): 已安裝該密鑰以進行資料加密。
+   ![](assets/gpg_icon_encrypt.png):已安裝該密鑰以進行資料加密。
 
-   ![](assets/gpg_icon_decrypt.png): 已生成密鑰以允許資料解密。
+   ![](assets/gpg_icon_decrypt.png):已生成密鑰以允許資料解密。
 
-* **[!UICONTROL Fingerprint]**: 鑰匙的指紋。
-* **[!UICONTROL Expires]**: 密鑰的到期日。 請注意，當主要指示即將到期時，控制面板將提供視覺指示：
+* **[!UICONTROL Fingerprint]**:鑰匙的指紋。
+* **[!UICONTROL Expires]**:密鑰的到期日。 請注意，當主要指示即將到期時，控制面板將提供視覺指示：
 
    * 30天前會顯示緊急（紅色）。
    * 警告（黃色）在60天前顯示。
