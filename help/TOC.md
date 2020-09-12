@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: 控制面板
 audience: end-user
-user-guide-title: 「控制面板」說明
+user-guide-title: 控制面板指南
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 94%
 
 ---
 
 
-# 「控制面板」說明{#using}
+# 控制面板指南 {#using}
 
 + [產品文件](control-panel-home.md)
 + [發行說明](release-notes.md)
