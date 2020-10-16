@@ -1,10 +1,10 @@
 ---
 title: 「控制面板」發行版本
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 92%
 >[!NOTE]
 >
 >請注意，「控制面板」僅適用於託管在 AWS 的客戶，我們目前並不支援混合環境。存取「控制面板」並不需要升級。請確定您是管理員使用者，才能加以存取。
+
+## 2020 年 10 月 {#october-2020}
+
+**使用CNAME的子網域設定**
+
+「控制面板」現在可讓您設定子網域，以便直接從介面使用CNAME與Adobe搭配使用。 [顯示全文](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**資料庫監控增強功能**
+
+此標 **[!UICONTROL Database monitoring]** 簽已使用其他量度加以增強，可讓您取得有關佔用資料庫空間之資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
@@ -43,7 +53,7 @@ ht-degree: 92%
 
 **CNAME 子網域的憑證管理**
 
-「控制面板」現在可讓您續約已透過 CNAME 方法委派之子網域的 SSL 憑證。[詳細內容](subdomains-certificates/using/renewing-subdomain-certificate.md)
+控制面板現在可讓您為已使用CNAME方法設定之子網域的SSL憑證續約。 [顯示全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月{#april-2020}
 
@@ -63,7 +73,7 @@ Campaign「控制面板」具備即時電子郵件警報功能，可讓您登入
 
 *2020 年 1 月 22 日*
 
-我們已新增管理員使用者的功能，讓他們從「控制面板」委派子網域並續約 SSL 憑證。
+我們已新增功能，讓管理員使用者可從「控制面板」設定子網域並續約SSL憑證。
 
 如需詳細資訊，請參閱以下頁面：
 * [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
