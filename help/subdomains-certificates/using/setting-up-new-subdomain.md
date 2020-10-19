@@ -2,10 +2,10 @@
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: c215836129487530e50398ca1454895a2f319867
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1098'
+ht-degree: 50%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 **相關主題：**
 
 * [委派子網域（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-
+* [使用CNAME設定子網域](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## 必讀 {#must-read}
