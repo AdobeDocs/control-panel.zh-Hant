@@ -1,10 +1,10 @@
 ---
 title: 「控制面板」發行版本
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '620'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **資料庫監控增強功能**
 
-此標 **[!UICONTROL Database monitoring]** 簽已使用其他量度加以增強，可讓您取得有關佔用資料庫空間之資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
+資料庫監控已通過其他度量得到增強，這些度量允許您獲取有關佔用資料庫空間的資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
