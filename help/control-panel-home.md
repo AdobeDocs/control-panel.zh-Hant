@@ -1,10 +1,10 @@
 ---
 title: 產品文件
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '122'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## 新增功能
 
-* **子網域傳遞稽核**
 
-   委派新子網域後，「控制面板」現在可讓您追蹤傳遞團隊所執行的稽核。[詳細內容](subdomains-certificates/using/setting-up-new-subdomain.md)
+**使用CNAME的子網域設定**
 
-* **GPG 金鑰管理**
+「控制面板」現在可讓您設定子網域，以便直接從介面使用CNAME與Adobe搭配使用。 [顯示全文](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   在行銷執行個體上安裝和/或產生 GPG 金鑰，以加密從 Campaign 傳送的資料並解密傳入的資料。[詳細內容](instances-settings/using/gpg-keys-management.md)
+**資料庫監控增強功能**
+
+此標 **[!UICONTROL Database monitoring]** 簽已使用其他量度加以增強，可讓您取得有關佔用資料庫空間之資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
 
 ## 其他資源{#additional-resources}
 
