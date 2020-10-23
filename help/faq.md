@@ -1,44 +1,44 @@
 ---
 title: 「控制面板」常見問答集
 description: 與「控制面板」相關的常見問題
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # 常見問答集{#faq}
 
-## IMS組織ID {#ims-org-id}
+## IMS 組織 ID{#ims-org-id}
 
-**什麼是IMS組織ID?**
+**什麼是 IMS 組織 ID？**
 
 這是您第一次登入 Adobe Experience Cloud 時，針對您的執行個體提供的唯一 ID，其格式應為：xxx@AdobeOrg。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
-**我可以在哪裡找到我的IMS組織ID?**
+**我可以在哪裡找到我的 IMS 組織 ID？**
 
-一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. 您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)中找到更多詳細資訊。
+一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)中找到更多詳細資訊。
 
-另一種方式是啟動 **Admin Console**。您的IMS組織ID會顯示在您的URL中，其外觀應類似： https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
+另一種方式是啟動 **Admin Console**。您的 IMS 組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
-**我為何需要知道我的IMS組織ID?**
+**為什麼我需要知道我的 IMS 組織 ID?**
 
 為了方便您管理執行個體的設定，我們希望確保您對公司使用多個執行個體時，能針對正確的執行個體獲得正確的資訊。
 
-**如果我有多個IMS組織ID該怎麼辦？**
+**如果我有多個 IMS 組織 ID，該怎麼辦？**
 
-如果您擁有多個Adobe解決方案的存取權，可能會有多個IMS組織ID。 在此情況下，您應使用的正確IMS組織ID是您在Adobe Campaign例項下看到的IMS組織ID。
+如果您擁有多個 Adobe 解決方案的存取權限，您可能會有超過一個 IMS 組織 ID。在此情況下，您在 Adobe Campaign 執行個體下看到的 IMS 組織 ID 就是您應使用的正確 ID。
 
 >[!NOTE]
 >
->如果您有相同的Adobe Campaign和Adobe Analytics IMS組織ID，這就太好了。 如果您打算整合解決方案，以利用購物車放棄（針對AA + AC）等複雜的使用案例，則需要在Analytics和Campaign之間擁有一個IMS組織ID是必要條件。
+>如果您的 Adobe Campaign 和 Adobe Analytics 擁有相同的 IMS 組織 ID，這是最理想的情況。如果您打算整合解決方案，以善用購物車放棄（針對 AA + AC）等複雜的使用案例，Analytics 和 Campaign 之間便需要共用同一個 IMS 組織 ID。
 >
->如果您有不同的Adobe Campaign和Adobe Analytics IMS組織ID，請聯絡客戶服務以協調它們。
+>如果您的 Adobe Campaign 和 Adobe Analytics 擁有不同的 IMS 組織 ID，請聯絡客戶服務進行整合。
 
 **我如何得知我的 Adobe Campaign 執行個體是否託管在 AWS 上？**
 
