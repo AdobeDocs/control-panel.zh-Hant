@@ -4,14 +4,14 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 
 # 「控制面板」發行版本{#control-panel-releases}
 
-在這裡，您可以找到有關最新「控制面板」版本的資訊。
+您可以在此處找到最新「控制面板」發行版本的資訊。
 
 >[!NOTE]
 >
@@ -19,11 +19,11 @@ ht-degree: 79%
 
 ## 2020 年 10 月 {#october-2020}
 
-**使用CNAME的子網域設定**
+**子網域設定使用 CNAME**
 
-「控制面板」現在可讓您設定子網域，以便直接從介面使用CNAME與Adobe搭配使用。 [顯示全文](subdomains-certificates/using/setting-up-new-subdomain.md)
+「控制面板」現在允許您直接從介面設定子網域以使用 CNAME 與 Adobe 協作。[顯示全文](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**資料庫監控增強功能**
+**資料庫監視增強功能**
 
 資料庫監控已通過其他度量得到增強，這些度量允許您獲取有關佔用資料庫空間的資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
 
@@ -36,8 +36,8 @@ ht-degree: 79%
 **GPG 金鑰管理**
 
 「控制面板」現在可讓您產生一對 GPG 金鑰，讓您可以輕鬆解密從外部傳到 Campaign 的資料。此外，我們新增了一項功能，讓您可以安裝公用 GPG 金鑰來加密離開 Campaign 的資料。[詳細內容](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic教學課程影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **作用中設定檔監控**
 
@@ -53,7 +53,7 @@ ht-degree: 79%
 
 **CNAME 子網域的憑證管理**
 
-控制面板現在可讓您為已使用CNAME方法設定之子網域的SSL憑證續約。 [顯示全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
+「控制面板」現在可讓您續約已透過 CNAME 方法設定之子網域的 SSL 憑證。[顯示全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月{#april-2020}
 
@@ -73,7 +73,7 @@ Campaign「控制面板」具備即時電子郵件警報功能，可讓您登入
 
 *2020 年 1 月 22 日*
 
-我們已新增功能，讓管理員使用者可從「控制面板」設定子網域並續約SSL憑證。
+我們已新增管理員使用者的功能，讓他們從「控制面板」設定子網域並續約 SSL 憑證。
 
 如需詳細資訊，請參閱以下頁面：
 * [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
