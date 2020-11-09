@@ -2,10 +2,10 @@
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 50%
+source-wordcount: '1106'
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >「控制面板」的子網域設定提供測試版，而且必須經常更新和修改，恕不另行通知。
 
-本頁提供如何使用完整子網域委派或CNAME來設定新子網域的資訊。 本節將介紹這兩種方法的全局概念： [](../../subdomains-certificates/using/subdomains-branding.md).
+本頁提供如何使用完整子網域委派或CNAME來設定新子網域的資訊。 本節將介紹這兩種方法的全局概念： [子網域品牌](../../subdomains-certificates/using/subdomains-branding.md)。
 
 **相關主題：**
 
@@ -74,9 +74,9 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/subdomain6.png)
 
-提交子域後，控制面板將執行各種檢查和配置步驟。 如需詳細資訊，請 []參閱(../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration)。
+提交子域後，控制面板將執行各種檢查和配置步驟。 如需詳細資訊，請參 [閱子網域檢查與設定](#subdomain-checks-and-configuration)。
 
-## 使用CNAME的子網域設定 {#use-cnames}
+## 子網域設定使用 CNAME {#use-cnames}
 
 若要使用CNAME設定子網域，請依照下列步驟進行：
 
@@ -112,7 +112,7 @@ Subdomain configuration is available for **production** instances only.
    >
    >請注意，要放置在伺服器上的DNS記錄將由控制面板保存30天。 在這段期間之後，您必須從頭開始設定子網域。
 
-提交子域後，控制面板將執行各種檢查和配置步驟。 有關詳細資訊，請參閱[](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration)。
+提交子域後，控制面板將執行各種檢查和配置步驟。 如需詳細資訊，請參 [閱子網域檢查與設定](#subdomain-checks-and-configuration)。
 
 ## 子域檢查和配置 {#subdomain-checks-and-configuration}
 
