@@ -2,9 +2,9 @@
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 如果您對子網域配置方法有任何疑問，請聯絡Adobe Deliverability團隊，或最終聯絡客戶服務以要求提供性諮詢。
 
-## 子網域的使用案例(Campaign Classic)(#subdomains-use-cases)
+## 子網域的使用案例(Campaign Classic){#subdomains-use-cases}
 
 為Campaign Classic實例設定子網域時，您必須選取要使用子網域的使用案例(請參 [閱設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
