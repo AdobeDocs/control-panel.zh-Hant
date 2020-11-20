@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: 資料庫監視
 description: 瞭解如何在「控制面板」中監控您的Campaign資料庫
 translation-type: tm+mt
-source-git-commit: 3dca1a261c4c92104170f70e6dbd12ba72e61e7d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果「控制面板」中顯示的提供資料庫空間量未反映合約中指定的數量，請聯絡客戶服務。
+>如果「控制面板」中顯示的提供資料庫空間量未反映合約中指定的金額，請聯絡客戶服務。
 
 ## 監控資料庫使用情況 {#monitoring-instances-database}
 
