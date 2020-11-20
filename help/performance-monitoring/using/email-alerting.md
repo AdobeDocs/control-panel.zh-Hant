@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 電子郵件警報
 description: 瞭解如何在您的促銷活動例項發生問題時接收電子郵件通知
 translation-type: tm+mt
-source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,9 +33,9 @@ ht-degree: 2%
 
 警報清單如下：
 
-* **SFTP儲存空間使用**: 其中一台SFTP伺服器已達其容量的80%以上。 See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
+* **SFTP儲存空間使用**:其中一台SFTP伺服器已達其容量的80%以上。 See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
 
-* **資料庫使用**: 其中一個實例的資料庫已達到其容量的80%以上。 請參 [閱資料庫監控](../../performance-monitoring/using/database-monitoring.md)。
+* **資料庫使用**:其中一個實例的資料庫已達到其容量的80%以上。 請參 [閱資料庫監控](../../performance-monitoring/using/database-monitoring.md)。
 
-* **SSL憑證到期**: 您其中一個子網域的SSL憑證已過期，或將在60天或更短時間內到期。 See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **SSL憑證到期**:您其中一個子網域的SSL憑證已過期，或將在60天或更短時間內到期。 See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
