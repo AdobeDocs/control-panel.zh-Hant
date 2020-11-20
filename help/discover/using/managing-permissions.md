@@ -1,16 +1,18 @@
 ---
+product: campaign
+solution: Campaign
 title: 管理控制面板的權限
 description: 瞭解如何管理控制面板的權限
 translation-type: tm+mt
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 管理控制面板的權限 {#managing-permissions-control-panel}
+# Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
 「控制面板」可供「促銷活動」例項的所有管理員使用者使用。 請依照下列步驟，將使用者指派給「管理員」群組，並授與他們「控制面板」的存取權。
 
@@ -50,7 +52,7 @@ ht-degree: 0%
    >
    >依預設，管理員使用者屬於「管理員」產品設定檔。 根據您的組織設定，產品設定檔的命名方式可能不同（「管理員」、「管理員」等）。
 
-1. 會顯示管理員使用者清單。 按一下 **[!UICONTROL Add User]** 按鈕以新增所需的使用者。
+1. 隨即顯示管理員使用者清單。 按一下 **[!UICONTROL Add User]** 按鈕以新增所需的使用者。
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
