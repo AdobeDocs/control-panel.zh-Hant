@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: 執行個體詳細資訊
 description: 瞭解如何監視「控制面板」的執行個體詳細資訊
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
