@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 「控制面板」常見問答集
 description: 與「控制面板」相關的常見問題
-translation-type: ht
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
