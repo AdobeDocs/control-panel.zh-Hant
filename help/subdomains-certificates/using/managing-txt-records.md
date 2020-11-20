@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 管理 TXT 記錄
 description: 瞭解如何管理 TXT 記錄以進行網域擁有權驗證。
-translation-type: ht
-source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: ht
-source-wordcount: '343'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
