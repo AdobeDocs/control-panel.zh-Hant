@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +30,8 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 **相關主題：**
 
-* [Campaign Standard教學課程影片](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic教學課程影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 ## 加密資料 {#encrypting-data}
 
@@ -93,7 +95,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 **Campaign Standard:**
 
-* [管理加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [管理已加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用案例：使用控制面板上安裝的密鑰加密和導出資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## 解密資料 {#decrypting-data}
@@ -134,7 +136,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 **Campaign Standard:**
 
-* [管理加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [管理已加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## 監控GPG密鑰
@@ -156,7 +158,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 * **[!UICONTROL Expires]**:密鑰的到期日。 請注意，當主要指示即將到期時，控制面板將提供視覺指示：
 
    * 30天前會顯示緊急（紅色）。
-   * 警告（黃色）在60天前顯示。
+   * 警告（黃色）顯示於60天前。
    * 當金鑰過期時，會顯示「已過期」的紅色橫幅。
 
    >[!NOTE]
