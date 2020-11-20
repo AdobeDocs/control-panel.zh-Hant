@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: 登入您的 SFTP 伺服器
 description: 瞭解如何登入您的SFTP伺服器
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
