@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: SFTP 儲存空間管理
 description: 瞭解如何監視和管理您的 SFTP 伺服器儲存空間
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
