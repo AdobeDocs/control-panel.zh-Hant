@@ -1,13 +1,18 @@
 ---
-title: 監視子域的SSL證書
-description: 瞭解如何監控子網域的SSL憑證
+product: campaign
+solution: Campaign
+title: 監視子網域的 SSL 憑證
+description: 瞭解如何監視子網域的 SSL 憑證
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# 監控子網域 {#monitoring-subdomains}
+# 監視子網域 {#monitoring-subdomains}
 
 您必須監控子網域，以確保所有子網域皆已正確設定，以搭配Adobe Campaign運作。
 
@@ -27,6 +32,6 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 **相關主題：**
 
-* [新增SSL憑證（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [續約子網域的SSL憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
-* [子網域品牌](../../subdomains-certificates/using/subdomains-branding.md)
+* [新增 SSL 憑證 (教學課程影片)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [續約子網域的 SSL 憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [子網域名稱](../../subdomains-certificates/using/subdomains-branding.md)
