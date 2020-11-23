@@ -4,10 +4,10 @@ solution: Campaign
 title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 93%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 0%
 
 新增 URL 後，執行個體的設定檔案 (serverConf.xml) 便會參照該 URL。
 
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings)
+
 **相關主題：**
 
 * [設定 Campaign 伺服器](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [傳出連線的保護](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [新增 URL 權限 (教學課程影片)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
 
 ## 最佳實務{#best-practices}
 
