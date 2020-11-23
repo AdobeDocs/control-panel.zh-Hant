@@ -4,10 +4,10 @@ solution: Campaign
 title: 執行個體詳細資訊
 description: 瞭解如何監視「控制面板」的執行個體詳細資訊
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '554'
+ht-degree: 94%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 發行說明"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 發行說明"
 
+## 關於執行個體詳細資訊{#about-instance-details}
+
 >[!IMPORTANT]
 >
 >此功能僅適用於 Campaign Classic 執行個體。
-
-## 關於執行個體詳細資訊{#about-instance-details}
 
 您的 Adobe Campaign Classic 執行個體架構可以包含數個伺服器，以便提供行銷活動的彈性。例如，您可以有行銷、即時 (或 Message Center) 和 Mid Sourcing 伺服器以支援您的執行個體。
 
