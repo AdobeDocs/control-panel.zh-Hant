@@ -4,10 +4,10 @@ solution: Campaign
 title: IP 允許清單
 description: 瞭解如何將 IP 位址新增至「控制面板」中的允許清單，以便存取執行個體
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 0%
 「控制面板」可讓您將 IP 位址範圍新增至允許清單，以將新的連線設定到您的執行個體。請依照下列步驟以執行此操作：
 
 將 IP 位址新增至允許清單之後，您就可以建立 Campaign 運算子，並將其連結至這些 IP 位址，以便使用者可以存取該執行個體。
+
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## 最佳實務{#best-practices}
 
@@ -91,5 +93,5 @@ ht-degree: 0%
 若要從允許清單刪除 IP 範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
 
 **相關主題：**
-* [IP 允許清單（教學課程影片）](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+
 * [將安全區域連結到運算子](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
