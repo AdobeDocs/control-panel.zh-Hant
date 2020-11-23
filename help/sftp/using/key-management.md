@@ -4,10 +4,10 @@ solution: Campaign
 title: 金鑰管理
 description: 瞭解如何管理連線至 SFTP 伺服器的金鑰
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,8 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >[!NOTE]
 >
 >您目前無法刪除 SSH 公開金鑰。
+
+![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
 ## 最佳實務{#best-practices}
 
