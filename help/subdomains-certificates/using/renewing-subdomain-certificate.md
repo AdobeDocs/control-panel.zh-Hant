@@ -4,10 +4,10 @@ solution: Campaign
 title: 續約子網域的 SSL 憑證
 description: 瞭解如何續約子網域的 SSL 憑證
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '858'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >「控制面板」的子網域設定提供測試版，而且必須經常更新和修改，恕不另行通知。
+
+![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## 關於憑證續約{#about-certificate-renewal-process}
 
@@ -138,6 +140,5 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 
 **相關主題：**
 
-* [新增 SSL 憑證 (教學課程影片)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [子網域名稱](../../subdomains-certificates/using/subdomains-branding.md)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
