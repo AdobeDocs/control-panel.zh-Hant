@@ -4,10 +4,10 @@ solution: Campaign
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '694'
+ht-degree: 79%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html).
 
 如果您對子網域配置方法有任何疑問，請聯絡Adobe Deliverability團隊，或最終聯絡客戶服務以要求提供性諮詢。
 
@@ -78,5 +78,4 @@ Additional information on domain configuration is available in [this documentati
 **相關主題：**
 
 * [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [教學課程影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
