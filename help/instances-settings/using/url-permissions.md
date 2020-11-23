@@ -4,7 +4,7 @@ solution: Campaign
 title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 93%
@@ -20,11 +20,11 @@ ht-degree: 93%
 >abstract="管理您的 Adobe Campaign 執行個體可連至的 URL。"
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
+## 關於 URL 權限{#about-url-permissions}
+
 >[!IMPORTANT]
 >
 >此功能僅適用於 8850 組建的 Campaign Classic 執行個體。如果您使用舊版組建，則需進行升級，才能使用此功能。
-
-## 關於 URL 權限{#about-url-permissions}
 
 可由您的 Campaign Classic 執行個體的 JavaScript 程式碼 (工作流程等等) 呼叫之預設 URL 清單有限。這些是可讓您的執行個體正常運作的 URL。
 
