@@ -4,10 +4,10 @@ solution: Campaign
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1221'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,8 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 在實施後，您可以在傳輸之前解密傳入的資料並加密傳出的資料，以確保沒有有效匹配密鑰對的任何人不會訪問這些資料。
 
+![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html) Campaign Standard在視訊中探索此 [功能](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+
 若要使用 Campaign實作 GPG加密，管理員使用者必須直接從控制面板在行銷執行實例安裝及/或產生 GPG 金鑰。
 
 然後，您將能夠：
@@ -28,16 +30,13 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 * **解密傳入資料**:Adobe Campaign會使用從「控制面板」下載的公開金鑰，從外部系統接收加密的資料。 Adobe Campaign會使用從「控制面板」產生的私密金鑰解密資料。
 
-**相關主題：**
-
-* [Campaign Standard 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-
 ## 加密資料 {#encrypting-data}
 
 「控制面板」可以讓您加密從 Adobe Campaign 執行個體傳出的資料。
 
-為此，您需要從PGP加密工具生成GPG密鑰對，然後將公共密鑰安裝到「控制面板」中。 然後，您就可以在從實例發送資料之前加密資料。 要執行此操作，請依照下列步驟執行：
+為此，您需要從PGP加密工具生成GPG密鑰對，然後將公共密鑰安裝到「控制面板」中。 然後，您就可以在從實例發送資料之前加密資料。 請依照下列步驟以執行此操作。
+
+![](assets/do-not-localize/how-to-video.png) 瞭解如何使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)[Campaign Standard在視訊中產生和安裝GPG金鑰](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
 
 1. 使用遵循 [OpenPGP規格的PGP加密工具產生公用／私用金鑰對](https://www.openpgp.org/about/standard/)。 為此，請安裝GPG實用程式或GNuGP軟體。
 
@@ -86,7 +85,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 然後，此金鑰便可用於Adobe Campaign工作流程。 使用資料擷取活動時，您可使用它來加密資料。
 
-如需更多相關資訊，請參閱Adobe Campaign檔案：
+如需此主題的詳細資訊，請參閱Adobe Campaign檔案：
 
 **Campaign Classic:**
 
@@ -98,6 +97,8 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 * [管理已加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用案例：使用控制面板上安裝的密鑰加密和導出資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
+![](assets/do-not-localize/how-to-video.png) 瞭解如何使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)[Campaign Standard加密視訊中的資料](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 ## 解密資料 {#decrypting-data}
 
 「控制面板」可讓您解密傳入Adobe Campaign例項的外部資料。
@@ -106,6 +107,8 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 * 公 **開金鑰** (public key)將會與外部系統共用，外部系統會使用它來加密要傳送至Campaign的資料。
 * Campaign **將使用** 「私密金鑰」解密傳入的加密資料。
+
+![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
 
 要在「Control Panel（控制面板）」中生成鍵對，請執行以下步驟：
 
