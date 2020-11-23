@@ -4,7 +4,7 @@ solution: Campaign
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="監視您的子網域和相關聯的 SSL 憑證。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何監視子網域的 SSL 憑證"
 
+## 為什麼要設定子網域？{#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >「控制面板」的子網域設定提供測試版，而且必須經常更新和修改，恕不另行通知。
-
-## 為什麼要設定子網域？{#why-setting-up-subdomains}
 
 子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
