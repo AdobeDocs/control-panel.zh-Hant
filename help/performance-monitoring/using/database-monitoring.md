@@ -4,9 +4,9 @@ solution: Campaign
 title: 資料庫監視
 description: 瞭解如何在「控制面板」中監控您的Campaign資料庫
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 >如果「控制面板」中顯示的提供資料庫空間量未反映合約中指定的金額，請聯絡客戶服務。
 
 ## 監控資料庫使用情況 {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 「控制面板」可讓您監控每個促銷活動例項的資料庫使用情形。 若要這麼做，請開啟資 **[!UICONTROL Performance Monitoring]** 訊卡，然後選取標 **[!UICONTROL Databases]** 簽。
 
