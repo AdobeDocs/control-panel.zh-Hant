@@ -4,7 +4,7 @@ solution: Campaign
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 47%
@@ -20,6 +20,8 @@ ht-degree: 47%
 >abstract="您必須設定新的子網域和管理子網域的 SSL 憑證，才能開始使用 Adobe Campaign 傳送電子郵件或發佈登陸頁面。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何監視子網域的 SSL 憑證"
 
+## 必讀 {#must-read}
+
 >[!IMPORTANT]
 >
 >「控制面板」的子網域設定提供測試版，而且必須經常更新和修改，恕不另行通知。
@@ -29,8 +31,6 @@ ht-degree: 47%
 **相關主題：**
 
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## 必讀 {#must-read}
 
 ### 實例選擇
 
