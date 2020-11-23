@@ -4,10 +4,10 @@ solution: Campaign
 title: 監視子網域的 SSL 憑證
 description: 瞭解如何監視子網域的 SSL 憑證
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
@@ -32,6 +32,5 @@ ht-degree: 0%
 
 **相關主題：**
 
-* [新增 SSL 憑證 (教學課程影片)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [續約子網域的 SSL 憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [子網域名稱](../../subdomains-certificates/using/subdomains-branding.md)
