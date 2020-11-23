@@ -4,23 +4,23 @@ solution: Campaign
 title: 作用中設定檔監控
 description: 瞭解如何取得每個 Campaign 執行個體之最新和歷史「作用中設定檔」使用量和演化的即時資訊。
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 100%
 
 ---
 
 
 # 作用中設定檔監控{#active-profiles-monitoring}
 
+## 關於作用中設定檔 {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
 >
 >此功能適用於 AWS 代管的客戶，這些客戶來自 Campaign Standard 10368 組建及 Campaign Classic 8931 組建。如果您使用舊版組建，則需進行升級，才能使用此功能。
-
-## 關於作用中設定檔 {#about-active-profiles}
 
 根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。
 
