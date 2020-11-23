@@ -4,10 +4,10 @@ solution: Campaign
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 在實施後，您可以在傳輸之前解密傳入的資料並加密傳出的資料，以確保沒有有效匹配密鑰對的任何人不會訪問這些資料。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html) Campaign Standard在視訊中探索此 [功能](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
 
 若要使用 Campaign實作 GPG加密，管理員使用者必須直接從控制面板在行銷執行實例安裝及/或產生 GPG 金鑰。
 
@@ -85,6 +85,8 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 然後，此金鑰便可用於Adobe Campaign工作流程。 使用資料擷取活動時，您可使用它來加密資料。
 
+![](assets/do-not-localize/how-to-video.png) 瞭解如何使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)[Campaign Standard加密視訊中的資料](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 如需此主題的詳細資訊，請參閱Adobe Campaign檔案：
 
 **Campaign Classic:**
@@ -96,8 +98,6 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 * [管理已加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用案例：使用控制面板上安裝的密鑰加密和導出資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
-
-![](assets/do-not-localize/how-to-video.png) 瞭解如何使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)[Campaign Standard加密視訊中的資料](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
 
 ## 解密資料 {#decrypting-data}
 
