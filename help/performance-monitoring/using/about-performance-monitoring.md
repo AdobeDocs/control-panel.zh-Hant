@@ -4,10 +4,10 @@ solution: Campaign
 title: 關於效能監視
 description: 在「控制面板」中瞭解如何監控執行個體效能
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 11%
+source-wordcount: '112'
+ht-degree: 14%
 
 ---
 
@@ -26,4 +26,3 @@ ht-degree: 11%
 
 此外，「控制面板」可讓您註冊，以在每次在其中一個促銷活動例項偵測到問題時接收電子郵件通知。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/email-alerting.md)。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
