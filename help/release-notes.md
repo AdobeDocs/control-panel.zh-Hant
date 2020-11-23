@@ -3,10 +3,10 @@ product: campaign
 solution: Campaign
 title: 「控制面板」發行版本
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 **資料庫監視增強功能**
 
-資料庫監控已通過其他度量得到增強，這些度量允許您獲取有關佔用資料庫空間的資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
+[詳細內容](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
@@ -38,8 +38,6 @@ ht-degree: 0%
 **GPG 金鑰管理**
 
 「控制面板」現在可讓您產生一對 GPG 金鑰，讓您可以輕鬆解密從外部傳到 Campaign 的資料。此外，我們新增了一項功能，讓您可以安裝公用 GPG 金鑰來加密離開 Campaign 的資料。[詳細內容](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
 
 **作用中設定檔監控**
 
