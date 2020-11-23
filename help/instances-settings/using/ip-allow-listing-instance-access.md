@@ -4,7 +4,7 @@ solution: Campaign
 title: IP 允許清單
 description: 瞭解如何將 IP 位址新增至「控制面板」中的允許清單，以便存取執行個體
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 94%
@@ -20,11 +20,11 @@ ht-degree: 94%
 >abstract="將 IP 位址新增至允許清單，以存取您的執行個體。"
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
+## 關於 IP 允許清單 {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >此功能僅適用於 Campaign Classic 執行個體。
-
-## 關於 IP 允許清單 {#about-ip-allow-listing}
 
 依預設，您的 Adobe Campaign Classic 執行個體無法從各種 IP 位址進行存取。
 
