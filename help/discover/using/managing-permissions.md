@@ -4,19 +4,19 @@ solution: Campaign
 title: 管理控制面板的權限
 description: 瞭解如何管理控制面板的權限
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
 
-# Managing permsissions to Control Panel {#managing-permissions-control-panel}
+# 管理「控制面板」的權限 {#managing-permissions-control-panel}
 
 「控制面板」可供「促銷活動」例項的所有管理員使用者使用。 請依照下列步驟，將使用者指派給「管理員」群組，並授與他們「控制面板」的存取權。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) Campaign Standard在視訊中探索此 [功能](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
+![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](#video)
 
 1. 導覽至 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然後選取 **[!UICONTROL Administration]** 標籤。
 
@@ -61,3 +61,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >一旦設定存取權，使用者就必須登出Adobe Experience Cloud再次登入，才能存取「控制面板」。
+
+## 教學課程影片 {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
