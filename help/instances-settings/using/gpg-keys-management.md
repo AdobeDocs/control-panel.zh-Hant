@@ -4,10 +4,10 @@ solution: Campaign
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 6%
+source-wordcount: '1116'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 6%
 GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保護您的資](https://www.openpgp.org/about/standard/) 料。
 
 在實施後，您可以在傳輸之前解密傳入的資料並加密傳出的資料，以確保沒有有效匹配密鑰對的任何人不會訪問這些資料。
-
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)
 
 若要使用 Campaign實作 GPG加密，管理員使用者必須直接從控制面板在行銷執行實例安裝及/或產生 GPG 金鑰。
 
@@ -36,7 +34,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 為此，您需要從PGP加密工具生成GPG密鑰對，然後將公共密鑰安裝到「控制面板」中。 然後，您就可以在從實例發送資料之前加密資料。 請依照下列步驟以執行此操作。
 
-![](assets/do-not-localize/how-to-video.png) 瞭解如何使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)[Campaign Standard在視訊中產生和安裝GPG金鑰](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](#video-generate-key)
 
 1. 使用遵循 [OpenPGP規格的PGP加密工具產生公用／私用金鑰對](https://www.openpgp.org/about/standard/)。 為此，請安裝GPG實用程式或GNuGP軟體。
 
@@ -85,7 +83,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 
 然後，此金鑰便可用於Adobe Campaign工作流程。 使用資料擷取活動時，您可使用它來加密資料。
 
-![](assets/do-not-localize/how-to-video.png) 瞭解如何使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)[Campaign Standard加密視訊中的資料](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](#video-use-key)
 
 如需此主題的詳細資訊，請參閱Adobe Campaign檔案：
 
@@ -108,7 +106,7 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 * 公 **開金鑰** (public key)將會與外部系統共用，外部系統會使用它來加密要傳送至Campaign的資料。
 * Campaign **將使用** 「私密金鑰」解密傳入的加密資料。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
+![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](#video-decrypt)
 
 要在「Control Panel（控制面板）」中生成鍵對，請執行以下步驟：
 
@@ -175,3 +173,17 @@ GPG加密可讓您使用遵循 [OpenPGP規格的公私密金鑰對系統來保�
 >[!IMPORTANT]
 >
 >在移除金鑰之前，請確定未在任何Adobe Campaign工作流程中使用金鑰，以防止金鑰失敗。
+
+## 教學課程影片 {#video}
+
+### 產生並安裝用於資料加密的 GPG 金鑰 {#video-generate-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+
+### 使用 GPG 金鑰加密資料 {#video-use-key}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+### 解密資料 {#video-decrypt}
+
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
