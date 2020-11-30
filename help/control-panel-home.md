@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: 產品文件
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 89%
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Campaign Standard 的「控制面板」教學課程影片</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant">Campaign Standard 的「控制面板」教學課程影片</a></li>
             <li><a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html">Campaign Standard 產品文件</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Campaign Classic 的「控制面板」教學課程影片</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant">Campaign Classic 的「控制面板」教學課程影片</a></li>
             <li><a href="https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html">Campaign Classic 產品文件</a></li>
         </ul>
         </td>
