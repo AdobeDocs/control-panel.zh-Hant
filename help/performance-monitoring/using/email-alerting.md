@@ -18,7 +18,7 @@ ht-degree: 0%
 
 要訂閱這些警報，請執行以下步驟：
 
-1. 按一下「Control **[!UICONTROL Alerting notifications]** Panel（控制面板）」中任意位置的可用按鈕，然後按一下 **[!UICONTROL Subscribe]**。
+1. 按一下「Control Panel（控制面板）」中任意位置的&#x200B;**[!UICONTROL Alerting notifications]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL Subscribe]**。
 
    ![](assets/subscribing.png)
 
@@ -26,16 +26,16 @@ ht-degree: 0%
 
    ![](assets/email_subscription.png)
 
-1. 訂閱後，控制面板會通知系統問題，並建議您採取動作。 電子郵件警報會傳送給已註冊所有執行個體( **其為** 「管理員」)的每個人。
+1. 訂閱後，控制面板會通知系統問題，並建議您採取動作。 電子郵件警報會傳送給已註冊&#x200B;**所有**&#x200B;的管理員實例。
 
    ![](assets/alert_sample.png)
 
 
 警報清單如下：
 
-* **SFTP儲存空間使用**:其中一台SFTP伺服器已達其容量的80%以上。 See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
+* **SFTP儲存空間使用**:其中一台SFTP伺服器已達其容量的80%以上。請參閱[SFTP儲存管理](../../sftp/using/sftp-storage-management.md)。
 
-* **資料庫使用**:其中一個實例的資料庫已達到其容量的80%以上。 請參 [閱資料庫監控](../../performance-monitoring/using/database-monitoring.md)。
+* **資料庫使用**:其中一個實例的資料庫已達到其容量的80%以上。請參見[資料庫監視](../../performance-monitoring/using/database-monitoring.md)。
 
-* **SSL憑證到期**:您其中一個子網域的SSL憑證已過期，或將在60天或更短時間內到期。 See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **SSL憑證到期**:您其中一個子網域的SSL憑證已過期，或將在60天或更短時間內到期。請參閱[監視子域的SSL證書](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
 
