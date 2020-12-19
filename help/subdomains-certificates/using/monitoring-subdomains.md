@@ -6,8 +6,8 @@ description: 瞭解如何監視子網域的 SSL 憑證
 translation-type: tm+mt
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 16%
 
 您必須監控子網域，以確保所有子網域皆已正確設定，以搭配Adobe Campaign運作。
 
-選取卡片時，可直接存取每個生產例項的子網域清 **[!UICONTROL Subdomains & Certificates]** 單。
+選取&#x200B;**[!UICONTROL Subdomains & Certificates]**&#x200B;卡片時，可直接存取每個生產例項的子網域清單。
 
-該 **[!UICONTROL Last verification]** 列指示上次驗證子域的時間。 您隨時都可以按一下…… **.** /按 **[!UICONTROL Verify subdomain]** 鈕。
+**[!UICONTROL Last verification]**&#x200B;欄會指出上次驗證子網域的時間。 您可以隨時按一下&#x200B;**啟動驗證……** / **[!UICONTROL Verify subdomain]**&#x200B;按鈕。
 
 ![](assets/subdomain_verification.png)
 
