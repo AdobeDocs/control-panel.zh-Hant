@@ -6,8 +6,8 @@ description: 瞭解如何管理 TXT 記錄以進行網域擁有權驗證。
 translation-type: tm+mt
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可�
 
 Gmail 是目前最受歡迎的電子郵件地址供應商之一。為了確保良好的傳遞率，並且成功傳送至 Gmail 地址，Adobe Campaign 可讓您在子網域中新增特殊的 Google 網站驗證 TXT 記錄，以確保其經過驗證。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates)
 
 ## 新增子網域的 Google TXT 記錄{#adding-a-google-txt-record}
 
