@@ -5,8 +5,8 @@ title: 「控制面板」發行版本
 translation-type: tm+mt
 source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 **資料庫監視增強功能**
 
-[詳細內容](performance-monitoring/using/database-monitoring.md)
+資料庫監控已通過其他度量得到增強，這些度量允許您獲取有關佔用資料庫空間的資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
