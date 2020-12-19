@@ -26,7 +26,7 @@ ht-degree: 47%
 >
 >「控制面板」的子網域設定提供測試版，而且必須經常更新和修改，恕不另行通知。
 
-本頁提供如何使用完整子網域委派或CNAME來設定新子網域的資訊。 本節將介紹這兩種方法的全局概念： [子網域品牌](../../subdomains-certificates/using/subdomains-branding.md)。
+本頁提供如何使用完整子網域委派或CNAME來設定新子網域的資訊。 本節將介紹這兩種方法的全局概念：[子網域品牌推廣](../../subdomains-certificates/using/subdomains-branding.md)。
 
 **相關主題：**
 
@@ -34,11 +34,11 @@ ht-degree: 47%
 
 ### 實例選擇
 
-Subdomain configuration is available for **production** instances only.
+子域配置僅適用於&#x200B;**production**&#x200B;實例。
 
-如果您在嚮導中選擇的實例先前沒有設定子域，則第一個配置的子域將成為該實例的主子域 **** ，而您將來將無法對其進行更改。
+如果您在嚮導中選擇的實例先前沒有設定子域，則第一個配置的子域將成為該實例的&#x200B;**主子域**，而您將來將無法更改該子域。
 
-因此，將使 **用此主子網域為其他子網域** ，建立反向DNS記錄。 **其他子網域的回覆和退信地址會從主要子網域產生。**
+因此，將使用此主子域為其他子域建立&#x200B;**反向DNS記錄**。 **其他子網域的回覆和退信地址會從主要子網域產生。**
 
 ### 命名空間配置
 
@@ -50,7 +50,7 @@ Subdomain configuration is available for **production** instances only.
 
 若要將子網域完全委派至Adobe Campaign，請遵循下列步驟。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的生產執行個體，再按一下「**[!UICONTROL Setup new subdomain]**」。
 
@@ -66,7 +66,7 @@ Subdomain configuration is available for **production** instances only.
 
 1. 使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下「**[!UICONTROL Next]**」。
 
-1. 如果您選取了Campaign Classic例項，請為子網域選取所需的使用案例： **行銷通訊** , **或交易與營運通訊**。 本節將介紹子域使用案例的全 [局概念](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)。
+1. 如果您選取了Campaign Classic例項，請為子網域選取所需的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 有關子域使用案例的全局概念在[本節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介紹。
 
    ![](assets/subdomain5.png)
 
@@ -76,29 +76,29 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/subdomain6.png)
 
-提交子域後，控制面板將執行各種檢查和配置步驟。 如需詳細資訊，請參 [閱子網域檢查與設定](#subdomain-checks-and-configuration)。
+提交子域後，控制面板將執行各種檢查和配置步驟。 有關詳細資訊，請參閱[子域檢查和配置](#subdomain-checks-and-configuration)。
 
 ## 子網域設定使用 CNAME {#use-cnames}
 
 若要使用CNAME來設定子網域，請遵循下列步驟。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的生產執行個體，再按一下「**[!UICONTROL Setup new subdomain]**」。
 
    ![](assets/subdomain1.png)
 
-1. Select the **[!UICONTROL CNAME]** method, then click **[!UICONTROL Next]**.
+1. 選擇&#x200B;**[!UICONTROL CNAME]**&#x200B;方法，然後按一下&#x200B;**[!UICONTROL Next]**。
 
    ![](assets/cname-method-selection.png)
 
-1. 如果您選取了Campaign Classic例項，請為子網域選取所需的使用案例： **行銷通訊** , **或交易與營運通訊**。 本節將介紹子域使用案例的全 [局概念](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)。
+1. 如果您選取了Campaign Classic例項，請為子網域選取所需的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 有關子域使用案例的全局概念在[本節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介紹。
 
    ![](assets/cname-use-case.png)
 
 1. 輸入您建立到託管解決方案的子網域，再按一下「**[!UICONTROL Next]**」。
 
-   Make sure you fill in the **full name** of the subdomain to setup. 例如，若要設定&quot;usoffers.email.weretail.com&quot;子網域，請輸入&quot;usoffers.email.weretail.com&quot;。
+   請務必填寫要設定的子網域&#x200B;**全稱**。 例如，若要設定&quot;usoffers.email.weretail.com&quot;子網域，請輸入&quot;usoffers.email.weretail.com&quot;。
 
    ![](assets/cname-submit.png)
 
@@ -106,19 +106,19 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/cname-generate-record.png)
 
-1. 請確定先前步驟中的所有DNS記錄都已產生至您的網域代管解決方案。 如果所有項目都已正確設定，請選取第一個陳述式，然後按一 **[!UICONTROL Submit]** 下以確認。
+1. 請確定先前步驟中的所有DNS記錄都已產生至您的網域代管解決方案。 如果所有項目都已正確設定，請選取第一個陳述式，然後按一下&#x200B;**[!UICONTROL Submit]**&#x200B;以確認。
 
    ![](assets/cname-confirmation.png)
 
    >[!NOTE]
    >
-   >如果要建立記錄並稍後提交子域配置，請選擇第二個語句，然後按一下 **[!UICONTROL Submit later]**。 然後，您就可以直接從子網域管理螢幕區域繼續子網域 **[!UICONTROL Processing]** 設定。
+   >如果要建立記錄並稍後提交子域配置，請選擇第二個語句，然後按一下&#x200B;**[!UICONTROL Submit later]**。 然後，您就可以直接從子域管理螢幕&#x200B;**[!UICONTROL Processing]**&#x200B;區域恢復子域配置。
    >
    >請注意，要放置在伺服器上的DNS記錄將由控制面板保存30天。 在這段期間之後，您必須從頭開始設定子網域。
 
-提交子域後，控制面板將執行各種檢查和配置步驟。 如需詳細資訊，請參 [閱子網域檢查與設定](#subdomain-checks-and-configuration)。
+提交子域後，控制面板將執行各種檢查和配置步驟。 有關詳細資訊，請參閱[子域檢查和配置](#subdomain-checks-and-configuration)。
 
-## 子域檢查和配置 {#subdomain-checks-and-configuration}
+## 子域檢查和配置{#subdomain-checks-and-configuration}
 
 1. 提交子域後，控制面板將檢查它是否正確指向Adobe NS記錄，以及此子域不存在授權開始(SOA)記錄。
 
@@ -130,7 +130,7 @@ Subdomain configuration is available for **production** instances only.
 
    ![](assets/subdomain7.png)
 
-   You can get more details on the configuration progress by clicking the subdomain configuration **[!UICONTROL Details]** button.
+   按一下子域配置&#x200B;**[!UICONTROL Details]**&#x200B;按鈕，可以獲取有關配置進度的詳細資訊。
 
    ![](assets/subdomain_audit.png)
 
