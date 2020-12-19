@@ -6,8 +6,8 @@ description: 瞭解如何續約子網域的 SSL 憑證
 translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 1. **安裝 SSL 憑證**
 購買 SSL 憑證後，您就可以將它安裝在所需的子網域上。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [Campaign Classic或](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Campaign Standard在視訊中探索此 [功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## 產生憑證簽署要求 (CSR){#generating-csr}
 
@@ -49,7 +49,7 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 >id="cp_select_subdomains"
 >title="選擇 CSR 的子網域"
 >abstract="您可以選擇將所有或僅特定子網域納入您的憑證簽署請求。只有選取的子網域才會透過購買的 SSL 憑證取得認證。"
->additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="產生憑證簽署要求 (CSR)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="產生憑證簽署要求 (CSR)"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="關於子網域名稱"
 
 若要產生憑證簽署要求 (CSR)，請執行下列步驟：
@@ -100,7 +100,7 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 >id="cp_install_ssl_certificate"
 >title="安裝 SSL 憑證"
 >abstract="安裝您從貴組織核准的憑證機構購買的 SSL 憑證。"
->additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="關於子網域名稱"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="關於子網域名稱"
 
 購買 SSL 憑證後，您就可以將它安裝在您的執行個體上。繼續操作之前，請確定您已瞭解下列必要條件：
 
