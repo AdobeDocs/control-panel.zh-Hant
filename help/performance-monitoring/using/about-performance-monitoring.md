@@ -12,11 +12,11 @@ ht-degree: 14%
 ---
 
 
-# 關於效能監視 {#about-performance-monitoring}
+# 關於效能監視{#about-performance-monitoring}
 
 「控制面板」提供多項功能，可協助您監控執行個體並確保最佳效能。
 
-「控 **[!UICONTROL Performance monitoring]** 制面板」首頁中的資訊卡可讓您監控促銷活動例項的使用情形，例如其資料庫容量。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/database-monitoring.md)。
+「控制面板」首頁的&#x200B;**[!UICONTROL Performance monitoring]**&#x200B;資訊卡可讓您監控促銷活動例項（例如，其資料庫容量）的使用情形。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/database-monitoring.md)。
 
 ![](assets/performance_card.png)
 
