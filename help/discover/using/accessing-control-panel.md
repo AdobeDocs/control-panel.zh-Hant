@@ -16,34 +16,34 @@ ht-degree: 0%
 
 控制面板可直接從Experience Cloud或產品本身取得。
 
-僅供管理員 **使用者存取** 。 有關如何將用戶分配給管理員組的詳細資訊，請參 [閱本節](../../discover/using/managing-permissions.md)。
+僅&#x200B;**管理員使用者**&#x200B;可存取。 有關如何將用戶分配給管理員組的詳細資訊，請參閱[本節](../../discover/using/managing-permissions.md)。
 
-## 從Experience Cloud平台存取 {#access-experience-cloud-platform}
+## 從Experience Cloud平台存取{#access-experience-cloud-platform}
 
 若要從 Experience Cloud Platform 存取「控制面板」，請導覽至 [Experience Cloud Platform 首頁](https://experiencecloud.adobe.com/)，然後按一下&#x200B;**「快速存取」**&#x200B;區段中的專用連結。
 
 ![](assets/do-not-localize/quickaccess.png)
 
-您也可以從Experience Cloud Platform解決方案選擇器存取「控 **制面板」**:
+您也可以從Experience Cloud平台&#x200B;**解決方案選擇器**&#x200B;存取控制面板：
 
-1. 導覽至 [Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然後從解決方案 **選擇器選擇「Campaign** 」。
+1. 導覽至[Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然後從解決方案選擇器中選擇&#x200B;**Campaign**。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. 此時會顯示促銷活動例項清單。 按一下「 **控制面板** 」卡以啟動它。
+1. 此時會顯示促銷活動例項清單。 按一下&#x200B;**控制面板**&#x200B;卡以啟動它。
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
-## 從產品存取 {#access-product}
+## 從產品{#access-product}存取
 
 >[!NOTE]
 >
 >產品內的存取權僅適用於Campaign Standard。
 
-1. 開啟您的促銷活動標準產品，然後從窗 **[!UICONTROL Administration]** 格中選取功 **[!UICONTROL Navigation]** 能表。
+1. 開啟您的Campaign Standard產品，然後從&#x200B;**[!UICONTROL Navigation]**&#x200B;窗格中選擇&#x200B;**[!UICONTROL Administration]**&#x200B;功能表。
 
    ![](assets/control_panel_access3.png)
 
-1. 按一下 **[!UICONTROL Control Panel]** 圖示。
+1. 按一下&#x200B;**[!UICONTROL Control Panel]**&#x200B;表徵圖。
 
    ![](assets/control_panel_access4.png)
