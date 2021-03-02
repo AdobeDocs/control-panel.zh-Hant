@@ -4,10 +4,10 @@ solution: Campaign
 title: 作用中設定檔監控
 description: 瞭解如何取得每個 Campaign 執行個體之最新和歷史「作用中設定檔」使用量和演化的即時資訊。
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 >會依據每天在執行個體上執行的專屬技術工作流程，來計算作用中設定檔。
 >
 >* Campaign Standard的[「計費」](https://docs.adobe.com/help/zh-Hant/campaign-standard/using/administrating/application-settings/technical-workflows.html)工作流程、
->* Campaign Classic 的[「作用中計費設定檔數目」](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html)工作流程。
+>* Campaign Classic 的[「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)工作流程。
 
 
 下方區域以圖形化表示過去 30 天的作用中設定檔使用量。您可以使用右上方的可用篩選器，將顯示的時段變更為 1 年。
