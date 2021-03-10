@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: 執行個體詳細資訊
 description: 瞭解如何監視「控制面板」的執行個體詳細資訊
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '558'
 ht-degree: 94%
 
 ---
@@ -48,7 +51,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上未顯示「例項設定」卡片，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關聯
+   >如果「控制面板」的首頁上未顯示「例項設定」卡，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關
 
 1. 在左窗格中，選取所需的 Campaign Classic 執行個體。
 
