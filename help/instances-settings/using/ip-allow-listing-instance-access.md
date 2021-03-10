@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: IP 允許清單
 description: 瞭解如何將 IP 位址新增至「控制面板」中的允許清單，以便存取執行個體
+feature: 控制面板
+role: 架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '769'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +60,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上未顯示「例項設定」卡片，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關聯
+   >如果「控制面板」的首頁上未顯示「例項設定」卡，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關
 
    ![](assets/ip_whitelist_list1.png)
 
