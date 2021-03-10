@@ -2,12 +2,15 @@
 product: campaign
 solution: Campaign
 title: GPG 金鑰管理
-description: 瞭解如何管理GPG金鑰，以在Adobe Campaign中加密和解密資料。
+description: 瞭解如何管理GPG金鑰，以在Adobe Campaign加密和解密資料。
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1157'
+ht-degree: 8%
 
 ---
 
@@ -24,9 +27,9 @@ GPG加密允許您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 然後，您將能夠：
 
-* **加密發送的資料**:Adobe Campaign使用已安裝的公開金鑰加密資料後，會將資料傳出。
+* **加密發送的資料**:Adobe Campaign在使用安裝的公鑰加密資料後，會將資料發出。
 
-* **解密傳入資料**:Adobe Campaign會使用從「控制面板」下載的公開金鑰，從外部系統接收加密的資料。Adobe Campaign會使用從「控制面板」產生的私密金鑰解密資料。
+* **解密傳入資料**:Adobe Campaign接收使用從控制面板下載的公開金鑰從外部系統加密的資料。Adobe Campaign使用從控制面板產生的私密金鑰解密資料。
 
 ## 加密資料{#encrypting-data}
 
@@ -81,11 +84,11 @@ GPG加密允許您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 ![](assets/gpg_install_download.png)
 
-然後，此金鑰便可用於Adobe Campaign工作流程。 使用資料擷取活動時，您可使用它來加密資料。
+此金鑰可在Adobe Campaign工作流程中使用。 使用資料擷取活動時，您可使用它來加密資料。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](#video)
 
-如需此主題的詳細資訊，請參閱Adobe Campaign檔案：
+有關此主題的更多資訊，請參閱Adobe Campaign文檔：
 
 **Campaign Classic:**
 
@@ -99,7 +102,7 @@ GPG加密允許您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 ## 解密資料 {#decrypting-data}
 
-「控制面板」可讓您解密傳入Adobe Campaign例項的外部資料。
+「控制面板」可讓您解密傳入Adobe Campaign實例的外部資料。
 
 若要這麼做，您必須直接從「控制面板」產生GPG金鑰對。
 
@@ -110,7 +113,7 @@ GPG加密允許您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 要在「Control Panel（控制面板）」中生成鍵對，請執行以下步驟：
 
-1. 開啟&#x200B;**[!UICONTROL Instance settings]**&#x200B;資訊卡，然後選取&#x200B;**[!UICONTROL GPG keys]**&#x200B;標籤和所要的Adobe Campaign例項。
+1. 開啟&#x200B;**[!UICONTROL Instance settings]**&#x200B;卡片，然後選取&#x200B;**[!UICONTROL GPG keys]**&#x200B;標籤和所要的Adobe Campaign例項。
 
 1. 按一下 **[!UICONTROL Generate Key]** 按鈕。
 
@@ -126,16 +129,16 @@ GPG加密允許您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 ![](assets/gpg_generate_list.png)
 
-公共密鑰隨後可用於與任何外部系統共用。 Adobe Campaign將能夠在資料載入活動中使用私密金鑰來解密使用公開金鑰加密的資料。
+公共密鑰隨後可用於與任何外部系統共用。 Adobe Campaign將能夠在資料載入活動中使用私鑰解密已用公鑰加密的資料。
 
-如需更多相關資訊，請參閱Adobe Campaign檔案：
+有關詳情，請參閱Adobe Campaign檔案：
 
 **Campaign Classic:**
 
 * [在處理前解壓縮或解密檔案](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
 * [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
-**促銷活動標準：**
+**Campaign Standard:**
 
 * [管理已加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
@@ -178,7 +181,7 @@ GPG加密允許您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 
 以下視訊說明如何產生和安裝GPG金鑰以進行資料加密。
 
-有關GPG金鑰管理的其他操作視訊，請參閱[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)和[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)教學課程頁面。
+[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)和[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings)教學課程頁面提供與GPG密鑰管理相關的其他操作視頻。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
 
