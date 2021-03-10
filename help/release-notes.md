@@ -2,11 +2,14 @@
 product: campaign
 solution: Campaign
 title: 「控制面板」發行版本
+feature: 控制面板
+role: 架構師
+level: 初學者
 translation-type: tm+mt
-source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 95%
 
 ---
 
