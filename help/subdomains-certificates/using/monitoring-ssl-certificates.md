@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 監視子網域的 SSL 憑證
 description: 瞭解如何監視子網域的 SSL 憑證
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '393'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaign 建議您保護託管登陸頁面之子網域的安全，尤其是收集客戶敏感資訊的子網域。
 
-**SSL（安全通訊端層）** 加密可確保您設定為搭配Adobe運作的子網域安全無虞。當您的客戶填寫網頁表格或造訪 Adobe Campaign 託管的登陸頁面時，系統會依預設透過非安全通訊協定 (HTTP) 傳送資訊。為確保多一層安全性，請使用 HTTPS 通訊協定來保護傳送的資訊。舉例來說，您的「http://info.mywebsite.com/」子網域位址現在會成為「https://info.mywebsite.com/」。
+**SSL（安全通訊端層）** 加密可確保您設定用於Adobe的子網域安全無虞。當您的客戶填寫網頁表格或造訪 Adobe Campaign 託管的登陸頁面時，系統會依預設透過非安全通訊協定 (HTTP) 傳送資訊。為確保多一層安全性，請使用 HTTPS 通訊協定來保護傳送的資訊。舉例來說，您的「http://info.mywebsite.com/」子網域位址現在會成為「https://info.mywebsite.com/」。
 
 **SSL憑證不會安裝在已設定的子網域本身**。它們會安裝在相關聯的子網域上，主要是託管登陸頁面、資源頁面等子網域。
 
