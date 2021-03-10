@@ -4,11 +4,14 @@ solution: Campaign
 title: 關於 SFTP 管理
 description: 在「控制面板」中進一步瞭解SFTP管理
 testing: SSECD-836 2
+feature: 控制面板
+role: 架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
