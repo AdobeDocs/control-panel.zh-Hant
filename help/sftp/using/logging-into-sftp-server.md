@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 登入您的 SFTP 伺服器
 description: 瞭解如何登入您的SFTP伺服器
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 6%
+source-wordcount: '352'
+ht-degree: 7%
 
 ---
 
@@ -16,11 +19,11 @@ ht-degree: 6%
 
 以下步驟詳細說明如何透過SFTP用戶端應用程式連接SFTP伺服器。
 
-![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](https://video.tv.adobe.com/v/27263?quality=12&captions=chi_hant)
+![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](https://video.tv.adobe.com/v/27263?quality=12)
 
 在登入伺服器之前，請確定：
 
-* 您的SFTP伺服器由Adobe **代管。**
+* 您的SFTP伺服器由Adobe **托管。**
 * 已為伺服器設定您的&#x200B;**使用者名稱**。您可以直接在「控制面板」中，從SFTP卡的&#x200B;**鍵管理**&#x200B;標籤中檢查此資訊。
 * 您有&#x200B;**專用和公用密鑰對**&#x200B;可登錄到SFTP伺服器。 有關如何添加SSH密鑰的詳細資訊，請參閱[本節](../../sftp/using/key-management.md)。
 * 您的&#x200B;**公用IP位址已新增至SFTP伺服器上的allow list**。 如果沒有，請參閱[本節](../../sftp/using/ip-range-allow-listing.md)以取得如何將IP範圍新增至允許清單的詳細資訊。
