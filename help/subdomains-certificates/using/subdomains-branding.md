@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
+feature: 控制面板
+role: 架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 79%
 
 ---
 
@@ -37,7 +40,7 @@ ht-degree: 0%
 
 ## 子網域配置方法{#subdomain-delegation-methods}
 
-子網域設定可讓您設定網域的子區段（技術上為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的設定方法有：
+子網域配置允許您配置域的子區域（技術上是「DNS區域」），以便與Adobe Campaign一起使用。 可用的設定方法有：
 
 * **將子網域完全委派給 Adobe Campaign**（建議）：子網域已完全委派給 Adobe。Adobe 可以控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的 DNS 的各個層面，以受管理的方式提供 Campaign。
 
@@ -52,7 +55,7 @@ ht-degree: 0%
 
 有關域配置的其他資訊，請參見本文檔](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)。[
 
-如果您對子網域配置方法有任何疑問，請聯絡Adobe Deliverability團隊，或最終聯絡客戶服務以要求提供性諮詢。
+如果您對子網域配置方法有任何疑問，請洽詢Adobe交付能力團隊，或最終聯絡客戶服務以要求交付能力諮詢。
 
 ## 子網域的使用案例(Campaign Classic){#subdomains-use-cases}
 
