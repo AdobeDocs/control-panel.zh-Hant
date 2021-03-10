@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1144'
 ht-degree: 47%
 
 ---
@@ -48,9 +51,9 @@ ht-degree: 47%
 
 ## 完全子網域委派{#full-subdomain-delegation}
 
-若要將子網域完全委派至Adobe Campaign，請遵循下列步驟。
+要將子域完全委派給Adobe Campaign，請執行以下步驟。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的生產執行個體，再按一下「**[!UICONTROL Setup new subdomain]**」。
 
@@ -60,13 +63,13 @@ ht-degree: 47%
 
    ![](assets/subdomain3.png)
 
-1. 在您組織使用的託管解決方案中，建立所需的子網域和名稱伺服器。若要這麼做，請複製並貼上精靈中顯示的 Adobe Nameserver 資訊。如需進一步瞭解如何在託管解決方案中建立子網域，請參考[教學課程影片](https://video.tv.adobe.com/v/30175?captions=chi_hant)。
+1. 在您組織使用的託管解決方案中，建立所需的子網域和名稱伺服器。若要這麼做，請複製並貼上精靈中顯示的 Adobe Nameserver 資訊。如需進一步瞭解如何在託管解決方案中建立子網域，請參考[教學課程影片](https://video.tv.adobe.com/v/30175)。
 
    ![](assets/subdomain4.png)
 
 1. 使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下「**[!UICONTROL Next]**」。
 
-1. 如果您選取了Campaign Classic例項，請為子網域選取所需的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 有關子域使用案例的全局概念在[本節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介紹。
+1. 如果您選擇了Campaign Classic實例，請為子域選擇所需的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 有關子域使用案例的全局概念在[本節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介紹。
 
    ![](assets/subdomain5.png)
 
@@ -82,7 +85,7 @@ ht-degree: 47%
 
 若要使用CNAME來設定子網域，請遵循下列步驟。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的生產執行個體，再按一下「**[!UICONTROL Setup new subdomain]**」。
 
@@ -92,7 +95,7 @@ ht-degree: 47%
 
    ![](assets/cname-method-selection.png)
 
-1. 如果您選取了Campaign Classic例項，請為子網域選取所需的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 有關子域使用案例的全局概念在[本節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介紹。
+1. 如果您選擇了Campaign Classic實例，請為子域選擇所需的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 有關子域使用案例的全局概念在[本節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介紹。
 
    ![](assets/cname-use-case.png)
 
@@ -120,7 +123,7 @@ ht-degree: 47%
 
 ## 子域檢查和配置{#subdomain-checks-and-configuration}
 
-1. 提交子域後，控制面板將檢查它是否正確指向Adobe NS記錄，以及此子域不存在授權開始(SOA)記錄。
+1. 提交子域後，控制面板將檢查它是否正確指向AdobeNS記錄，以及此子域不存在授權開始(SOA)記錄。
 
    >[!NOTE]
    >
