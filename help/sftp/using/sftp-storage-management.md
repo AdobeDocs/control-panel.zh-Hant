@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: SFTP 儲存空間管理
 description: 瞭解如何監視和管理您的 SFTP 伺服器儲存空間
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '356'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +27,7 @@ ht-degree: 0%
 
 您必須定期監視每個 SFTP 伺服器的可用空間，否則，您可能無法再在伺服器上儲存任何其他檔案，或是無法成功執行須依賴此伺服器更新的工作流程。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
 
 ## 存取儲存容量資訊{#accessing-storage-capacity-information}
 
