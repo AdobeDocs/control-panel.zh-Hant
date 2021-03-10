@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: 資料庫監視
 description: 瞭解如何在「控制面板」中監控您的Campaign資料庫
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 根據您的合約，您的每個促銷活動例項都會布建特定數量的資料庫空間。
 
-資料庫包含儲存在Adobe Campaign中的所有&#x200B;**assets**、**workflows**&#x200B;和&#x200B;**data**&#x200B;資料。
+資料庫包含儲存在Adobe Campaign的所有&#x200B;**資產**、**工作流程**&#x200B;和&#x200B;**資料**。
 
 隨著時間的推移，資料庫可以達到其最大容量，特別是如果儲存的資源從未從實例中刪除，或者如果有許多工作流處於暫停狀態。
 
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 ## 監視資料庫使用{#monitoring-instances-database}
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 「控制面板」可讓您監控每個促銷活動例項的資料庫使用情形。 若要這麼做，請開啟&#x200B;**[!UICONTROL Performance Monitoring]**&#x200B;卡片，然後選取&#x200B;**[!UICONTROL Databases]**&#x200B;標籤。
 
@@ -40,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請注意，此控制面板的資料會根據在您的促銷活動例項上執行的&#x200B;**[!UICONTROL Database cleanup technical workflow]**&#x200B;更新（請參閱[Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)和[Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)檔案）。
+>請注意，此控制面板的資料會根據在您的促銷活動例項上執行的&#x200B;**[!UICONTROL Database cleanup technical workflow]**&#x200B;更新(請參閱[Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows)和[Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)檔案)。
 >
 >您可以檢查工作流程上次在&#x200B;**[!UICONTROL Used Space]**&#x200B;和&#x200B;**[!UICONTROL Provided Space]**&#x200B;量度下執行的時間。 請注意，如果工作流程自3天以來尚未執行，我們建議聯絡Adobe客戶服務，以便他們調查工作流程未執行的原因。
 
@@ -100,7 +103,7 @@ ht-degree: 0%
 >
 >如果發現工作流有大量的表計數或資料庫大小，我們建議複查該工作流，以調查它為何生成如此多的資料。
 >
->本頁結尾也提供Campaign Standard和Classic資源，以協助您避免資料庫超載。
+>本頁末尾還提供Campaign Standard和傳統資源，以幫助您防止資料庫過載。
 
 **[!UICONTROL View all]**&#x200B;按鈕允許您訪問這些臨時資源的詳細資訊。
 
@@ -108,7 +111,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**[!UICONTROL Keep interim results]**&#x200B;欄中的值會指出促銷活動中是啟用(&quot;1&quot;)或停用(&quot;0&quot;)選項。 **[!UICONTROL Keep interim results]**&#x200B;選項可在工作流的屬性中訪問。 它可讓您儲存工作流程中各種活動之間轉換的結果（請參閱[Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html)和[Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)檔案）。
+>**[!UICONTROL Keep interim results]**&#x200B;欄中的值會指出促銷活動中是啟用(&quot;1&quot;)或停用(&quot;0&quot;)選項。 **[!UICONTROL Keep interim results]**&#x200B;選項可在工作流的屬性中訪問。 它允許您保存工作流中各種活動之間的轉換結果(請參見[Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html)和[Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)文檔)。
 >
 >如果為其中一個工作流啟用了該選項，則資料庫清理工作流將無法回收臨時結果佔用的空間。 因此，我們建議檢閱工作流程，以檢查選項是否可關閉。
 
@@ -121,15 +124,15 @@ Campaign Standard和Classic提供多種方法來防止資料庫磁碟空間過�
 **工作流程監控**
 
 * [工作流程最佳實務](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) (Campaign Standard)
-* [監控工作流程執行](https://docs.adobe.com/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
+* [監控工作流執行](https://docs.adobe.com/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
 
 **資料庫維護**
 
-* 資料庫清除技術工作流程([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* 資料庫清理技術工作流程([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [資料庫維護指南](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
-* [資料庫效能疑難排解](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
-* [資料庫相關選項](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
-* 資料保留率([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
+* [資料庫效能故障排除](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
+* [與資料庫相關的選項](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
+* 資料保留([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
 >[!NOTE]
 >
