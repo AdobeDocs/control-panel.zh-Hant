@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
+feature: 控制面板
+role: 架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '612'
 ht-degree: 93%
 
 ---
@@ -58,7 +61,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上未顯示「例項設定」卡片，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關聯
+   >如果「控制面板」的首頁上未顯示「例項設定」卡，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關
    >
    ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 
