@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 管理控制面板的權限
 description: 瞭解如何管理控制面板的權限
+feature: 控制面板
+role: 架構師
+level: 中級
 translation-type: tm+mt
-source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +29,7 @@ ht-degree: 0%
    >
    >如果<b>Administration</b>標籤不可見，表示您沒有組織的管理權限。 請連絡您的組織管理員以執行相關步驟。
 
-1. 按一下可用的連結，啟動&#x200B;**管理控制台**。
+1. 按一下可用連結啟動&#x200B;**Admin Console**。
 
    ![](assets/do-not-localize/control_panel_admin1.png)
 
@@ -60,7 +63,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一旦設定存取權，使用者就必須登出Adobe Experience Cloud再次登入，才能存取「控制面板」。
+>在設定存取權後，使用者必須登出Adobe Experience Cloud並重新登入，才能存取控制面板。
 
 ## 教學課程影片{#video}
 
