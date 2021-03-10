@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 續約子網域的 SSL 憑證
 description: 瞭解如何續約子網域的 SSL 憑證
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '862'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +39,7 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 1. **安裝 SSL 憑證**
 購買 SSL 憑證後，您就可以將它安裝在所需的子網域上。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別或促銷活動標 [準來](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 探索視 [訊中的這項功能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## 產生憑證簽署要求 (CSR){#generating-csr}
 
@@ -105,7 +108,7 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 購買 SSL 憑證後，您就可以將它安裝在您的執行個體上。繼續操作之前，請確定您已瞭解下列必要條件：
 
 * 憑證簽署要求 (CSR) 必須從「控制面板」產生。否則，您將無法從「控制面板」安裝憑證。
-* 憑證簽署要求(CSR)應符合已設定為可與Adobe搭配運作的子網域。 例如，它不能包含已配置的子網域。
+* 憑證簽署請求(CSR)應符合已設定為搭配Adobe運作的子網域。 例如，它不能包含已配置的子網域。
 * 憑證應具有目前日期。您不能安裝具有未來日期的憑證，也不應安裝過期的應憑證 (即有效的開始日期和結束日期)。
 * 憑證應由受信任的憑證機構 (CA) 核發，例如 Comodo、DigiCert、GoDaddy 等等。
 * 憑證大小應為 2048 位元，演算法應為 RSA。
