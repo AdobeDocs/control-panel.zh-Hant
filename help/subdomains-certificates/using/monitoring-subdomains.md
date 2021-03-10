@@ -3,18 +3,21 @@ product: campaign
 solution: Campaign
 title: 監視子網域的 SSL 憑證
 description: 瞭解如何監視子網域的 SSL 憑證
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '146'
+ht-degree: 17%
 
 ---
 
 
 # 監視子網域 {#monitoring-subdomains}
 
-您必須監控子網域，以確保所有子網域皆已正確設定，以搭配Adobe Campaign運作。
+必須監控子網域，以確保所有子網域都已正確設定，以便與Adobe Campaign搭配運作。
 
 選取&#x200B;**[!UICONTROL Subdomains & Certificates]**&#x200B;卡片時，可直接存取每個生產例項的子網域清單。
 
@@ -24,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有某些傳送能力問題。
+>Adobe不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有某些傳送性問題。
 
 啟動驗證時，會執行數個操作以檢查子網域的設定是否正確（例項租用戶檢查、電子郵件傳送測試等）
 
