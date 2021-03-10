@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: 關於效能監視
 description: 在「控制面板」中瞭解如何監控執行個體效能
+feature: 控制面板
+role: 架構師
+level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 14%
+source-wordcount: '116'
+ht-degree: 15%
 
 ---
 
