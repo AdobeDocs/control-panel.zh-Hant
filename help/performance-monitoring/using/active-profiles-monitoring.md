@@ -7,10 +7,10 @@ feature: 控制面板
 role: 架構師
 level: 經驗豐富
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
->
->此功能適用於 AWS 代管的客戶，這些客戶來自 Campaign Standard 10368 組建及 Campaign Classic 8931 組建。如果您使用舊版組建，則需進行升級，才能使用此功能。
+>從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。可從10368Campaign Standard版本獲得。
 
 根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。
 
