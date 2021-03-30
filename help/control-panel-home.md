@@ -6,10 +6,10 @@ feature: 控制面板
 role: 架構師
 level: 初學者
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,13 @@ ht-degree: 98%
 
 **資料庫監視增強功能**
 
-**[!UICONTROL Database monitoring]** 索引標籤已透過其他指標執行增強功能，允許您取得有關佔用資料庫空間的資源的詳細資訊。[詳細內容](performance-monitoring/using/database-monitoring.md)
+**[!UICONTROL Database monitoring]** 索引標籤已透過其他指標執行增強功能，允許您取得有關佔用資料庫空間的資源的詳細資訊。[顯示全文](performance-monitoring/using/database-monitoring.md)
+
+>[!NOTE]
+>
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
+>
+>對於Campaign Classic，請注意，您的實例必須裝載在AWS上，並使用最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)組建版本或[最新的GA組建版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)進行升級。 瞭解如何在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)中檢查您的版本。 要檢查您的實例是否托管在AWS上，請遵循本頁[中詳細介紹的步驟。](faq.md)
 
 ## 其他資源{#additional-resources}
 
