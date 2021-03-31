@@ -5,12 +5,12 @@ title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
 feature: 控制面板
 role: 架構師
-level: 中級
+level: 中繼
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 93%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 **相關主題：**
 
 * [設定 Campaign 伺服器](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [傳出連線的保護](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [傳出連線的保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## 最佳實務{#best-practices}
 
