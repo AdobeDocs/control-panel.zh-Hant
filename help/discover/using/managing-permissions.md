@@ -5,9 +5,9 @@ title: 管理控制面板的權限
 description: 瞭解如何管理控制面板的權限
 feature: 控制面板
 role: 架構師
-level: 中級
+level: 中繼
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 「控制面板」可供「促銷活動」例項的所有管理員使用者使用。 請依照下列步驟，將使用者指派給「管理員」群組，並授與他們「控制面板」的存取權。
 
-![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](#video)
+![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](../../discover/using/managing-permissions.md#video)
 
 1. 導覽至[Adobe Experience Cloud](https://experiencecloud.adobe.com/)，然後選取&#x200B;**[!UICONTROL Administration]**&#x200B;標籤。
 
