@@ -10,15 +10,15 @@ tutorials-url: https://docs.adobe.com/content/help/zh-Hant/campaign-standard-lea
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.zh-Hant
 index: true
 feature: 控制面板
-role: 架構師
-level: 初學者
-translation-type: tm+mt
+role: Architect
+level: Beginner
+translation-type: ht
 source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
-workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '35'
+ht-degree: 100%
 
 ---
 
 
-# 控制面板的元數據
+# 控制面板的中繼資料
