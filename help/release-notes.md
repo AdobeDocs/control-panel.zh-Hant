@@ -2,17 +2,18 @@
 product: campaign
 solution: Campaign
 title: 「控制面板」發行版本
+description: 最新控制面板版本注意事項。
 feature: 控制面板
-role: 架構師
-level: 初學者
+role: Architect
+level: Beginner
+exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 translation-type: tm+mt
-source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
+source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
-
 
 # 「控制面板」發行版本{#control-panel-releases}
 
@@ -20,9 +21,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
->對於Campaign Classic，請注意，您的實例必須裝載在AWS上，並使用最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)組建版本或[最新的GA組建版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)進行升級。 瞭解如何在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)中檢查您的版本。 要檢查您的實例是否托管在AWS上，請遵循本頁[中詳細介紹的步驟。](faq.md)
+>關於 Campaign Classic，請注意您的執行個體必須託管在 AWS 上，並更新至最新的 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hant)建置版本或[最新的 GA 建置版本 (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant#release-notes)。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
 
 ## 2020 年 10 月 {#october-2020}
 
