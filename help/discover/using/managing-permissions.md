@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 管理控制面板的權限
 description: 瞭解如何管理控制面板的權限
-feature: 控制面板
-role: 架構師
-level: 中繼
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

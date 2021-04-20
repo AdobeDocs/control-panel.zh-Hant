@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 探索「控制面板」介面
 description: 進一步瞭解控制面板介面
-feature: 控制面板
-role: 架構師
-level: 中級
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

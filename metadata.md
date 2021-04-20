@@ -5,7 +5,7 @@ solution: Campaign
 feature-set: Campaign
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.zh-Hant
 index: true
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: tm+mt

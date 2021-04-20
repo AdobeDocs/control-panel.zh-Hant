@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 電子郵件警報
 description: 瞭解如何在您的促銷活動例項發生問題時接收電子郵件通知
-feature: 控制面板
-role: 架構師
-level: 經驗豐富
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

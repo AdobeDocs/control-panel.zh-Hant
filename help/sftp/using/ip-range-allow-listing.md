@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: IP 範圍允許清單
 description: 瞭解如何將 IP 範圍新增至允許清單，以便存取 SFTP 伺服器
-feature: 控制面板
-role: 架構師
-level: 經驗豐富
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

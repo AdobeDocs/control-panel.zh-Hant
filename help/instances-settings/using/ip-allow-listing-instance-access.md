@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: IP 允許清單
 description: 瞭解如何將 IP 位址新增至「控制面板」中的允許清單，以便存取執行個體
-feature: 控制面板
-role: 架構師
-level: 中級
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

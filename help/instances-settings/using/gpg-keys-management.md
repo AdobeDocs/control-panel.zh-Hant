@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: GPG 金鑰管理
 description: 瞭解如何管理GPG金鑰，以在Adobe Campaign加密和解密資料。
-feature: 控制面板
-role: 架構師
-level: 經驗豐富
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

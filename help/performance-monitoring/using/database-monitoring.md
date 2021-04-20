@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: 資料庫監視
 description: 瞭解如何在控制面板監視 Campaign 資料庫
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e

@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: 存取「控制面板」
 description: 瞭解如何存取「控制面板」
-feature: 控制面板
-role: 架構師
-level: 初學者
+feature: Control Panel
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
