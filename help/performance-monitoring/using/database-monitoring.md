@@ -3,15 +3,15 @@ product: campaign
 solution: Campaign
 title: 資料庫監視
 description: 瞭解如何在控制面板監視 Campaign 資料庫
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->如果控制面板中所顯示提供的資料庫空間量未反映合約的指定數量，請聯絡客戶服務。
+>如果控制面板中顯示的可用資料庫空間量無法反映合約中指定的數量，請聯絡客戶服務。
 
 ## 監視資料庫使用情況{#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 >
 >請注意，此儀表板的資料會根據在您的 Campaign 執行個體上執行的 **[!UICONTROL Database cleanup technical workflow]** 更新 (請參閱 [Campaign Standard](https://docs.adobe.com/help/zh-Hant/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) 和 [Campaign Classic](https://docs.adobe.com/help/zh-Hant/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) 文件)。
 >
->傳統上您可以確認，當其中一個資料庫到達其 c 值時，即上次工作流程執行在 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 的度量之下，您會收到通知。請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
+>此外，當您的其中一個資料庫在工作流程在&#x200B;**[!UICONTROL Used Space]**&#x200B;和&#x200B;**[!UICONTROL Provided Space]**&#x200B;量度下方執行時，您會收到通知。 請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
 
 此儀表板提供其他度量，說明如下，以協助您分析執行個體資料庫的使用狀況。
 
@@ -105,11 +105,13 @@ ht-degree: 100%
 
 ![](assets/database-top10-view.png)
 
->[!NOTE]
+**[!UICONTROL Keep interim results]** 欄中的值表示選項在 Campaign 中為啟用 (&quot;1&quot;) 或停用 (&quot;0&quot;)。 此選項允許您保存工作流中各種活動之間的轉換結果(請參見[Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html)和[Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)文檔)。
+
+>[!IMPORTANT]
 >
->**[!UICONTROL Keep interim results]** 欄中的值表示選項在 Campaign 中為啟用 (&quot;1&quot;) 或停用 (&quot;0&quot;)。 可在工作流程的屬性中存取 **[!UICONTROL Keep interim results]** 選項。 它讓您可在工作流程各種活動之間儲存轉換的結果 (請參見[Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) 和 [Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) 文件)。
+>在生產工作流程中，不得勾選此選項。 它用於分析結果，僅用於測試，因此只能用於開發或測試環境。
 >
->如果您其中一個工作流程已啟用此選項，則資料庫清理工作流程將無法回收臨時結果所消耗的空間。因此，我們建議您檢視工作流程，以檢查是否可以關閉該選項。
+>如果「控制面板」中的值表示您的其中一個工作流程已啟用此選項，我們強烈建議在「促銷活動」中關閉它。
 
 ## 防止資料庫超過負荷{#preventing-database-overload}
 
@@ -124,7 +126,7 @@ Campaign Standard 和 Classic 提供多種方法來防止過度消耗資料庫�
 
 **維護資料庫**
 
-* 清理資料庫的技術工作流程 ([Campaign Standard](https://docs.adobe.com/help/zh-Hant/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/zh-Hant/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* 清理資料庫的技術工作流程 ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [資料庫維護指南](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [針對資料庫效能進行疑難排解](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=zh-Hant) (Campaign Classic)
 * [資料庫的相關選項](https://docs.adobe.com/help/zh-Hant/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
