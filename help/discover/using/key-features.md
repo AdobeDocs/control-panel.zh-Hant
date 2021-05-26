@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: 存取「控制面板」
 description: 瞭解如何存取「控制面板」
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
+exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
+source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '316'
+ht-degree: 87%
 
 ---
-
 
 # 主要功能{#key-features}
 
@@ -33,9 +32,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)中。
+>「控制面板」僅限管理員使用者使用。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
->對於Campaign Classic，請注意，您的實例必須裝載在AWS上，並使用最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)組建版本或[最新的GA組建版本(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)進行升級。 瞭解如何在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version)中檢查您的版本。 要檢查您的實例是否托管在AWS上，請遵循本頁[中詳細介紹的步驟。](../../faq.md)
+>若為Campaign Classic，請注意，您的執行個體必須托管在Amazon網站服務(AWS)上，並升級至最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)組建。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md)詳述的步驟操作。
 
 <table style="table-layout:fixed">
 <tr>
