@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->* 「控制面板」僅限管理員使用者使用。 [瞭解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
+>* 控制面板僅限管理員使用者存取。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
    >
    >
-* 若為Campaign Classic，請注意，您的執行個體必須托管在Amazon網站服務(AWS)上，並升級至最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses)組建。 在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)了解如何檢查您的Campaign Classic版本。 要檢查您的Campaign Classic實例是否托管在AWS上，請按照[本頁](faq.md)中詳述的步驟操作。
+* 若為 Campaign Classic，請注意，您的執行個體必須託管於 Amazon Web Services (AWS)上，並升級至最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 版本。於[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。若要檢查您的 Campaign Classic 執行個體是否託管於 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
 
 
-## 其他資源{#additional-resources}
+## 其他資源 {#additional-resources}
 
 <table>
     <tr>
