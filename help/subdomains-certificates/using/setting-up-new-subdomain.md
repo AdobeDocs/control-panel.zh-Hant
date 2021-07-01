@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
-# 設定新的子網域{#setting-up-subdomain}
+# 設定新的子網域 {#setting-up-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_management"
@@ -49,7 +48,7 @@ ht-degree: 100%
 
 此外，**請勿為此新子網域建立個別的區域檔案**。
 
-## 完全子網域委派{#full-subdomain-delegation}
+## 完全子網域委派 {#full-subdomain-delegation}
 
 若要將子網域完全委派給 Adobe Campaign，請執行以下步驟。
 
@@ -65,6 +64,10 @@ ht-degree: 100%
 
 1. 在您組織使用的託管解決方案中，建立所需的子網域和名稱伺服器。若要這麼做，請複製並貼上精靈中顯示的 Adobe Nameserver 資訊。如需進一步瞭解如何在託管解決方案中建立子網域，請參考[教學課程影片](https://video.tv.adobe.com/v/30175)。
 
+   >[!NOTE]
+   >
+   > 若是Adobe Campaign Standard例項，子網域可讓您傳送行銷和交易通訊。
+
    ![](assets/subdomain4.png)
 
 1. 在使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下 **[!UICONTROL Next]**。
@@ -73,15 +76,15 @@ ht-degree: 100%
 
    ![](assets/subdomain5.png)
 
-1. 輸入您建立到託管解決方案的子網域，再按一下「**[!UICONTROL Submit]**」。
+1. 輸入您建立到託管解決方案的子網域，再按一下 **[!UICONTROL Submit]**。
 
    請務必填寫要委派之子網域的&#x200B;**完整名稱**。舉例來說，若要委派「usoffers.email.weretail.com」子網域，請輸入「usoffers.email.weretail.com」。
 
    ![](assets/subdomain6.png)
 
-在提交子網域後，控制面板將執行各種檢查及設定步驟。 更鍋詳細資訊，請參閱[子網域檢查及設定](#subdomain-checks-and-configuration)。
+在提交子網域後，控制面板將執行各種檢查及設定步驟。 詳細資訊，請參閱[子網域確認和設定](#subdomain-checks-and-configuration)。
 
-## 利用 CNAME 設定子網域{#use-cnames} 
+## 利用 CNAME 設定子網域 {#use-cnames}
 
 若要使用 CNAME 來設定子網域，請遵循下列步驟。
 
@@ -95,7 +98,7 @@ ht-degree: 100%
 
    ![](assets/cname-method-selection.png)
 
-1. 如果您選擇了 Campaign Classic 執行個體，請為子網域選擇想要的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 有關子網域使用案例的全域概念在[本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)中介紹。
+1. 如果您選擇了 Campaign Classic 執行個體，請為子網域選擇想要的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
 
    ![](assets/cname-use-case.png)
 
@@ -121,7 +124,7 @@ ht-degree: 100%
 
 在提交子網域後，控制面板將執行各種檢查及設定步驟。 詳細資訊，請參閱[子網域確認和設定](#subdomain-checks-and-configuration)。
 
-## 子網域確認和設定{#subdomain-checks-and-configuration}
+## 子網域確認和設定 {#subdomain-checks-and-configuration}
 
 1. 提交子網域後，「控制面板」會確認它是否正確指向 Adobe NS 記錄，以及此子網域不存在開始授權 (SOA) 記錄。
 
@@ -159,7 +162,7 @@ ht-degree: 100%
 
 ![](assets/sender_info.png)
 
-## 疑難排解{#troubleshooting}
+## 疑難排解 {#troubleshooting}
 
 * 在某些情況下，子網域會完成設定，但可能無法成功驗證子網域。會將子網域持續列在 **[!UICONTROL Configured]** 清單中，而且會包含作業記錄，其中會提供關於錯誤的資訊。如果您無法解決問題，請聯絡客戶服務。
 * 如果在設定後，子網域顯示為「未驗證」，請啟動新的子網域驗證　(**...** / **[!UICONTROL Verify subdomain]**)。如果它仍顯示相同的狀態，原因可能是對收件者架構進行某些自訂，而無法使用標準流程進行驗證。請嘗試使用該子網域傳送行銷活動。
