@@ -3,25 +3,24 @@ product: campaign
 solution: Campaign
 title: 作用中設定檔監控
 description: 瞭解如何取得每個 Campaign 執行個體之最新和歷史「作用中設定檔」使用量和演化的即時資訊。
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '365'
+ht-degree: 92%
 
 ---
 
-
-# 作用中設定檔監控{#active-profiles-monitoring}
+# 作用中設定檔監控 {#active-profiles-monitoring}
 
 ## 關於作用中設定檔 {#about-active-profiles}
 
 >[!IMPORTANT]
 >
->從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。可從10368Campaign Standard版本獲得。
+>從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。可從Campaign Standard10368版本編號取得。
 
 根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。
 
@@ -33,7 +32,7 @@ ht-degree: 0%
 >
 >Facebook 和 Twitter 通路不包含在內。
 
-如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 文件。
+有關活動配置檔案的詳細資訊，請參閱[Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文檔。
 
 ## 監視作用中設定檔 {#monitoring-active-profiles}
 
