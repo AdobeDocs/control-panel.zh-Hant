@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: 續約子網域的 SSL 憑證
 description: 瞭解如何續約子網域的 SSL 憑證
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 90%
+source-wordcount: '868'
+ht-degree: 93%
 
 ---
 
-
-# 續約子網域的 SSL 憑證{#renewing-subdomains-ssl-certificates}
+# 續約子網域的 SSL 憑證 {#renewing-subdomains-ssl-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
@@ -24,11 +23,13 @@ ht-degree: 90%
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="產生憑證簽署要求 (CSR)"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="如何安裝 SSL 憑證"
 
-## 關於憑證續約{#about-certificate-renewal-process}
+## 關於憑證續約 {#about-certificate-renewal-process}
 
 >[!IMPORTANT]
 >
->「控制面板」的子網域設定提供測試版，而且必須經常更新和修改，恕不另行通知。
+>從「控制面板」設定子網域的功能在測試版中提供，且會不定期更新和修改，恕不另行通知。
+>
+>此功能不適用於Campaign v8。
 
 SSL 憑證續約流程包含 3 個步驟：
 
@@ -39,9 +40,9 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 1. **安裝 SSL 憑證**
 購買 SSL 憑證後，您就可以將它安裝在所需的子網域上。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates) 在影片中瞭解此功能
 
-## 產生憑證簽署要求 (CSR){#generating-csr}
+## 產生憑證簽署要求 (CSR) {#generating-csr}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
@@ -93,11 +94,11 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
    >
    >如果 CSR 並未儲存/下載，CSR 則會遺失，且您必須重新產生 CSR。
 
-## 與 CSR 購買憑證{#purchasing-certificate}
+## 與 CSR 購買憑證 {#purchasing-certificate}
 
 從「控制面板」取得「憑證簽署要求 CSR」後，請向貴組織核准的憑證機構購買 SSL 憑證。
 
-## 安裝 SSL 憑證{#installing-ssl-certificate}
+## 安裝 SSL 憑證 {#installing-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
@@ -108,7 +109,7 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 購買 SSL 憑證後，您就可以將它安裝在您的執行個體上。繼續操作之前，請確定您已瞭解下列必要條件：
 
 * 憑證簽署要求 (CSR) 必須從「控制面板」產生。否則，您將無法從「控制面板」安裝憑證。
-* 憑證簽署請求(CSR)應符合已設定為搭配Adobe運作的子網域。 例如，它不能包含已配置的子網域。
+* 憑證簽署要求(CSR)應符合已設定為可搭配Adobe使用的子網域。 例如，它不能包含已設定的子網域。
 * 憑證應具有目前日期。您不能安裝具有未來日期的憑證，也不應安裝過期的應憑證 (即有效的開始日期和結束日期)。
 * 憑證應由受信任的憑證機構 (CA) 核發，例如 Comodo、DigiCert、GoDaddy 等等。
 * 憑證大小應為 2048 位元，演算法應為 RSA。
