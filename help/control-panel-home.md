@@ -5,10 +5,10 @@ feature: 控制面板
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 88%
+source-wordcount: '225'
+ht-degree: 83%
 
 ---
 
@@ -32,6 +32,9 @@ ht-degree: 88%
    >
    >
 * 若是Campaign Classicv7，請注意您的執行個體必須托管於Amazon網站服務(AWS)，並升級至最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses)組建。 於[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。若要檢查您的 Campaign Classic 執行個體是否託管於 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
+   >
+   >
+* Campaign v8無法使用下列功能：子網域管理和憑證管理。
 
 
 ## 其他資源 {#additional-resources}
