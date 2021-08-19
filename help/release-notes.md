@@ -2,20 +2,19 @@
 product: campaign
 solution: Campaign
 title: 「控制面板」發行版本
-description: 最新控制面板版本注意事項。
-feature: Control Panel
+description: 最新「控制面板」發行說明。
+feature: 控制面板
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: tm+mt
-source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 91%
 
 ---
 
-# 「控制面板」發行版本{#control-panel-releases}
+# 「控制面板」發行版本 {#control-panel-releases}
 
 您可以在此處找到最新「控制面板」發行版本的資訊。
 
@@ -23,7 +22,7 @@ ht-degree: 95%
 >
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
->關於 Campaign Classic，請注意您的執行個體必須託管在 AWS 上，並更新至最新的 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hant)建置版本或[最新的 GA 建置版本 (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant#release-notes)。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
+>對於Campaign Classicv7，請注意，您的執行個體必須托管在AWS上，並升級為最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hant)組建或最新的[GA組建(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant#release-notes)。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
 
 ## 2020 年 10 月 {#october-2020}
 
@@ -33,7 +32,7 @@ ht-degree: 95%
 
 **資料庫監視增強功能**
 
-資料庫監控已通過其他度量得到增強，這些度量允許您獲取有關佔用資料庫空間的資源的詳細資訊。 [詳細內容](performance-monitoring/using/database-monitoring.md)
+資料庫監視已通過其他度量得到增強，這些度量允許您獲取有關佔用資料庫空間的資源的詳細資訊。 [顯示全文](performance-monitoring/using/database-monitoring.md)
 
 ## 2020 年 6 月 {#june-2020}
 
@@ -59,7 +58,7 @@ ht-degree: 95%
 
 「控制面板」現在可讓您續約已透過 CNAME 方法設定之子網域的 SSL 憑證。[顯示全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-## 2020 年 4 月{#april-2020}
+## 2020 年 4 月 {#april-2020}
 
 **Google TXT 記錄管理**
 
@@ -73,21 +72,21 @@ Campaign「控制面板」具備資料庫監視功能，可讓您隨選及隨時
 
 Campaign「控制面板」具備即時電子郵件警報功能，可讓您登入「控制面板」並註冊接收警報。當您的系統存在效能降低的風險，或是需要採取行動來確保日後提供高效能的時候，您就會收到警報。[詳細內容](performance-monitoring/using/email-alerting.md)
 
-## 2020 年 1 月{#january-2020}
+## 2020 年 1 月 {#january-2020}
 
 *2020 年 1 月 22 日*
 
 我們已新增管理員使用者的功能，讓他們從「控制面板」設定子網域並續約 SSL 憑證。
 
 如需詳細資訊，請參閱以下頁面：
-* [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [設定新的子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
 * [續約子網域的 SSL 憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 >[!IMPORTANT]
 >
 >這些功能將會在測試版中提供，且可能會不時更新和修改，恕不另行通知。
 
-## 2019 年 9 月{#september-2019}
+## 2019 年 9 月 {#september-2019}
 
 *2019 年 9 月 16 日*
 
@@ -96,13 +95,13 @@ Campaign「控制面板」具備即時電子郵件警報功能，可讓您登入
 
 如需詳細資訊，請參閱[專屬文件](instances-settings/using/ip-allow-listing-instance-access.md)。
 
-## 2019 年 8 月{#august-2019}
+## 2019 年 8 月 {#august-2019}
 
 我們已新增管理員使用者的功能，讓他們在其網域的 SSL 憑證到期之前收到通知。如需詳細資訊，請參閱[詳細文件](subdomains-certificates/using/monitoring-ssl-certificates.md)。
 
 此外，管理員使用者現在可以刪除已新增用於來存取 SFTP 伺服器的 SSH 金鑰。
 
-## 2019 年 7 月{#july-2019}
+## 2019 年 7 月 {#july-2019}
 
 我們已新增管理員使用者的功能，讓他們對 Campaign Classic 執行個體設定有更全面的控制。全新的「控制面板」功能包括新增與 Adobe Campaign 連線的 URL，以進行資料/檔案傳輸。
 
