@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: IP 允許清單
 description: 瞭解如何將 IP 位址新增至「控制面板」中的允許清單，以便存取執行個體
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 94%
+source-wordcount: '770'
+ht-degree: 91%
 
 ---
-
 
 # IP 允許清單 {#ip-allow-listing}
 
@@ -27,9 +26,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->此功能僅適用於 Campaign Classic 執行個體。
+>此功能僅適用於Campaign Classicv7和Campaign v8執行個體。
 
-依預設，您的 Adobe Campaign Classic 執行個體無法從各種 IP 位址進行存取。
+依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
 如果您的 IP 位址尚未新增至允許清單，您就無法從此位址登入執行個體。同樣地，如果 IP 位址尚未與該執行個體明確地新增至允許清單，您可能無法將 API 連結到您的 Message Center 或行銷執行個體。
 
@@ -39,7 +38,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
-## 最佳實務{#best-practices}
+## 最佳實務 {#best-practices}
 
 在「控制面板」上，將 IP 位址新增至允許清單，請務必遵循下列建議和限制。
 
@@ -60,7 +59,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上未顯示「例項設定」卡，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關
+   >如果「控制面板」首頁上未顯示「執行個體設定」卡片，表示您的IMS組織ID未與任何Adobe Campaign Classic執行個體建立關聯
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -83,7 +82,7 @@ ht-degree: 94%
 
 1. 指定要授予 IP 位址的存取類型：
 
-   * **[!UICONTROL Campaign Console Access]**：IP 位址可連線至 Campaign Classic Console。請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
+   * **[!UICONTROL Campaign Console Access]**:IP位址可連線至Campaign用戶端主控台。請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
    * **[!UICONTROL AEM connection]**：指定的 AEM IP 位址可以連線至行銷執行個體。
    * **[!UICONTROL External API connection]**：具有指定 IP 位址的外部 API 可以連線至行銷和/或 Message Center (RT) 執行個體。請注意，系統並未啟用與 RT 執行個體控制台的連線。
 
