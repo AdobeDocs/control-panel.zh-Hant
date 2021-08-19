@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 80%
 
 ---
 
-
-# 子網域名稱{#subdomains-branding}
+# 子網域名稱 {#subdomains-branding}
 
 >[!CONTEXTUALHELP]
 >id="cp_certificate_management"
@@ -23,11 +22,14 @@ ht-degree: 79%
 >abstract="監視您的子網域和相關聯的 SSL 憑證。"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何監視子網域的 SSL 憑證"
 
-## 為什麼要設定子網域？{#why-setting-up-subdomains}
+
+## 為什麼要設定子網域？ {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->「控制面板」的子網域設定提供測試版，而且必須經常更新和修改，恕不另行通知。
+>從「控制面板」設定子網域的功能在測試版中提供，且會不定期更新和修改，恕不另行通知。
+>
+>此功能不適用於Campaign v8。
 
 子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
@@ -38,9 +40,9 @@ ht-degree: 79%
 
 您可以藉此維護網域和其他子網域的信譽。舉例來說，如果「marketing.mybrand.com」子網域因傳遞能力不佳，而被網際網路服務提供者新增至封鎖清單，如此就能防止整個「mybrand.com」網域和「info.mybrand.com」子網域被新增至封鎖清單。
 
-## 子網域配置方法{#subdomain-delegation-methods}
+## 子網域設定方法 {#subdomain-delegation-methods}
 
-子網域配置允許您配置域的子區域（技術上是「DNS區域」），以便與Adobe Campaign一起使用。 可用的設定方法有：
+子網域設定可讓您設定網域的子區段（技術上稱為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的設定方法有：
 
 * **將子網域完全委派給 Adobe Campaign**（建議）：子網域已完全委派給 Adobe。Adobe 可以控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的 DNS 的各個層面，以受管理的方式提供 Campaign。
 
@@ -53,13 +55,13 @@ ht-degree: 79%
 | **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
-有關域配置的其他資訊，請參見本文檔](https://helpx.adobe.com/tw/campaign/kb/domain-name-delegation.html)。[
+有關域配置的其他資訊，請參見本文檔](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)。[
 
-如果您對子網域配置方法有任何疑問，請洽詢Adobe交付能力團隊，或最終聯絡客戶服務以要求交付能力諮詢。
+若您對子網域設定方法有任何疑問，請聯絡Adobe傳遞團隊，或最終聯絡客戶服務以要求傳遞能力諮詢。
 
 ## 子網域的使用案例(Campaign Classic){#subdomains-use-cases}
 
-為Campaign Classic實例設定子域時，需要選擇將使用子域的使用案例（請參閱[設定新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
+為Campaign Classic實例設定子域時，需要選擇要使用子域的使用案例（請參閱[設定新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
 
 可能的使用案例包括：
 
@@ -80,5 +82,5 @@ ht-degree: 79%
 
 **相關主題：**
 
-* [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [設定新的子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
