@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
-
-# URL 權限{#url-permissions}
+# URL 權限 {#url-permissions}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_urlpermissions"
@@ -23,13 +22,13 @@ ht-degree: 91%
 >abstract="管理您的 Adobe Campaign 執行個體可連至的 URL。"
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
-## 關於 URL 權限{#about-url-permissions}
+## 關於 URL 權限 {#about-url-permissions}
 
 >[!IMPORTANT]
 >
->此功能僅適用於 8850 組建的 Campaign Classic 執行個體。如果您使用舊版組建，則需進行升級，才能使用此功能。
+>此功能僅適用於8850組建版本的Campaign v8和Campaign Classicv7執行個體。 如果您使用舊版組建，則需進行升級，才能使用此功能。
 
-可由您的 Campaign Classic 執行個體的 JavaScript 程式碼 (工作流程等等) 呼叫之預設 URL 清單有限。這些是可讓您的執行個體正常運作的 URL。
+可由您的 Campaign Classic 執行個體的 JavaScript 程式碼 (工作流程等等) 呼叫之預設 URL 清單限制。 這些是可讓您的執行個體正常運作的 URL。
 
 依預設，執行個體不得連線到外部 URL。「控制面板」可讓您將一些外部 URL 新增至授權 URL 清單，以便您的執行個體可以連結到這些 URL。這可讓您將 Campaign 執行個體連結到外部系統，例如 SFTP 伺服器或網站，以啟用檔案和/或資料傳輸。
 
@@ -42,13 +41,13 @@ ht-degree: 91%
 * [設定 Campaign 伺服器](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [傳出連線的保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
-## 最佳實務{#best-practices}
+## 最佳實務 {#best-practices}
 
 * 請勿將您的 Campaign 執行個體連結到您不想連結的網站/伺服器。
 * 刪除您不再使用的 URL。不過請注意，如果您公司的其他區域仍然連線到您刪除的 URL，則沒有人能再使用它。
 * 「控制面板」支援 **http**、**https** 和 **sftp** 通訊協定。輸入無效的 URL 或通訊協定將會導致錯誤。
 
-## 管理 URL 權限{#managing-url-permissions}
+## 管理 URL 權限 {#managing-url-permissions}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
@@ -61,7 +60,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上未顯示「例項設定」卡，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關
+   >如果「控制面板」首頁上未顯示「執行個體設定」卡片，表示您的IMS組織ID未與任何Adobe Campaign執行個體建立關聯
    >
    ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 
@@ -95,7 +94,7 @@ ht-degree: 91%
 
 請注意，如果您刪除 URL，您的執行個體就無法再呼叫它。
 
-## 常見問題{#common-questions}
+## 常見問題 {#common-questions}
 
 **我新增了新的 URL，但我執行個體仍然無法連線至該 URL。為什麼？**
 
