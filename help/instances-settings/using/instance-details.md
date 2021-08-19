@@ -3,19 +3,18 @@ product: campaign
 solution: Campaign
 title: 執行個體詳細資訊
 description: 瞭解如何監視「控制面板」的執行個體詳細資訊
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
-
-# 執行個體詳細資訊{#instance-details}
+# 執行個體詳細資訊 {#instance-details}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
@@ -24,13 +23,13 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 發行說明"
 >additional-url="https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 發行說明"
 
-## 關於執行個體詳細資訊{#about-instance-details}
+## 關於執行個體詳細資訊 {#about-instance-details}
 
 >[!IMPORTANT]
 >
->此功能僅適用於 Campaign Classic 執行個體。
+>此功能僅適用於Campaign Classicv7和Campaign v8執行個體。
 
-您的 Adobe Campaign Classic 執行個體架構可以包含數個伺服器，以便提供行銷活動的彈性。例如，您可以有行銷、即時 (或 Message Center) 和 Mid Sourcing 伺服器以支援您的執行個體。
+您的 Adobe Campaign 執行個體架構可以包含數個伺服器，以便提供行銷活動的彈性。例如，您可以有行銷、即時 (或 Message Center) 和 Mid Sourcing 伺服器以支援您的執行個體。
 
 「執行個體詳細資訊」功能可讓您檢視執行個體的平面架構。除了伺服器資訊外，它還讓您知道執行個體版本編號是否為最新版本，並會視需要建議升級。
 
@@ -43,7 +42,7 @@ ht-degree: 94%
 * [執行版本編號升級](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
 * [更新 Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
-## 擷取關於執行個體的資訊{#retrieving-information-about-instances}
+## 擷取關於執行個體的資訊 {#retrieving-information-about-instances}
 
 若要獲得與您執行個體連結的資訊，請執行以下步驟：
 
@@ -51,9 +50,9 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上未顯示「例項設定」卡，表示您的IMS組織ID與任何Adobe Campaign Classic例項不相關
+   >如果「控制面板」首頁上未顯示「執行個體設定」卡片，表示您的IMS組織ID未與任何Adobe Campaign Classic執行個體建立關聯
 
-1. 在左窗格中，選取所需的 Campaign Classic 執行個體。
+1. 在左窗格中，選取所需的 Campaign 執行個體。
 
    >[!NOTE]
    >
@@ -75,7 +74,7 @@ ht-degree: 94%
 
 如果您的其中一台伺服器需要升級，請參閱[本文件](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)以瞭解如何處理的詳細資訊。
 
-## 常見問題{#common-questions}
+## 常見問題 {#common-questions}
 
 **我在執行個體架構上沒有看到 MID 伺服器，是否代表我的執行個體無法正常運作？我是否需要 RT 執行個體才能做到今天無法做到的事？**
 
