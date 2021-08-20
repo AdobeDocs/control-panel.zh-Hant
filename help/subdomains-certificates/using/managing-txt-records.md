@@ -7,7 +7,7 @@ feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 92%
@@ -21,11 +21,11 @@ ht-degree: 92%
 >title="管理 TXT 記錄"
 >abstract="部分服務 (例如 Google) 會要求您在網域設定中新增 TXT 記錄，以驗證您擁有該網域。"
 
+## 關於 TXT 記錄 {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >此功能不適用於Campaign v8。
-
-## 關於 TXT 記錄 {#about-txt-records}
 
 TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。
 
