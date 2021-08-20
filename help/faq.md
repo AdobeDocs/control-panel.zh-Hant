@@ -3,21 +3,20 @@ product: campaign
 solution: Campaign
 title: 「控制面板」常見問答集
 description: 與「控制面板」相關的常見問題
-feature: Control Panel
+feature: 控制面板
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 常見問答集{#faq}
+# 常見問答集 {#faq}
 
-## IMS 組織 ID{#ims-org-id}
+## IMS 組織 ID {#ims-org-id}
 
 **什麼是 IMS 組織 ID？**
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 **我可以在哪裡找到我的 IMS 組織 ID？**
 
-一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)中找到更多詳細資訊。
+一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)中找到更多詳細資訊。
 
 另一種方式是啟動 **Admin Console**。您的 IMS 組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
@@ -89,7 +88,7 @@ ht-degree: 100%
 >
 >如果您想要移轉到 AWS，請聯絡您的客戶成功經理以展開程序。
 
-## 控制面板{#control-panel}
+## 控制面板 {#control-panel}
 
 **什麼是「控制面板」？**
 
@@ -100,6 +99,10 @@ ht-degree: 100%
 「控制面板」可讓您追蹤儲存情形、將 IP 新增至允許清單，以及根據您的需求自行管理 SFTP 的 SSH 金鑰並執行其他動作。
 
 有關詳細資訊，請參閱「控制面板」支援的動作文件。
+
+**Campaign v8不支援哪些功能，但Campaign Classicv7可提供哪些功能**
+
+Campaign v8上的「控制面板」目前尚不支援子網域和憑證管理相關功能。 如需任何相關支援，請聯絡Campaign客戶服務。
 
 **「控制面板」是否只適用於 Adobe Campaign？**
 
