@@ -5,10 +5,10 @@ feature: 控制面板
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 83%
+source-wordcount: '192'
+ht-degree: 76%
 
 ---
 
@@ -26,15 +26,15 @@ ht-degree: 83%
 
 **[!UICONTROL Database monitoring]** 索引標籤已透過其他指標執行增強功能，允許您取得有關佔用資料庫空間的資源的詳細資訊。[顯示全文](performance-monitoring/using/database-monitoring.md)
 
->[!NOTE]
+>[!CAUTION]
 >
->* 控制面板僅限管理員使用者存取。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+>* 控制面板僅限管理員使用者存取。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)
    >
    >
-* 若是Campaign Classicv7，請注意您的執行個體必須托管於Amazon網站服務(AWS)，並升級至最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses)組建。 於[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。若要檢查您的 Campaign Classic 執行個體是否託管於 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
+* 若為Campaign Classicv7，則套用部署限制。 [深入瞭解](faq.md#v7-restrictions)
    >
    >
-* Campaign v8無法使用下列功能：子網域管理和憑證管理。
+* 若為Campaign v8，則無法使用部分功能。 [深入瞭解](faq.md#v8-restrictions)
 
 
 ## 其他資源 {#additional-resources}
@@ -47,10 +47,16 @@ ht-degree: 83%
             <li><a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html">Campaign Standard 產品文件</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic</b><br/>
+        <td><b>Campaign Classicv7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant">Campaign Classic 的「控制面板」教學課程影片</a></li>
-            <li><a href="https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html">Campaign Classic 產品文件</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant">Campaign Classicv7的「控制面板」教學課程影片</a></li>
+            <li><a href="https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html">Campaign Classicv7產品檔案</a></li>
+        </ul>
+        </td>
+        <td><b>Campaign v8</b><br/>
+        <ul>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Campaign v8的「控制面板」教學課程影片</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign v8 產品文件</a></li>
         </ul>
         </td>
     </tr>
