@@ -7,34 +7,74 @@ feature: 控制面板
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 224bad296e416288ea717c904ce679653495c046
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 94%
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
 # 常見問題集 {#faq}
 
+## 控制面板 {#control-panel}
+
+### 什麼是「控制面板」？
+
+「控制面板」可讓產品管理員直接管理各種設定，並監視連線至 Adobe Campaign 的 SFTP 伺服器容量。
+
+### 「控制面板」目前有哪些功能？
+
+「控制面板」可讓您追蹤儲存情形、將 IP 新增至允許清單，以及根據您的需求自行管理 SFTP 的 SSH 金鑰並執行其他動作。
+
+有關詳細資訊，請參閱「控制面板」支援的動作文件。
+
+### Campaign v8不支援哪些功能，但Campaign Classicv7可提供哪些功能{#v8-restrictions}
+
+Campaign v8上的「控制面板」目前尚不支援子網域和憑證管理相關功能。 如需任何相關支援，請聯絡Campaign客戶服務。
+
+### 「控制面板」是否只適用於 Adobe Campaign？
+
+是的，您只能在「控制面板」中管理 Adobe Campaign 的設定。
+
+### 我可以使用「控制面板」嗎？
+
+「控制面板」僅開放給將 Adobe Campaign 託管在 AWS 上之現有客戶的產品管理員。請注意，我們目前並不支援混合環境。
+
+如果您不是管理員，但想要取得存取權限，請聯絡您的產品管理員，並協助將您新增為管理員。
+
+### 身為Campaign Classicv7使用者，存取「控制面板」的條件為何？ {#v7-restrictions}
+
+控制面板僅限管理員使用者存取。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+
+若是Campaign Classicv7，請注意您的執行個體必須托管於Amazon網站服務(AWS)，並升級至最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses)組建。 於[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。要檢查您的Campaign Classic實例是否托管在AWS上，請按照[本節](#hosted-aws)中詳述的步驟操作。
+
+### 如何存取「控制面板」？
+
+如需存取「控制面板」文件，請依照下列詳細指示操作。
+
+### 使用「控制面板」是否需要額外付費？
+
+否。如果您是 Adobe Campaign 的現有客戶，則無須額外付費。
+
 ## IMS 組織 ID {#ims-org-id}
 
-**什麼是 IMS 組織 ID？**
+### 什麼是 IMS 組織 ID？
 
 這是您第一次登入 Adobe Experience Cloud 時，針對您的執行個體提供的唯一 ID，其格式應為：xxx@AdobeOrg。
 
 如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
 
-**我可以在哪裡找到我的 IMS 組織 ID？**
+### 我可以在哪裡找到我的 IMS 組織 ID？
 
 一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)中找到更多詳細資訊。
 
 另一種方式是啟動 **Admin Console**。您的 IMS 組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
-**為什麼我需要知道我的 IMS 組織 ID?**
+### 為什麼我需要知道我的 IMS 組織 ID?
 
 為了方便您管理執行個體的設定，我們希望確保您對公司使用多個執行個體時，能針對正確的執行個體獲得正確的資訊。
 
-**如果我有多個 IMS 組織 ID，該怎麼辦？**
+### 如果我有多個 IMS 組織 ID，該怎麼辦？
 
 如果您擁有多個 Adobe 解決方案的存取權限，您可能會有超過一個 IMS 組織 ID。在此情況下，您在 Adobe Campaign 執行個體下看到的 IMS 組織 ID 就是您應使用的正確 ID。
 
@@ -44,7 +84,7 @@ ht-degree: 94%
 >
 >如果您的 Adobe Campaign 和 Adobe Analytics 擁有不同的 IMS 組織 ID，請聯絡客戶服務進行整合。
 
-**我如何得知我的 Adobe Campaign 執行個體是否託管在 AWS 上？**
+### 我如何得知我的 Adobe Campaign 執行個體是否託管在 AWS 上？{#hosted-aws}
 
 要檢查您的執行個體是否托管在 AWS 上，請執行下列步驟：
 
@@ -87,37 +127,3 @@ ht-degree: 94%
 >[!NOTE]
 >
 >如果您想要移轉到 AWS，請聯絡您的客戶成功經理以展開程序。
-
-## 控制面板 {#control-panel}
-
-**什麼是「控制面板」？**
-
-「控制面板」可讓產品管理員直接管理各種設定，並監視連線至 Adobe Campaign 的 SFTP 伺服器容量。
-
-**「控制面板」目前有哪些功能？**
-
-「控制面板」可讓您追蹤儲存情形、將 IP 新增至允許清單，以及根據您的需求自行管理 SFTP 的 SSH 金鑰並執行其他動作。
-
-有關詳細資訊，請參閱「控制面板」支援的動作文件。
-
-**Campaign v8不支援哪些功能，但Campaign Classicv7可提供哪些功能**
-
-Campaign v8上的「控制面板」目前尚不支援子網域和憑證管理相關功能。 如需任何相關支援，請聯絡Campaign客戶服務。
-
-**「控制面板」是否只適用於 Adobe Campaign？**
-
-是的，您只能在「控制面板」中管理 Adobe Campaign 的設定。
-
-**我可以使用「控制面板」嗎？**
-
-「控制面板」僅開放給將 Adobe Campaign 託管在 AWS 上之現有客戶的產品管理員。請注意，我們目前並不支援混合環境。
-
-如果您不是管理員，但想要取得存取權限，請聯絡您的產品管理員，並協助將您新增為管理員。
-
-**如何存取「控制面板」？**
-
-如需存取「控制面板」文件，請依照下列詳細指示操作。
-
-**使用「控制面板」是否需要額外付費？**
-
-否。如果您是 Adobe Campaign 的現有客戶，則無須額外付費。
