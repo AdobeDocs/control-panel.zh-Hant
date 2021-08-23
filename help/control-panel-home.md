@@ -5,10 +5,10 @@ feature: 控制面板
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 76%
+source-wordcount: '179'
+ht-degree: 64%
 
 ---
 
@@ -43,20 +43,20 @@ ht-degree: 76%
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant">Campaign Standard 的「控制面板」教學課程影片</a></li>
-            <li><a href="https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html">Campaign Standard 產品文件</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant">「控制面板」教學課程影片</a></li>
+            <li><a href="https://https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html">Campaign Standard 產品文件</a></li>
         </ul>
         </td>
         <td><b>Campaign Classicv7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant">Campaign Classicv7的「控制面板」教學課程影片</a></li>
-            <li><a href="https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html">Campaign Classicv7產品檔案</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant">「控制面板」教學課程影片</a></li>
+            <li><a href="https://https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html">Campaign Classicv7產品檔案</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Campaign v8的「控制面板」教學課程影片</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campaign v8 產品文件</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">「控制面板」教學課程影片</a></li>
+            <li><a href="https://https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html">Campaign v8 產品文件</a></li>
         </ul>
         </td>
     </tr>
