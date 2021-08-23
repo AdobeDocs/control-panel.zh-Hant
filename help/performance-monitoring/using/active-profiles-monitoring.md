@@ -7,10 +7,10 @@ feature: 控制面板
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 92%
+source-wordcount: '364'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 >
 >Facebook 和 Twitter 通路不包含在內。
 
-有關活動配置檔案的詳細資訊，請參閱[Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文檔。
+有關活動配置檔案的詳細資訊，請參閱[Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文檔。
 
 ## 監視作用中設定檔 {#monitoring-active-profiles}
 
@@ -52,7 +52,7 @@ ht-degree: 92%
 >
 >會依據每天在執行個體上執行的專屬技術工作流程，來計算作用中設定檔。
 >
->* Campaign Standard的[「計費」](https://docs.adobe.com/help/zh-Hant/campaign-standard/using/administrating/application-settings/technical-workflows.html)工作流程、
+>* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en)工作流程、
 >* Campaign Classic 的[「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)工作流程。
 
 
