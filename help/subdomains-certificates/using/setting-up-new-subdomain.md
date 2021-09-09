@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 設定新的子網域
 description: 瞭解如何為您的 Campaign 執行個體設定新的子網域
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="設定新的子網域和管理憑證"
 >abstract="您必須設定新的子網域和管理子網域的 SSL 憑證，才能開始使用 Adobe Campaign 傳送電子郵件或發佈登陸頁面。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何監視子網域的 SSL 憑證"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant" text="如何監視子網域的 SSL 憑證"
 
 
 ## 必讀 {#must-read}
 
 >[!IMPORTANT]
 >
->從「控制面板」設定子網域的功能在測試版中提供，且會不定期更新和修改，恕不另行通知。
+>測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
 >
->此功能不適用於Campaign v8。
+>此功能不適用於 Campaign v8。
 
 本頁面提供如何透過完整子網域委派或 CNAME 來設定新子網域的資訊。 本章節將介紹這兩種方法的全域概念：[子網域品牌化](../../subdomains-certificates/using/subdomains-branding.md)。
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   > 若為Adobe Campaign Standard，委派的子網域可讓您同時傳送&#x200B;**Marketing**&#x200B;和&#x200B;**交易**&#x200B;通訊。
+   > 對於 Adobe Campaign Standard，委派的子網域可讓您同時傳送&#x200B;**行銷**&#x200B;和&#x200B;**異動**&#x200B;通訊。
 
    ![](assets/subdomain4.png)
 
@@ -127,7 +127,7 @@ ht-degree: 97%
 
 在提交子網域後，控制面板將執行各種檢查及設定步驟。 詳細資訊，請參閱[子網域確認和設定](#subdomain-checks-and-configuration)。
 
-## 子網域確認和設定 {#subdomain-checks-and-configuration}
+## 子網域檢查和設定 {#subdomain-checks-and-configuration}
 
 1. 提交子網域後，「控制面板」會確認它是否正確指向 Adobe NS 記錄，以及此子網域不存在開始授權 (SOA) 記錄。
 
