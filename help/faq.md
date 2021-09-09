@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 「控制面板」常見問答集
 description: 與「控制面板」相關的常見問題
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 85%
 
 有關詳細資訊，請參閱「控制面板」支援的動作文件。
 
-### Campaign v8不支援哪些功能，但Campaign Classicv7可提供哪些功能{#v8-restrictions}
+### 有那些 Campaign v8 不支援但在 Campaign Classic v7 可以使用的功能？{#v8-restrictions}
 
-Campaign v8上的「控制面板」目前尚不支援子網域和憑證管理相關功能。 如需任何相關支援，請聯絡Campaign客戶服務。
+Campaign v8 上的「控制面板」目前尚不支援子網域和憑證管理相關功能。 如需任何相關支援，請聯絡 Campaign 客戶服務。
 
 ### 「控制面板」是否只適用於 Adobe Campaign？
 
@@ -42,15 +42,15 @@ Campaign v8上的「控制面板」目前尚不支援子網域和憑證管理相
 
 如果您不是管理員，但想要取得存取權限，請聯絡您的產品管理員，並協助將您新增為管理員。
 
-### 身為Campaign Classicv7使用者，存取「控制面板」的條件為何？ {#v7-restrictions}
+### 身為 Campaign Classic v7 使用者，存取「控制面板」的條件為何？ {#v7-restrictions}
 
-控制面板僅限管理員使用者存取。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+控制面板僅限管理員使用者存取。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 
-若是Campaign Classicv7，請注意您的執行個體必須托管於Amazon網站服務(AWS)，並升級至最新的[Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses)組建。 於[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。要檢查您的Campaign Classic實例是否托管在AWS上，請按照[本節](#hosted-aws)中詳述的步驟操作。
+請注意，就 Campaign Classic v7 而言，您的執行個體必須託管至 Amazon Web Services (AWS)，並升級至最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 版本。於[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。若要檢查您的 Campaign Classic 執行個體是否託管至 AWS，請依照 [本節](#hosted-aws)詳述步驟操作。
 
 ### 如何存取「控制面板」？
 
-如需存取「控制面板」文件，請依照下列詳細指示操作。
+請依照「存取控制面板」文件中的詳細指示操作。
 
 ### 使用「控制面板」是否需要額外付費？
 
@@ -62,17 +62,17 @@ Campaign v8上的「控制面板」目前尚不支援子網域和憑證管理相
 
 這是您第一次登入 Adobe Experience Cloud 時，針對您的執行個體提供的唯一 ID，其格式應為：xxx@AdobeOrg。
 
-如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)。
+如需詳細資訊，請參閱 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。
 
 ### 我可以在哪裡找到我的 IMS 組織 ID？
 
-一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)中找到更多詳細資訊。
+一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)中找到更多詳細資訊。
 
 另一種方式是啟動 **Admin Console**。您的 IMS 組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
 ### 為什麼我需要知道我的 IMS 組織 ID?
 
-為了方便您管理執行個體的設定，我們希望確保您對公司使用多個執行個體時，能針對正確的執行個體獲得正確的資訊。
+為了方便您管理執行個體的設定，我們希望確保您為您的公司使用多個執行個體時，能針對正確的執行個體獲得正確資訊。
 
 ### 如果我有多個 IMS 組織 ID，該怎麼辦？
 
