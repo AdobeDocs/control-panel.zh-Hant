@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 「控制面板」發行版本
 description: 最新「控制面板」發行說明。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: bffe0b17dad980e045bf4f56beadfb444a31dc88
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '669'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 91%
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
 >對於Campaign Classicv7，請注意，您的執行個體必須托管在AWS上，並升級為最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hant)組建或最新的[GA組建(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant#release-notes)。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
+
+## 2021 年 8 月 {#august-2021}
+
+Adobe Campaign v8現在可使用「控制面板」，但&#x200B;**子網域**&#x200B;和&#x200B;**憑證**&#x200B;管理功能除外，這些功能尚不受支援。 進一步了解[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target=&quot;_blank&quot;}
 
 ## 2020 年 10 月 {#october-2020}
 
