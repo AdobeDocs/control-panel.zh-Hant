@@ -3,24 +3,18 @@ product: campaign
 solution: Campaign
 title: 存取「控制面板」
 description: 瞭解如何存取「控制面板」
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 97%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
 # 主要功能 {#key-features}
-
->[!CONTEXTUALHELP]
->id="cp_overview"
->title="關於「控制面板」"
->abstract="「控制面板」首頁可讓您存取所有可在 Campaign 執行個體上執行的動作。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="探索介面"
 
 您可以透過「控制面板」，以 Adobe Campaign Standard 和/或 Classic 產品管理員的身分，管理每個執行個體的設定並追蹤每個執行個體的使用量，協助您提高工作效率。其直覺式介面可讓您輕鬆監視主要資產的使用情況，並執行管理工作，例如 IP 位址允許清單新增、SFTP 儲存空間監控、金鑰管理等等。
 
@@ -32,7 +26,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->控制面板僅限管理員使用者存取。授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)。
+>控制面板僅限管理員使用者存取。授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
 >若為 Campaign Classic，請注意，您的執行個體必須託管於 Amazon Web Services (AWS)上，並升級至最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 版本。在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md)詳述的步驟操作。
 

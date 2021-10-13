@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: URL 權限
 description: 瞭解如何在「控制面板」中管理 URL 權限
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 88%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 88%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="新增 URL"
+>title="URL定義"
 >abstract="新增 URL 以允許連線至您的 Campaign 執行個體。"
 
 若要新增您執行個體可連線的 URL，請執行下列步驟：

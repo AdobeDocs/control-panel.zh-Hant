@@ -5,14 +5,21 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 959fb37034e787d5f61634d55abfe931968613d2
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 89%
 
 ---
 
 # 說明中心 {#control-panel-documentation}
+
+>[!CONTEXTUALHELP]
+>id="cp_overview"
+>title="關於「控制面板」"
+>abstract="「控制面板」首頁可讓您存取所有可在 Campaign 執行個體上執行的動作。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="探索介面"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en" text="如何存取「控制面板」"
 
 ![](assets/do-not-localize/banner.png)
 

@@ -3,18 +3,24 @@ product: campaign
 solution: Campaign
 title: GPG 金鑰管理
 description: 了解如何在Adobe Campaign中管理GPG金鑰，以加密和解密資料。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1192'
 ht-degree: 8%
 
 ---
 
 # GPG 金鑰管理 {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="關於GPG金鑰"
+>abstract="在此索引標籤中，您可以在行銷執行個體上安裝和/或產生GPG金鑰，以加密從Campaign傳送的資料，並解密傳入的資料。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="關於效能監視"
 
 ## 關於GPG加密 {#about-gpg-encryption}
 
@@ -44,7 +50,7 @@ GPG加密可讓您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
    >
    >可使用開放原始碼自由軟體來產生金鑰。 不過，請務必遵循貴組織的准則，並使用IT/安全性組織建議的GPG公用程式。
 
-1. 安裝該實用程式後，在Mac終端或Windows命令中運行以下命令。
+1. 安裝該實用程式後，在Mac終端機或Windows命令中運行以下命令。
 
    `gpg --full-generate-key`
 
@@ -92,7 +98,7 @@ GPG加密可讓您使用遵循[OpenPGP](https://www.openpgp.org/about/standard/)
 **Campaign Classicv7和Campaign v8:**
 
 * [壓縮或加密檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [使用案例：使用安裝在控制面板上的金鑰加密和匯出資料](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [使用案例：使用安裝在控制面板上的金鑰加密和匯出資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

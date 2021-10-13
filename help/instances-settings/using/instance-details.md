@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 執行個體詳細資訊
 description: 瞭解如何監視「控制面板」的執行個體詳細資訊
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 92%
+source-wordcount: '552'
+ht-degree: 86%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="關於執行個體詳細資訊"
->abstract="檢視 Adobe Campaign 執行個體的詳細資訊：類型、名稱、版本編號資訊和可能的升級建議。"
->additional-url="https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 發行說明"
->additional-url="https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 發行說明"
+>abstract="檢視Adobe Campaign執行個體的詳細資訊：類型、名稱、組建資訊和可能的升級建議。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 發行說明"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 發行說明"
 
 ## 關於執行個體詳細資訊 {#about-instance-details}
 

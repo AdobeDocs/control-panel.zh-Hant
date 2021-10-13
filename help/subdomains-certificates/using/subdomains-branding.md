@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: 子網域名稱
 description: 進一步瞭解子網域名稱
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '753'
 ht-degree: 79%
 
 ---
@@ -20,16 +20,15 @@ ht-degree: 79%
 >id="cp_certificate_management"
 >title="關於子網域和 SSL 憑證"
 >abstract="監視您的子網域和相關聯的 SSL 憑證。"
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="如何監視子網域的 SSL 憑證"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant" text="監視 SSL 憑證"
 
 ## 為什麼要設定子網域？ {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->從「控制面板」設定子網域的功能在測試版中提供，且會不定期更新和修改，恕不另行通知。
+>測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
 >
->此功能不適用於Campaign v8。
+>此功能不適用於 Campaign v8。
 
 子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
@@ -60,6 +59,13 @@ ht-degree: 79%
 若您對子網域設定方法有任何疑問，請聯絡Adobe傳遞團隊，或最終聯絡客戶服務以要求傳遞能力諮詢。
 
 ## 子網域的使用案例(Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="選取子網域的使用案例"
+>abstract="依使用案例劃分子網域是傳遞能力的最佳實務。 如此一來，就能分隔和保護每個子網域的信譽。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="子網域名稱"
 
 為Campaign Classic實例設定子域時，需要選擇要使用子域的使用案例（請參閱[設定新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
 

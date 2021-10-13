@@ -6,21 +6,20 @@ description: 瞭解如何管理連線至 SFTP 伺服器的金鑰
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '646'
+ht-degree: 91%
 
 ---
 
-
-# 金鑰管理{#key-management}
+# 金鑰管理 {#key-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="關於金鑰管理"
->abstract="在此標籤中，您可以管理公開金鑰。"
+>title="關於公開金鑰管理"
+>abstract="在此索引標籤中，您可以建立、管理和編輯公開金鑰。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="觀看示範影片"
 
 Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立與其 SFTP 伺服器的連線。
@@ -33,9 +32,9 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >
 >您目前無法刪除 SSH 公開金鑰。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) 在影片中瞭解此功能
 
-## 最佳實務{#best-practices}
+## 最佳實務 {#best-practices}
 
 **關於公開 SSH 金鑰**
 
@@ -49,12 +48,12 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >
 >如果您的密碼過期，即使系統上已安裝金鑰，您也無法登入 SFTP 帳戶。
 
-## 安裝 SSH 金鑰{#installing-ssh-key}
+## 安裝 SSH 金鑰 {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
 >title="新增公開金鑰"
->abstract="新增執行個體的公開金鑰"
+>abstract="產生執行個體的公開SSH金鑰，並將其新增至「控制面板」以存取SFTP伺服器。"
 
 >[!IMPORTANT]
 >

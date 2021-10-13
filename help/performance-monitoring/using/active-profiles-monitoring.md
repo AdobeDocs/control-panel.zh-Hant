@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: 作用中設定檔監控
 description: 瞭解如何取得每個 Campaign 執行個體之最新和歷史「作用中設定檔」使用量和演化的即時資訊。
-feature: 控制面板
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 84%
+source-wordcount: '402'
+ht-degree: 78%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 84%
 
 ## 監視作用中設定檔 {#monitoring-active-profiles}
 
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_active_profile"
+>title="關於作用中設定檔監控"
+>abstract="在此標籤中，您可以取得每個Campaign執行個體之最新和歷史作用中設定檔使用和演變的即時資訊。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="關於效能監視"
+
 「控制面板」可讓您監控每個 Campaign 執行個體的作用中設定檔使用量。
 
 要執行此操作，請依照下列步驟執行：
@@ -52,7 +58,7 @@ ht-degree: 84%
 >
 >會依據每天在執行個體上執行的專屬技術工作流程，來計算作用中設定檔。
 >
->* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en)工作流程、
+>* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant)工作流程、
 >* Campaign Classic 的[「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)工作流程。
 
 

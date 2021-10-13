@@ -6,14 +6,13 @@ description: 瞭解如何將 IP 範圍新增至允許清單，以便存取 SFTP 
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '631'
+ht-degree: 96%
 
 ---
-
 
 # IP 範圍允許清單 {#ip-range-allow-listing}
 
@@ -25,9 +24,9 @@ ht-degree: 94%
 
 SFTP 伺服器會受到保護。為了能夠存取這些檔案進行檢視或撰寫新檔案，您需要將存取該伺服器的系統或用戶端之公用 IP 地址新增至允許清單。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) 在影片中瞭解此功能
 
-## 關於 CIDR 格式{#about-cidr-format}
+## 關於 CIDR 格式 {#about-cidr-format}
 
 CIDR (無類別域間路由) 是使用「控制面板」介面新增 IP 範圍時支援的格式。
 
@@ -35,7 +34,7 @@ CIDR (無類別域間路由) 是使用「控制面板」介面新增 IP 範圍�
 
 您可以在網際網路上搜尋免費線上工具，協助您將現有的 IP 範圍轉換為 CIDR 格式。
 
-## 最佳實務{#best-practices}
+## 最佳實務 {#best-practices}
 
 在「控制面板」上，將 IP 位址新增至允許清單，請務必遵循下列建議和限制。
 
@@ -48,7 +47,7 @@ CIDR (無類別域間路由) 是使用「控制面板」介面新增 IP 範圍�
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="新增 IP 範圍"
+>title="IP範圍設定"
 >abstract="定義您要新增至允許清單的 IP 範圍，以便連線至您的 SFTP 伺服器。"
 
 若要將 IP 範圍新增至允許清單，請執行下列步驟：
@@ -85,7 +84,7 @@ CIDR (無類別域間路由) 是使用「控制面板」介面新增 IP 範圍�
 >
 >目前無法編輯允許清單上的範圍。若要修改 IP 範圍，請先予以刪除，然後建立符合您需求的範圍。
 
-## 監視變更{#monitoring-changes}
+## 監視變更 {#monitoring-changes}
 
 「控制面板」首頁的 **[!UICONTROL Job Logs]** 可讓您監控對列入允許清單之 IP 位址所進行的所有變更。
 
