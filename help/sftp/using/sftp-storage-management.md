@@ -6,16 +6,15 @@ description: 瞭解如何監視和管理您的 SFTP 伺服器儲存空間
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 86%
+source-wordcount: '344'
+ht-degree: 90%
 
 ---
 
-
-# SFTP 儲存空間管理{#sftp-storage-management}
+# SFTP 儲存空間管理 {#sftp-storage-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_storage"
@@ -27,9 +26,9 @@ ht-degree: 86%
 
 您必須定期監視每個 SFTP 伺服器的可用空間，否則，您可能無法再在伺服器上儲存任何其他檔案，或是無法成功執行須依賴此伺服器更新的工作流程。
 
-![](assets/do-not-localize/how-to-video.png) 使用促銷活動類別Campaign Standard在視訊中 [探索](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) 此功 [能](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 在影片中瞭解此功能
 
-## 存取儲存容量資訊{#accessing-storage-capacity-information}
+## 存取儲存容量資訊 {#accessing-storage-capacity-information}
 
 SFTP 卡片 **[!UICONTROL Storage]** 索引標籤中會提供關於您有權存取之所有執行個體使用的空間資訊。每次重新整理頁面時都會更新。
 
@@ -42,7 +41,7 @@ SFTP 卡片 **[!UICONTROL Storage]** 索引標籤中會提供關於您有權存�
 
 此外，我們還提供其他提示，協助您瞭解在伺服器達到其容量上限時應如何處理。
 
-## 儲存容量耗盡時的最佳實務{#best-practices-when-capacity-runs-out}
+## 儲存容量耗盡時的最佳實務 {#best-practices-when-capacity-runs-out}
 
 1. **從舊有或不必要的檔案清除 SFTP 伺服器**。如需進一步瞭解如何存取您的 SFTP 伺服器資料夾，請參閱[本章節](../../sftp/using/logging-into-sftp-server.md)。
 1. 請確定清除 SFTP 伺服器的&#x200B;**工作流程**&#x200B;成功執行。如需 Adobe Campaign 技術工作流程的詳細資訊，請參閱專屬的 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) 文件。

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 78%
+source-wordcount: '396'
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 78%
 >
 >Facebook 和 Twitter 通路不包含在內。
 
-有關活動配置檔案的詳細資訊，請參閱[Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文檔。
+有關活動配置檔案的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文檔。
 
 ## 監視作用中設定檔 {#monitoring-active-profiles}
 
@@ -40,7 +40,7 @@ ht-degree: 78%
 >id="cp_performancemonitoring_active_profile"
 >title="關於作用中設定檔監控"
 >abstract="在此標籤中，您可以取得每個Campaign執行個體之最新和歷史作用中設定檔使用和演變的即時資訊。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="關於效能監視"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="關於效能監視"
 
 「控制面板」可讓您監控每個 Campaign 執行個體的作用中設定檔使用量。
 
@@ -58,7 +58,7 @@ ht-degree: 78%
 >
 >會依據每天在執行個體上執行的專屬技術工作流程，來計算作用中設定檔。
 >
->* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant)工作流程、
+>* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html)工作流程、
 >* Campaign Classic 的[「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)工作流程。
 
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bffe0b17dad980e045bf4f56beadfb444a31dc88
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 85%
+source-wordcount: '665'
+ht-degree: 84%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
+>所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)。
 >
->對於Campaign Classicv7，請注意，您的執行個體必須托管在AWS上，並升級為最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hant)組建或最新的[GA組建(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant#release-notes)。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
+>若為Campaign Classicv7，請注意，您的執行個體必須托管於AWS，並以最新的[Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hant)組建或[最新的GA組建(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant#release-notes)升級。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
 
 ## 2021 年 8 月 {#august-2021}
 
-Adobe Campaign v8現在可使用「控制面板」，但&#x200B;**子網域**&#x200B;和&#x200B;**憑證**&#x200B;管理功能除外，這些功能尚不受支援。 進一步了解[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target=&quot;_blank&quot;}
+Adobe Campaign v8現在可使用「控制面板」，但&#x200B;**子網域**&#x200B;和&#x200B;**憑證**&#x200B;管理功能除外，這些功能尚不受支援。 進一步了解[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
 ## 2020 年 10 月 {#october-2020}
 
@@ -60,7 +60,7 @@ Adobe Campaign v8現在可使用「控制面板」，但&#x200B;**子網域**&#x
 
 **CNAME 子網域的憑證管理**
 
-「控制面板」現在可讓您續約已透過 CNAME 方法設定之子網域的 SSL 憑證。[顯示全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
+「控制面板」現在可讓您續約已透過 CNAME 方法設定之子網域的 SSL 憑證。[了解更多](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2020 年 4 月 {#april-2020}
 
