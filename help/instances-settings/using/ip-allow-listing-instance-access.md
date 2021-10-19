@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 89%
+source-wordcount: '770'
+ht-degree: 87%
 
 ---
 
@@ -53,13 +53,15 @@ ht-degree: 89%
 >title="IP範圍設定"
 >abstract="定義您要新增至允許清單的 IP 範圍，以便連線至執行個體。"
 
+>[!NOTE]
+>
+>若 **[!UICONTROL Instance Settings]** 「控制面板」首頁上看不到「 」卡片，這表示您的IMS組織ID未與任何Adobe Campaign Classic v7或Campaign v8執行個體建立關聯。
+
 若要將 IP 位址新增至允許清單，請執行下列步驟：
 
 1. 開啟 **[!UICONTROL Instances Settings card]** 以存取 IP 允許清單索引標籤，然後按一下 **[!UICONTROL Add new IP Range]**。
 
-   >[!NOTE]
-   >
-   >如果「控制面板」首頁上未顯示「執行個體設定」卡片，表示您的IMS組織ID未與任何Adobe Campaign Classic執行個體建立關聯
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -82,7 +84,7 @@ ht-degree: 89%
 
 1. 指定要授予 IP 位址的存取類型：
 
-   * **[!UICONTROL Campaign Console Access]**:IP位址可連線至Campaign用戶端主控台。請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
+   * **[!UICONTROL Campaign Console Access]**:IP位址可連線至Campaign用戶端主控台。 請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
    * **[!UICONTROL AEM connection]**：指定的 AEM IP 位址可以連線至行銷執行個體。
    * **[!UICONTROL External API connection]**：具有指定 IP 位址的外部 API 可以連線至行銷和/或 Message Center (RT) 執行個體。請注意，系統並未啟用與 RT 執行個體控制台的連線。
 
@@ -90,9 +92,11 @@ ht-degree: 89%
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕。會將 IP 範圍新增至允許清單。
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-若要從允許清單刪除 IP 範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
+若要從允許清單刪除一或多個IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
+
+![](assets/ip_whitelist_delete.png)
 
 **相關主題：**
 
