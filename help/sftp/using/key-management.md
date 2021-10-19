@@ -69,17 +69,17 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
    >
    >您可以為每位使用者新增一或多個公開 SSH 金鑰。
 
-1. 若要更妥善地管理公開金鑰，您可以設定每個金鑰的可用時間。 要執行此操作，請在&#x200B;**[!UICONTROL Type]**&#x200B;下拉式清單中選取單位，並在對應欄位中定義持續時間。 如需公開金鑰過期的詳細資訊，請參閱[此區段](#expiry)。
+1. 若要更妥善地管理公開金鑰，您可以設定每個金鑰的可用時間。 要執行此操作，請在 **[!UICONTROL Type]** 下拉式清單中，並在對應欄位中定義持續時間。 如需公開金鑰過期的詳細資訊，請參閱 [本節](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >預設情況下，**[!UICONTROL Type]**&#x200B;欄位設為&#x200B;**[!UICONTROL Unlimited]** ，這表示公開金鑰永不過期。
+   >依預設， **[!UICONTROL Type]** 欄位設為 **[!UICONTROL Unlimited]**，即公開金鑰永不過期。
 
-1. 在&#x200B;**[!UICONTROL Comment]**&#x200B;欄位中，您可以指出新增此公開金鑰的原因（原因、對象等）。
+1. 在 **[!UICONTROL Comment]** 欄位中，您可以指出新增此公開金鑰的原因（原因、對象等）。
 
-1. 若要填入&#x200B;**[!UICONTROL Public Key]**&#x200B;欄位，您必須產生公開SSH金鑰。 根據您的作業系統，請遵循下列步驟。
+1. 若要填入 **[!UICONTROL Public Key]** 欄位中，您必須產生公開SSH金鑰。 根據您的作業系統，請遵循下列步驟。
 
    **Linux 和 Mac：**
 
@@ -99,7 +99,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
    >[!NOTE]
    >
-   >**[!UICONTROL Public Key]**&#x200B;欄位僅接受OpenSSH格式。 公開 SSH 金鑰的大小應為 **2048 位元**。
+   >此 **[!UICONTROL Public Key]** 欄位僅接受OpenSSH格式。 公開 SSH 金鑰的大小應為 **2048 位元**。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕以建立金鑰。「控制面板」會儲存公開金鑰及其相關指紋，並以SHA256格式加密。
 
@@ -117,7 +117,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 ## 管理公開金鑰 {#managing-public-keys}
 
-您建立的公開金鑰會顯示在&#x200B;**[!UICONTROL Key Management]**&#x200B;標籤中。
+您建立的公開金鑰會顯示在 **[!UICONTROL Key Management]** 標籤。
 
 您可以根據建立日期或版本日期、建立或編輯項目的使用者，以及IP範圍到期日來排序項目。
 
@@ -125,23 +125,23 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 ![](assets/control_panel_key_management_sort.png)
 
-若要編輯一或多個IP範圍，請參閱[此區段](#editing-public-keys)。
+若要編輯一或多個IP範圍，請參閱 [本節](#editing-public-keys).
 
-若要從清單中刪除或多個公開金鑰，請選取這些金鑰，然後按一下&#x200B;**[!UICONTROL Delete public key]**&#x200B;按鈕。
+若要從清單中刪除或多個公開金鑰，請選取金鑰，然後按一下 **[!UICONTROL Delete public key]** 按鈕。
 
 ![](assets/control_panel_delete_key.png)
 
 ### 過期 {#expiry}
 
-**[!UICONTROL Expires]**&#x200B;欄顯示在公開金鑰過期之前還剩多少天。
+此 **[!UICONTROL Expires]** 欄顯示在公開金鑰過期之前還剩多少天。
 
-如果您訂閱[電子郵件警報](../../performance-monitoring/using/email-alerting.md)，您會在公開金鑰過期的10天和5天前，以電子郵件方式收到通知，並在通知到期的當天收到通知。 收到警報時，您可以視需要編輯公開金鑰](#editing-public-keys)以延長其有效期。[
+如果您訂閱 [電子郵件警報](../../performance-monitoring/using/email-alerting.md)，您會在公開金鑰過期的10天和5天前，以及到期的當天，收到電子郵件通知。 收到警報後，您可以 [編輯公開金鑰](#editing-public-keys) 視需要延長其有效期。
 
-過期的公開金鑰將在7天後自動刪除。 在&#x200B;**[!UICONTROL Expires]**&#x200B;欄中顯示為&#x200B;**[!UICONTROL Expired]**。 在此7天期間內：
+過期的公開金鑰將在7天後自動刪除。 顯示為 **[!UICONTROL Expired]** 在 **[!UICONTROL Expires]** 欄。 在此7天期間內：
 
 * 過期的公開金鑰無法再用來連線至SFTP伺服器。
 
-* 您可以[編輯](#editing-public-keys)過期的公開金鑰，並更新其持續時間，使其可再次使用。
+* 您可以 [編輯](#editing-public-keys) 過期的公開金鑰，並更新其持續時間，使其可再次使用。
 
 * 您可以從清單中刪除它。
 
@@ -158,7 +158,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >
 >您只能編輯自「控制面板」 2021年10月發行版本以來建立的公開金鑰。
 
-1. 從&#x200B;**[!UICONTROL Key Management]**&#x200B;清單中選取一或多個項目。
+1. 從 **[!UICONTROL Key Management]** 清單。
 1. 按一下 **[!UICONTROL Update public key]** 按鈕。
 
    ![](assets/control_panel_edit_key.png)
