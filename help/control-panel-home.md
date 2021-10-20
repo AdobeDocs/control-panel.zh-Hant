@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 90%
+source-wordcount: '232'
+ht-degree: 57%
 
 ---
 
@@ -25,21 +25,23 @@ ht-degree: 90%
 
 ## 新增功能
 
-**子網域設定使用 CNAME**
+**透過Campaign v8提供完整支援**
 
-「控制面板」現在允許您直接從介面設定子網域以使用 CNAME 與 Adobe 協作。[顯示全文](subdomains-certificates/using/setting-up-new-subdomain.md)
+所有功能，包括 **子網域** 和 **憑證** Adobe Campaign v8上的「控制面板」現在支援管理功能。 [了解更多](faq.md#v8-restrictions)
 
-**資料庫監視增強功能**
+**IP範圍有效期和版本**
 
-**[!UICONTROL Database monitoring]** 索引標籤已透過其他指標執行增強功能，允許您取得有關佔用資料庫空間的資源的詳細資訊。[顯示全文](performance-monitoring/using/database-monitoring.md)
+您現在可以設定IP範圍可用時間，並編輯您建立的IP範圍。 [了解更多](sftp/using/ip-range-allow-listing.md)
+
+**公鑰有效期和版本**
+
+同樣地，您現在可以設定公開金鑰的可用時間，並編輯您建立的公開金鑰。 [了解更多](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
 >* 控制面板僅限管理員使用者存取。[瞭解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* 對於 Campaign Classic v7，則套用部署限制。 [瞭解更多](faq.md#v7-restrictions)
->
->* 對於 Campaign v8，則無法使用部分功能。 [瞭解更多](faq.md#v8-restrictions)
 
 
 ## 其他資源 {#additional-resources}

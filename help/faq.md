@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 7998dba576488ca1e7e587a9d987458beec101b3
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 97%
+source-wordcount: '771'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 97%
 
 有關詳細資訊，請參閱「控制面板」支援的動作文件。
 
-### 有那些 Campaign v8 不支援但在 Campaign Classic v7 可以使用的功能？{#v8-restrictions}
+### 是否有些功能尚未在Campaign v8上支援，但在Campaign Classicv7上可用{#v8-restrictions}
 
-Campaign v8 上的「控制面板」目前尚不支援子網域和憑證管理相關功能。 如需任何相關支援，請聯絡 Campaign 客戶服務。
+否. 現在，Campaign Classicv7上可用的所有功能也可透過Campaign v8的「控制面板」來支援，包括子網域和憑證管理相關功能。
 
 ### 「控制面板」是否只適用於 Adobe Campaign？
 
