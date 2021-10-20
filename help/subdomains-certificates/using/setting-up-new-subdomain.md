@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1334'
 ht-degree: 89%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 89%
 >[!IMPORTANT]
 >
 >測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
->
->此功能不適用於 Campaign v8。
 
 本頁面提供如何透過完整子網域委派或 CNAME 來設定新子網域的資訊。 本章節將介紹這兩種方法的全域概念：[子網域品牌化](../../subdomains-certificates/using/subdomains-branding.md)。
 

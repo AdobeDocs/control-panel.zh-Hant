@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '745'
 ht-degree: 79%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
->
->此功能不適用於 Campaign v8。
 
 子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
@@ -45,7 +43,7 @@ ht-degree: 79%
 
 * **將子網域完全委派給 Adobe Campaign**（建議）：子網域已完全委派給 Adobe。Adobe 可以控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的 DNS 的各個層面，以受管理的方式提供 Campaign。
 
-* **CNAME的使用**:建立子網域並使用CNAME指向Adobe特定記錄。若使用此設定，Adobe 和客戶都有責任維護 DNS。
+* **CNAME的使用**:建立子網域並使用CNAME指向Adobe特定記錄。 若使用此設定，Adobe 和客戶都有責任維護 DNS。
 
 下表提供這些方法的運作方式摘要，以及所需投入的精力：
 
@@ -54,7 +52,7 @@ ht-degree: 79%
 | **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
-有關域配置的其他資訊，請參見本文檔](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)。[
+有關域配置的其他資訊，請參見 [本檔案](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 若您對子網域設定方法有任何疑問，請聯絡Adobe傳遞團隊，或最終聯絡客戶服務以要求傳遞能力諮詢。
 
@@ -67,7 +65,7 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="子網域名稱"
 
-為Campaign Classic實例設定子域時，需要選擇要使用子域的使用案例（請參閱[設定新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md)）。
+為Campaign Classic例項設定子網域時，您必須選取要使用子網域的使用案例(請參閱 [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
 可能的使用案例包括：
 
