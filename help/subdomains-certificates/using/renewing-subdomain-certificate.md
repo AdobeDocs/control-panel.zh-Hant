@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '836'
 ht-degree: 88%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
+>
+>此功能不適用於 Campaign v8。
 
 SSL 憑證續約流程包含 3 個步驟：
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '753'
 ht-degree: 79%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
+>
+>此功能不適用於 Campaign v8。
 
 子網域是您網域的分區，可用來隔離您的名稱或各類流量（交易訊息、行銷資訊等等）。
 
