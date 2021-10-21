@@ -32,7 +32,7 @@ ht-degree: 76%
 >
 >Facebook 和 Twitter 通路不包含在內。
 
-有關活動配置檔案的詳細資訊，請參閱[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html)和[Campaign Classicv7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles)文檔。
+如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign Classicv7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 檔案。
 
 ## 監視作用中設定檔 {#monitoring-active-profiles}
 
