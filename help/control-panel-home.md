@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
+source-git-commit: 75d369f52be140732525411239ae18b7269e761f
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 90%
+source-wordcount: '243'
+ht-degree: 58%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 90%
 
 ## 新增功能
 
-**子網域設定使用 CNAME**
+**IP範圍有效期和版本**
 
-「控制面板」現在允許您直接從介面設定子網域以使用 CNAME 與 Adobe 協作。[顯示全文](subdomains-certificates/using/setting-up-new-subdomain.md)
+您現在可以設定IP範圍可用時間，並編輯您建立的IP範圍。 [了解更多](sftp/using/ip-range-allow-listing.md)
 
-**資料庫監視增強功能**
+**公鑰有效期和版本**
 
-**[!UICONTROL Database monitoring]** 索引標籤已透過其他指標執行增強功能，允許您取得有關佔用資料庫空間的資源的詳細資訊。[顯示全文](performance-monitoring/using/database-monitoring.md)
+同樣地，您現在可以設定公開金鑰的可用時間，並編輯您建立的公開金鑰。 [了解更多](sftp/using/key-management.md)
+
+**支援Campaign v8**
+
+「控制面板」現在可供Adobe Campaign v8使用，但 **子網域** 和 **憑證** 尚未支援的管理功能。
 
 >[!CAUTION]
 >
