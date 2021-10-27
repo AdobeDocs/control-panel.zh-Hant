@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -52,8 +52,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_new_subdomain"
->title="新增子網域"
->abstract="Adobe建議完全委派子網域。 不過，您可以使用CNAME或自訂方法來設定子網域。"
+>title="新增新的子網域"
+>abstract="Adobe 建議完全委派子網域。 不過，您可以使用 CNAME 或自訂方法來設定子網域。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="聯絡客戶服務"
 
@@ -61,18 +61,18 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
 >title="建立並委派子網域"
->abstract="建立您要在托管解決方案中與Adobe Campaign搭配使用的子網域，並將其委派給Adobe。"
+>abstract="建立您要在托管解決方案中與 Adobe Campaign 搭配使用的子網域，並將其委派給 Adobe。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="提交您的子網域"
->abstract="確認並提交在前述步驟中設定的子網域。"
+>abstract="確認並提交在先前步驟中設定的子網域。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 若要將子網域完全委派給 Adobe Campaign，請執行以下步驟。
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 在影片中瞭解此功能
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
 
@@ -108,25 +108,25 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_create_delegate"
->title="設定子網域"
->abstract="在此畫面中，指定您要使用CNAME設定的子網域。"
+>title="設定您的子網域"
+>abstract="在此畫面中，指定您要使用 CNAME 設定的子網域。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
->title="生成記錄"
->abstract="導覽至您的托管解決方案，以產生此畫面中顯示的DNS記錄清單。"
+>title="產生記錄"
+>abstract="導覽至您的託管解決方案，以產生此畫面中顯示的 DNS 記錄清單。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="提交您的子網域"
->abstract="確認並提交在前述步驟中設定的子網域。"
+>abstract="確認並提交在先前步驟中設定的子網域。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 若要使用 CNAME 來設定子網域，請遵循下列步驟。
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant) 在影片中瞭解此功能
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
 
