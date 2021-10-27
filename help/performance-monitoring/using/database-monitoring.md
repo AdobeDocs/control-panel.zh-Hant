@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_database"
 >title="關於資料庫監視"
->abstract="在此索引標籤中，您可以取得每個Campaign執行個體最新和歷史資料庫使用和演變的即時資訊。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="關於效能監視"
+>abstract="在此索引標籤中，您可以取得每個 Campaign 執行個體最新和歷史資料庫使用和演變的即時資訊。"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant" text="關於效能監視"
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html#performance-monitoring) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 在影片中瞭解此功能
 
 控制面板允許您監視每個 Campaign 執行個體的資料庫使用情況。若要這麼做，請開啟 **[!UICONTROL Performance Monitoring]** 卡片，然後選取 **[!UICONTROL Databases]** 標籤。
 
@@ -48,7 +48,7 @@ ht-degree: 84%
 
 >[!NOTE]
 >
->請注意，此儀表板的資料會根據在您的 Campaign 執行個體上執行的 **[!UICONTROL Database cleanup technical workflow]** 更新 (請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) 文件)。
+>請注意，此儀表板的資料會根據在您的 Campaign 執行個體上執行的 **[!UICONTROL Database cleanup technical workflow]** 更新 (請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) 文件)。
 >
 >此外，當其中一個資料庫到達 c 值時，即上次工作流程執行量低於 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 的量度時，您會收到通知。請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
 
@@ -71,7 +71,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"
 >title="關於儲存概述"
->abstract="在此索引標籤中，您可以取得佔用資料庫空間的不同Campaign資源的詳細資訊。"
+>abstract="在此索引標籤中，您可以取得佔用資料庫空間的不同 Campaign 資源的詳細資訊。"
 
 **[!UICONTROL Storage overview]** 區域以圖形呈現以下項目佔用的空間：
 
@@ -115,7 +115,7 @@ ht-degree: 84%
 
 ![](assets/database-top10-view.png)
 
-**[!UICONTROL Keep interim results]** 欄中的值表示選項在 Campaign 中為啟用 (&quot;1&quot;) 或停用 (&quot;0&quot;)。 此選項可讓您在工作流程的各種活動之間儲存轉換結果 (請參閱 [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html#logs) 文件)。
+**[!UICONTROL Keep interim results]** 欄中的值表示選項在 Campaign 中為啟用 (&quot;1&quot;) 或停用 (&quot;0&quot;)。 此選項可讓您在工作流程的各種活動之間儲存轉換結果 (請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hant#logs) 文件)。
 
 >[!IMPORTANT]
 >
@@ -131,16 +131,16 @@ Campaign Standard 和 Classic 提供多種方法來防止過度消耗資料庫�
 
 **工作流程監視**
 
-* [工作流程最佳實務](://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=zh-Hant) (Campaign Standard)
-* [監視工作流程的執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
+* [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=zh-Hant) (Campaign Standard)
+* [監視工作流程的執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=zh-Hant) (Campaign Classic)
 
 **維護資料庫**
 
-* 資料庫清理技術工作流程：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)
-* [資料庫維護指南](://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=zh-Hant) (Campaign Classic)
+* 資料庫清理技術工作流程：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant)
+* [資料庫維護指南](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=zh-Hant) (Campaign Classic)
 * [針對資料庫效能進行疑難排解](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=zh-Hant) (Campaign Classic)
-* [資料庫的相關選項](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
-* 資料保留：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention)
+* [資料庫的相關選項](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#database) (Campaign Classic)
+* 資料保留：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=zh-Hant) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=zh-Hant#data-retention)
 
 >[!NOTE]
 >
