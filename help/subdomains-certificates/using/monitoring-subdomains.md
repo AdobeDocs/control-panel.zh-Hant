@@ -7,18 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 21%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
 # 監視子網域 {#monitoring-subdomains}
-
->[!AVAILABILITY]
->
->此功能不適用於 Campaign v8。
 
 您必須監控子網域，以確保所有項目皆已正確設定，可搭配Adobe Campaign使用。
 
