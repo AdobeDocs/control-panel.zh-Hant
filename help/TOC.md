@@ -1,15 +1,14 @@
 ---
 product: adobe campaign
-sub-product: 控制面板
+sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel 指南
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: ht
-source-wordcount: '102'
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
@@ -34,7 +33,7 @@ ht-degree: 100%
 + 子網域和憑證{#subdomains-and-certificates}
    + [子網域名稱](subdomains-certificates/using/subdomains-branding.md)
    + [監視子網域](subdomains-certificates/using/monitoring-subdomains.md)
-   + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [設定新的子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [監視 SSL 憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [續約 SSL 憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [管理 TXT 記錄](subdomains-certificates/using/managing-txt-records.md)

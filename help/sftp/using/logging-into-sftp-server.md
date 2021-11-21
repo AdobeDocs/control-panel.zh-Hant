@@ -2,61 +2,60 @@
 product: campaign
 solution: Campaign
 title: 登入您的 SFTP 伺服器
-description: 瞭解如何登入您的SFTP伺服器
+description: 了解如何登入您的SFTP伺服器
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 7%
+source-wordcount: '348'
+ht-degree: 6%
 
 ---
 
-
 # 登入您的 SFTP 伺服器 {#logging-into-sft-server}
 
-以下步驟詳細說明如何透過SFTP用戶端應用程式連接SFTP伺服器。
+以下步驟詳細說明如何透過您的SFTP用戶端應用程式連線您的SFTP伺服器。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](https://video.tv.adobe.com/v/27263?quality=12)
 
-在登入伺服器之前，請確定：
+登入伺服器之前，請確定：
 
-* 您的SFTP伺服器由Adobe **托管。**
-* 已為伺服器設定您的&#x200B;**使用者名稱**。您可以直接在「控制面板」中，從SFTP卡的&#x200B;**鍵管理**&#x200B;標籤中檢查此資訊。
-* 您有&#x200B;**專用和公用密鑰對**&#x200B;可登錄到SFTP伺服器。 有關如何添加SSH密鑰的詳細資訊，請參閱[本節](../../sftp/using/key-management.md)。
-* 您的&#x200B;**公用IP位址已新增至SFTP伺服器上的allow list**。 如果沒有，請參閱[本節](../../sftp/using/ip-range-allow-listing.md)以取得如何將IP範圍新增至允許清單的詳細資訊。
-* 您可以訪問&#x200B;**SFTP客戶端軟體**。 您可以洽詢IT部門，以取得建議使用的SFTP用戶端應用程式，或在您的公司政策允許的情況下，在網際網路上搜尋。
+* 您的SFTP伺服器為 **由Adobe托管**.
+* 已為伺服器設定您的&#x200B;**使用者名稱**。您可以直接在「控制面板」中檢查此資訊，位於 **金鑰管理** 標籤。
+* 您有 **私密金鑰對** 登入SFTP伺服器。 請參閱 [本節](../../sftp/using/key-management.md) 以取得如何新增SSH金鑰的詳細資訊。
+* 您的 **公用IP位址已新增至允許清單** 在SFTP伺服器上。 否則，請參閱 [本節](../../sftp/using/ip-range-allow-listing.md) 以取得如何將IP範圍新增至允許清單的詳細資訊。
+* 您可以存取 **SFTP用戶端軟體**. 您可以向IT部門洽詢他們建議使用的SFTP用戶端應用程式，或在您的公司原則允許的情況下，在網際網路上搜尋。
 
-若要連線至您的SFTP伺服器，請依照下列步驟進行：
+若要連線至您的SFTP伺服器，請執行下列步驟：
 
-1. 啟動「Control Panel（控制面板）」，然後從&#x200B;**[!UICONTROL SFTP]**&#x200B;卡中選擇&#x200B;**[!UICONTROL Key Management]**&#x200B;標籤。
+1. 啟動「控制面板」，然後選取 **[!UICONTROL Key Management]** 標籤 **[!UICONTROL SFTP]** 卡片。
 
    ![](assets/sftp_card.png)
 
-1. 啟動您的SFTP用戶端應用程式，然後從「控制面板」複製並貼上伺服器位址，接著是「campaign.adobe.com」，然後填入您的使用者名稱。
+1. 啟動您的SFTP用戶端應用程式，然後從「控制面板」複製並貼上伺服器位址，接著加上「campaign.adobe.com」，然後填入您的使用者名稱。
 
    ![](assets/do-not-localize/connect1.png)
 
-1. 在&#x200B;**[!UICONTROL SSH Private Key]**&#x200B;欄位中，選取儲存在您電腦中的私密金鑰檔案。 它對應的文字檔案與您的公開金鑰同名，沒有副檔名&quot;。pub&quot;（例如&quot;enable&quot;）。
+1. 在 **[!UICONTROL SSH Private Key]** 欄位中，選取儲存在電腦中的私密金鑰檔案。 它對應的文字檔與您的公開金鑰相同，但沒有副檔名「.pub」（例如「enable」）。
 
    ![](assets/do-not-localize/connect2.png)
 
-   **[!UICONTROL Password]**&#x200B;欄位會自動填入檔案的私密金鑰。
+   此 **[!UICONTROL Password]** 欄位會自動填入檔案中的私密金鑰。
 
    ![](assets/do-not-localize/connect3.png)
 
-   您可以比較私密金鑰或公開金鑰的指紋和SFTP卡的「金鑰管理」標籤中顯示的金鑰指紋，以檢查您嘗試使用的金鑰是否已儲存在「控制面板」中。
+   您可以比較私密或公開金鑰的指紋與SFTP卡的「金鑰管理」標籤中顯示金鑰的指紋，以檢查您嘗試使用的金鑰是否已儲存在「控制面板」中。
 
    ![](assets/fingerprint_compare.png)
 
    >[!NOTE]
    >
-   >如果您使用Mac電腦，則可以執行下列命令，來檢視儲存在電腦中的私密金鑰指紋：
+   >如果您使用的是Mac電腦，則可以運行以下命令查看儲存在電腦中的私鑰的指紋：
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 填入所有資訊後，按一下&#x200B;**[!UICONTROL Connect]**&#x200B;以登入您的SFTP伺服器。
+1. 填入所有資訊後，按一下 **[!UICONTROL Connect]** 登入您的SFTP伺服器。
 
    ![](assets/do-not-localize/sftpconnected.png)

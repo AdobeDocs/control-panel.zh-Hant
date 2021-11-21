@@ -20,17 +20,17 @@ ht-degree: 6%
 
 ![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](../../discover/using/managing-permissions.md#video)
 
-1. 導覽至[Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}。
+1. 導覽至 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}。
 
-1. 按一下&#x200B;**快速存取**&#x200B;區段或右上方功能表的可用連結，啟動&#x200B;**Admin Console**。
+1. 啟動 **Admin Console** 按一下 **快速存取** 區域或右上角的
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >如果未顯示&#x200B;**Admin Console**&#x200B;連結，表示您沒有組織的管理員權限。 請連絡您的組織管理員以執行相關步驟。
+   >若 **Admin Console** 連結不會顯示，這表示您沒有組織的管理員權限。 請連絡您的組織管理員以執行相關步驟。
 
-1. 從&#x200B;**Admin Console**&#x200B;中，從&#x200B;**[!UICONTROL Products and services]**&#x200B;清單中選取所需的Campaign產品。
+1. 從 **Admin Console**，請從 **[!UICONTROL Products and services]** 清單。
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ ht-degree: 6%
    >
    >您可以為每個Campaign執行個體新增不同的管理員使用者。 管理員使用者將只能存取其所屬執行個體的「控制面板」。
 
-1. 將顯示所選實例的&#x200B;**[!UICONTROL Product Profiles]**&#x200B;清單。 按一下&#x200B;**[!UICONTROL Administrators]**&#x200B;產品設定檔以存取管理員使用者清單。
+1. 清單 **[!UICONTROL Product Profiles]** ，則會顯示所選例項。 按一下 **[!UICONTROL Administrators]** 產品設定檔，以存取管理員使用者清單。
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ ht-degree: 6%
    >
    >依預設，管理員使用者屬於「管理員」產品設定檔。 根據您的組織設定，產品設定檔的名稱可以不同（「管理員」、「管理員」等）。
 
-1. 管理員使用者清單隨即顯示。 按一下&#x200B;**[!UICONTROL Add User]**&#x200B;按鈕以新增所需的使用者。
+1. 管理員使用者清單隨即顯示。 按一下 **[!UICONTROL Add User]** 按鈕來新增所需的使用者。
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 

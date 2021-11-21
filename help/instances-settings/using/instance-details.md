@@ -19,7 +19,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="關於執行個體詳細資訊"
->abstract="檢視Adobe Campaign執行個體的詳細資訊：類型、名稱、組建資訊和可能的升級建議。"
+>abstract="檢視Adobe Campaign例項的詳細資訊：類型、名稱、組建資訊和可能的升級建議。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 發行說明"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 發行說明"
 

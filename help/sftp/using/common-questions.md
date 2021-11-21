@@ -6,16 +6,15 @@ description: 進一步瞭解與 SFTP 管理相關的常見問題
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 98%
+source-wordcount: '109'
+ht-degree: 100%
 
 ---
 
-
-# 常見問題{#common-questions}
+# 常見問題 {#common-questions}
 
 **我的組織有兩部 SFTP 伺服器。為什麼我只看到附加至「生產」執行個體的執行個體？**
 

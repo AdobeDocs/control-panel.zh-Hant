@@ -51,7 +51,7 @@ Adobe 客戶服務產生您的 CSR。您需要提供產生 CSR 所需的一些�
 >id="cp_select_subdomains"
 >title="選擇 CSR 的子網域"
 >abstract="您可以選擇將所有或僅特定子網域納入您的憑證簽署請求。只有選取的子網域才會透過購買的 SSL 憑證取得認證。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="關於子網域名稱"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="關於子網域名稱"
 
 若要產生憑證簽署要求 (CSR)，請執行下列步驟：
 

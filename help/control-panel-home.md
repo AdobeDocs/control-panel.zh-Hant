@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 57%
+ht-degree: 66%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 57%
 >id="cp_overview"
 >title="關於「控制面板」"
 >abstract="「控制面板」首頁可讓您存取所有可在 Campaign 執行個體上執行的動作。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="探索介面"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="存取「控制面板」"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=zh-Hant" text="探索介面"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant" text="存取「控制面板」"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -27,19 +27,19 @@ ht-degree: 57%
 
 **透過Campaign v8提供完整支援**
 
-所有功能，包括 **子網域** 和 **憑證** Adobe Campaign v8上的「控制面板」現在支援管理功能。 [了解更多](faq.md#v8-restrictions)
+所有功能，包括 **子網域** 和 **憑證** Adobe Campaign v8上的「控制面板」現在支援管理功能。 [閱讀全文](faq.md#v8-restrictions)
 
 **IP範圍有效期和版本**
 
-您現在可以設定IP範圍可用時間，並編輯您建立的IP範圍。 [了解更多](sftp/using/ip-range-allow-listing.md)
+您現在可以設定IP範圍可用時間，並編輯您建立的IP範圍。 [閱讀全文](sftp/using/ip-range-allow-listing.md)
 
 **公鑰有效期和版本**
 
-同樣地，您現在可以設定公開金鑰的可用時間，並編輯您建立的公開金鑰。 [了解更多](sftp/using/key-management.md)
+同樣地，您現在可以設定公開金鑰的可用時間，並編輯您建立的公開金鑰。 [閱讀全文](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
->* 控制面板僅限管理員使用者存取。[瞭解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
+>* 控制面板僅限管理員使用者存取。[瞭解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)
 >
 >* 對於 Campaign Classic v7，則套用部署限制。 [瞭解更多](faq.md#v7-restrictions)
 
@@ -63,7 +63,7 @@ ht-degree: 57%
         <td><b>Campaign v8</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=zh-Hant">「控制面板」教學課程影片</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html">Campaign v8 產品文件</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant">Campaign v8 產品文件</a></li>
         </ul>
         </td>
     </tr>
