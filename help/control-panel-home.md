@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 66%
 
 ## 新增功能
 
-**透過Campaign v8提供完整支援**
+**透過 Campaign v8 提供完整支援**
 
-所有功能，包括 **子網域** 和 **憑證** Adobe Campaign v8上的「控制面板」現在支援管理功能。 [閱讀全文](faq.md#v8-restrictions)
+所有功能，包括&#x200B;**子網域**&#x200B;和&#x200B;**憑證**&#x200B;管理，現在均由 Adobe Campaign v8 上的「控制面板」支援。[閱讀全文](faq.md#v8-restrictions)
 
-**IP範圍有效期和版本**
+**IP 範圍有效期和版本**
 
-您現在可以設定IP範圍可用時間，並編輯您建立的IP範圍。 [閱讀全文](sftp/using/ip-range-allow-listing.md)
+您現在可以設定 IP 範圍持續時間，並編輯您建立的 IP 範圍。 [閱讀全文](sftp/using/ip-range-allow-listing.md)
 
-**公鑰有效期和版本**
+**公開金鑰有效期和版本**
 
-同樣地，您現在可以設定公開金鑰的可用時間，並編輯您建立的公開金鑰。 [閱讀全文](sftp/using/key-management.md)
+同樣地，您現在可以設定公開金鑰的持續時間，並編輯您建立的公開金鑰。 [閱讀全文](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
