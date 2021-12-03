@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 94%
 
 有關詳細資訊，請參閱「控制面板」支援的動作文件。
 
-### 是否有些功能尚未在Campaign v8上支援，但在Campaign Classicv7上可用{#v8-restrictions}
+### 有哪些功能尚未於 Campaign v8 支援，但可在 Campaign Classic v7 上使用？{#v8-restrictions}
 
-否. 現在，Campaign Classicv7上可用的所有功能也可透過Campaign v8的「控制面板」來支援，包括子網域和憑證管理相關功能。
+沒有。現在，Campaign Classic v7 上可用的所有功能也可透過 Campaign v8 的「控制面板」來支援，包括子網域和憑證管理相關功能。
 
 ### 「控制面板」是否只適用於 Adobe Campaign？
 
@@ -66,7 +66,7 @@ ht-degree: 94%
 
 ### 我可以在哪裡找到我的 IMS 組織 ID？
 
-一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)中找到更多詳細資訊。
+一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)中找到更多詳細資訊。
 
 另一種方式是啟動 **Admin Console**。您的 IMS 組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
