@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
+source-git-commit: 8c604e9b1f657be938b04d096ac22efed99e1cbe
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '778'
 ht-degree: 72%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 72%
 >
 >所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
->若是Campaign Classicv7，請注意您的執行個體必須托管在AWS上，並以最新的 [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=zh-Hant) 建置或 [最新GA版本編號(21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant#release-notes). 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
+>若是Campaign Classicv7，請注意您的執行個體必須托管在AWS上，並以最新的 [穩定組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/rn-overview.html). 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
 
 ## 2021 年 10 月 {#october-2021}
 
@@ -38,7 +38,7 @@ ht-degree: 72%
 
 電子郵件警報功能現在包含SFTP IP的警報，允許清單過期和SFTP公開金鑰過期。 [閱讀全文](performance-monitoring/using/email-alerting.md)
 
-**透過Campaign v8提供完整支援**
+**透過 Campaign v8 提供完整支援**
 
 此 **子網域** 和 **憑證** Adobe Campaign v8上的「控制面板」現在支援管理功能。
 
