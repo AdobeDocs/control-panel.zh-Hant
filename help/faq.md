@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 100%
 
 ### 身為 Campaign Classic v7 使用者，存取「控制面板」的條件為何？ {#v7-restrictions}
 
-控制面板僅限管理員使用者存取。[深入瞭解](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
+控制面板僅限管理員使用者存取。[深入瞭解](discover/using/managing-permissions.md)。
 
-請注意，就 Campaign Classic v7 而言，您的執行個體必須託管至 Amazon Web Services (AWS)，並升級至最新的 [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 版本。於[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。若要檢查您的 Campaign Classic 執行個體是否託管至 AWS，請依照 [本節](#hosted-aws)詳述步驟操作。
+若是Campaign Classicv7，請注意您的執行個體必須托管於Amazon Web Services(AWS)並升級至最新 [促銷活動穩定組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或是建造9032或更高版本。 於[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的 Campaign Classic 版本。若要檢查您的 Campaign Classic 執行個體是否託管至 AWS，請依照 [本節](#hosted-aws)詳述步驟操作。
 
 ### 如何存取「控制面板」？
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 ### 我可以在哪裡找到我的 IMS 組織 ID？
 
-一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)中找到更多詳細資訊。
+一種方式是導覽至[「Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/) >**[!UICONTROL Administration]**」。您會在「管理人員&#x200B;**[!UICONTROL Quick Access]**」區段的底部找到您的 IMS 組織 ID。您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)中找到更多詳細資訊。
 
 另一種方式是啟動 **Admin Console**。您的 IMS 組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 

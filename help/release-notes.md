@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8c604e9b1f657be938b04d096ac22efed99e1cbe
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 72%
+ht-degree: 70%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->所有管理員使用者都可存取控制面板。 授予使用者管理員存取權限的步驟已詳載於[本章節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
+>「控制面板」僅供管理員使用者存取。 進一步了解權限，請參閱 [本節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel).
 >
->若是Campaign Classicv7，請注意您的執行個體必須托管在AWS上，並以最新的 [穩定組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/rn-overview.html). 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md)詳述的步驟操作。
+>若為Campaign Classicv7，您的執行個體必須托管在Amazon Web Services(AWS)上，並升級至最新的 [促銷活動穩定組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) （或建置9032或更高版本）。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md#hosted-aws)詳述的步驟操作。
 
 ## 2021 年 10 月 {#october-2021}
 
