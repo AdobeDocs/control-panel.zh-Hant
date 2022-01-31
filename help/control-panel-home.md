@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 77%
 
 ---
 
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## 新增功能
 
-**透過 Campaign v8 提供完整支援**
+**活動查詢監視**
 
-所有功能，包括&#x200B;**子網域**&#x200B;和&#x200B;**憑證**&#x200B;管理，現在均由 Adobe Campaign v8 上的「控制面板」支援。[閱讀全文](faq.md#v8-restrictions)
+「控制面板」現在允許您監視在實例上運行時間最長的查詢。 [閱讀全文](performance-monitoring/using/database-active-queries.md)
 
-**IP 範圍有效期和版本**
+**吞吐量和延遲監視**
 
-您現在可以設定 IP 範圍持續時間，並編輯您建立的 IP 範圍。 [閱讀全文](sftp/using/ip-range-allow-listing.md)
+您現在可以監視實例上一段時間內交付吞吐量和延遲的趨勢。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
 
-**公開金鑰有效期和版本**
-
-同樣地，您現在可以設定公開金鑰的持續時間，並編輯您建立的公開金鑰。 [閱讀全文](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
