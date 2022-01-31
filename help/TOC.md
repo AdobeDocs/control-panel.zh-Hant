@@ -6,10 +6,10 @@ user-guide-title: Control Panel 指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [管理 TXT 記錄](subdomains-certificates/using/managing-txt-records.md)
 + 效能監視{#performance-monitoring}
    + [關於效能監視](performance-monitoring/using/about-performance-monitoring.md)
-   + [資料庫監視](performance-monitoring/using/database-monitoring.md)
+   + 資料庫監視 {#database-monitoring}
+      + [關於資料庫監視](performance-monitoring/using/database-monitoring.md)
+      + [資料庫使用](performance-monitoring/using/database-utilization.md)
+      + [儲存空間概覽](performance-monitoring/using/database-storage-overview.md)
+      + [前 10 項臨時資源](performance-monitoring/using/database-top-ten-resources.md)
+      + [監視活動查詢](performance-monitoring/using/database-active-queries.md)
+      + [防止資料庫超過負荷](performance-monitoring/using/database-preventing-overload.md)
    + [作用中設定檔監控](performance-monitoring/using/active-profiles-monitoring.md)
+   + [吞吐量和延遲監視](performance-monitoring/using/thoughputs-latencies.md)
    + [電子郵件警報](performance-monitoring/using/email-alerting.md)
 + 執行個體設定 {#instances-settings}
    + [IP 允許執行個體存取清單](instances-settings/using/ip-allow-listing-instance-access.md)

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,7 @@ ht-degree: 100%
 
 子網域設定僅適用於&#x200B;**生產**&#x200B;執行個體。
 
-如果您在精靈中選擇的執行個體先前沒有設定子網域，則第一個設定的子網域將成為該執行個體的&#x200B;**主要子網域**，而日後您將無法更改該子網域。
-
-因此，將利用此主子網域為其他子網域建立&#x200B;**反向 DNS 記錄**。 **其他子網域的回覆和退信地址會由主要子網域產生。**
+如果您在精靈中選擇的執行個體先前沒有設定子網域，則第一個設定的子網域將成為該執行個體的&#x200B;**主要子網域**，而日後您將無法更改該子網域。因此，將利用此主子網域為其他子網域建立&#x200B;**反向 DNS 記錄**。 **其他子網域的回覆和退信地址會由主要子網域產生。**
 
 ### 名稱伺服器設定
 
@@ -62,13 +60,13 @@ ht-degree: 100%
 >id="cp_add_subdomain_create_delegate"
 >title="建立並委派子網域"
 >abstract="建立您要在托管解決方案中與 Adobe Campaign 搭配使用的子網域，並將其委派給 Adobe。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="提交您的子網域"
 >abstract="確認並提交在先前步驟中設定的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 若要將子網域完全委派給 Adobe Campaign，請執行以下步驟。
 
@@ -110,19 +108,19 @@ ht-degree: 100%
 >id="cp_add_cname_subdomain_create_delegate"
 >title="設定您的子網域"
 >abstract="在此畫面中，指定您要使用 CNAME 設定的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="產生記錄"
 >abstract="導覽至您的託管解決方案，以產生此畫面中顯示的 DNS 記錄清單。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="提交您的子網域"
 >abstract="確認並提交在先前步驟中設定的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
 
 若要使用 CNAME 來設定子網域，請遵循下列步驟。
 
@@ -168,7 +166,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >請注意，子網域設定執行時，透過「控制面板」中的其他請求將會進入佇列，並只會在子網域設定完成後才執行，以免出現任何效能問題。
+   >請注意，在運行子域配置時，其他控制面板請求將輸入到隊列中，並僅在子域配置完成後才執行，以防止出現任何效能問題。
 
 1. 如果確認成功，「控制面板」將會開始設定包含 DNS 記錄、其他 URL、收件匣等等的子網域。
 
@@ -183,6 +181,8 @@ ht-degree: 100%
    >[!IMPORTANT]
    >
    >執行的檢查包括回饋迴圈和垃圾郵件投訴迴圈測試。因此，我們不建議在稽核完成之前使用子網域，因為這可能導致子網域信譽不佳。
+   >
+   >但是，請注意，您可以在子域上執行與SSL證書相關的操作，即使交付性審核仍在處理。
 
 1. 程序結束時，子網域將設定為與您的 Adobe Campaign 執行個體搭配使用，並會建立下列元素：
 

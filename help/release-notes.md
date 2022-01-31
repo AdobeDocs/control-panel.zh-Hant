@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: 「控制面板」發行版本
-description: 最新「控制面板」發行說明。
+description: 最新的「Control Panel（控制面板）」發行說明。
 feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,33 +20,47 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->「控制面板」僅供管理員使用者存取。 進一步了解權限，請參閱 [本節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel).
+>控制面板僅可供管理員用戶訪問。 瞭解有關中權限的詳細資訊 [此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
->若為Campaign Classicv7，您的執行個體必須托管在Amazon Web Services(AWS)上，並升級至最新的 [促銷活動穩定組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) （或建置9032或更高版本）。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md#hosted-aws)詳述的步驟操作。
+>對於v7Campaign Classic，您的實例必須托管在Amazon Web Services(AWS)上，並升級到最新版本 [活動穩定構建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) （或建9032或更高）。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md#hosted-aws)詳述的步驟操作。
+
+## 2022 年 1 月 {#january-2022}
+
+**活動查詢監視**
+
+「控制面板」現在允許您監視在實例上運行時間最長的查詢。 [閱讀全文](performance-monitoring/using/database-active-queries.md)
+
+**吞吐量和延遲監視**
+
+您現在可以監視實例上一段時間內交付吞吐量和延遲的趨勢。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
+
+**新子域上的SSL證書操作**
+
+現在，即使可交付性審核仍在進行中，也可以對新設定的子域執行SSL證書操作。 [閱讀全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## 2021 年 10 月 {#october-2021}
 
-**IP範圍和公鑰有效期**
+**IP範圍與公鑰有效期**
 
-您現在可以設定IP範圍和公開金鑰可用時間。 請參閱 [IP範圍允許清單](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) 和 [金鑰管理](sftp/using/key-management.md#installing-ssh-key) 區段。
+現在，可以為IP範圍和公鑰的可用性設定持續時間。 閱讀 [IP範圍允許清單](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) 和 [密鑰管理](sftp/using/key-management.md#installing-ssh-key) 的下界。
 
-**IP範圍和公開密鑰版本**
+**IP範圍和公鑰版本**
 
-您現在可以編輯 [IP範圍](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) 和 [公用金鑰](sftp/using/key-management.md#editing-public-keys) 由您建立。 請注意，此功能不適用於目前「控制面板」發行版本之前建立的項目。
+現在可以編輯 [IP範圍](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) 和 [公鑰](sftp/using/key-management.md#editing-public-keys) 你創造的。 請注意，此功能不適用於當前「控制面板」發佈前建立的項目。
 
-**SFTP IP範圍和公開金鑰過期的警報**
+**SFTP IP範圍和公鑰到期警報**
 
-電子郵件警報功能現在包含SFTP IP的警報，允許清單過期和SFTP公開金鑰過期。 [閱讀全文](performance-monitoring/using/email-alerting.md)
+電子郵件警報功能現在包括有關SFTP IP的警報，允許列出過期和SFTP公鑰過期。 [閱讀全文](performance-monitoring/using/email-alerting.md)
 
 **透過 Campaign v8 提供完整支援**
 
-此 **子網域** 和 **憑證** Adobe Campaign v8上的「控制面板」現在支援管理功能。
+的 **子域** 和 **證書** 管理功能現在由Adobe Campaignv8上的控制面板支援。
 
 ## 2021 年 8 月 {#august-2021}
 
-**支援Campaign v8**
+**支援活動v8**
 
-「控制面板」現在可供Adobe Campaign v8使用，但 **子網域** 和 **憑證** 尚未支援的管理功能。 深入了解 [Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
+控制面板現在可用於Adobe Campaignv8，但 **子域** 和 **證書** 管理權能，但尚不受支援。 瞭解詳情 [市場活動v8文檔](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;
 
 ## 2020 年 10 月 {#october-2020}
 
