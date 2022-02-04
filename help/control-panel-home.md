@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 77%
 
 ## 新增功能
 
-**活動查詢監視**
+**使用中查詢監視**
 
-「控制面板」現在允許您監視在實例上運行時間最長的查詢。 [閱讀全文](performance-monitoring/using/database-active-queries.md)
+允許您可以藉由控制面板監視在執行個體上執行時間最長的查詢。 [閱讀全文](performance-monitoring/using/database-active-queries.md)
 
-**吞吐量和延遲監視**
+**輸送量和延時監視**
 
-您現在可以監視實例上一段時間內交付吞吐量和延遲的趨勢。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
+您現在可以監視執行個體上一段時間內的傳遞輸送量和延時趨勢。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
 
 
 >[!CAUTION]
