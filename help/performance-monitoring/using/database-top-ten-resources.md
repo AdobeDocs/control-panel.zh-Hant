@@ -1,13 +1,12 @@
 ---
 product: campaign
 solution: Campaign
-title: 前 10 項臨時資源
+title: 前 10 大臨時資源
 description: 瞭解如何在控制面板中監視市場活動資料庫上由工作流和交貨生成的10個最大臨時資源。
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 92%

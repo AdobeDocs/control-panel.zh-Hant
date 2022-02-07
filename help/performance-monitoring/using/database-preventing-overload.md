@@ -1,13 +1,12 @@
 ---
 product: campaign
 solution: Campaign
-title: 防止資料庫超過負荷
+title: 防止資料庫超載
 description: 從市場活動文檔訪問資源，以幫助您防止實例上的資料庫超載。
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 92%
