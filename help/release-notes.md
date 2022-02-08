@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 65%
+source-wordcount: '834'
+ht-degree: 69%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 65%
 
 ## 2022 年 1 月 {#january-2022}
 
-**活動查詢監視**
+<!-- **Active queries monitoring**
 
-「控制面板」現在允許您監視在實例上運行時間最長的查詢。 [閱讀全文](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
-**吞吐量和延遲監視**
+**輸送量和延時監視**
 
-您現在可以監視實例上一段時間內交付吞吐量和延遲的趨勢。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
+您現在可以監視執行個體上一段時間內的傳遞輸送量和延時趨勢。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
 
 **新子域上的SSL證書操作**
 
