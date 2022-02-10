@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 50%
 
 >[!IMPORTANT]
 >
->如果其中一個查詢已激活超過24小時，如果您訂閱了 [電子郵件警報](email-alerting.md)。
+>如果其中一個查詢已啟動超過 24 小時，您將會收到電子郵件通知，前提是您訂閱了[電子郵件提醒](email-alerting.md)。
 >
->在這種情況下，請聯繫「客戶服務」，以便他們確定並解決問題。 你需要給他們 **[!UICONTROL PID]** 列值，它是查詢的唯一標識符。
+>在這種情況下，請聯絡「客戶服務」，以便他們確定問題並加以解決。 您需要提供 **[!UICONTROL PID]** 欄值，這是查詢的唯一識別碼。
