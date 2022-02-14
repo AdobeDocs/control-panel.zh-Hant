@@ -6,9 +6,10 @@ description: 瞭解如何在「控制面板」中的 Campaign 執行個體上監
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: ht
-source-wordcount: '118'
+exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
+source-git-commit: efad3b82a498cfc88a06479e40c3e5c75d814740
+workflow-type: tm+mt
+source-wordcount: '103'
 ht-degree: 100%
 
 ---
@@ -23,6 +24,4 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->如果其中一個查詢已啟動超過 24 小時，您將會收到電子郵件通知，前提是您訂閱了[電子郵件提醒](email-alerting.md)。
->
->在這種情況下，請聯絡「客戶服務」，以便他們確定問題並加以解決。 您需要提供 **[!UICONTROL PID]** 欄值，這是查詢的唯一識別碼。
+>如果其中一個查詢已執行超過 24 小時，請聯絡客戶服務，以便他們確定問題並加以解決。 您需要提供 **[!UICONTROL PID]** 欄值，這是查詢的唯一識別碼。
