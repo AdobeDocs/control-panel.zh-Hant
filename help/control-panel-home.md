@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 100%
 
 ## 新增功能
 
-<!--**Active queries monitoring**
+**使用中查詢監視**
 
-Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
+允許您可以藉由控制面板監視在執行個體上執行時間最長的查詢。 [閱讀全文](performance-monitoring/using/database-active-queries.md)
 
 **輸送量和延時監視**
 

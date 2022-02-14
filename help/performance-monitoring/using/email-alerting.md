@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -44,4 +44,4 @@ ht-degree: 1%
 
 * **SFTP公鑰過期**:您定義的其中一個公鑰已過期或將在10天或之內過期。 請參閱 [密鑰管理](../../sftp/using/key-management.md)。
 
-<!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
+* **長時間運行的查詢**:一個查詢在您的一個實例上已運行超過24小時。 請參閱 [監視活動查詢](database-active-queries.md)。
