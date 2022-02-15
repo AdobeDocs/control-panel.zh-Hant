@@ -6,8 +6,7 @@ description: 瞭解如何在「控制面板」中的 Campaign 執行個體上監
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: efad3b82a498cfc88a06479e40c3e5c75d814740
+source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
