@@ -6,10 +6,10 @@ description: 瞭解如何在控制面板中監視 Campaign 執行個體的輸送
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: ht
-source-wordcount: '231'
-ht-degree: 100%
+source-git-commit: 9d3064515b8001207d1edd20c371facca01c7b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
