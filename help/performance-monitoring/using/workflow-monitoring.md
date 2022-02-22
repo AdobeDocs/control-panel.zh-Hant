@@ -4,7 +4,7 @@ description: 瞭解如何監視可能需要注意的特定工作流參數以避�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # 監視工作流程 {#monitor-workflows}
 
-<!--## Clean paused and completed workflows
+<!-- Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -41,7 +41,7 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-## Monitor workflow parameters -->
+Monitor workflow parameters -->
 
 在Adobe Campaign，某些工作線參數可能需要特別注意，以避免在實例上出現任何問題。 控制面板 **[!UICONTROL Storage overview]** 詳細資訊允許您檢查是否為工作流啟用了這些選項中的任何一個。
 
