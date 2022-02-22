@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 84%
+source-wordcount: '160'
+ht-degree: 59%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 84%
 
 按一下 **[!UICONTROL View details]** 按鈕，以針對消耗資料庫空間的不同資產獲取更多詳細資訊。
 
+您可以使用下拉清單來僅從特定資產類型（工作流、交貨、收件人）細化搜索和顯示表。
+
 ![](assets/database-storage-details.png)
 
-使用篩選器可縮小搜尋範圍並顯示特定資產類型的表格。
-
-![](assets/database-storage-overview-filter.png)
+請注意，此螢幕還允許您監視可能需要特別注意的工作流參數，以避免實例上出現任何問題。 在[本頁](workflow-monitoring.md)中瞭解更多。

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '882'
+ht-degree: 68%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 70%
 >控制面板僅可供管理員用戶訪問。 瞭解有關中權限的詳細資訊 [此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
 >對於v7Campaign Classic，您的實例必須托管在Amazon Web Services(AWS)上，並升級到最新版本 [活動穩定構建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) （或建9032或更高）。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md#hosted-aws)詳述的步驟操作。
+
+## 2022 年 2 月 {#february-2022}
+
+**工作流參數監視**
+
+您現在可以監視可能需要特別注意的工作流參數，以避免實例上出現任何問題。 [顯示全文](performance-monitoring/using/workflow-monitoring.md)。
 
 ## 2022 年 1 月 {#january-2022}
 
