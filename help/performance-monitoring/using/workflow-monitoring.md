@@ -1,13 +1,14 @@
 ---
 title: 監視工作流程
-description: 瞭解如何監視可能需要注意的特定工作流參數以避免實例上出現任何問題。
+description: 瞭解如何監視可能需要注意的特定工作流程參數以避免執行個體上出現任何問題。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
@@ -43,36 +44,36 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-在Adobe Campaign，某些工作線參數可能需要特別注意，以避免在實例上出現任何問題。 控制面板 **[!UICONTROL Storage overview]** 詳細資訊允許您檢查是否為工作流啟用了這些選項中的任何一個。
+在 Adobe Campaign，某些工作流程參數可能需要特別注意，以避免在執行個體上出現任何問題。 您可藉由控制面板 **[!UICONTROL Storage overview]** 詳細資料檢查是否為工作流程啟用了這些選項中的任何一項。
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL Keep interim results]** {#keep-results}
 
-啟用（值「1」）後，此選項將保存工作流各活動之間轉換的結果。 瞭解詳情 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hant#logs) 文檔。
+啟用 (值「1」) 後，此選項將儲存工作流程各活動之間轉換的結果。 於 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=zh-Hant#logs) 文件中瞭解更多。
 
 >[!IMPORTANT]
 >
->在生產工作流程中，請勿勾選此選項。 它用於分析和測試，因此必須僅用於開發或分段環境。 我們強烈建議在競選中關閉它。
+>在生產工作流程中，請勿勾選此選項。 它用於分析和測試，因此必須僅用於開發或中繼環境。 我們強烈建議在 Campaign 中將其關閉。
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-啟用此選項後，工作流執行期間發送到資料庫的SQL查詢將顯示在Adobe Campaign。 瞭解詳情 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) 文檔。
+啟用此選項後，工作流程執行期間傳送到資料庫的 SQL 查詢將顯示在 Adobe Campaign 中。 於 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hant#execution) 文件中瞭解更多。
 
-值&quot;1&quot;表示工作流具有 **嚴重性** 欄位設定為「生產」，並且SQL查詢日誌選項已啟用。
+值「1」表示工作流程具有 **嚴重程度** 的欄位設定為「生產」，並且 SQL 查詢記錄選項已啟用。
 
 >[!IMPORTANT]
 >
->激活此選項可能會影響效能並填充伺服器上的日誌檔案。 它只應用於分析和診斷。
+>啟用此選項可能會影響效能並填入伺服器上的記錄檔案。 它只應用於分析和診斷。
 
 ![](assets/wkf-monitoring-sql.png)
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-此欄位允許您將運算子分配給工作流。 如果工作流失敗，將向關聯的操作員發出警報。 瞭解詳情 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) 文檔。
+您可藉由此欄位將運算元指派給工作流程。 如果工作流程失敗，將向關聯的運算元發出警示。 於 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=zh-Hant#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hant#error-management) 文件瞭解更多。
 
-值&quot;1&quot;表示工作流具有 **嚴重性** 欄位設定為「生產」，且未將主管組分配給工作流。
+值「1」表示工作流程具有 **嚴重程度** 的欄位設定為「生產」，且未將主管群組指派給工作流程。
 
 ![](assets/wkf-monitoring-supervisors.png)
