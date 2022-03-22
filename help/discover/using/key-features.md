@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 存取「控制面板」
+title: 控制面板可幫助您提高工作效率，作為Adobe Campaign Standard和/或經典產品的產品管理員。
 description: 瞭解如何存取「控制面板」
 feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '293'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 89%
 >
 >控制面板僅限管理員使用者存取。授予使用者管理員存取權限的步驟已詳載於[本章節](managing-permissions.md)。
 >
->若為Campaign Classic，請注意，您的執行個體必須托管在Amazon Web Services(AWS)上，並升級至最新 [促銷活動穩定組建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或是建造9032或更高版本。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md#hosted-aws)詳述的步驟操作。
+>要Campaign Classic，請注意您的實例必須托管在Amazon Web Services(AWS)上，並升級到最新 [活動穩定構建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或者建造9032或更高。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md#hosted-aws)詳述的步驟操作。
 
 <table style="table-layout:fixed">
 <tr>
