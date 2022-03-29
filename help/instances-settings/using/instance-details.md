@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '530'
+ht-degree: 77%
 
 ---
 
@@ -19,15 +19,13 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="關於執行個體詳細資訊"
->abstract="檢視Adobe Campaign例項的詳細資訊：類型、名稱、組建資訊和可能的升級建議。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Campaign Classic 發行說明"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Campaign Standard 發行說明"
+>abstract="查看您的Adobe Campaign實例的詳細資訊：類型、名稱、生成資訊以及可能的升級建議。"
 
 ## 關於執行個體詳細資訊 {#about-instance-details}
 
 >[!IMPORTANT]
 >
->此功能僅適用於Campaign Classicv7和Campaign v8執行個體。
+>此功能僅適用於Campaign v7/v8實例。
 
 您的 Adobe Campaign 執行個體架構可以包含數個伺服器，以便提供行銷活動的彈性。例如，您可以有行銷、即時 (或 Message Center) 和 Mid Sourcing 伺服器以支援您的執行個體。
 
@@ -35,7 +33,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->我們建議您每年升級一次您的執行個體，以免降低效能，並能利用 Adobe Campaign Classic 提供的最新功能和修正。
+>我們建議您的實例每年至少升級一次，以避免效能下降，並能夠利用Adobe Campaignv7/v8必須提供的最新功能和修復。
 
 **相關主題：**
 
@@ -50,13 +48,13 @@ ht-degree: 86%
 
    >[!NOTE]
    >
-   >如果「控制面板」首頁上未顯示「執行個體設定」卡片，表示您的IMS組織ID未與任何Adobe Campaign Classic執行個體建立關聯
+   >如果「控制面板」的首頁上看不到「實例設定」卡，則表示您的IMS組織ID未與任何Adobe Campaignv7/v8實例關聯
 
 1. 在左窗格中，選取所需的 Campaign 執行個體。
 
    >[!NOTE]
    >
-   >所有 Campaign 執行個體都會顯示在左側窗格清單中。由於「執行個體詳細資訊」功能專屬於 Campaign Classic 執行個體，如果您選取 Campaign Standard 執行個體，則會顯示「不適用執行個體」訊息。
+   >所有 Campaign 執行個體都會顯示在左側窗格清單中。由於「實例詳細資訊」功能僅專用於市場活動v7/v8實例，因此如果您選擇了Campaign Standard實例，則會顯示「不適用實例」消息。
 
 1. 隨即顯示伺服器連結的執行個體。
 

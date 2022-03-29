@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 85%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->此功能僅適用於8850組建版本的Campaign v8和Campaign Classicv7執行個體。 如果您使用舊版組建，則需進行升級，才能使用此功能。
+>此功能僅適用於8850內部版本中的Campaig v7/v8實例。 如果您使用舊版組建，則需進行升級，才能使用此功能。
 
-可由您的 Campaign Classic 執行個體的 JavaScript 程式碼 (工作流程等等) 呼叫之預設 URL 清單限制。 這些是可讓您的執行個體正常運作的 URL。
+可由您的 Campaign Classic 執行個體的 JavaScript 程式碼 (工作流程等等) 呼叫之預設 URL 清單您的活動實例有限。 這些是可讓您的執行個體正常運作的 URL。
 
 依預設，執行個體不得連線到外部 URL。「控制面板」可讓您將一些外部 URL 新增至授權 URL 清單，以便您的執行個體可以連結到這些 URL。這可讓您將 Campaign 執行個體連結到外部系統，例如 SFTP 伺服器或網站，以啟用檔案和/或資料傳輸。
 
@@ -60,7 +60,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >如果「控制面板」首頁上未顯示「執行個體設定」卡片，表示您的IMS組織ID未與任何Adobe Campaign執行個體建立關聯
+   >如果「控制面板」的首頁上看不到「實例設定」卡，則表示您的IMS組織ID未與任何Adobe Campaign實例關聯
    >
    ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 
@@ -72,7 +72,7 @@ ht-degree: 88%
    >
    >所有 Campaign 執行個體都會顯示在左側窗格清單中。
    >
-   >由於「URL 權限」管理專屬於 Campaign Classic 執行個體，如果您選取 Campaign Standard 執行個體，則會顯示「不適用執行個體」訊息。
+   >由於「URL權限」管理僅專用於市場活動v7/v8實例，因此，如果您選擇了Campaign Standard實例，則會顯示「不適用實例」消息。
 
 1. 輸入要授權的 URL 及其相關關的通訊協定 (http、https 或 sftp)。
 

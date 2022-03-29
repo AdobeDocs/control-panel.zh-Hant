@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 96%
+source-wordcount: '1358'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 96%
 
 若要將子網域完全委派給 Adobe Campaign，請執行以下步驟。
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png) 使用 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
 
@@ -90,7 +90,7 @@ ht-degree: 96%
 
 1. 在使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下 **[!UICONTROL Next]**。
 
-1. 如果您選擇了 Campaign Classic 執行個體，請為子網域選擇想用的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。[本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
+1. 如果選擇了「市場活動v7/v8」實例，請為子域選擇所需的使用案例： **營銷傳播** 或 **事務性和操作性通信**。 [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
 
    ![](assets/subdomain5.png)
 
@@ -124,7 +124,7 @@ ht-degree: 96%
 
 若要使用 CNAME 來設定子網域，請遵循下列步驟。
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png) 使用 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant)
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
 
@@ -134,7 +134,7 @@ ht-degree: 96%
 
    ![](assets/cname-method-selection.png)
 
-1. 如果您選擇了 Campaign Classic 執行個體，請為子網域選擇想要的使用案例：**行銷通訊**&#x200B;或&#x200B;**交易與營運通訊**。 [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
+1. 如果選擇了「市場活動v7/v8」實例，請為子域選擇所需的使用案例： **營銷傳播** 或 **事務性和操作性通信**。 [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
 
    ![](assets/cname-use-case.png)
 

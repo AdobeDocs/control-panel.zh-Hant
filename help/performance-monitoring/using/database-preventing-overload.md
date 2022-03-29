@@ -6,10 +6,11 @@ description: 從市場活動文檔訪問資源，以幫助您防止實例上的�
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: '195'
+ht-degree: 72%
 
 ---
 
@@ -22,15 +23,15 @@ Campaign Standard 和 Classic 提供多種方法來防止過度消耗資料庫�
 **工作流程監視**
 
 * [工作流程最佳實務](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=zh-Hant) (Campaign Standard)
-* [監視工作流程的執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=zh-Hant) (Campaign Classic)
+* [監視工作流執行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=zh-Hant) （市場活動v7/v8）
 
 **維護資料庫**
 
-* 資料庫清理技術工作流程：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant)
-* [資料庫維護指南](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=zh-Hant) (Campaign Classic)
-* [針對資料庫效能進行疑難排解](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=zh-Hant) (Campaign Classic)
-* [資料庫的相關選項](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#database) (Campaign Classic)
-* 資料保留：[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=zh-Hant) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=zh-Hant#data-retention)
+* 資料庫清理技術工作流： [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) - [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant)
+* [資料庫維護指南](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=zh-Hant) （市場活動v7/v8）
+* [資料庫效能疑難解答](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=zh-Hant) （市場活動v7/v8）
+* [與資料庫相關的選項](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=zh-Hant#database) （市場活動v7/v8）
+* 資料保留： [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=zh-Hant) - [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=zh-Hant#data-retention)
 
 >[!NOTE]
 >

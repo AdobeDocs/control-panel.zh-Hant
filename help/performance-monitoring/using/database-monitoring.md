@@ -6,10 +6,11 @@ description: 瞭解如何在控制面板監視 Campaign 資料庫
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '380'
+ht-degree: 81%
 
 ---
 
@@ -45,7 +46,7 @@ ht-degree: 84%
 
 ![](assets/databases_dashboard.png)
 
-此儀表板中的資料將根據 **[!UICONTROL Database cleanup technical workflow]** 運行在您的市場活動實例上(請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) 文檔)。 您可以檢查工作流上次在以下運行的時間 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 度量。 請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
+此儀表板中的資料將根據 **[!UICONTROL Database cleanup technical workflow]** 運行在您的市場活動實例上(請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) 和 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) 文檔)。 您可以檢查工作流上次在以下運行的時間 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 度量。 請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
 
 此儀表板中提供了其他度量，以幫助您分析實例資料庫的使用情況。 以下各節詳細介紹了這些內容：
 
@@ -54,4 +55,4 @@ ht-degree: 84%
 * [前 10 大臨時資源](../../performance-monitoring/using/database-top-ten-resources.md)
 * [活動查詢](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png) 使用 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring)

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 93%
+source-wordcount: '346'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 您必須定期監視每個 SFTP 伺服器的可用空間，否則，您可能無法再在伺服器上儲存任何其他檔案，或是無法成功執行須依賴此伺服器更新的工作流程。
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png) 使用 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management)
 
 ## 存取儲存容量資訊 {#accessing-storage-capacity-information}
 
@@ -44,6 +44,6 @@ SFTP 卡片 **[!UICONTROL Storage]** 索引標籤中會提供關於您有權存�
 ## 儲存容量耗盡時的最佳實務 {#best-practices-when-capacity-runs-out}
 
 1. **從舊有或不必要的檔案清除 SFTP 伺服器**。如需進一步瞭解如何存取您的 SFTP 伺服器資料夾，請參閱[本章節](../../sftp/using/logging-into-sftp-server.md)。
-1. 請確定清除 SFTP 伺服器的&#x200B;**工作流程**&#x200B;成功執行。如需 Adobe Campaign 技術工作流程的詳細資訊，請參閱專屬的 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant) 文件。
+1. 請確定清除 SFTP 伺服器的&#x200B;**工作流程**&#x200B;成功執行。有關Adobe Campaign技術工作流的詳細資訊，請參閱 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) 和 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant) 的子菜單。
 1. 請聯繫您的客戶團隊，以&#x200B;**要求取更多儲存空間** (可能需支付額外費用)。
 1. 如果您認為有問題，請聯繫&#x200B;**客戶服務**。

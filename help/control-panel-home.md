@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 84%
 
 ---
 
@@ -23,16 +23,13 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/banner.png)
 
+「市場活動控制面板」允許您管理每個市場活動實例的設定和跟蹤使用情況，從而幫助您提高作為Campaign Standard和V7/v8產品管理員的工作效率。
+
 ## 新增功能
 
 **工作流程參數監視**
 
 您現在可以監視可能需要特別注意的工作流程參數，以避免執行個體上出現任何問題。 [閱讀全文](performance-monitoring/using/workflow-monitoring.md)
-
-
-**使用中查詢監視**
-
-允許您可以藉由控制面板監視在執行個體上執行時間最長的查詢。 [閱讀全文](performance-monitoring/using/database-active-queries.md)
 
 **輸送量和延時監視**
 
@@ -43,7 +40,7 @@ ht-degree: 100%
 >
 >* 控制面板僅限管理員使用者存取。[瞭解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)
 >
->* 對於 Campaign Classic v7，則套用部署限制。 [瞭解更多](faq.md#v7-restrictions)
+>* 對於 Campaign v7，則套用部署限制。 [瞭解更多](faq.md#v7-restrictions)
 
 
 ## 其他資源 {#additional-resources}
@@ -56,10 +53,10 @@ ht-degree: 100%
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hant">Campaign Standard 產品文件</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic v7</b><br/>
+        <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant">「控制面板」教學課程影片</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hant">Campaign Classic v7 產品文件</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hant">Campaign v7 產品文件</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>

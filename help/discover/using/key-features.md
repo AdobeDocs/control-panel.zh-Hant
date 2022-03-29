@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 83%
+source-wordcount: '295'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 83%
 >
 >控制面板僅限管理員使用者存取。授予使用者管理員存取權限的步驟已詳載於[本章節](managing-permissions.md)。
 >
->要Campaign Classic，請注意您的實例必須托管在Amazon Web Services(AWS)上，並升級到最新 [活動穩定構建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或者建造9032或更高。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md#hosted-aws)詳述的步驟操作。
+>對於活動v7/v8，請注意，您的實例必須托管在Amazon Web Services(AWS)上，並升級到最新版本 [活動穩定構建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或者建造9032或更高。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md#hosted-aws)詳述的步驟操作。
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ ht-degree: 83%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="條件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>管理您的執行個體設定</strong></a></div>
-        <br/><em>瞭解如何管理您的執行個體設定 (僅限 Campaign Classic).</em>
+        <br/><em>瞭解如何管理實例設定（僅限活動v7/v8）。</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="條件" src="assets/do-not-localize/monitoring-performance.png"/></a>
