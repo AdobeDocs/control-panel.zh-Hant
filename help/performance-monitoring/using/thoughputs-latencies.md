@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 73%
 >title="關於輸送量和延時監視 "
 >abstract="在此標籤中，您可以監視執行個體的傳遞輸送量和延時在一段時間內的趨勢。"
 
-控制面板允許您監視每個實例的交付吞吐量和延遲。
+控制面板可讓您監視每個執行個體的傳遞輸送量和延遲。
 
 >[!IMPORTANT]
 >
->此功能適用於所有Campaign Standard和v8客戶，以及版本號為9032、9330、9346或9349的營銷活動V7客戶 [獨立](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) 部署（沒有任何中型實例）。
+>此功能適用於所有 Campaign Standard 和 v8 客戶，以及版本編號為 9032、9330、9346 或 9349 且已具有[獨立](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hant) 部署 (沒有任何中型執行個體) 的 Campaign v7 客戶。
 
-監視一段時間內傳遞輸送量和延時趨勢如何是瞭解執行個體使用情況並確保其正常運作的關鍵。
+監視一段時間內傳遞輸送量和延時趨勢如何，是瞭解執行個體使用情況並確保其正常運作的關鍵。
 
 此資訊可在「控制面板」中為每個&#x200B;**[!UICONTROL Performance Monitoring]**&#x200B;卡片&#x200B;**[!UICONTROL Throughputs & Latency]**&#x200B;標籤中的 Campaign 執行個體提供 (請注意，「控制面板」可能需要最多 1 小時才能顯示這些圖)。
 
@@ -35,7 +35,7 @@ ht-degree: 73%
 
    >[!NOTE]
    >
-   >對於Campaig v7/v8，顯示的吞吐量編號是從MID（中間採購）實例獲得的吞吐量。 對於獨立營銷(MKT)部署（沒有任何MID實例），將顯示MKT實例的吞吐量。
+   >Campaig v7/v8 顯示的輸送量編號是從 MID (中間來源) 執行個體獲得的輸送量。對於獨立行銷 (MKT) 部署 (沒有任何 MID 執行個體)，則會顯示 MKT 執行個體的輸送量。
 
 * **[!UICONTROL Latency]** 區針對在傳送即時異動通訊時選定執行個體遇到的延時提供有關資訊。 以 95 和 99 百分位擷取並視覺化延時情況，這代表 95% 和 99% 的請求應比前述延時快。
 
