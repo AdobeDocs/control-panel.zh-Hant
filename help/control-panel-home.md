@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-「市場活動控制面板」允許您管理每個市場活動實例的設定和跟蹤使用情況，從而幫助您提高作為Campaign Standard和V7/v8產品管理員的工作效率。
+「Campaign 控制面板」可讓您以 Campaign Standard 和 v7/v8 產品管理員的身分，管理設定並追蹤每個 Campaign 執行個體的使用量，協助您提升工作效率。
 
 ## 新增功能
 
