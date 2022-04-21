@@ -6,10 +6,10 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 93%
 
 ---
 
@@ -55,4 +55,5 @@ ht-degree: 100%
    + [URL 權限](instances-settings/using/url-permissions.md)
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
    + [GPG 金鑰管理](instances-settings/using/gpg-keys-management.md)
++ [確定實例上的關鍵聯繫人和事件](service-events/service-events.md)
 + [常見問答集](faq.md)

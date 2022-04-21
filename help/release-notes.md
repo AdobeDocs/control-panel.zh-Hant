@@ -4,10 +4,10 @@ solution: Campaign
 title: 「控制面板」發行版本
 description: 此頁列出了控制面板的所有新功能和改進
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 62%
+source-wordcount: '1070'
+ht-degree: 60%
 
 ---
 
@@ -20,6 +20,23 @@ ht-degree: 62%
 >控制面板僅可供管理員用戶訪問。 瞭解有關中權限的詳細資訊 [此部分](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)。
 >
 >對於活動v7，您的實例必須托管在Amazon Web Services(AWS)上，並升級到最新版本 [活動穩定構建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) （或建9032或更高）。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md#hosted-aws)詳述的步驟操作。
+
+## 2022 年 4 月 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>監視實例上的關鍵聯繫人和事件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以監視實例上發生的過去版本和即將發佈的版本和服務評論，並可以訪問Adobe的關鍵聯繫人清單，以瞭解任何請求或問題。</p><p>有關詳細資訊，請參閱 <a href="service-events/service-events.md">詳細文檔。</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2022 年 3 月 {#march-2022}
 
