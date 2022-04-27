@@ -1,69 +1,70 @@
 ---
 product: campaign
 solution: Campaign
-title: 監視關鍵聯繫人和事件
-description: '瞭解如何識別在實例和關鍵聯繫人上發生的事件，Adobe。 '
+title: 監視主要聯絡人和事件
+description: 瞭解如何識別在執行個體上發生的事件和 Adobe 的主要聯絡人。
 feature: Control Panel
 role: Architect
 level: Intermediate
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
+source-git-commit: 281a1a5fc677c4e98fe32c53e0f2fe69e8c72888
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 監視關鍵聯繫人和事件 {#keycontacts-events}
+# 監視主要聯絡人和事件 {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
->title="服務日曆"
->abstract="「主要聯繫人」部分列出了Adobe聯繫的人員，以獲取任何請求或對實例進行發佈。 在「服務事件日曆」部分，您可以標識選定實例的所有過去版本和即將發佈的版本以及服務審閱。"
+>title="服務行事曆"
+>abstract="「主要聯絡人」區段列出了 Adobe 的聯絡窗口，您可藉此提出任何問題或有關執行個體的請求。在「服務事件行事曆」區段，您可識別選定執行個體所有過去和即將發佈的版本以及服務審查。"
 
 >[!IMPORTANT]
 >
->Service Calendar在試用版中提供，但需要頻繁更新和修改，恕不另行通知。
+>服務行事曆現有提供測試版，且可能會不時更新和修改，恕不另行通知。
 
-確定在實例上計畫的事件對於監控活動實例至關重要。
+確定在執行個體上規劃的事件對於監控 Campaign 執行個體至關重要。
 
-使用「控制面板」，您可以監視實例上發生的版本和服務審閱，並訪問任何請求或問題的關鍵聯繫人清單，Adobe。
+有了「控制面板」，您可以監視執行個體上的發行版本和服務審查，並為某項請求或問題存取 Adobe 的主要聯絡人清單。
 
-這些資訊可從 **[!UICONTROL Service Calendar]** 控制面板首頁上的卡。
+這些資訊可在控制面板首頁上的&#x200B;**[!UICONTROL Service Calendar]**&#x200B;卡片取得。
 
-## 關鍵聯繫人 {#key-contacts}
+## 主要聯絡人 {#key-contacts}
 
-的 **[!UICONTROL Key contacts]** 部分列出了您可以聯繫的Adobe人員，以便您可以針對實例進行任何請求或發佈。
+**[!UICONTROL Key contacts]**&#x200B;區段列出了 Adobe 的聯絡窗口，以便您提出任何有關執行個體上的請求或問題。
 
 >[!NOTE]
 >
->此部分將僅顯示托管服務帳戶的資訊。
+>此區段只會顯示托管服務帳戶的資訊。
 
 ![](assets/service-events-contacts.png)
 
-主要聯繫人包括以下角色：
+主要聯絡人包括以下角色：
 
-* **[!UICONTROL TAM]**:技術客戶經理，
-* **[!UICONTROL CSM]**:客戶成功經理，
-* **[!UICONTROL Deliverability]**:可交付性操作的聯繫人，
-* **[!UICONTROL Transition Manager]**:Managed Services過渡經理(僅限Managed Services客戶),
-* **[!UICONTROL On-boarding Specialist]**:指定給客戶的專家，幫助您進行Campaign Classic(僅限Managed Services客戶)。
+* **[!UICONTROL TAM]**：技術客戶經理，
+* **[!UICONTROL CSM]**：客戶成功經理，
+* **[!UICONTROL Deliverability]**：傳遞作業的聯絡點，
+* **[!UICONTROL Transition Manager]**：Managed Services 轉變經理 (僅限 Managed Services 客戶)，
+* **[!UICONTROL On-boarding Specialist]**：指派給客戶的專家，可幫助您上手 Campaign Classic (僅限 Managed Services 客戶)。
 
 ## 事件 {#events}
 
-的 **[!UICONTROL Service Event Calendar]** 部分顯示選定實例的所有過去版本和即將發佈的版本以及服務審閱。
+**[!UICONTROL Service Event Calendar]** 區段顯示選定執行個體所有過去和即將發佈的版本以及服務審查。
 
 ![](assets/service-events-calendar.png)
 
-的 **[!UICONTROL Note]** 列提供了有關每個版本的狀態的資訊：
+**[!UICONTROL Note]**&#x200B;欄提供了有關每個版本的狀態資訊：
 
-* **[!UICONTROL General availability]**:最新可用的穩定版本。
-* **[!UICONTROL Limited availability]**:僅按需部署。
-* **[!UICONTROL Release candidate]**:工程驗證。 正在等待生產校對。
-* **[!UICONTROL Pre release]**:針對特定客戶需要的更早可用性。
-* **[!UICONTROL No longer available]**:生成不存在重大問題，但有新問題可用，並附加錯誤修復。 需要升級。
-* **[!UICONTROL Deprecated]**:構建嵌入已知回歸。
-不再支援生成。 必須升級。
+* **[!UICONTROL General availability]**：最新可用的穩定版本。
+* **[!UICONTROL Limited availability]**：僅限隨選部署。
+* **[!UICONTROL Release candidate]**：工程驗證。 等待生產校訂。 
+* **[!UICONTROL Pre release]**：針對特定客戶需求的更早可用性。
+* **[!UICONTROL No longer available]**：此版本雖無重大問題，仍有附加錯誤修復的新版可用。需要更新。
+* **[!UICONTROL Deprecated]**：建立嵌入已知的迴歸。
+不再支援此版本。須更新。
 
-您可以為一個或多個即將發生的事件指派標誌，以跟蹤這些事件。 要執行此操作，請按一下事件名稱旁邊的橢圓按鈕。
+您可為一個或多個即將發生的事件指派旗標，以追蹤這些事件。 若要執行此動作，請按一下事件名稱旁邊的橢圓按鈕。
 
 ![](assets/service-events-flag.png)
