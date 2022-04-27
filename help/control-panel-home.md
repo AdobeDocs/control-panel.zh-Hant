@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 82%
 
 ## 新增功能
 
-**監視實例上的關鍵聯繫人和事件**
+**監視執行個體上的主要聯絡人和事件**
 
-您現在可以監視實例上發生的過去版本和即將發佈的版本和服務評論，並可以訪問Adobe的關鍵聯繫人清單，以瞭解任何請求或問題。 [閱讀全文](service-events/service-events.md)
+您現在可以監視執行個體上過去和即將發佈的版本和服務審查，並為某項請求或問題存取 Adobe 的主要聯絡人清單。 [閱讀全文](service-events/service-events.md)
 
 >[!CAUTION]
 >
