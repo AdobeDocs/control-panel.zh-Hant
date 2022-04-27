@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
    + [存取「控制面板」](discover/using/accessing-control-panel.md)
    + [管理「控制面板」的權限](discover/using/managing-permissions.md)
    + [探索「控制面板」介面](discover/using/discovering-the-interface.md)
-+ [監視關鍵聯繫人和事件](service-events/service-events.md)
++ [監視主要聯絡人和事件](service-events/service-events.md)
 + SFTP 管理{#sftp-management}
    + [關於 SFTP 管理](sftp/using/about-sftp-management.md)
    + [SFTP 儲存空間管理](sftp/using/sftp-storage-management.md)
