@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 88%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->如果 **[!UICONTROL Instance Settings]** 「控制面板」的首頁上看不到卡，這意味著您的IMS組織ID未與任何Adobe Campaignv7/v8實例關聯。
+>如果 **[!UICONTROL Instance Settings]** 「控制面板」的首頁上看不到卡，這意味著您的組織ID未與任何Adobe Campaignv7/v8實例關聯。
 
 若要將 IP 位址新增至允許清單，請執行下列步驟：
 

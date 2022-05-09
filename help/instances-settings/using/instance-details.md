@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 77%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 77%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上看不到「實例設定」卡，則表示您的IMS組織ID未與任何Adobe Campaignv7/v8實例關聯
+   >如果「控制面板」的首頁上看不到「實例設定」卡，則表示您的組織ID未與任何Adobe Campaignv7/v8實例關聯
 
 1. 在左窗格中，選取所需的 Campaign 執行個體。
 
