@@ -4,10 +4,10 @@ solution: Campaign
 title: 「控制面板」發行版本
 description: 此頁列出了控制面板的所有新功能和改進
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,18 +21,51 @@ ht-degree: 60%
 >
 >對於活動v7，您的實例必須托管在Amazon Web Services(AWS)上，並升級到最新版本 [活動穩定構建](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) （或建9032或更高）。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](faq.md#hosted-aws)詳述的步驟操作。
 
-## 2022 年 4 月 {#april-2022}
+## 2022 年 5 月 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>監視實例上的關鍵聯繫人和事件</strong><br/></th>
+<th><strong>控制面板對混合主機模型的可用性</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>您現在可以監視實例上發生的過去版本和即將發佈的版本和服務評論，並可以訪問Adobe的關鍵聯繫人清單，以瞭解任何請求或問題。</p><p>有關詳細資訊，請參閱 <a href="service-events/service-events.md">詳細文檔。</a></p>
+<p>控制面板現在可供使用混合托管模型的客戶使用。 這些客戶可以利用控制面板的功能，在控制面板的營銷實例中提供他們的MID/RT實例URL。</p><p>有關詳細資訊，請參閱 <a href="instances-settings/using/external-accounts.md">詳細文檔。</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>吞吐量和延遲監視更新</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>吞吐量和延遲監控功能已得到增強：<ul><li>您現在可以確定影響實例吞吐量的前5個交貨的ID。</li><li>Campaign Classicv7/v8客戶現在可以直觀地顯示特定渠道的延遲。</p></li><p>有關詳細資訊，請參閱 <a href="performance-monitoring/using/thoughputs-latencies.md">詳細文檔。</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## 2022 年 4 月 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>監視執行個體上的主要聯絡人和事件</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>您現在可以監視執行個體上過去和即將發佈的版本和服務審查，並為某項請求或問題存取 Adobe 的主要聯絡人清單。 </p><p>有關詳細資訊，請參閱 <a href="service-events/service-events.md">詳細文檔。</a></p>
 </td>
 </tr>
 </tbody>

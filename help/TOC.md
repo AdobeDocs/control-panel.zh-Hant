@@ -6,7 +6,7 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
+source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -56,4 +56,5 @@ ht-degree: 0%
    + [URL 權限](instances-settings/using/url-permissions.md)
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
    + [GPG 金鑰管理](instances-settings/using/gpg-keys-management.md)
+   + [添加MID/RT實例（混合型）](instances-settings/using/external-accounts.md)
 + [常見問答集](faq.md)

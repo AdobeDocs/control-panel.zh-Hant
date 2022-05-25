@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 86%
+source-wordcount: '860'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
+>從「控制面板」續訂SSL證書在測試版中提供，並且需要頻繁更新和修改，恕不另行通知。
+>
+>如果使用具有混合宿主模型的實例，則只能查看與委託子域關聯的證書。 您將無法續訂SSL證書。
 
 SSL 憑證續約流程包含 3 個步驟：
 

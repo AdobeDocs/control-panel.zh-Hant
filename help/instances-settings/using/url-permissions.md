@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '600'
 ht-degree: 85%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上看不到「實例設定」卡，則表示您的組織ID未與任何Adobe Campaign實例關聯
+   >如果「控制面板」的首頁上看不到「實例設定」卡，則表示您的IMS組織ID未與任何Adobe Campaign實例關聯
    >
    ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 

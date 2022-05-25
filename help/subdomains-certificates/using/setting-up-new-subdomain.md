@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 91%
+source-wordcount: '1366'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->測試版提供從「控制面板」設定子網域的功能，且會不定期更新和修改，恕不另行通知。
+>如果使用具有混合宿主模型的實例，則只能查看已委託的子域，並且無法配置子域。
 
 本頁面提供如何透過完整子網域委派或 CNAME 來設定新子網域的資訊。 本章節將介紹這兩種方法的全域概念：[子網域品牌化](../../subdomains-certificates/using/subdomains-branding.md)。
 
