@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '130'
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,5 @@ ht-degree: 0%
    + [URL 權限](instances-settings/using/url-permissions.md)
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
    + [GPG 金鑰管理](instances-settings/using/gpg-keys-management.md)
-   + [添加MID/RT實例（混合型）](instances-settings/using/external-accounts.md)
+   + [新增 MID/RT 例項 (混合模型)](instances-settings/using/external-accounts.md)
 + [常見問答集](faq.md)
