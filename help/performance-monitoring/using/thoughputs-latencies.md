@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->此功能適用於所有 Campaign Standard 和 v8 客戶，以及版本編號為 9032、9330、9346 或 9349 且已具有[獨立](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hant) 部署 (沒有任何中型執行個體) 的 Campaign v7 客戶。
+>此功能適用於所有Campaign Standard、v8客戶，以及版本號為9032及更高版本的Campaig v7客戶，包括 [獨立部署](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hant) （沒有任何中間實例）。
 
 監視一段時間內傳遞輸送量和延時趨勢如何，是瞭解執行個體使用情況並確保其正常運作的關鍵。
 
