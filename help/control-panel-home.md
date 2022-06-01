@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 67%
 
 ---
 
@@ -27,9 +27,17 @@ ht-degree: 100%
 
 ## 新增功能
 
-**監視執行個體上的主要聯絡人和事件**
+**控制面板對混合主機模型的可用性**
 
-您現在可以監視執行個體上過去和即將發佈的版本和服務審查，並為某項請求或問題存取 Adobe 的主要聯絡人清單。 [閱讀全文](service-events/service-events.md)
+控制面板現在可供使用混合托管模型的客戶使用。 這些客戶可以利用控制面板的功能，在控制面板的營銷實例中提供他們的MID/RT實例URL。 [閱讀全文](instances-settings/using/external-accounts.md)
+
+
+**吞吐量和延遲監視更新**
+
+吞吐量和延遲監控能力已得到增強。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
+
+* 您現在可以確定影響實例吞吐量的前5個交貨的ID。
+* Campaign Classicv7/v8客戶現在可以直觀地顯示特定渠道的延遲。
 
 >[!CAUTION]
 >
