@@ -1,97 +1,97 @@
 ---
 product: campaign
 solution: Campaign
-title: 添加MID/RT實例（混合型）
-description: 瞭解如何將MID/RT實例添加到具有混合主機模型的控制面板。
+title: 新增 MID/RT 執行個體 (混合模型)
+description: 瞭解如何新增 MID/RT 執行個體到具有混合託管模型的控制面板。
 feature: Control Panel
 role: Architect
 level: Intermediate
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
-workflow-type: tm+mt
+exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
+source-git-commit: d441c69879da6db963886402ce2d1b9e47b8e5bf
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
-# 添加MID/RT實例（混合型）
+# 新增 MID/RT 執行個體 (混合模型)
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts"
 >title="外部帳戶"
->abstract="在此螢幕中，具有混合托管模型的客戶可以提供在「控制面板」的營銷實例中配置的MID/RT實例URL，以便利用「控制面板」功能。"
+>abstract="在此螢幕中，具有混合託管模型的客戶可以提供在「控制面板」行銷執行個體設定的 MID/RT 執行個體 URL，以便利用「控制面板」功能。"
 
-控制面板允許使用混合托管模型的客戶利用特定的控制面板功能。 為此，他們需要提供在「控制面板」中的營銷實例中配置的MID/RT實例URL。
+控制面板允許使用混合託管模型的客戶利用特定的控制面板功能。 為此，他們需要提供在「控制面板」行銷執行個體設定的 MID/RT 執行個體 URL。
 
-有關托管模型的詳細資訊，請參閱 [Campaign Classic文檔](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html)。
+有關託管模型的詳細資訊，請參閱 [Campaign Classic 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=zh-Hant)。
 
-## 添加MID/RT實例 {#add}
+## 新增 MID/RT 執行個體 {#add}
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_url"
 >title="URL"
->abstract="實例的URL，可在「管理」>「平台」>「外部帳戶」菜單的「市場活動客戶端控制台」中找到。"
+>abstract="可以在「管理」>「平台」>「外部帳戶」功能表的「 Campaign 用戶端主控台」找到執行個體的 URL。"
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_operator"
->title="運算元"
->abstract="Adobe管理員在初始設定後提供的操作員ID。"
+>title="操作員"
+>abstract="Adobe 管理員在初始佈建後提供的操作員 ID。"
 
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts_password"
 >title="密碼"
->abstract="Adobe管理員在初始設定後提供的操作員密碼。"
+>abstract="Adobe 管理員在初始佈建後提供的操作員密碼。"
 
-混合型客戶應通過Experience Cloud連接到控制面板。 首次訪問控制面板時，首頁上只顯示兩張卡。
+混合型客戶應透過 Experience Cloud 連結控制面板。 第一次存取控制面板時，首頁僅顯示兩張卡片。
 
 ![](assets/hybrid-homepage.png)
 
 >[!NOTE]
 >
->如果您遇到訪問「控制面板」的任何問題，則您的營銷實例很可能尚未與您的組織ID映射。 請與客戶服務部聯繫以完成此設定以繼續。 成功連接後，您將看到「控制面板」首頁。
+>如果您在存取「控制面板」時遇到任何問題，您的行銷執行個體很可能尚未對應您的組織 ID。 請聯絡客戶服務部完成此設定才能繼續。 在成功連線時，您會看到「控制面板」首頁。
 
-要能夠訪問「控制面板」功能，您需要在 **[!UICONTROL Instances Settings]** 卡。 請依照下列步驟以執行此操作。
+若要能夠存取「控制面板」功能，您需要在 **[!UICONTROL Instances Settings]** 卡片提供 MID/RT 執行個體資訊。 請依照下列步驟以執行此操作。
 
-1. 在 **[!UICONTROL Instances Settings]** 卡，選擇 **[!UICONTROL External Accounts]** 頁籤。
+1. 在 **[!UICONTROL Instances Settings]** 卡片上，選擇 **[!UICONTROL External Accounts]** 標籤。
 
-1. 從下拉清單中選擇所需的市場營銷實例，然後按一下 **[!UICONTROL Add new URL]**。
+1. 從下拉式清單選擇所需的行銷執行個體，然後按一下 **[!UICONTROL Add new URL]**。
 
    ![](assets/external-account-addbutton.png)
 
-1. 提供有關要添加的MID/RT實例的資訊。
+1. 提供要新增的 MID/RT 執行個體資訊。
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**:實例的URL，可在「市場活動客戶端控制台」中 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 的子菜單。
+   * **[!UICONTROL URL]**：可在 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 功能表的「Campaign 用戶端主控台」找到執行個體的 URL。
 
       ![](assets/external-account-url.png)
 
-   * **[!UICONTROL Operator]** / **[!UICONTROL Password]**:Adobe管理員在初始設定後提供的操作員的憑據。
+   * **[!UICONTROL Operator]** / **[!UICONTROL Password]**：Adobe 管理員在初始佈建後提供的操作員憑證。
 
       >[!NOTE]
       >
-      >如果這些詳細資訊不可用，請與客戶服務部聯繫。
+      >如果無法取得這些詳細資訊，請聯絡客戶服務部。
 
 1. 按一下 **[!UICONTROL Save]** 確認。
 
-在添加MID/RT URL時，觸發非同步進程以驗證URL的正確性。 此過程可能需要幾分鐘。 在驗證MID/RT實例URL之前，作業將處於掛起狀態。 只有驗證完成後，您才能訪問「控制面板」主功能。
+在新增 MID/RT URL 時，會觸發非同步處理程序來驗證 URL 的正確性。 此過程可能需要幾分鐘。 在驗證 MID/RT 執行個體 URL 之前，工作將暫時擱置。 只有驗證完成後，您才能存取「控制面板」的主要功能。
 
 ![](assets/external-account-pending.png)
 
-通過從清單中選擇MID/RT實例URL，可以隨時刪除或停用它。
+您可以從清單中選擇 MID/RT 執行個體 URL，隨時刪除或停用。
 
 ![](assets/external-account-edit.png)
 
-請注意，您可以監視在 **[!UICONTROL External Accounts]** 頁籤 **[!UICONTROL Job Logs]**:
+請注意，您可以在 **[!UICONTROL Job Logs]** 的 MID/RT 執行個體的 URL 監視 **[!UICONTROL External Accounts]** 標籤上的任何動作 :
 
 ![](assets/external-account-logs.png)
 
 ## 為混合型客戶提供的功能 {#capabilities}
 
-在將MID/RT實例添加到「控制面板」後，您可以利用下面列出的功能：
+在新增 MID/RT 執行個體到「控制面板」之後，您可以利用下列功能：
 
-* [監視主要聯絡人和事件](../../service-events/service-events.md)
-* [查看實例詳細資訊](../../instances-settings/using/instance-details.md)。
-* [將IP地址添加到允許清單](../../instances-settings/using/ip-allow-listing-instance-access.md) （對於RT實例）,
-* [查看有關委派子域的資訊](../../subdomains-certificates/using/monitoring-subdomains.md)。
-* [查看有關SSL證書的資訊](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
+* [監視主要聯絡人及事件](../../service-events/service-events.md)
+* [檢視執行個體的詳細資訊](../../instances-settings/using/instance-details.md)，
+* [新增 IP 地址到允許清單](../../instances-settings/using/ip-allow-listing-instance-access.md) (針對 RT 執行個體)，
+* [檢視有關委派子網域的資訊](../../subdomains-certificates/using/monitoring-subdomains.md)，
+* [檢視有關 SSL 認證的資訊](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
