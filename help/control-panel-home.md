@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 67%
 
 ## 新增功能
 
-**控制面板對混合主機模型的可用性**
+**混合託管模型可使用控制面板的程度**
 
-控制面板現在可供使用混合托管模型的客戶使用。 這些客戶可以利用控制面板的功能，在控制面板的營銷實例中提供他們的MID/RT實例URL。 [閱讀全文](instances-settings/using/external-accounts.md)
+控制面板現在可供混合託管模型的客戶使用。 這些客戶可以利用控制面板的功能，在控制面板的行銷執行個體提供他們的 MID/RT 執行個體 URL。 [閱讀全文](instances-settings/using/external-accounts.md)
 
 
-**吞吐量和延遲監視更新**
+**輸送量及延時監視更新**
 
-吞吐量和延遲監控能力已得到增強。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
+已加強輸送量及延時監視能力。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
 
-* 您現在可以確定影響實例吞吐量的前5個交貨的ID。
-* Campaign Classicv7/v8客戶現在可以直觀地顯示特定渠道的延遲。
+* 您現在可以識別影響執行個體輸送量的前 5 個傳遞的 ID。
+* Campaign Classic v7/v8 客戶現在可以顯示特定頻道的延時。
 
 >[!CAUTION]
 >
