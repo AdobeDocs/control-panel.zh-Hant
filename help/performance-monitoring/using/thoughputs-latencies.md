@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 93%
 >title="關於輸送量和延時監視 "
 >abstract="在此標籤中，您可以監視執行個體的傳遞輸送量和延時在一段時間內的趨勢。有關影響輸送量的傳遞資訊，請切換到表格檢視。"
 
-控制面板可讓您監視每個執行個體的傳遞輸送量和延遲。
+控制面板可讓您監視每個執行個體的傳遞輸送量及延遲。
 
 >[!IMPORTANT]
 >
->此功能適用於所有Campaign Standard、v8客戶，以及版本號為9032及更高版本的Campaig v7客戶，包括 [獨立部署](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hant) （沒有任何中間實例）。
+>此功能適用於所有 Campaign Standard 和 v8 客戶，以及版本編號為 9032 或以上且具有[獨立部署](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=zh-Hant) (無任何中型執行個體) 的 Campaign v7 客戶。
 
 監視一段時間內傳遞輸送量和延時趨勢如何，是瞭解執行個體使用情況並確保其正常運作的關鍵。
 
