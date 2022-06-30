@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 84%
+source-wordcount: '388'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="關於儲存容量"
->abstract="在此索引標籤中，您可以檢視 SFTP 伺服器的儲存容量和使用率資訊。此處僅顯示您可存取的 SFTP 伺服器。請聯絡您的管理員以要求存取其他 SFTP 伺服器。"
+>abstract="在此索引標籤中，您可以檢視 SFTP 伺服器的儲存容量和使用率資訊。您還可以通過按一下SFTP伺服器名稱來列出SFTP伺服器上佔用空間最多的前10個檔案。 此處僅顯示您可存取的 SFTP 伺服器。請聯絡您的管理員以要求存取其他 SFTP 伺服器。"
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="觀看示範影片"
 
 視您的合約條款而定，您的 SFTP 伺服器上可能會佈建不同的儲存容量。
@@ -38,6 +38,10 @@ SFTP 卡片 **[!UICONTROL Storage]** 索引標籤中會提供關於您有權存�
 
 * **橙色**：執行個體已超出其容量的 80%。
 * **紅色**：執行個體已超出其容量的 90%。
+
+您還可以通過按一下SFTP伺服器名稱來標識SFTP伺服器上佔用空間最多的前10個檔案。
+
+![](assets/sftp-top10.png)
 
 此外，我們還提供其他提示，協助您瞭解在伺服器達到其容量上限時應如何處理。
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 281a1a5fc677c4e98fe32c53e0f2fe69e8c72888
-workflow-type: ht
-source-wordcount: '313'
-ht-degree: 100%
+source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
+workflow-type: tm+mt
+source-wordcount: '497'
+ht-degree: 59%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="服務行事曆"
->abstract="「主要聯絡人」區段列出了 Adobe 的聯絡窗口，您可藉此提出任何問題或有關執行個體的請求。在「服務事件行事曆」區段，您可識別選定執行個體所有過去和即將發佈的版本以及服務審查。"
+>abstract="「主要聯絡人」區段列出了 Adobe 的聯絡窗口，您可藉此提出任何問題或有關執行個體的請求。在「服務事件日曆」部分，您可以確定選定實例的版本和服務審閱，並設定即將發生的事件的提醒。"
 
 >[!IMPORTANT]
 >
@@ -51,6 +51,8 @@ ht-degree: 100%
 
 ## 事件 {#events}
 
+### 監視事件 {#monitor-events}
+
 **[!UICONTROL Service Event Calendar]** 區段顯示選定執行個體所有過去和即將發佈的版本以及服務審查。
 
 ![](assets/service-events-calendar.png)
@@ -68,3 +70,33 @@ ht-degree: 100%
 您可為一個或多個即將發生的事件指派旗標，以追蹤這些事件。 若要執行此動作，請按一下事件名稱旁邊的橢圓按鈕。
 
 ![](assets/service-events-flag.png)
+
+### 設定提醒 {#reminders}
+
+使用服務日曆，您可以設定提醒，以便在事件發生之前通過電子郵件通知。
+
+>[!NOTE]
+>
+>為了獲得有關即將發生的事件的通知，請確保您已在「控制面板」中訂閱了電子郵件警報。 [了解更多](../performance-monitoring/using/email-alerting.md)
+
+要設定事件警報，請執行以下步驟：
+
+1. 按一下要提醒的事件旁邊的橢圓按鈕，然後選擇 **[!UICONTROL Set Reminder]**。
+
+1. 為提醒提供標題，然後選擇要在事件發生之前通知的日期。
+
+   ![](assets/service-events-set-reminder.png)
+
+   >[!NOTE]
+   >
+   >如果您尚未訂閱「控制面板」警報，則將顯示一條消息，並允許您註冊以接收電子郵件通知。
+
+1. 現在已為所選事件設定提醒。 您可以隨時將滑鼠懸停在上面以顯示其標題。
+
+   ![](assets/service-events-reminder.png)
+
+   >[!NOTE]
+   >
+   >您可以為同一事件設定2個提醒。
+
+1. 在提醒中指定的日期，將發送一封電子郵件，通知您即將發生的事件，並自動從 **[!UICONTROL Reminders]** 服務日曆菜單中的計數。

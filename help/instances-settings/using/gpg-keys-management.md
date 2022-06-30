@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 9%
+source-wordcount: '1189'
+ht-degree: 8%
 
 ---
 
@@ -41,6 +41,10 @@ GPG加密允許您使用遵循以下命令的公鑰和私鑰對系統保護資�
 「控制面板」可以讓您加密從 Adobe Campaign 執行個體傳出的資料。
 
 為此，您需要從PGP加密工具生成GPG密鑰對，然後將公鑰安裝到「控制面板」中。 然後，在從實例發送資料之前，您將能夠加密資料。 請依照下列步驟以執行此操作。
+
+>[!NOTE]
+>
+>在「控制面板」中最多可安裝60個GPG密鑰。
 
 ![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](#video)
 

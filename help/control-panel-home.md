@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 73%
 
 ---
 
@@ -27,17 +27,19 @@ ht-degree: 100%
 
 ## 新增功能
 
-**混合託管模型可使用控制面板的程度**
+**佔用SFTP伺服器空間的前10個檔案**
 
-控制面板現在可供混合託管模型的客戶使用。 這些客戶可以利用控制面板的功能，在控制面板的行銷執行個體提供他們的 MID/RT 執行個體 URL。 [閱讀全文](instances-settings/using/external-accounts.md)
+現在，您可以識別SFTP伺服器上佔用空間最多的前10個檔案。 [閱讀全文](sftp/using/sftp-storage-management.md)
 
 
-**輸送量及延時監視更新**
+**服務日曆提醒**
 
-已加強輸送量及延時監視能力。 [閱讀全文](performance-monitoring/using/thoughputs-latencies.md)
+服務日曆現在允許您設定提醒，以便在實例上發生事件之前通過電子郵件通知您。 [閱讀全文](instances-settings/using/external-accounts.md)
 
-* 您現在可以識別影響執行個體輸送量的前 5 個傳遞的 ID。
-* Campaign Classic v7/v8 客戶現在可以顯示特定頻道的延時。
+**子域的CSR生成增強**
+
+對CSR的生成過程進行了一些改進。 [閱讀全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 
 >[!CAUTION]
 >
