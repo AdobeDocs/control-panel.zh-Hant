@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ ht-degree: 73%
 
 **服務日曆提醒**
 
-服務日曆現在允許您設定提醒，以便在實例上發生事件之前通過電子郵件通知您。 [閱讀全文](instances-settings/using/external-accounts.md)
+服務日曆現在允許您設定提醒，以便在實例上發生事件之前通過電子郵件通知您。 [閱讀全文](service-events/service-events.md)
 
 **子域的CSR生成增強**
 
