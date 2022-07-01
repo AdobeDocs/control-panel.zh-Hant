@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
-workflow-type: ht
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Monitor workflow parameters -->
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-啟用此選項後，工作流程執行期間傳送到資料庫的 SQL 查詢將顯示在 Adobe Campaign 中。 於 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hant#execution) 文件中瞭解更多。
+啟用此選項後，工作流程執行期間傳送到資料庫的 SQL 查詢將顯示在 Adobe Campaign 中。 於 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hant#execution) 文件中瞭解更多。
 
 值「1」表示工作流程具有 **嚴重程度** 的欄位設定為「生產」，並且 SQL 查詢記錄選項已啟用。
 
@@ -72,7 +72,7 @@ Monitor workflow parameters -->
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-您可藉由此欄位將運算元指派給工作流程。 如果工作流程失敗，將向關聯的運算元發出警示。 於 [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=zh-Hant#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hant#error-management) 文件瞭解更多。
+您可藉由此欄位將運算元指派給工作流程。 如果工作流程失敗，將向關聯的運算元發出警示。 於 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=zh-Hant#error-management) 文件瞭解更多。
 
 值「1」表示工作流程具有 **嚴重程度** 的欄位設定為「生產」，且未將主管群組指派給工作流程。
 
