@@ -1,10 +1,10 @@
 ---
 title: 發行說明 2020 年
-description: 本頁列出了所有2020版的「控制面板」。
+description: 本頁面列出了「控制面板」的所有 2020 版本。
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>資料庫監視已通過其他度量得到增強，這些度量允許您獲取有關佔用資料庫空間的資源的詳細資訊。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/database-monitoring.md">詳細文件</a>以瞭解詳情。</p>
+<p>資料庫監視已透過其他指標執行增強功能，允許您取得有關佔用資料庫空間的資源的詳細資訊。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/database-monitoring.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>使用中設定檔監視</strong><br/></th>
+<th><strong>作用中設定檔監視</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +91,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->從「控制面板」進行作用中設定檔監控的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
+>從「控制面板」進行作用中設定檔監視的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
 
 ## 2020 年 5 月 {#may-2020}
 
@@ -136,7 +136,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>Campaign「控制面板」具備資料庫監視功能，可讓您隨選及隨時檢視您的資料庫空間使用率。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/database-monitoring.md">詳細文件</a>以瞭解詳情。</p>
+<p>Campaign「控制面板」具備資料庫監視功能，可讓您隨選及隨時檢視您的資料庫空間使用情況。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/database-monitoring.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -151,7 +151,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>Campaign「控制面板」具備即時電子郵件警報功能，可讓您登入「控制面板」並註冊接收警報。當您的系統存在效能降低的風險，或是需要採取行動來確保日後提供高效能的時候，您就會收到警報。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/email-alerting.md">詳細文件</a>以瞭解詳情。</p>
+<p>Campaign「控制面板」具備即時電子郵件警示功能，可讓您登入「控制面板」並註冊接收警示。當您的系統存在效能降低的風險，或是需要採取行動來確保日後提供高效能的時候，您就會收到警示。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/email-alerting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
