@@ -1,10 +1,10 @@
 ---
 title: 發行說明 2019 年
-description: 本頁列出了2019年所有版本的「控制面板」。
+description: 本頁面列出了「控制面板」2019 年的所有版本。
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -12,8 +12,7 @@ ht-degree: 54%
 
 ## 2019 年 9 月 {#september-2019}
 
-我們為管理員用戶添加了新功能，以便將IP地址添加到允許清單中，以便連接到Campaign v7/v8實例。
-此外，管理員用戶現在可以查看市場活動v7/v8實例的清單以及生成升級的資格。
+我們已新增功能，讓管理員使用者將 IP 位址新增至允許清單，以便連結至 Campaign v7/v8 執行個體。此外，管理員使用者現在可以檢視 Campaign v7/v8 執行個體的清單和資格，以建立升級。
 
 如需詳細資訊，請參閱[專屬文件](../instances-settings/using/ip-allow-listing-instance-access.md)。
 
@@ -25,6 +24,6 @@ ht-degree: 54%
 
 ## 2019 年 7 月 {#july-2019}
 
-我們添加了新功能，使管理員用戶能夠更好地控制Campaing v7/v8實例設定。 全新的「控制面板」功能包括新增與 Adobe Campaign 連線的 URL，以進行資料/檔案傳輸。
+我們已新增管理員使用者的功能，讓他們對 Campaign v7/v8 執行個體設定有更全面的控制。全新的「控制面板」功能包括新增與 Adobe Campaign 連線的 URL，以進行資料/檔案傳輸。
 
 如需詳細資訊，請參閱[詳細文件](../instances-settings/using/url-permissions.md)。
