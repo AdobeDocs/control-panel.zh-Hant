@@ -1,11 +1,11 @@
 ---
 title: 最新版本
-description: 此頁列出了控制面板的所有新功能和改進
+description: 本頁面列出了「控制面板」的所有新功能和改善項目。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 10%
+ht-degree: 93%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>佔用SFTP伺服器空間的前10個檔案</strong><br/></th>
+<th><strong>佔用 SFTP 伺服器空間的前 10 個檔案</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，您可以識別SFTP伺服器上佔用空間最多的前10個檔案。 <a href="../sftp/using/sftp-storage-management.md">了解更多</a></p>
+<p>現在您可以識別 SFTP 伺服器上佔用最多空間的前 10 個檔案。 <a href="../sftp/using/sftp-storage-management.md">了解更多</a></p>
 <img src="../assets/do-not-localize/sftp.gif"/>
 </td>
 </tr>
@@ -36,13 +36,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>服務日曆提醒</strong><br/></th>
+<th><strong>服務行事曆提醒</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>服務日曆現在允許您設定提醒，以便在實例上發生事件之前通過電子郵件通知您。 <a href="../service-events/service-events.md">了解更多</a></p>
+<p>服務行事曆現在允許您設定提醒，以便在執行個體的事件發生之前透過電子郵件通知您。 <a href="../service-events/service-events.md">了解更多</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
@@ -52,13 +52,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>子域的CSR生成增強</strong><br/></th>
+<th><strong>子網域的 CSR 產生增強功能</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>對CSR的生成過程進行了一些改進。 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">了解更多</a></p><ul><li>生成CSR時，現在可以選擇包含的子域之一作為「公用名稱」。</li><li>現在，在生成CSR之前，可以複製CSR摘要。</li><li>生成CSR後，可以從作業日誌中再次下載。 此功能不適用於此版本之前生成的證書。</li></ul><p>
+<p>對 CSR 的產生過程進行了一些功能增強。 <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">了解更多</a></p><ul><li>產生 CSR 時，現在可以選擇所包含的子網域中之一作為「一般名稱」。</li><li>現在產生 CSR 之前，可以複製 CSR 摘要。</li><li>產生 CSR 之後，可以從作業記錄中重新下載。 此功能不適用於此版本之前產生的憑證。</li></ul><p>
 <img src="../assets/do-not-localize/CSR.gif"/>
 </td>
 </tr>
@@ -69,5 +69,5 @@ ht-degree: 10%
 
 **執行個體設定**
 
-* 「Control Panel（控制面板）」中GPG鍵的最大數量已增加到60個鍵。 [了解更多](../instances-settings/using/gpg-keys-management.md)
+* 「控制面板」中 GPG 金鑰的最大數量已增加到 60 個。 [了解更多](../instances-settings/using/gpg-keys-management.md)
 
