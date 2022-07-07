@@ -1,10 +1,10 @@
 ---
 title: 2021 年發行說明
-description: 本頁列出了「控制面板」的所有2021版本。
+description: 本頁面列出了「控制面板」的所有 2021 版本。
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>IP範圍與公鑰有效期</strong><br/></th>
+<th><strong>IP 範圍與公開金鑰的有效期間</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在，可以為IP範圍和公鑰的可用性設定持續時間。 </p><p>有關詳細資訊，請參閱 <a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP範圍允許清單</a> 和 <a href="../sftp/using/key-management.md#installing-ssh-key">密鑰管理</a> 的下界。</p>
+<p>現在可以為 IP 範圍和公開金鑰的可用性設定持續時間。 </p><p>如需詳細資訊，請參閱 <a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">IP 範圍允許清單</a> 和 <a href="../sftp/using/key-management.md#installing-ssh-key">金鑰管理</a>部分。</p>
 </td>
 </tr>
 </tbody>
@@ -30,13 +30,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>IP範圍和公鑰版本</strong><br/></th>
+<th><strong>IP 範圍和公開金鑰版本</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>現在可以編輯 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP範圍</a> 和 <a href="../sftp/using/key-management.md#editing-public-keys">公鑰</a> 你創造的。 請注意，此功能不適用於當前「控制面板」發佈前建立的項目。
+<p>現在可以編輯 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範圍</a>和您建立的<a href="../sftp/using/key-management.md#editing-public-keys">公開金鑰</a>。 請注意，此功能不適用於目前的「控制面板」發行前所建立的項目。
 </td>
 </tr>
 </tbody>
@@ -45,13 +45,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>SFTP IP範圍和公鑰到期警報</strong><br/></th>
+<th><strong>SFTP IP 範圍和公開金鑰過期警示</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>電子郵件警報功能現在包括有關SFTP IP的警報，允許列出過期和SFTP公鑰過期。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/email-alerting.md">詳細文件</a>以瞭解詳情。</p>
+<p>電子郵件警示功能現在包括 SFTP IP 的警示，允許列出到期日和到期的 SFTP 公開金鑰。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/email-alerting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>的 <strong>子域</strong> 和 <strong>證書</strong> 管理功能現在由Adobe Campaignv8上的控制面板支援。</a>。</p>
+<p><strong>子網域</strong>和<strong>憑證</strong>管理，現在均由 Adobe Campaign v8 上的「控制面板」支援</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -77,13 +77,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>支援活動v8</strong><br/></th>
+<th><strong>透過 Campaign v8 提供支援</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>控制面板現在可用於Adobe Campaignv8，但 <strong>子域</strong> 和 <strong>證書</strong> 管理權能，但尚不受支援。</p><p>有關詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html" target="blank">市場活動v8文檔</a>。</p>
+<p>控制面板現在可用於 Adobe Campaign v8，但尚未支援<strong>子網域</strong>和<strong>憑證</strong>管理功能。</p><p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=zh-Hant" target="blank">Campaign v8 文件</a>。</p>
 </td>
 </tr>
 </tbody>
