@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 73%
 
 ## 新增功能
 
-**佔用SFTP伺服器空間的前10個檔案**
+**佔用 SFTP 伺服器空間的前 10 個檔案**
 
-現在，您可以識別SFTP伺服器上佔用空間最多的前10個檔案。 [閱讀全文](sftp/using/sftp-storage-management.md)
+現在您可以識別 SFTP 伺服器上佔用最多空間的前 10 個檔案。 [閱讀全文](sftp/using/sftp-storage-management.md)
 
 
-**服務日曆提醒**
+**服務行事曆提醒**
 
-服務日曆現在允許您設定提醒，以便在實例上發生事件之前通過電子郵件通知您。 [閱讀全文](service-events/service-events.md)
+服務行事曆現在允許您設定提醒，以便在執行個體的事件發生之前透過電子郵件通知您。 [閱讀全文](service-events/service-events.md)
 
-**子域的CSR生成增強**
+**子網域的 CSR 產生功能增強**
 
-對CSR的生成過程進行了一些改進。 [閱讀全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
+對 CSR 的產生過程進行了一些功能增強。 [閱讀全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 
 >[!CAUTION]
