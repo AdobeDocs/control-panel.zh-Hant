@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 8%
@@ -61,7 +61,7 @@ GPG加密允許您使用遵循以下命令的公鑰和私鑰對系統保護資�
 1. 出現提示時，指定所需的鍵參數。 所需參數為：
 
    * **鍵類型**:RSA
-   * **密鑰長度**:1024 - 4096位
+   * **密鑰長度**:3072 - 4096比特
    * **實名** 和 **電子郵件地址**:允許跟蹤建立密鑰對的人。 輸入連結到您的組織或部門的名稱和電子郵件地址。
    * **注釋**:向注釋欄位添加標籤將幫助您輕鬆確定用於加密資料的密鑰。
    * **到期**:無到期日的日期或「0」。
