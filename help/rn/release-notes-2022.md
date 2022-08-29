@@ -2,14 +2,31 @@
 title: 發行說明 2022 年
 description: 本頁面列出了「控制面板」的所有 2022 版本。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# 2021 年發行說明 {#rn-2022}
+# 發行說明 2022 年 {#rn-2022}
+
+## 2022 年 7 月 {#july-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>子網域用於混合託管模型的憑證安裝</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>使用混合託管模型的客戶現在可以從「控制面板」續約其子網域的 SSL 憑證。</p><p>如需詳細資訊，請參閱<a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">詳細文件</a>。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2022 年 6 月 {#june-2022}
 
