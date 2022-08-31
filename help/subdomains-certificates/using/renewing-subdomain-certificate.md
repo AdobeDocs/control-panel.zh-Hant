@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,6 @@ ht-degree: 100%
 >abstract="若要續約 SSL 憑證，您必須產生 CSR、購買子網域的 SSL 憑證並安裝憑證套裝。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=zh-Hant" text="正在產生憑證申請檔 (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=zh-Hant" text="安裝 SSL 憑證"
-
->[!IMPORTANT]
->
->從「控制面板」續約 SSL 憑證的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
->
->如果使用具有混合式主機模型的執行個體，則只能檢視與委派子網域關聯的憑證，並且無法續約這些憑證。
 
 SSL 憑證續約流程包含 3 個步驟：
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '795'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 0%
 
 ### 我可以使用「控制面板」嗎？
 
-「控制面板」僅開放給將 Adobe Campaign 託管在 AWS 上之現有客戶的產品管理員。請注意，我們目前並不支援混合環境。
+「控制面板」僅開放給將 Adobe Campaign 託管在 AWS 上之現有客戶的產品管理員。
+
+控制面板允許使用混合託管模型的客戶利用特定的控制面板功能。 為此，他們需要提供在「控制面板」行銷執行個體設定的 MID/RT 執行個體 URL。[了解更多](instances-settings/using/external-accounts.md)
 
 如果您不是管理員，但想要取得存取權限，請聯絡您的產品管理員，並協助將您新增為管理員。
 
