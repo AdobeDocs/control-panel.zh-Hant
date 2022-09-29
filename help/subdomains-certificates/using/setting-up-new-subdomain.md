@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 89%
+source-wordcount: '1339'
+ht-degree: 92%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 89%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant" text="監視 SSL 憑證"
 
 ## 必讀 {#must-read}
-
->[!IMPORTANT]
->
->如果使用具有混合宿主模型的實例，則只能查看已委託的子域，並且無法配置子域。
 
 本頁面提供如何透過完整子網域委派或 CNAME 來設定新子網域的資訊。 本章節將介紹這兩種方法的全域概念：[子網域品牌化](../../subdomains-certificates/using/subdomains-branding.md)。
 
@@ -70,7 +66,7 @@ ht-degree: 89%
 
 若要將子網域完全委派給 Adobe Campaign，請執行以下步驟。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 在影片中瞭解此功能
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
 
@@ -90,7 +86,7 @@ ht-degree: 89%
 
 1. 在使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下 **[!UICONTROL Next]**。
 
-1. 如果選擇了「市場活動v7/v8」實例，請為子域選擇所需的使用案例： **營銷傳播** 或 **事務性和操作性通信**。 [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
+1. 如果您選取了Campaign v7/v8執行個體，請為子網域選取所需的使用案例： **行銷通訊** 或 **交易與操作通訊**. [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
 
    ![](assets/subdomain5.png)
 
@@ -124,7 +120,7 @@ ht-degree: 89%
 
 若要使用 CNAME 來設定子網域，請遵循下列步驟。
 
-![](assets/do-not-localize/how-to-video.png) 使用 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant)
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant) 在影片中瞭解此功能
 
 1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
 
@@ -134,7 +130,7 @@ ht-degree: 89%
 
    ![](assets/cname-method-selection.png)
 
-1. 如果選擇了「市場活動v7/v8」實例，請為子域選擇所需的使用案例： **營銷傳播** 或 **事務性和操作性通信**。 [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
+1. 如果您選取了Campaign v7/v8執行個體，請為子網域選取所需的使用案例： **行銷通訊** 或 **交易與操作通訊**. [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
 
    ![](assets/cname-use-case.png)
 
@@ -166,7 +162,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >請注意，在運行子域配置時，其他控制面板請求將輸入到隊列中，並僅在子域配置完成後才執行，以防止出現任何效能問題。
+   >請注意，子網域設定執行時，其他「控制面板」請求會進入佇列，並僅在子網域設定完成後才執行，以防止發生任何效能問題。
 
 1. 如果確認成功，「控制面板」將會開始設定包含 DNS 記錄、其他 URL、收件匣等等的子網域。
 
@@ -182,7 +178,7 @@ ht-degree: 89%
    >
    >執行的檢查包括回饋迴圈和垃圾郵件投訴迴圈測試。因此，我們不建議在稽核完成之前使用子網域，因為這可能導致子網域信譽不佳。
    >
-   >但是，請注意，您可以在子域上執行與SSL證書相關的操作，即使交付性審核仍在處理。
+   >不過，請注意，您可以在子網域上執行與SSL憑證相關的操作，即使傳遞能力稽核仍在處理中亦然。
 
 1. 程序結束時，子網域將設定為與您的 Adobe Campaign 執行個體搭配使用，並會建立下列元素：
 
