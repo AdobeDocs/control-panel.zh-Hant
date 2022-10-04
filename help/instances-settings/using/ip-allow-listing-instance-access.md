@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '837'
 ht-degree: 82%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->此功能僅適用於Campaign v7/v8實例。
+>此功能僅適用於Campaign v7/v8執行個體。
 >
->如果使用具有混合宿主模型的實例，則只能在「外部API連接」中為RT實例添加IP地址。
+>如果您搭配混合式托管模型使用執行個體，則只能在「External API Connection」（外部API連線）中為RT執行個體新增IP位址。
 
 依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
@@ -48,16 +48,16 @@ ht-degree: 82%
 * **如果您暫時對 IP 位址啟用了執行個體的存取權限**，請確保在不再需要連線至執行個體時，從允許清單的 IP 位址中刪除該 IP 位址。
 * **我們不建議將公共場所的 IP 位址新增至允許清單**（機場、飯店等）。請一律使用您的公司 VPN 地址，確保執行個體安全無虞。
 
-## 將IP地址添加到允許實例訪問清單 {#adding-ip-addresses-allow-list}
+## 將IP位址新增至允許執行個體存取的清單 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="IP範圍配置"
+>title="IP範圍設定"
 >abstract="定義您要新增至允許清單的 IP 範圍，以便連線至執行個體。"
 
 >[!NOTE]
 >
->如果 **[!UICONTROL Instance Settings]** 「控制面板」的首頁上看不到卡，這意味著您的IMS組織ID未與任何Adobe Campaignv7/v8實例關聯。
+>若 **[!UICONTROL Instance Settings]** 「控制面板」首頁上未顯示卡片，這表示您的 [組織ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant) 與任何Adobe Campaign v7/v8例項無關聯。
 
 若要將 IP 位址新增至允許清單，請執行下列步驟：
 
@@ -86,13 +86,13 @@ ht-degree: 82%
 
 1. 指定要授予 IP 位址的存取類型：
 
-   * **[!UICONTROL Campaign Console Access]**:允許IP地址連接到市場活動客戶端控制台。 請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
+   * **[!UICONTROL Campaign Console Access]**:IP位址可連線至Campaign用戶端主控台。 請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
    * **[!UICONTROL AEM connection]**：指定的 AEM IP 位址可以連線至行銷執行個體。
    * **[!UICONTROL External API connection]**：具有指定 IP 位址的外部 API 可以連線至行銷和/或 Message Center (RT) 執行個體。請注意，系統並未啟用與 RT 執行個體控制台的連線。
 
       >[!NOTE]
       >
-      >如果使用具有混合宿主模型的實例，則只能在「外部API連接」中為RT實例添加IP地址。
+      >如果您搭配混合式托管模型使用執行個體，則只能在「External API Connection」（外部API連線）中為RT執行個體新增IP位址。
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 按一下 **[!UICONTROL Save]** 按鈕。會將 IP 範圍新增至允許清單。
@@ -101,7 +101,7 @@ ht-degree: 82%
 
 依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
-要從允許清單中刪除一個或多個IP範圍，請選擇它們，然後按一下 **[!UICONTROL Delete IP range]** 按鈕
+若要從允許清單刪除一或多個IP範圍，請選取範圍，然後按一下 **[!UICONTROL Delete IP range]** 按鈕。
 
 ![](assets/ip_whitelist_delete.png)
 

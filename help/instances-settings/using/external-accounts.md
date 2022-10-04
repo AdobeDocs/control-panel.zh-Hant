@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 99%
+source-wordcount: '466'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->如果您在存取「控制面板」時遇到任何問題，您的行銷執行個體很可能尚未對應您的組織 ID。 請聯絡客戶服務部完成此設定才能繼續。 在成功連線時，您會看到「控制面板」首頁。
+>如果您在存取「控制面板」時遇到任何問題，您的行銷執行個體很可能尚未與 [組織ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant). 請聯絡客戶服務部完成此設定才能繼續。 在成功連線時，您會看到「控制面板」首頁。
 
 若要能夠存取「控制面板」功能，您需要在 **[!UICONTROL Instances Settings]** 卡片提供 MID/RT 執行個體資訊。 請依照下列步驟以執行此操作。
 
