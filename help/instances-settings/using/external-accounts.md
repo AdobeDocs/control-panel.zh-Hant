@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->如果您在存取「控制面板」時遇到任何問題，您的行銷執行個體很可能尚未與 [組織ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant). 請聯絡客戶服務部完成此設定才能繼續。 在成功連線時，您會看到「控制面板」首頁。
+>如果您在存取「控制面板」時遇到任何問題，您的行銷執行個體很可能尚未對應您的[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。 請聯絡客戶服務部完成此設定才能繼續。 在成功連線時，您會看到「控制面板」首頁。
 
 若要能夠存取「控制面板」功能，您需要在 **[!UICONTROL Instances Settings]** 卡片提供 MID/RT 執行個體資訊。 請依照下列步驟以執行此操作。
 
@@ -93,5 +93,5 @@ ht-degree: 93%
 * [監視主要聯絡人及事件](../../service-events/service-events.md)
 * [檢視執行個體的詳細資訊](../../instances-settings/using/instance-details.md)，
 * [新增 IP 地址到允許清單](../../instances-settings/using/ip-allow-listing-instance-access.md) (針對 RT 執行個體)，
-* [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md),
+* [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md)，
 * [續約子網域的 SSL 憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
