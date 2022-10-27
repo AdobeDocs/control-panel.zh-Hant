@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: ht
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >如果您尚未訂閱「控制面板」警示，會顯示一條訊息，允許您註冊接收電子郵件通知。
+   >如果您尚未訂閱「控制面板」警報，則會顯示訊息，並允許您註冊以接收電子郵件通知。
 
 1. 現在已為所選的事件設定提醒。 您可以隨時將滑鼠游標停留在上面以顯示標題。
 
