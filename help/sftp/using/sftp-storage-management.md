@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 視您的合約條款而定，您的 SFTP 伺服器上可能會佈建不同的儲存容量。
 
 您必須定期監視每個 SFTP 伺服器的可用空間，否則，您可能無法再在伺服器上儲存任何其他檔案，或是無法成功執行須依賴此伺服器更新的工作流程。
+
+如果您訂閱 [電子郵件警報](../../performance-monitoring/using/email-alerting.md)，您的SFTP伺服器達到其80%或以上容量時，將會收到電子郵件通知。 請參閱 [SFTP儲存空間管理](../../sftp/using/sftp-storage-management.md).
 
 ![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=zh-Hant) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=zh-Hant) 在影片中瞭解此功能
 
