@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 81%
+source-wordcount: '384'
+ht-degree: 78%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 81%
 
 ## 關於執行個體資料庫 {#about-instances-databases}
 
-根據您的合約，您的每個 Campaign 執行個體都會以特定數量的資料庫空間佈建。
-
-資料庫包含所有儲存在 Adobe Campaign 的&#x200B;**資產**、**工作流程**&#x200B;及&#x200B;**資料**。
+根據您的合約，您的每個 Campaign 執行個體都會以特定數量的資料庫空間佈建。資料庫包含所有儲存在 Adobe Campaign 的&#x200B;**資產**、**工作流程**&#x200B;及&#x200B;**資料**。
 
 隨著時間過去，資料庫可能會達到最大容量限制，特別是永遠不從執行個體中刪除儲存資源，或是有許多工作流程處於暫停狀態。
 
 執行個體資料庫溢出可能會導致幾個問題 (無法登入、傳送電子郵件等)。因此，監視執行個體的資料庫是確保最佳效能的關鍵。
+
+如果您訂閱 [電子郵件警報](../../performance-monitoring/using/email-alerting.md)，您會在執行個體的其中一個資料庫達到其容量的80%或以上時，收到電子郵件通知。
 
 ## 監視資料庫使用情況{#monitoring-database-usage}
 
@@ -38,21 +38,19 @@ ht-degree: 81%
 
 從 **[!UICONTROL Instance List]** 中選擇所需的執行個體，以顯示有關執行個體的資料庫容量和已用空間的資訊。
 
-此外，您可以在其中一個資料庫鄰近最大容量時收到通知。若要這麼做，請訂閱[電子郵件通知](../../performance-monitoring/using/email-alerting.md)。
-
 >[!NOTE]
 >
 >如果控制面板中顯示的可用資料庫空間量未反應合約中所指明的量，請聯絡客戶服務。
 
 ![](assets/databases_dashboard.png)
 
-此儀表板中的資料將根據 **[!UICONTROL Database cleanup technical workflow]** 運行在您的市場活動實例上(請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) 和 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) 文檔)。 您可以檢查工作流上次在以下運行的時間 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 度量。 請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
+來自此控制面板的資料會根據 **[!UICONTROL Database cleanup technical workflow]** 在您的Campaign執行個體上執行(請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) 檔案)。 您可以檢查工作流程上次在 **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 量度。 請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
 
-此儀表板中提供了其他度量，以幫助您分析實例資料庫的使用情況。 以下各節詳細介紹了這些內容：
+此控制面板中提供其他量度，可協助您分析執行個體資料庫的使用情形。 這些部分在以下幾節中詳細說明：
 
 * [資料庫使用率](../../performance-monitoring/using/database-utilization.md)
 * [儲存空間概覽](../../performance-monitoring/using/database-storage-overview.md)
 * [前 10 大臨時資源](../../performance-monitoring/using/database-top-ten-resources.md)
 * [活動查詢](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) 使用 [市場活動v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=zh-Hant#performance-monitoring) 在影片中瞭解此功能
