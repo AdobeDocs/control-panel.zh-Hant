@@ -6,8 +6,8 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
-workflow-type: ht
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -29,7 +29,9 @@ ht-degree: 100%
    + [存取「控制面板」](discover/using/accessing-control-panel.md)
    + [管理「控制面板」的權限](discover/using/managing-permissions.md)
    + [探索「控制面板」介面](discover/using/discovering-the-interface.md)
-+ [監視主要聯絡人和事件](service-events/service-events.md)
++ [監視主要聯絡人及事件](service-events/service-events.md)
++ [電子郵件警示](performance-monitoring/using/email-alerting.md)
++ 執行個體設定 {#instances-settings}
 + SFTP 管理{#sftp-management}
    + [關於 SFTP 管理](sftp/using/about-sftp-management.md)
    + [管理 SFTP 儲存空間](sftp/using/sftp-storage-management.md)
@@ -59,8 +61,6 @@ ht-degree: 100%
       + [防止資料庫超過負荷](performance-monitoring/using/database-preventing-overload.md)
    + [使用中設定檔監視](performance-monitoring/using/active-profiles-monitoring.md)
    + [輸送量和延時監視](performance-monitoring/using/thoughputs-latencies.md)
-   + [電子郵件警示](performance-monitoring/using/email-alerting.md)
-+ 執行個體設定 {#instances-settings}
    + [存取執行個體的 IP 允許清單](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 權限](instances-settings/using/url-permissions.md)
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
