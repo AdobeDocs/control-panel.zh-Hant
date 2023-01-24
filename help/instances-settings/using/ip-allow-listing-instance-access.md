@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 82%
+source-wordcount: '812'
+ht-degree: 85%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 82%
 >[!IMPORTANT]
 >
 >此功能僅適用於Campaign v7/v8執行個體。
->
->如果您搭配混合式托管模型使用執行個體，則只能在「External API Connection」（外部API連線）中為RT執行個體新增IP位址。
 
 依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
@@ -90,9 +88,10 @@ ht-degree: 82%
    * **[!UICONTROL AEM connection]**：指定的 AEM IP 位址可以連線至行銷執行個體。
    * **[!UICONTROL External API connection]**：具有指定 IP 位址的外部 API 可以連線至行銷和/或 Message Center (RT) 執行個體。請注意，系統並未啟用與 RT 執行個體控制台的連線。
 
-      >[!NOTE]
-      >
-      >如果您搭配混合式托管模型使用執行個體，則只能在「External API Connection」（外部API連線）中為RT執行個體新增IP位址。
+   >[!NOTE]
+   >
+   >如果您使用具有混合托管模型的執行個體，則只能為MID和RT執行個體在「外部API連線」中新增IP位址。
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. 按一下 **[!UICONTROL Save]** 按鈕。會將 IP 範圍新增至允許清單。

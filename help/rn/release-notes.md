@@ -2,10 +2,10 @@
 title: 最新版本
 description: 本頁面列出了「控制面板」的所有新功能和改善項目。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: ht
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
+workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 100%
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 本頁面列出了「控制面板」的所有新功能和改善項目。
 
-## 2022 年 10 月 {#october-2022}
+## 2023 年 1 月 {#january-2023}
 
-電子郵件警示現在會在您的其中一個 SSL 憑證於 30 天或更短時間內到期時通知您。 [了解更多](../performance-monitoring/using/email-alerting.md)
+擁有混合托管模型的客戶現在可將IP位址新增至允許清單，以存取MID執行個體。 [了解更多](../instances-settings/using/ip-allow-listing-instance-access.md)
