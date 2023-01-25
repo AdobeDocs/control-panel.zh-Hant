@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,6 +92,6 @@ ht-degree: 98%
 
 * [監視主要聯絡人及事件](../../service-events/service-events.md)
 * [檢視執行個體的詳細資訊](../../instances-settings/using/instance-details.md)，
-* [將IP位址新增至允許清單](../../instances-settings/using/ip-allow-listing-instance-access.md),
+* [將 IP 位址新增至允許清單](../../instances-settings/using/ip-allow-listing-instance-access.md)，
 * [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md)，
 * [續約子網域的 SSL 憑證](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
