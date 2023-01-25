@@ -5,7 +5,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 42%
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 42%
 
 **新的混合托管模型功能**
 
-擁有混合托管模型的客戶現在可將IP位址新增至允許清單，以存取MID執行個體。 [了解更多](../instances-settings/using/ip-allow-listing-instance-access.md)
+擁有混合託管模式的客戶現在可將 IP 位址新增至允許清單，以存取 MID 執行個體。 [了解更多](../instances-settings/using/ip-allow-listing-instance-access.md)
 
 **憑證簽署要求(CSR)增強功能**
 
