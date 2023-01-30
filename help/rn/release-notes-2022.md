@@ -2,8 +2,8 @@
 title: 發行說明 2022 年
 description: 本頁面列出了「控制面板」的所有 2022 版本。
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>已增強輸送量及延時監視能力：<ul><li>您現在可以識別影響執行個體輸送量的前 5 個傳遞的 ID。</li><li>Campaign Classic v7/v8 客戶現在可以顯示特定頻道的延時。</p></li><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/thoughputs-latencies.md">詳細文件</a>。</p>
+<p>已增強輸送量及延時監視能力：<ul><li>您現在可以識別影響執行個體輸送量的前 5 個傳遞的 ID。</li><li>Campaign Classic v7/v8 客戶現在可以顯示特定頻道的延時。</p></li><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/throughputs-latencies.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>輸送量和延時監視功能適用於所有 Campaign Standard 和 v8 客戶，以及版本編號為 9032、9330、9346 或 9349 且已具有獨立部署 (沒有任何中型執行個體) 的 Campaign v7 客戶。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/thoughputs-latencies.md">詳細文件</a>。</p>
+<p>輸送量和延時監視功能適用於所有 Campaign Standard 和 v8 客戶，以及版本編號為 9032、9330、9346 或 9349 且已具有獨立部署 (沒有任何中型執行個體) 的 Campaign v7 客戶。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/throughputs-latencies.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您現在可以監視執行個體上一段時間內的傳遞輸送量和延時趨勢。 </p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/thoughputs-latencies.md">詳細文件</a>以瞭解詳情。</p>
+<p>您現在可以監視執行個體上一段時間內的傳遞輸送量和延時趨勢。 </p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/throughputs-latencies.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
