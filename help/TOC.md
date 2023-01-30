@@ -6,8 +6,8 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [監視工作流程](performance-monitoring/using/workflow-monitoring.md)
       + [防止資料庫超過負荷](performance-monitoring/using/database-preventing-overload.md)
    + [使用中設定檔監視](performance-monitoring/using/active-profiles-monitoring.md)
-   + [輸送量和延時監視](performance-monitoring/using/thoughputs-latencies.md)
+   + [輸送量和延時監視](performance-monitoring/using/throughputs-latencies.md)
    + [存取執行個體的 IP 允許清單](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL 權限](instances-settings/using/url-permissions.md)
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
