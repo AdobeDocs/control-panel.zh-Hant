@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 77%
+source-wordcount: '527'
+ht-degree: 72%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 77%
 
 **相關主題：**
 
-* [執行版本編號升級](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [更新 Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [執行版本編號升級](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
+* [更新 Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
 
 ## 擷取關於執行個體的資訊 {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ ht-degree: 77%
    * 黃色：您應考慮升級。您缺少了最新的功能和修正項目。
    * 紅色：盡快升級。您缺少了新功能，伺服器可能無法提供最佳效能。
 
-如果您的其中一台伺服器需要升級，請參閱[本文件](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)以瞭解如何處理的詳細資訊。
+如果您的其中一台伺服器需要升級，請參閱[本文件](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)以瞭解如何處理的詳細資訊。
 
 ## 常見問題 {#common-questions}
 
