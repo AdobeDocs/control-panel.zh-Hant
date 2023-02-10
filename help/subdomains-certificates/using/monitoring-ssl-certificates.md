@@ -7,22 +7,27 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
+source-git-commit: 349f97423b9a4834ab17c50c1f9cde226b99e4cc
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 90%
 
 ---
 
 # 監視子網域的 SSL 憑證 {#monitoring-ssl-certificates}
 
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="取消委派子網域 "
+>abstract="待定"
+
 ## 關於 SSL 憑證 {#about-ssl-certificates}
 
 Adobe Campaign 建議您保護託管登陸頁面之子網域的安全，尤其是收集客戶敏感資訊的子網域。
 
-**SSL（安全套接字層）加密** 確保配置為使用Adobe的子域是安全的。 當您的客戶填寫網頁表格或造訪 Adobe Campaign 託管的登陸頁面時，系統會依預設透過非安全通訊協定 (HTTP) 傳送資訊。為確保多一層安全性，請使用 HTTPS 通訊協定來保護傳送的資訊。舉例來說，您的「http://info.mywebsite.com/」子網域位址現在會成為「https://info.mywebsite.com/」。
+**SSL（安全套接字層）加密** 確保您設定為搭配Adobe運作的子網域安全無虞。 當您的客戶填寫網頁表格或造訪 Adobe Campaign 託管的登陸頁面時，系統會依預設透過非安全通訊協定 (HTTP) 傳送資訊。為確保多一層安全性，請使用 HTTPS 通訊協定來保護傳送的資訊。舉例來說，您的「http://info.mywebsite.com/」子網域位址現在會成為「https://info.mywebsite.com/」。
 
-**配置的子域本身未安裝SSL證書**。 它們會安裝在相關聯的子網域上，主要是託管登陸頁面、資源頁面等子網域。
+**已設定的子網域本身並未安裝SSL憑證**. 它們會安裝在相關聯的子網域上，主要是託管登陸頁面、資源頁面等子網域。
 
 **在特定時間內提供 SSL 憑證** (1年、60 天等等)。憑證過期後，您在存取登陸頁面或使用子網域的資源時，就可能會遇到問題。為避免出現此問題，「控制面板」可讓您監視子網域的 SSL 憑證，並啟動其續約流程。
 
@@ -33,7 +38,7 @@ Adobe Campaign 建議您保護託管登陸頁面之子網域的安全，尤其�
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="子網域詳細資訊"
->abstract="檢索有關子域SSL證書的資訊。"
+>abstract="擷取子網域SSL憑證的相關資訊。"
 
 選取「**[!UICONTROL Subdomains & Certificates]**」卡片時，您可以直接從子網域清單中取得子網域 SSL 憑證的狀態。
 
