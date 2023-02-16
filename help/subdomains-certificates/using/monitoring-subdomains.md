@@ -2,35 +2,40 @@
 product: campaign
 solution: Campaign
 title: 監視子網域
-description: 監視子域，以確保所有子域都配置正確以與Adobe Campaign協作。
+description: 監視您的子網域，以確保所有項目皆已正確設定，可搭配Adobe Campaign使用。
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
 
 # 監視子網域 {#monitoring-subdomains}
 
-監控子域是非常重要的，以確保所有子域都配置正確以與Adobe Campaign協作。
+>[!CONTEXTUALHELP]
+>id="cp_subdomain_undelegate"
+>title="移除委派的子網域 "
+>abstract="此畫面可讓您移除「控制面板」中已委派的任何子網域。 請記得，子網域移除作業無法還原，且一旦提交即不可復原。<br>如果您嘗試移除所選執行個體的主要網域，系統會要求您選擇要取代它的網域。"
 
-在選擇 **[!UICONTROL Subdomains & Certificates]** 卡。
+您必須監控子網域，以確保所有項目皆已正確設定，可搭配Adobe Campaign使用。
 
-的 **[!UICONTROL Last verification]** 列指示上次驗證子域的時間。 您可以通過按一下 **...** / **[!UICONTROL Verify subdomain]** 按鈕
+選取 **[!UICONTROL Subdomains & Certificates]** 卡片。
+
+此 **[!UICONTROL Last verification]** 欄會指出上次驗證子網域的時間。 您可以隨時按一下 **...** / **[!UICONTROL Verify subdomain]** 按鈕。
 
 ![](assets/subdomain_verification.png)
 
 >[!IMPORTANT]
 >
->Adobe不建議使用沒有證書日期的子域，因為這可能意味著這些子域可能存在某些可傳遞性問題。
+>Adobe不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有某些傳遞能力問題。
 
-啟動驗證時，會執行若干操作以檢查子域是否配置正確(實例租戶檢查、電子郵件發送test等)
+啟動驗證時，會執行數個操作以檢查子網域是否已正確設定（例項租用戶檢查、電子郵件傳送測試等）
 
-如果子域的驗證失敗，請與Adobe客戶服務部聯繫以進一步調查。
+如果子網域的驗證失敗，請連絡Adobe客戶服務以進行進一步調查。
 
 **相關主題：**
 
