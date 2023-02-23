@@ -7,19 +7,15 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
+source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 7%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
-# 監視子網域 {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="移除子網域委派"
->abstract="此畫面可讓您移除要Adobe的子網域委派。 請記住，提交後，此程式無法還原或停止。<br><br>如果您嘗試移除所選執行個體之主要網域的委派，系統會要求您選擇要取代它的網域。"
+# 監視您的子網域 {#monitoring-subdomains}
 
 您必須監控子網域，以確保所有項目皆已正確設定，可搭配Adobe Campaign使用。
 
@@ -33,9 +29,7 @@ ht-degree: 7%
 >
 >Adobe不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有某些傳遞能力問題。
 
-啟動驗證時，會執行數個操作以檢查子網域是否已正確設定（例項租用戶檢查、電子郵件傳送測試等）
-
-如果子網域的驗證失敗，請連絡Adobe客戶服務以進行進一步調查。
+啟動驗證時，會執行數個操作以檢查子網域是否已正確設定（例項租用戶檢查、電子郵件傳送測試等） 如果子網域的驗證失敗，請連絡Adobe客戶服務以進行進一步調查。
 
 **相關主題：**
 

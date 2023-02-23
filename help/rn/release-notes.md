@@ -2,10 +2,10 @@
 title: 最新版本
 description: 本頁面列出了「控制面板」的所有新功能和改善項目。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
+source-git-commit: 37e4d287a82f9b750eb7fdac64d0ac9602a803c8
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 69%
+source-wordcount: '94'
+ht-degree: 34%
 
 ---
 
@@ -13,12 +13,14 @@ ht-degree: 69%
 
 本頁面列出了「控制面板」的所有新功能和改善項目。
 
-## 2023 年 1 月 {#january-2023}
+## 2023 年 2 月 {#february-2023}
 
-**新的混合托管模型功能**
+**委派給Adobe的子網域的委派移除**
 
-擁有混合託管模式的客戶現在可將 IP 位址新增至允許清單，以存取 MID 執行個體。 [了解更多](../instances-settings/using/ip-allow-listing-instance-access.md)
+您現在可以移除已委派給Adobe的子網域委派，包括CNAME設定。 [了解更多](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**憑證簽署要求(CSR)增強功能**
+**服務日曆**
 
-在產生憑證簽署要求期間，「城市/位置」欄位現在是選用欄位。
+服務日曆現在提供日曆檢視，以追蹤您執行個體上發生的重要事件。 此外，已新增傳送給訂閱「控制面板」警報之使用者之通知的相關資訊。 [了解更多](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
