@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
+source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 7%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
->title="移除委派的子網域 "
->abstract="此畫面可讓您移除「控制面板」中已委派的任何子網域。 請記得，子網域移除作業無法還原，且一旦提交即不可復原。<br><br>如果您嘗試移除所選執行個體的主要網域，系統會要求您選擇要取代它的網域。"
+>title="移除子網域委派"
+>abstract="此畫面可讓您移除要Adobe的子網域委派。 請記住，提交後，此程式無法還原或停止。<br><br>如果您嘗試移除所選執行個體之主要網域的委派，系統會要求您選擇要取代它的網域。"
 
 您必須監控子網域，以確保所有項目皆已正確設定，可搭配Adobe Campaign使用。
 
