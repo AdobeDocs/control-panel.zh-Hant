@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 861061eefcb38235a7f056192237842bceec55eb
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 73%
 
 ---
 
@@ -26,19 +26,13 @@ ht-degree: 100%
 
 ## 新增功能
 
-**佔用 SFTP 伺服器空間的前 10 個檔案**
+**委派給Adobe的子網域的委派移除**
 
-現在您可以識別 SFTP 伺服器上佔用最多空間的前 10 個檔案。 [閱讀全文](sftp/using/sftp-storage-management.md)
+您現在可以移除已委派給Adobe的子網域委派，包括CNAME設定。 [了解更多](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**服務日曆**
 
-**服務行事曆提醒**
-
-服務行事曆現在允許您設定提醒，以便在執行個體的事件發生之前透過電子郵件通知您。 [閱讀全文](service-events/service-events.md)
-
-**子網域的 CSR 產生功能增強**
-
-對 CSR 的產生過程進行了一些功能增強。 [閱讀全文](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+服務日曆現在提供日曆檢視，以追蹤您執行個體上發生的重要事件。 此外，已新增傳送給訂閱「控制面板」警報之使用者之通知的相關資訊。 [了解更多](../service-events/service-events.md)
 
 >[!CAUTION]
 >
