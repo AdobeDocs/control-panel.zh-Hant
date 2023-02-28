@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 861061eefcb38235a7f056192237842bceec55eb
+source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 73%
@@ -28,11 +28,11 @@ ht-degree: 73%
 
 **委派給Adobe的子網域的委派移除**
 
-您現在可以移除已委派給Adobe的子網域委派，包括CNAME設定。 [了解更多](../subdomains-certificates/using/remove-delegated-subdomains.md)
+您現在可以移除已委派給Adobe的子網域委派，包括CNAME設定。 [了解更多](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
 **服務日曆**
 
-服務日曆現在提供日曆檢視，以追蹤您執行個體上發生的重要事件。 此外，已新增傳送給訂閱「控制面板」警報之使用者之通知的相關資訊。 [了解更多](../service-events/service-events.md)
+服務日曆現在提供日曆檢視，以追蹤您執行個體上發生的重要事件。 此外，已新增傳送給訂閱「控制面板」警報之使用者之通知的相關資訊。 [了解更多](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
