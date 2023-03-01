@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 ![](assets/do-not-localize/how-to-video.png)[ 在影片中探索此功能](../../discover/using/managing-permissions.md#video)
 
-1. 導覽至 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}。
+1. 導覽至 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. 啟動 **Admin Console** 按一下 **快速存取** 區域或右上角的
 

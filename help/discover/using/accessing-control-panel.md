@@ -9,8 +9,8 @@ level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 12%
+source-wordcount: '174'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 若要從Adobe Experience Cloud平台存取「控制面板」，請遵循下列步驟。
 
-1. 導覽至 [Experience Cloud首頁](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}。
+1. 導覽至 [Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. 按一下 **快速存取** 區段。
 
@@ -32,7 +32,7 @@ ht-degree: 12%
 
 您也可以從Experience Cloud平台存取「控制面板」 **解決方案選擇器**:
 
-1. 從 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}，請選取 **行銷活動** 從 **快速存取** 區段或右上方功能表。
+1. 從 [Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}，選取 **行銷活動** 從 **快速存取** 區段或右上方功能表。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->可從產品記憶體取 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hant)僅{target=&quot;_blank&quot;}。
+>可從產品記憶體取 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hant){target="_blank"} 只有。
 
 1. 開啟您的Campaign Standard產品。
 

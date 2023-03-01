@@ -10,7 +10,7 @@ exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 警報清單如下：
 
-* **SFTP儲存空間使用情況**:您的其中一部SFTP伺服器已達其容量的80%或以上。 請參閱 [SFTP儲存空間管理](../../sftp/using/sftp-storage-management.md).
+* **SFTP儲存空間使用情況**:您的其中一部SFTP伺服器已達其容量的80%或以上。 請參閱 [SFTP 儲存空間管理](../../sftp/using/sftp-storage-management.md)。
 
 * **資料庫使用**:您的實例的資料庫已達到其容量的80%或更多。 請參閱 [資料庫監視](../../performance-monitoring/using/database-monitoring.md).
 

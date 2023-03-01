@@ -6,25 +6,26 @@ description: 瞭解如何續約子網域的 SSL 憑證
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
+exl-id: af440b5d-1d21-44fb-831f-f2bdd6011b82
+source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
-# 安裝SSL證書 {#installing-ssl-certificate}
+# 安裝 SSL 憑證 {#installing-ssl-certificate}
 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
->title="SSL證書安裝"
+>title="SSL憑證安裝"
 >abstract="安裝您從貴組織核准的憑證機構購買的 SSL 憑證。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="關於子網域名稱"
 
 購買 SSL 憑證後，您就可以將它安裝在您的執行個體上。繼續操作之前，請確定您已瞭解下列必要條件：
 
 * 憑證簽署要求 (CSR) 必須從「控制面板」產生。否則，您將無法從「控制面板」安裝憑證。
-* 證書籤名請求(CSR)應與已配置為使用Adobe的子域匹配。 例如，它不能包含比已配置的子域多的子域。
+* 憑證簽署要求(CSR)應符合已設定為可搭配Adobe使用的子網域。 例如，它不能包含比已設定的子網域更多的子網域。
 * 憑證應具有目前日期。您不能安裝具有未來日期的憑證，也不應安裝過期的應憑證 (即有效的開始日期和結束日期)。
 * 憑證應由受信任的憑證機構 (CA) 核發，例如 Comodo、DigiCert、GoDaddy 等等。
 * 憑證大小應為 2048 位元，演算法應為 RSA。

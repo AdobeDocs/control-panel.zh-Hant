@@ -56,13 +56,13 @@ ht-degree: 92%
 >id="cp_add_subdomain_create_delegate"
 >title="建立並委派子網域"
 >abstract="建立您要在托管解決方案中與 Adobe Campaign 搭配使用的子網域，並將其委派給 Adobe。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="提交您的子網域"
 >abstract="確認並提交在先前步驟中設定的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 
 若要將子網域完全委派給 Adobe Campaign，請執行以下步驟。
 
@@ -104,19 +104,19 @@ ht-degree: 92%
 >id="cp_add_cname_subdomain_create_delegate"
 >title="設定您的子網域"
 >abstract="在此畫面中，指定您要使用 CNAME 設定的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="產生記錄"
 >abstract="導覽至您的託管解決方案，以產生此畫面中顯示的 DNS 記錄清單。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="提交您的子網域"
 >abstract="確認並提交在先前步驟中設定的子網域。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="設定新的子網域"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 
 若要使用 CNAME 來設定子網域，請遵循下列步驟。
 
