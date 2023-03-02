@@ -6,9 +6,9 @@ description: 了解如何移除子網域的委派以Adobe。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 12%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 12%
 >title="移除子網域委派"
 >abstract="此畫面可讓您移除要Adobe的子網域委派。 請記住，此程式無法復原，且必須等到執行完成後才能復原。<br><br>如果您嘗試移除所選執行個體之主要網域的委派，系統會要求您選擇要取代它的網域。"
 
-「控制面板」可讓您移除已委派給Adobe的子網域委派，包括CNAME設定。
+「控制面板」可讓您移除已委派給Adobe的子網域委派。
+
+>[!NOTE]
+>
+>已使用CNAME設定的子網域目前無法使用委派移除功能。
 
 ## 重要備註 {#important}
 
