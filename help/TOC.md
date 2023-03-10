@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 # 控制面板指南 {#using}
 
 + [產品文件](control-panel-home.md)
-+ 發行說明 {#release-notes}
++ 發行說明{#release-notes}
    + [最新版本](rn/release-notes.md)
    + 舊的發行版本 {#previous-releases}
       + [發行說明 2023 年](rn/release-notes-2023.md)
@@ -43,9 +43,9 @@ ht-degree: 94%
    + [子網域品牌化](subdomains-certificates/using/subdomains-branding.md)
    + [監視您的子網域](subdomains-certificates/using/monitoring-subdomains.md)
    + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [移除子網域的委派以Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [移除給 Adobe 的子網域委派](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [管理 TXT 記錄](subdomains-certificates/using/managing-txt-records.md)
-   + 管理SSL憑證 {#manage-certificates}
+   + 管理 SSL 憑證{#manage-certificates}
       + [監視 SSL 憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [續約 SSL 憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [產生 CSR](subdomains-certificates/using/generate-csr.md)
