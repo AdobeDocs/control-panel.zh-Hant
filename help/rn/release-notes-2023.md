@@ -2,7 +2,7 @@
 title: 發行說明 2023 年
 description: 本頁面列出了「控制面板」的所有 2023 版本。
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '56'
 ht-degree: 100%
 
