@@ -10,7 +10,7 @@ exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="關於執行個體詳細資訊"
->abstract="檢視Adobe Campaign例項的詳細資訊：類型、名稱、組建資訊和可能的升級建議。"
+>abstract="檢視 Adobe Campaign 執行個體的詳細資訊：類型、名稱、版本編號資訊以及可能的升級推薦項目。"
 
 ## 關於執行個體詳細資訊 {#about-instance-details}
 

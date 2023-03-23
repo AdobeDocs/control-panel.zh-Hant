@@ -50,7 +50,7 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="IP範圍設定"
+>title="IP 範圍設定"
 >abstract="定義您要新增至允許清單的 IP 範圍，以便連線至執行個體。"
 
 >[!NOTE]

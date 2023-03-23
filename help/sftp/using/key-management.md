@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -48,8 +48,8 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="新增公開金鑰"
->abstract="產生執行個體的公開SSH金鑰，並將其新增至「控制面板」以存取SFTP伺服器。"
+>title="公開金鑰新增"
+>abstract="產生執行個體的公開 SSH 金鑰並將其新增到控制面板以存取 SFTP 伺服器。"
 
 >[!IMPORTANT]
 >
@@ -150,7 +150,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_update"
 >title="編輯公開金鑰"
->abstract="更新選取的公開金鑰以存取您的SFTP伺服器。"
+>abstract="更新選取的公開金鑰以存取您的 SFTP 伺服器。"
 
 若要編輯公開金鑰，請遵循下列步驟。
 

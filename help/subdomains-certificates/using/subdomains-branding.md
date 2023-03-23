@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 75%
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
 >title="選取子網域的使用案例"
->abstract="依使用案例劃分子網域是傳遞能力的最佳實務。 如此一來，就能分隔和保護每個子網域的信譽。"
+>abstract="按使用案例劃分子網域是傳遞能力的最佳做法。如此一來，就能分隔和保護每個子網域的信譽。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="子網域品牌化"
 

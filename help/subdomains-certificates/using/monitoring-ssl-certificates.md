@@ -10,7 +10,7 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign 建議您保護託管登陸頁面之子網域的安全，尤其�
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="子網域詳細資訊"
->abstract="擷取子網域SSL憑證的相關資訊。"
+>abstract="擷取有關子網域的 SSL 憑證的資訊。"
 
 選取「**[!UICONTROL Subdomains & Certificates]**」卡片時，您可以直接從子網域清單中取得子網域 SSL 憑證的狀態。
 

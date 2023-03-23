@@ -10,7 +10,7 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
->title="關於GPG金鑰"
->abstract="在此索引標籤中，您可以在行銷執行個體上安裝和/或產生GPG金鑰，以加密從Campaign傳送的資料，並解密傳入的資料。"
+>title="關於 GPG 金鑰"
+>abstract="在此索引標籤中，您可在行銷執行個體上安裝和/或產生 GPG 金鑰，以將傳送自 Campaign 的資料加密並將傳入的資料解密。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant" text="關於效能監視"
 
 ## 關於GPG加密 {#about-gpg-encryption}

@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
->title="關於作用中設定檔監控"
->abstract="在此標籤中，您可以取得每個Campaign執行個體之最新和歷史作用中設定檔使用和演變的即時資訊。"
+>title="關於作用中設定檔監視"
+>abstract="在此索引標籤中，您可以取得每個 Campaign 執行個體最新和歷史的作用中設定檔使用和演變的即時資訊。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant" text="關於效能監視"
 
 「控制面板」可讓您監控每個 Campaign 執行個體的作用中設定檔使用量。

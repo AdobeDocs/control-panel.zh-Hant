@@ -10,7 +10,7 @@ exl-id: af440b5d-1d21-44fb-831f-f2bdd6011b82
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
->title="SSL憑證安裝"
+>title="SSL 憑證安裝"
 >abstract="安裝您從貴組織核准的憑證機構購買的 SSL 憑證。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="關於子網域名稱"
 

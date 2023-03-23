@@ -10,7 +10,7 @@ exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 83%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="URL定義"
+>title="URL 定義"
 >abstract="新增 URL 以允許連線至您的 Campaign 執行個體。"
 
 若要新增您執行個體可連線的 URL，請執行下列步驟：

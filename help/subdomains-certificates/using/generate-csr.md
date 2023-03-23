@@ -18,7 +18,7 @@ ht-degree: 59%
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="CSR產生"
+>title="CSR 產生"
 >abstract="您必須在購買憑證之前，先針對您打算保護的執行個體和子網域產生憑證簽署要求。"
 
 >[!CONTEXTUALHELP]
