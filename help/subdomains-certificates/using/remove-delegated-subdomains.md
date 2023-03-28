@@ -6,10 +6,10 @@ description: 了解如何移除給 Adobe 的子網域委派。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '810'
+ht-degree: 60%
 
 ---
 
@@ -66,14 +66,16 @@ ht-degree: 0%
 
 下表列出了要執行的操作，具體取決於要刪除的委派類型以及用於設定替換域的委派類型。
 
-| 已移除委派 | 替換域 | 需要的操作 |
+| 已移除委派 | 取代網域委派 | 需要的操作 |
 |  ---  |  ---  |  ---  |
-| 完整 | 無替換域 | 無需任何操作 |
-| 完整 | CNAME | 新增DNS記錄（根據IP相關性為選用） |
-| 完整 | 完整 | 無需任何操作 |
 | CNAME | 無替換域 | 刪除DNS記錄 |
-| CNAME | CNAME | 刪除並新增DNS記錄（根據IP相關性為選用） |
+| CNAME | CNAME | 刪除DNS記錄<br/>添加DNS記錄 *（視IP相關性而定，為選用）* |
 | CNAME | 完整 | 刪除DNS記錄 |
+| 完整 | 無替換域 | 無需任何操作 |
+| 完整 | CNAME | 添加DNS記錄 *（視IP相關性而定，為選用）* |
+| 完整 | 完整 | 無需任何操作 |
+
+{style="table-layout:auto"}
 
 若要這麼做，請額外 **[!DNL Action]** 確認委派移除前會顯示步驟。 此畫面會根據內容列出要移除或新增的DNS記錄。
 
