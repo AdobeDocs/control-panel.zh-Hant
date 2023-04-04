@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 60%
 >title="移除子網域委派"
 >abstract="此畫面可讓您移除給 Adobe 的子網域委派。 請記住，此流程無法取消，且必須等到執行完成之後才能復原。<br><br>如果您嘗試移除選定執行個體的主要網域委派，系統會要求您選擇取代的網域。"
 
-「控制面板」可讓您移除已完全委派給Adobe或透過CNAME委派之子網域的委派。
+「控制面板」可讓您移除已委派給 Adobe 或由 CNAME 委派的子網域委派。
 
 ## 重要備註 {#important}
 
@@ -48,7 +48,7 @@ ht-degree: 60%
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. 如果您移除CNAME類型委派，或使用使用CNAME委派的網域取代主網域，則另外 **[!UICONTROL Action]** 顯示管理DNS記錄的步驟。 [在本節了解更多資訊](#dns)
+1. 如果您移除 CNAME 類型委派，或由 CNAME 委派的網域取代主網域，則會另外顯示 **[!UICONTROL Action]** 步驟來管理 DNS 記錄。 [在本節了解更多資訊](#dns)
 
 1. 檢閱顯示的摘要。 若要確認移除，請輸入您要移除委派的網域 URL，然後按一下&#x200B;**[!UICONTROL Submit]**。
 
@@ -58,40 +58,40 @@ ht-degree: 60%
 
 ![](assets/undelegate-job.png)
 
-## DNS記錄管理 {#dns}
+## DNS 記錄管理 {#dns}
 
-若要使用CNAME設定網域委派，「控制面板」需要您在DNS伺服器上新增特定記錄。 [了解如何使用CNAME設定子網域](setting-up-new-subdomain.md#use-cnames)
+若要由 CNAME 設定網域委派，「控制面板」需要您在 DNS 伺服器新增特定記錄。 [了解如何使用 CNAME 設定子網域](setting-up-new-subdomain.md#use-cnames)
 
-移除CNAME類型委派時，您需要 **刪除這些DNS記錄** 以避免任何問題。 此外，如果您想要移除主要子網域的委派，並將其取代為已使用CNAME委派的網域，您可能需要 **添加DNS記錄** ，視為子網域設定的IP相關性而定。
+於移除 CNAME 類型委派時，您需要&#x200B;**移除這些 DNS 記錄**&#x200B;以避免任何問題。 此外，如果您想要移除主要子網域委派，並將其取代為由 CNAME 委派的網域，您可能需要&#x200B;**新增 DNS 記錄** ，視子網域設定的 IP 相關性而定。
 
-下表列出了要執行的操作，具體取決於要刪除的委派類型以及用於設定替換域的委派類型。
+下表列出要執行的操作，具體取決於要刪除的委派類型以及用於設定替換網域的委派類型。
 
-| 已移除委派 | 取代網域委派 | 需要的操作 |
+| 已移除委派 | 替代網域委派 | 需要的動作 |
 |  ---  |  ---  |  ---  |
-| CNAME | 無替換域 | 刪除DNS記錄 |
-| CNAME | CNAME | 刪除DNS記錄<br/>添加DNS記錄 *（視IP相關性而定，為選用）* |
-| CNAME | 完整 | 刪除DNS記錄 |
-| 完整 | 無替換域 | 無需任何操作 |
-| 完整 | CNAME | 添加DNS記錄 *（視IP相關性而定，為選用）* |
-| 完整 | 完整 | 無需任何操作 |
+| CNAME | 無替換網域 | 刪除 DNS 記錄 |
+| CNAME | CNAME | 刪除 DNS 記錄<br/>加入 DNS 記錄&#x200B;*(視 IP 相關性而定，選用)* |
+| CNAME | 完整 | 刪除 DNS 記錄 |
+| 完整 | 無替換網域 | 無需任何動作 |
+| 完整 | CNAME | 加入 DNS 記錄&#x200B;*(視 IP 相關性而定，選用)* |
+| 完整 | 完整 | 無需任何動作 |
 
 {style="table-layout:auto"}
 
-若要這麼做，請額外 **[!DNL Action]** 確認委派移除前會顯示步驟。 此畫面會根據內容列出要移除或新增的DNS記錄。
+若要這麼做，會再確認委派移除前另外顯示 **[!DNL Action]** 步驟。 此畫面會根據內容列出要移除或新增的 DNS 記錄。
 
 ![](assets/action-step.png)
 
-### 刪除DNS記錄
+### 刪除 DNS 記錄
 
-1. 導覽至您的DNS伺服器，並移除「控制面板」中列出的記錄。
+1. 導覽至您的 DNS 伺服器，並移除「控制面板」列出的記錄。
 1. 返回「控制面板」，然後按一下 **[!UICONTROL Next]** 繼續刪除委派。
 
-### 添加DNS記錄
+### 新增 DNS 記錄
 
-1. 導覽至您的DNS伺服器，並新增「控制面板」中列出的記錄。
-1. 等待DNS添加生效。
-1. 返回「控制面板」，然後按一下 **[!UICONTROL Verify]**.
-1. 成功驗證記錄添加後，按一下 **[!UICONTROL Next]** 繼續刪除委派。
+1. 導覽至您的 DNS 伺服器，並新增「控制面板」列出的記錄。
+1. 等待新增的 DNS 生效。
+1. 返回「控制面板」，然後按一下 **[!UICONTROL Verify]**。
+1. 於成功驗證新增的記錄後，按一下 **[!UICONTROL Next]** 繼續刪除委派。
 
 ## 錯誤代碼 {#FAQ}
 
