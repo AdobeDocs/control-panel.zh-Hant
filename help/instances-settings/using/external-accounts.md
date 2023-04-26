@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="外部帳戶"
 >abstract="在此螢幕中，具有混合託管模型的客戶可以提供在「控制面板」行銷執行個體設定的 MID/RT 執行個體 URL，以便利用「控制面板」功能。"
 
-控制面板允許使用混合託管模型的客戶利用特定的控制面板功能。 為此，他們需要提供在「控制面板」行銷執行個體設定的 MID/RT 執行個體 URL。
+控制面板允許使用混合託管模型的客戶利用特定的控制面板功能。 要執行此操作，您需要：
+
+* [提供MID/RT執行個體URL](#add) 在您的行銷執行個體中設定，
+* [將MID/RT執行個體IP位址新增至允許清單](#ip) 允許行銷執行個體連線至它。
 
 有關託管模型的詳細資訊，請參閱 [Campaign Classic 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=zh-Hant)。
 
@@ -85,6 +88,14 @@ ht-degree: 100%
 請注意，您可以在 **[!UICONTROL Job Logs]** 的 MID/RT 執行個體的 URL 監視 **[!UICONTROL External Accounts]** 標籤上的任何動作 :
 
 ![](assets/external-account-logs.png)
+
+## 將IP位址新增至允許清單 {#ip}
+
+新增MID/RT執行個體後，您必須將其IP位址新增至允許清單，這樣您的行銷執行個體就能連線至該IP位址。
+
+這可從 **[!UICONTROL IP Allow Listing]** 標籤 **[!UICONTROL Instances Settings]** 卡片。 [了解如何將IP位址新增至允許清單](ip-allow-listing-instance-access.md)
+
+完成後，您就能將「控制面板」功能用於MID/RT執行個體。
 
 ## 為混合型客戶提供的功能 {#capabilities}
 
