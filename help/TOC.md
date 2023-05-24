@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 # 控制面板指南 {#using}
 
 + [產品文件](control-panel-home.md)
-+ 發行說明{#release-notes}
++ 發行說明 {#release-notes}
    + [最新版本](rn/release-notes.md)
    + 舊的發行版本 {#previous-releases}
       + [發行說明 2023 年](rn/release-notes-2023.md)

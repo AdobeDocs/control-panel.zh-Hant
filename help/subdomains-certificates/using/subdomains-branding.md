@@ -35,11 +35,11 @@ ht-degree: 78%
 
 ## 子網域設定方法 {#subdomain-delegation-methods}
 
-子網域設定可讓您設定網域的子區段（技術上稱為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的設定方法有：
+子域配置允許您配置域的子部分（技術上是「DNS區域」），以便與Adobe Campaign配合使用。 可用的設定方法有：
 
 * **將子網域完全委派給 Adobe Campaign**（建議）：子網域已完全委派給 Adobe。Adobe 可以控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的 DNS 的各個層面，以受管理的方式提供 Campaign。
 
-* **CNAME的使用**:建立子網域並使用CNAME指向Adobe特定記錄。 若使用此設定，Adobe 和客戶都有責任維護 DNS。
+* **CNAME的使用**:建立子域並使用CNAME指向特定於Adobe的記錄。 若使用此設定，Adobe 和客戶都有責任維護 DNS。
 
 下表提供這些方法的運作方式摘要，以及所需投入的精力：
 
@@ -48,11 +48,11 @@ ht-degree: 78%
 | **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
-有關域配置的其他資訊，請參見 [本檔案](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+有關域配置的其他資訊，請參見 [本文檔](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html)。
 
-若您對子網域設定方法有任何疑問，請聯絡Adobe傳遞團隊，或最終聯絡客戶服務以要求傳遞能力諮詢。
+如果您對子域配置方法有任何疑問，請聯繫Adobe交付能力團隊，或最終聯繫客戶服務部門以請求交付能力咨詢。
 
-## 子網域的使用案例(Campaign v7/v8){#subdomains-use-cases}
+## 子域的使用案例（市場活動v7/v8）{#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -61,7 +61,7 @@ ht-degree: 78%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="子網域品牌化"
 
-為Campaign v7/v8執行個體設定子網域時，您必須選取要使用子網域的使用案例(請參閱 [設定新子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
+為市場活動v7/v8實例設定子域時，需要選擇子域將用於的使用案例(請參閱 [設定新子域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
 可能的使用案例包括：
 
@@ -71,14 +71,14 @@ ht-degree: 78%
 
 **根據使用案例劃分子網域是傳遞能力的最佳實務**。如此一來，就能分隔和保護每個子網域的信譽。舉例來說，如果行銷通訊的子網域最後被網際網路服務提供者新增至封鎖清單，您的交易通訊子網域將不會受到影響，而且會繼續傳送通訊。
 
-**您可以為行銷和交易使用案例設定子網域**:
+**您可以為市場營銷和事務性使用案例配置子域**:
 
 * 若是行銷使用案例，子網域將會設定在 **MID** (Mid sourcing) 執行個體上。
 * 若是交易使用案例，子網域將會設定在 ALL **RT** (Message Center/即時傳送訊息) 執行個體上，以確保連線能力。因此，子網域將會搭配您所有 RT 執行個體一起運作。
 
 >[!NOTE]
 >
->如果您使用Campaign v7/v8，「控制面板」可讓您查看哪些RT/MID執行個體已連線至您正在使用的行銷執行個體。 有關詳情，請參閱[執行個體詳細資訊](../../instances-settings/using/instance-details.md)區段。
+>如果您正在使用「市場活動v7/v8」，則「控制面板」允許您查看哪些RT/MID實例連接到您正在使用的「市場營銷」實例。 有關詳情，請參閱[執行個體詳細資訊](../../instances-settings/using/instance-details.md)區段。
 
 **相關主題：**
 

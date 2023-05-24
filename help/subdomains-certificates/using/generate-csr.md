@@ -46,7 +46,7 @@ ht-degree: 59%
    * **[!UICONTROL Organization]**：正式組織名稱。
    * **[!UICONTROL Organization Unit]**：連結至子網域的單位 (範例：行銷、IT)。
    * **[!UICONTROL Instance]**(預填)：與子網域相關聯之 Campaign 執行個體的 URL。
-   * **[!UICONTROL Common name]**:預設會選取通用名稱，您可以視需要選取其中一個子網域。
+   * **[!UICONTROL Common name]**:預設情況下，公用名稱是選中的，如有必要，可以選擇子域之一。
 
    ![](assets/renewal3.png)
 
@@ -64,22 +64,22 @@ ht-degree: 59%
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Copy CSR content]** 按鈕可讓您複製與CSR相關的所有資訊（組織ID、例項、組織名稱、通用名稱、包含的子網域等）
+   >的 **[!UICONTROL Copy CSR content]** 按鈕，您可以複製與CSR相關的所有資訊（組織ID、實例、組織名稱、公用名稱、包括的子域等）。
 
-1. 系統會自動產生並下載與您選取範圍相應的 .csr 檔案。您現在可以用它透過貴公司核准的憑證機構購買 SSL 憑證。如果您需要再次下載CSR，請依照 [本節](#download).
+1. 系統會自動產生並下載與您選取範圍相應的 .csr 檔案。您現在可以用它透過貴公司核准的憑證機構購買 SSL 憑證。如果您需要再次下載CSR，請執行中詳細介紹的步驟 [此部分](#download)。
 
-產生並下載CSR後，您就可以使用CSR從貴組織核准的憑證機構購買SSL憑證。
+生成並下載CSR後，您可以使用它從組織批准的證書頒發機構購買SSL證書。
 
-購買SSL憑證後，您就能將它安裝在執行個體上，以保護您的子網域。 [了解更多](install-ssl-certificate.md)
+購買SSL證書後，您將能夠在實例上安裝它以保護子域。 [了解更多](install-ssl-certificate.md)
 
 ## 下載CSR {#download}
 
-若要購買SSL憑證，您必須先下載憑證簽署要求。 CSR在產生後會自動下載。 您也可以隨時從「工作記錄」重新下載：
+為了購買SSL證書，您首先需要下載證書籤名請求。 CSR在生成後自動下載。 您還可以隨時從作業日誌中重新下載：
 
-1. 在 **[!UICONTROL Job Logs]**，請選取 **[!UICONTROL Finished]** ，然後篩選清單以顯示與子網域管理相關的作業。
+1. 在 **[!UICONTROL Job Logs]**，選擇 **[!UICONTROL Finished]** ，然後篩選清單以顯示與子域管理相關的作業。
 
    ![](assets/renewal-download.png)
 
-1. 開啟與產生CSR對應的工作，然後按一下 **[!UICONTROL Downbload]** 連結以取得.csr檔案。
+1. 開啟與CSR的生成相對應的作業，然後按一下 **[!UICONTROL Downbload]** 連結以獲取.csr檔案。
 
    ![](assets/renewal-download-button.png)

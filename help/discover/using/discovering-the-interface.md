@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 探索「控制面板」介面
-description: 深入了解「控制面板」介面
+description: 瞭解有關控制面板介面的詳細資訊
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 「控制面板」首頁可讓您存取所有可在 Campaign 執行個體上執行的動作。
 
-它們由組織成主題的卡片來表示，例如 **效能監控**.
+它們由卡片表示，這些卡片被組織成主題，例如 **效能監控**。
 
 <!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
@@ -26,18 +26,18 @@ ht-degree: 23%
 
 ## 工作記錄 {#job-logs}
 
-此 **[!UICONTROL Job Logs]** 按鈕，即可稽核組織的使用者所做的所有變更。
+的 **[!UICONTROL Job Logs]** 按鈕，您可以審核組織用戶所做的所有更改。
 
 ![](assets/control_panel_interface2.png)
 
-按一下清單的元素以取得詳細資訊。
+按一下清單的元素以獲取更多詳細資訊。
 
-此 **[!UICONTROL Open]** 按鈕可讓您直接存取進行變更的「控制面板」標籤。
+的 **[!UICONTROL Open]** 按鈕可以直接訪問「控制面板」頁籤，其中已進行了更改。
 
 ![](assets/control_panel_logdetails.png)
 
-## 說明資源 {#help-resources}
+## 幫助資源 {#help-resources}
 
-此 **[!UICONTROL Help Resources]** 小節提供實用檔案，可協助您使用「控制面板」和「促銷活動」產品。 不要猶豫地去探索它們。
+的 **[!UICONTROL Help Resources]** 部分提供了有用的文檔，以幫助您使用控制面板和市場活動產品。 不要猶豫去探索。
 
 ![](assets/helpresources.png)

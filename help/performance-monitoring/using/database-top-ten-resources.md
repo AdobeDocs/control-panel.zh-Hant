@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 前 10 大臨時資源
-description: 了解如何在「控制面板」中監控Campaign資料庫中工作流程和傳遞所產生的10個最大臨時資源。
+description: 瞭解如何在控制面板中監視市場活動資料庫上由工作流和交貨生成的10個最大臨時資源。
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -24,8 +24,8 @@ ht-degree: 69%
 >
 >一般建議避免在非開箱即用資源中使用&#x200B;**超過 40 個欄位**。若發現工作流程有大量表格數或龐大的資料庫規模，建議您檢視工作流程，以調查工作流程中為何會產生如此大量的資料。
 >
->Campaign Standard和傳統准則也位於 [本頁](database-preventing-overload.md) 來防止資料庫過載。
+>Campaign Standard和標準指南也可在 [此頁](database-preventing-overload.md) 來防止資料庫過載。
 
 ![](assets/database-top10.png)
 
-此 **[!UICONTROL View all]** 按鈕可讓您存取 **[!UICONTROL Storage overview]** 詳細資訊，以取得這些臨時資源的詳細資訊。 如需詳細資訊，請參閱[此頁面](database-storage-overview.md)。
+的 **[!UICONTROL View all]** 按鈕 **[!UICONTROL Storage overview]** 獲取這些臨時資源的詳細資訊。 如需詳細資訊，請參閱[此頁面](database-storage-overview.md)。
