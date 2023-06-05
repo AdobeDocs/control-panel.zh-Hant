@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 80%
+source-wordcount: '1611'
+ht-degree: 76%
 
 ---
 
@@ -41,6 +41,16 @@ ht-degree: 80%
 子網域設定僅適用於&#x200B;**生產**&#x200B;執行個體。
 
 如果您在精靈中選擇的執行個體先前沒有設定子網域，則第一個設定的子網域將成為該執行個體的&#x200B;**主要子網域**，而日後您將無法更改該子網域。因此，將利用此主子網域為其他子網域建立&#x200B;**反向 DNS 記錄**。 **其他子網域的回覆和退信地址會由主要子網域產生。**
+
+### 將子網域的SSL憑證委派給Adobe
+
+設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
+
+如果您使用CNAME來設定子網域委派，Adobe將提供憑證記錄，以用於您的網域託管解決方案來產生您的憑證。
+
+>[!NOTE]
+>
+>SSL憑證委派僅在設定新子網域時可用。 它不適用於已委派的子網域。
 
 ### 名稱伺服器設定
 
