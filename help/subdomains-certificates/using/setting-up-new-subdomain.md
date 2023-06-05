@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 81%
+source-wordcount: '1523'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="將子網域的SSL憑證委派給Adobe"
->abstract="「控制面板」可讓您透過Adobe管理子網域的SSL憑證。 如果您使用CNAME來設定子網域，系統會自動產生並提供憑證記錄，以便在您的網域託管解決方案中產生憑證。"
+>abstract="「控制面板」可讓您透過Adobe管理子網域的SSL憑證。 如果您使用CNAME來設定子網域，系統會自動產生並提供憑證記錄，以便在您的網域託管解決方案中產生憑證。 請注意，此功能僅在設定新子網域時可用。 您無法委派現有委派子網域的憑證。"
 
 ## 必讀 {#must-read}
 
