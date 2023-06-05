@@ -2,14 +2,20 @@
 title: 發行說明 2023 年
 description: 本頁面列出了「控制面板」的所有 2023 版本。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 11015d1a7c44abaeeb704138e2a3071d293715b7
+source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # 發行說明 2023 年 {#rn-2023}
+
+## 2023 年 3 月 {#march-2023}
+
+**CNAME 子網域委派移除**
+
+您現在可以移除由 CNAME 設定的子網域委派。 [了解更多](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ## 2023 年 2 月 {#february-2023}
 
