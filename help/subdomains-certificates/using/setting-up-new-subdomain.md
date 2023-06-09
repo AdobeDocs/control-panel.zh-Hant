@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 76%
+source-wordcount: '1628'
+ht-degree: 80%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 76%
 
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
->title="將子網域的SSL憑證委派給Adobe"
->abstract="「控制面板」可讓您透過Adobe管理子網域的SSL憑證。 如果您使用CNAME來設定子網域，系統會自動產生並提供憑證記錄，以便在您的網域託管解決方案中產生憑證。 請注意，此功能僅在設定新子網域時可用。 您無法委派現有委派子網域的憑證。"
+>title="將子網域的 SSL 憑證委派給 Adobe"
+>abstract="控制面板可讓您將子網域的 SSL 憑證交由 Adobe 管理。如果您是使用 CNAME 設定子網域，就會自動產生和提供憑證記錄，以便在您的網域託管解決方案中產生憑證。請注意，只有在設定新的子網域時才可使用此功能。您無法為現有的委派子網域委派憑證。"
 
 ## 必讀 {#must-read}
 
@@ -42,15 +42,15 @@ ht-degree: 76%
 
 如果您在精靈中選擇的執行個體先前沒有設定子網域，則第一個設定的子網域將成為該執行個體的&#x200B;**主要子網域**，而日後您將無法更改該子網域。因此，將利用此主子網域為其他子網域建立&#x200B;**反向 DNS 記錄**。 **其他子網域的回覆和退信地址會由主要子網域產生。**
 
-### 將子網域的SSL憑證委派給Adobe
+### 將子網域的 SSL 憑證委派給 Adobe
 
-設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
+設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。 請注意，只有在設定新子網域時，才可使用SSL憑證委派。 它不適用於已委派的子網域。
 
 如果您使用CNAME來設定子網域委派，Adobe將提供憑證記錄，以用於您的網域託管解決方案來產生您的憑證。
 
 >[!NOTE]
 >
->SSL憑證委派僅在設定新子網域時可用。 它不適用於已委派的子網域。
+>Adobe管理的SSL是免費提供給使用者的功能。
 
 ### 名稱伺服器設定
 
