@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1549'
 ht-degree: 80%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 80%
 >title="設定新的子網域和管理憑證"
 >abstract="您必須設定新的子網域和管理子網域的 SSL 憑證，才能開始使用 Adobe Campaign 傳送電子郵件或發佈登陸頁面。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant" text="監視 SSL 憑證"
-
->[!CONTEXTUALHELP]
->id="cp_managed_ssl"
->title="將子網域的 SSL 憑證委派給 Adobe"
->abstract="控制面板可讓您將子網域的 SSL 憑證交由 Adobe 管理。如果您是使用 CNAME 設定子網域，就會自動產生和提供憑證記錄，以便在您的網域託管解決方案中產生憑證。請注意，只有在設定新的子網域時才可使用此功能。您無法為現有的委派子網域委派憑證。"
 
 ## 必讀 {#must-read}
 
@@ -44,13 +39,13 @@ ht-degree: 80%
 
 ### 將子網域的 SSL 憑證委派給 Adobe
 
-設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。 請注意，只有在設定新子網域時，才可使用SSL憑證委派。 它不適用於已委派的子網域。
+設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
 
 如果您使用CNAME來設定子網域委派，Adobe將提供憑證記錄，以用於您的網域託管解決方案來產生您的憑證。
 
 >[!NOTE]
 >
->Adobe管理的SSL是免費提供給使用者的功能。
+>Adobe 受管理 SSL 是免費提供給使用者的功能。
 
 ### 名稱伺服器設定
 
@@ -66,7 +61,6 @@ ht-degree: 80%
 >abstract="Adobe 建議完全委派子網域。 不過，您可以使用 CNAME 或自訂方法來設定子網域。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 >additional-url="https://helpx.adobe.com/tw/enterprise/using/support-for-experience-cloud.html" text="聯絡客戶服務"
-
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
@@ -110,7 +104,7 @@ ht-degree: 80%
 
    請務必填寫要委派之子網域的&#x200B;**完整名稱**。舉例來說，若要委派「usoffers.email.weretail.com」子網域，請輸入「usoffers.email.weretail.com」。
 
-1. 若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 選項。
+1. 若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 選項。 [深入瞭解SSL憑證委派](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -152,7 +146,9 @@ ht-degree: 80%
 
    ![](assets/cname-use-case.png)
 
-1. 輸入您建立到託管解決方案的子網域。 若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 選項。
+1. 輸入您建立到託管解決方案的子網域。
+
+   若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 選項。 [深入瞭解SSL憑證委派](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -167,7 +163,6 @@ ht-degree: 80%
 1. 請確定先前步驟中的所有 DNS 記錄都已產生至您的網域託管解決方案。 如果所有項目都已正確設定，請選取第一個陳述式，然後按一下 **[!UICONTROL Next]** 以確認。
 
    如果要建立記錄並稍後提交子網域設定，請選取第二個陳述式。 然後，您就可以直接從子網域管理螢幕&#x200B;**[!UICONTROL Processing]**&#x200B;區域恢復子網域設定。請注意，要放置在伺服器上的 DNS 記錄將由控制面板保留 30 天。 在這段期間之後，您必須從頭開始設定子網域。
-
 
    >[!NOTE]
    >

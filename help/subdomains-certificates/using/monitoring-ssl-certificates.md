@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 71%
+source-wordcount: '413'
+ht-degree: 84%
 
 ---
 
@@ -28,17 +28,9 @@ Adobe Campaign 建議您保護託管登陸頁面之子網域的安全，尤其�
 
 ![](assets/no_certificate.png)
 
-## 將子網域的SSL憑證委派給Adobe
+## 將子網域的 SSL 憑證委派給 Adobe
 
-設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
-
-如果您使用CNAME來設定子網域委派，Adobe將提供憑證記錄，以用於您的網域託管解決方案來產生您的憑證。
-
->[!NOTE]
->
->SSL憑證委派僅在設定新子網域時可用。 它不適用於已委派的子網域。
-
-設定新子網域時會啟用SSL憑證委派。 瞭解如何繼續進行 [本節](setting-up-new-subdomain.md).
+強烈建議將子網域的SSL憑證委派給Adobe，因為Adobe將會每年在憑證過期前自動建立憑證並續約。 [瞭解如何將子網域的SSL憑證委派給Adobe](delegate-ssl.md)
 
 ## 監視 SSL 憑證 {#monitoring-certificates}
 
