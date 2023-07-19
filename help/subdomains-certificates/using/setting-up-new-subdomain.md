@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 80%
 
 設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
 
-如果您使用CNAME來設定子網域委派，Adobe將提供憑證記錄，以用於您的網域託管解決方案來產生您的憑證。
+如果您使用 CNAME 來設定子網域委派，Adobe 將提供憑證記錄，以用於網域託管解決方案來產生憑證。
 
 >[!NOTE]
 >
->Adobe 受管理 SSL 是免費提供給使用者的功能。
+>Adobe 受管理 SSL 是免費提供給使用者的功能。[深入瞭解SSL憑證管理](monitoring-ssl-certificates.md#management)
 
 ### 名稱伺服器設定
 
@@ -170,11 +170,11 @@ ht-degree: 80%
 
    ![](assets/cname-confirmation.png)
 
-1. 如果您選擇將子網域的憑證委派給Adobe，則會自動產生憑證記錄。 逐一複製這些記錄，或下載CSV檔案，然後導覽至您的網域託管解決方案以產生相符的憑證。
+1. 如果您選擇將子網域的憑證委派給Adobe，則會自動產生憑證記錄。 逐一複製這些記錄，或下載 CSV 檔案，然後瀏覽至網域託管解決方案，以產生相符的憑證。
 
    ![](assets/cname-csr-generation.png)
 
-1. 請確定您的網域託管解決方案已產生所有憑證記錄。 如果所有項目都已正確設定，請選取第一個陳述式，然後按一下 **[!UICONTROL Submit]** 以確認。
+1. 請確定已在網域託管解決方案中產生所有憑證記錄。 如果所有項目都已正確設定，請選取第一個陳述式，然後按一下 **[!UICONTROL Submit]** 以確認。
 
    ![](assets/cnames-submit.png)
 

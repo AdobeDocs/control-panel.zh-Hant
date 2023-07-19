@@ -6,10 +6,10 @@ description: 了解如何將子網域的 SSL 憑證委派給 Adobe
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0eefdbde25c955c84ee7534976256ca4df9a686c
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="將子網域的 SSL 憑證委派給 Adobe"
 >abstract="控制面板可讓您將子網域的 SSL 憑證交由 Adobe 管理。如果您是使用 CNAME 設定子網域，就會自動產生和提供憑證記錄，以便在您的網域託管解決方案中產生憑證。"
 
-強烈建議將子網域的 SSL 憑證委派給 Adobe，因為 Adobe 每年都會在憑證過期前，自動建立並更新憑證。
+強烈建議將子網域的SSL憑證管理委派給Adobe，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
 
 如果您使用 CNAME 來設定子網域委派，Adobe 將提供憑證記錄，以用於網域託管解決方案來產生憑證。
 
@@ -28,7 +28,8 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe 受管理 SSL 是免費提供給使用者的功能。
+>Adobe 受管理 SSL 是免費提供給使用者的功能。將子網域的憑證委派給Adobe是透明的，對您的行銷活動和傳遞能力沒有影響。 [深入瞭解SSL憑證管理](monitoring-ssl-certificates.md#management)
+
 
 ## 委派新子網域的 SSL 憑證 {#new}
 

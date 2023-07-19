@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 84%
+source-wordcount: '567'
+ht-degree: 61%
 
 ---
 
@@ -28,9 +28,21 @@ Adobe Campaign 建議您保護託管登陸頁面之子網域的安全，尤其�
 
 ![](assets/no_certificate.png)
 
-## 將子網域的 SSL 憑證委派給 Adobe
+## SSL憑證管理 {#management}
 
-強烈建議將子網域的SSL憑證委派給Adobe，因為Adobe將會每年在憑證過期前自動建立憑證並續約。 [瞭解如何將子網域的SSL憑證委派給Adobe](delegate-ssl.md)
+SSL憑證監控是確保子網域安全的關鍵。 使用「控制面板」，您可以自行直接安裝和續約子網域的SSL憑證，或將其委派給Adobe，以便此程式自動執行，而不需要您採取任何動作。
+
+強烈建議將子網域的SSL憑證管理委派給Adobe，因為Adobe會自動建立憑證，並每年在憑證過期前續約。 這降低了手動管理憑證時可能發生的錯誤風險。 [瞭解如何將子網域的SSL憑證委派給Adobe](delegate-ssl.md)
+
+以下提供手動憑證管理(而非將此作業委派給Adobe)相關影響的完整清單：
+
+|       | 客戶管理的憑證 | Adobe管理的憑證 |
+|  ---  |  ---  |  ---  |
+| 憑證提供者 | 第三方憑證授權單位 | 透過AWS憑證管理員Adobe |
+| 手動步驟 | CSR產生、憑證購買和安裝 | 無 |
+| 續約程式 | 客戶責任 | 由Adobe自動管理 |
+| 子網域安全性 | 除非您安裝/更新憑證，否則網域可能會有不安全的子網域（追蹤、映象和解析）。 | 每個新網域(如果選擇管理Adobe)預設會保護所有子網域。 |
+| 憑證成本 | 客戶需承擔憑證成本 | 可用 |
 
 ## 監視 SSL 憑證 {#monitoring-certificates}
 
