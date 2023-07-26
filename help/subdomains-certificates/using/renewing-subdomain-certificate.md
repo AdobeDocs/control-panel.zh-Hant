@@ -10,7 +10,7 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 71%
+ht-degree: 73%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL 憑證續約"
->abstract="若要續約 SSL 憑證，您必須產生 CSR、購買子網域的 SSL 憑證並安裝憑證套裝。只有當您選擇手動管理憑證，而不是將其委派給Adobe時，才需要此操作。 "
+>abstract="若要續約 SSL 憑證，您必須產生 CSR、購買子網域的 SSL 憑證並安裝憑證套裝。只有在您選擇手動管理憑證而不是將其委託給 Adobe 時，才需要執行此操作。 "
 
 >[!NOTE]
 >
->只有當您選擇自行管理憑證，而不是將此程式委派給Adobe時，才需要續訂子網域的SSL憑證。 強烈建議將子網域的SSL憑證管理委派給Adobe，因為Adobe會自動建立憑證，並每年在憑證過期前續約。 [深入瞭解SSL憑證管理](monitoring-ssl-certificates.md#management)
+>只有當您選擇自行管理憑證，而非將此程式委派給Adobe時，才需要續訂子網域的SSL憑證。 強烈建議將子網域SSL憑證的管理委派給Adobe，因為Adobe將會每年自動建立憑證並在憑證過期前續約。 [深入瞭解SSL憑證管理](monitoring-ssl-certificates.md#management)
 
 SSL 憑證續約流程包含 3 個步驟：
 
@@ -76,7 +76,7 @@ SSL 憑證續約流程包含 3 個步驟：
    * **[!UICONTROL Organization]**：正式組織名稱。
    * **[!UICONTROL Organization Unit]**：連結至子網域的單位 (範例：行銷、IT)。
    * **[!UICONTROL Instance]**(預填)：與子網域相關聯之 Campaign 執行個體的 URL。
-   * **[!UICONTROL Common name]**：一般名稱預設為選取，您可以視需要選取其中一個子網域。
+   * **[!UICONTROL Common name]**：預設會選取一般名稱，必要時您可以選取其中一個子網域。
 
    ![](assets/renewal3.png)
 
@@ -94,11 +94,11 @@ SSL 憑證續約流程包含 3 個步驟：
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL Copy CSR content]** 按鈕可讓您複製與CSR相關的所有資訊（組織ID、執行個體、組織名稱、通用名稱、包含的子網域等）
+   >此 **[!UICONTROL Copy CSR content]** 按鈕可讓您複製與CSR相關的所有資訊（組織ID、執行個體、組織名稱、一般名稱、包含的子網域等）
 
 1. 系統會自動產生並下載與您選取範圍相應的 .csr 檔案。您現在可以用它透過貴公司核准的憑證機構購買 SSL 憑證。如果您需要再次下載CSR，請按照中詳述的步驟操作 [本節](#download).
 
-產生CSR並下載後，您就可以使用它從貴組織核准的憑證機構購買SSL憑證。
+產生CSR並下載後，您就可以用它從貴組織核准的憑證機構購買SSL憑證。
 
 購買SSL憑證後，您就能在執行個體上安裝該憑證，以保護您的子網域。 [了解更多](#install)
 
@@ -110,7 +110,7 @@ SSL 憑證續約流程包含 3 個步驟：
 
    ![](assets/renewal-download.png)
 
-1. 開啟與CSR產生相對應的工作，然後按一下 **[!UICONTROL Downbload]** 連結以取得.csr檔案。
+1. 開啟與CSR產生相對應的工作，然後按一下 **[!UICONTROL Downbload]** 取得.csr檔案的連結。
 
    ![](assets/renewal-download-button.png)
 
@@ -124,7 +124,7 @@ SSL 憑證續約流程包含 3 個步驟：
 購買 SSL 憑證後，您就可以將它安裝在您的執行個體上。繼續操作之前，請確定您已瞭解下列必要條件：
 
 * 憑證簽署要求 (CSR) 必須從「控制面板」產生。否則，您將無法從「控制面板」安裝憑證。
-* 憑證簽署要求(CSR)應該和設定為與Adobe搭配使用的子網域相符。 例如，它包含的子網域不能多於已設定的子網域。
+* 憑證申請檔(CSR)應符合已設定為與Adobe搭配使用的子網域。 例如，它包含的子網域不能多於已設定的子網域。
 * 憑證應具有目前日期。您不能安裝具有未來日期的憑證，也不應安裝過期的應憑證 (即有效的開始日期和結束日期)。
 * 憑證應由受信任的憑證機構 (CA) 核發，例如 Comodo、DigiCert、GoDaddy 等等。
 * 憑證大小應為 2048 位元，演算法應為 RSA。
