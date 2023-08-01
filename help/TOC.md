@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
       + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [移除給 Adobe 的子網域委派](subdomains-certificates/using/remove-delegated-subdomains.md)
       + [管理 TXT 記錄](subdomains-certificates/using/managing-txt-records.md)
-   + 管理子網域的SSL憑證 {#manage-certificates}
+   + 管理子網域的 SSL 憑證{#manage-certificates}
       + [監視 SSL 憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [將 SSL 憑證委派給 Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [續約 SSL 憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)
