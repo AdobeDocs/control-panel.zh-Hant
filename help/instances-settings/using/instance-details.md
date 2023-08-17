@@ -25,7 +25,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->此功能僅適用於Campaign v7/v8實例。
+>此功能僅適用於Campaign v7/v8執行個體。
 
 您的 Adobe Campaign 執行個體架構可以包含數個伺服器，以便提供行銷活動的彈性。例如，您可以有行銷、即時 (或 Message Center) 和 Mid Sourcing 伺服器以支援您的執行個體。
 
@@ -33,7 +33,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->我們建議您的實例每年至少升級一次，以避免效能下降，並能夠利用Adobe Campaignv7/v8必須提供的最新功能和修復。
+>建議您每年升級一次執行個體，以免降低效能，並能利用Adobe Campaign v7/v8提供的最新功能和修正。
 
 **相關主題：**
 
@@ -48,13 +48,13 @@ ht-degree: 75%
 
    >[!NOTE]
    >
-   >如果「控制面板」的首頁上看不到「實例設定」卡，則表示您的組織ID未與任何Adobe Campaignv7/v8實例關聯
+   >如果「控制面板」首頁上並未顯示「執行個體設定」卡片，表示您的組織ID未與任何Adobe Campaign v7/v8執行個體建立關聯
 
 1. 在左窗格中，選取所需的 Campaign 執行個體。
 
    >[!NOTE]
    >
-   >所有 Campaign 執行個體都會顯示在左側窗格清單中。由於「實例詳細資訊」功能僅專用於市場活動v7/v8實例，因此如果您選擇了Campaign Standard實例，則會顯示「不適用實例」消息。
+   >所有 Campaign 執行個體都會顯示在左側窗格清單中。由於「執行個體詳細資訊」功能專屬於Campaign v7/v8執行個體，如果您選取Campaign Standard執行個體，則會顯示「不適用執行個體」訊息。
 
 1. 隨即顯示伺服器連結的執行個體。
 

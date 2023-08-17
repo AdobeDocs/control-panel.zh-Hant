@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 儲存空間概覽
-description: 瞭解如何在控制面板中監視消耗實例上資料庫空間的不同市場活動資源。
+description: 瞭解如何在「控制面板」中監視在執行個體上佔用資料庫空間的不同Campaign資源。
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -25,7 +25,7 @@ ht-degree: 59%
 
 * **[!UICONTROL System resources]**
 
-   請注意，如果系統資源耗用大部分的資料庫空間，我們建議您聯絡客戶服務。
+  請注意，如果系統資源耗用大部分的資料庫空間，我們建議您聯絡客戶服務。
 
 * 您的 Campaign 執行個體預設提供的 **[!UICONTROL Out-of-the-box tables]**、
 * 由工作流程和傳遞內容建立的 **[!UICONTROL Temporary tables]**、
@@ -35,8 +35,8 @@ ht-degree: 59%
 
 按一下 **[!UICONTROL View details]** 按鈕，以針對消耗資料庫空間的不同資產獲取更多詳細資訊。
 
-您可以使用下拉清單來僅從特定資產類型（工作流、交貨、收件人）細化搜索和顯示表。
+您可以使用下拉式清單來縮小搜尋範圍並顯示特定資產型別（工作流程、傳送、收件者）的表格。
 
 ![](assets/database-storage-details.png)
 
-請注意，此螢幕還允許您監視可能需要特別注意的工作流參數，以避免實例上出現任何問題。 在[本頁](workflow-monitoring.md)中瞭解更多。
+請注意，此畫面也可讓您監視可能需要特別關注的工作流程引數，以避免執行個體上出現任何問題。 在[本頁](workflow-monitoring.md)中瞭解更多。

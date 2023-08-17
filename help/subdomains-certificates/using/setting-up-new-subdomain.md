@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 84%
 
 ### 將子網域的 SSL 憑證委派給 Adobe
 
-設定新子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
+設定新的子網域時，您可以讓Adobe管理SSL憑證。 強烈建議您這麼做，因為Adobe將會每年在憑證過期前自動建立憑證並續約。
 
 如果您使用 CNAME 來設定子網域委派，Adobe 將提供憑證記錄，以用於網域託管解決方案來產生憑證。
 
 >[!NOTE]
 >
->Adobe 受管理 SSL 是免費提供給使用者的功能。[深入瞭解SSL憑證管理](monitoring-ssl-certificates.md#management)
+>Adobe 受管理 SSL 是免費提供給使用者的功能。[了解更多 SSL 憑證管理相關資訊](monitoring-ssl-certificates.md#management)
 
 ### 名稱伺服器設定
 
@@ -202,7 +202,7 @@ ht-degree: 84%
    >
    >執行的檢查包括回饋迴圈和垃圾郵件投訴迴圈測試。因此，我們不建議在稽核完成之前使用子網域，因為這可能導致子網域信譽不佳。
    >
-   >不過，請注意，您可以在子網域上執行與SSL憑證相關的操作，即使傳遞能力稽核仍在處理中。
+   >不過，請注意，您可以在子網域上執行與SSL憑證相關的作業，即使傳遞能力稽核仍在處理中。
 
 1. 程序結束時，子網域將設定為與您的 Adobe Campaign 執行個體搭配使用，並會建立下列元素：
 

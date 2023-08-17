@@ -3,7 +3,7 @@ title: 最新版本
 description: 本頁面列出了「控制面板」的所有新功能和改善項目。
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 7dece51698349f792886b3a7cdb22b1e49e48b9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 100%
 

@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 監視子網域
-description: 監視子域，以確保所有子域都配置正確以與Adobe Campaign協作。
+description: 監視您的子網域，確保所有子網域都已正確設定為搭配Adobe Campaign使用。
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -17,19 +17,19 @@ ht-degree: 10%
 
 # 監視您的子網域 {#monitoring-subdomains}
 
-監控子域是非常重要的，以確保所有子域都配置正確以與Adobe Campaign協作。
+監視子網域十分重要，以確保所有子網域皆已正確設定為可與Adobe Campaign搭配使用。
 
-在選擇 **[!UICONTROL Subdomains & Certificates]** 卡。
+選取「 」時，可直接存取每個生產執行個體的子網域清單 **[!UICONTROL Subdomains & Certificates]** 卡片。
 
-的 **[!UICONTROL Last verification]** 列指示上次驗證子域的時間。 您可以通過按一下 **...** / **[!UICONTROL Verify subdomain]** 按鈕
+此 **[!UICONTROL Last verification]** 欄指出上次驗證子網域的時間。 您可以隨時按一下 **...** / **[!UICONTROL Verify subdomain]** 按鈕。
 
 ![](assets/subdomain_verification.png)
 
 >[!IMPORTANT]
 >
->Adobe不建議使用沒有證書日期的子域，因為這可能意味著這些子域可能存在某些可傳遞性問題。
+>Adobe不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有一些傳遞問題。
 
-啟動驗證時，會執行若干操作以檢查子域是否配置正確(實例租戶檢查、電子郵件發送test等) 如果子域的驗證失敗，請與Adobe客戶服務部聯繫以進一步調查。
+啟動驗證時，會執行數個操作來檢查子網域是否已正確設定（例項租使用者檢查、電子郵件傳送測試等） 如果子網域驗證失敗，請聯絡Adobe客戶服務以進一步調查。
 
 **相關主題：**
 

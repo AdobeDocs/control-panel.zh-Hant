@@ -40,7 +40,6 @@ ht-degree: 100%
 >
 >* 對於 Campaign v7，則套用部署限制。 [了解更多](faq.md#v7-restrictions)
 
-
 ## 其他資源 {#additional-resources}
 
 <table>

@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: 關於效能監視
-description: 瞭解如何在「控制面板」中監視實例效能
+description: 瞭解如何在「控制面板」中監控執行個體效能
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -18,11 +18,11 @@ ht-degree: 36%
 
 控制面板提供數種功能，協助您監視執行個體並確保最佳效能。 
 
-的 **[!UICONTROL Performance monitoring]** 「控制面板」首頁中的卡允許您監視市場活動實例（例如，其資料庫容量）的使用情況。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/database-monitoring.md)。
+此 **[!UICONTROL Performance monitoring]** 「控制面板」首頁中的卡片可讓您監視Campaign執行個體的使用狀況，例如其資料庫容量。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/database-monitoring.md)。
 
 ![](assets/performance_card.png)
 
 >[!NOTE]
 >
->隨著控制面板即將發佈，此卡中將提供其他監控功能。
+>在即將發行的「控制面板」版本中，此卡片會提供其他監控功能。
 

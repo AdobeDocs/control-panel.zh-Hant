@@ -67,13 +67,13 @@ ht-degree: 100%
 
    * **[!UICONTROL URL]**：可在 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 功能表的「Campaign 用戶端主控台」找到執行個體的 URL。
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Operator]** / **[!UICONTROL Password]**：Adobe 管理員在初始佈建後提供的操作員憑證。
 
-      >[!NOTE]
-      >
-      >如果無法取得這些詳細資訊，請聯絡客戶服務部。
+     >[!NOTE]
+     >
+     >如果無法取得這些詳細資訊，請聯絡客戶服務部。
 
 1. 按一下 **[!UICONTROL Save]** 確認。
 
