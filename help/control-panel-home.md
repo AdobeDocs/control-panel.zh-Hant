@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,14 @@ ht-degree: 100%
 
 ## 新增功能
 
-**已委派給 Adobe 的子網域委派移除**
+**DMARC與BIMI記錄管理**
 
-您現可移除委派給 Adobe 的子網域委派，包括 CNAME 設定。 [了解更多](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+您現在可以直接從「控制面板」新增DMARC和BIMI記錄：
 
-**服務行事曆**
+* **DMARC記錄** 提供驗證傳送者網域的方式，並防止未經授權而惡意使用網域。 [瞭解如何新增DMARC記錄](subdomains-certificates/using/dmarc.md)
 
-服務行事曆現提供行事曆檢視，以追蹤執行個體發生的重要事件。 此外，針對訂閱「控制面板」警示的使用者，已新增資訊至向其傳送的通知。 [了解更多](../help/service-events/service-events.md)
+
+* **BIMI記錄** 可讓您在信箱提供者的收件匣中，於您的電子郵件旁邊顯示核准的標誌，以提升品牌認知度和信任度。 [瞭解如何新增BIMI記錄](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >

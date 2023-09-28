@@ -2,16 +2,22 @@
 title: 發行說明 2023 年
 description: 本頁面列出了「控制面板」的所有 2023 版本。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # 發行說明 2023 年 {#rn-2023}
 
-## 2023 年 5 月改進項目 {#june-2023}
+## 2023 年 6 月 {#june-2023}
+
+* 您現在可以直接從子網域清單將已委派子網域的 SSL 憑證委派給 Adobe。 [了解更多](../subdomains-certificates/using/delegate-ssl.md)
+
+* 警報電子郵件寄件者已變更為 `"alert@notifications.campaign.adobe.com"`。
+
+## 2023 年 5 月改進項目 {#may-2023}
 
 **子網域的 SSL 憑證委派給 Adobe**
 
