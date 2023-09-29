@@ -6,9 +6,9 @@ description: 瞭解如何為子網域新增BIMI記錄。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Company Logo URL]**，指定包含您標誌之SVG檔案的URL。
 
-1. 此 **[!UICONTROL Certificate URL]** 欄位為選用。 它可讓您新增驗證標籤憑證(VMC) URL，以證明您的組織是標誌的合法擁有者，以防止垃圾郵件傳送者和其他惡意使用者使用他們未擁有的品牌標誌。
+1. 不過 **[!UICONTROL Certificate URL]** 這是選用專案，因此某些信箱供應商(例如Gmail和Apple)需要此專案，這些供應商涵蓋信箱市場的80%。 因此，建議您取得認證的標籤憑證(VMC)，以確實運用BIMI。
 
    +++如何取得VMC？
 
@@ -56,6 +56,8 @@ ht-degree: 0%
    1. 確認標誌已商標後，請連絡DigiCert或Entrust憑證授權單位(CA)要求VMC。
 
    1. 您的VMC獲得核准後，您將會收到實體憑證Privacy Enhanced Mail (PEM)檔案。 將您從CA取得的任何其他中繼憑證附加至此PEM檔案。 上傳PEM檔案（連同附加的檔案）至您的公用Web伺服器，並記下PEM檔案URL。 您會在BIMI TXT記錄中使用URL。
+
+   1. 一旦特定子網域的子網域詳細資訊頁面中顯示BIMI記錄，您就可以使用可用的BIMI檢測器 [此處](https://bimigroup.org/bimi-generator/) 檢查BIMI記錄是否正常運作。
 
    有關BIMI實作的詳細資訊，請參閱 [BIMI標準檔案](https://bimigroup.org/implementation-guide/)
 +++

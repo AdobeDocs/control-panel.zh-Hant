@@ -6,9 +6,9 @@ description: 瞭解如何為子網域新增DMARC記錄。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## 關於DMARC記錄 {#about}
 
 網域型訊息驗證、報告及一致性(DMARC)是一種電子郵件驗證通訊協定標準，可協助組織保護其電子郵件網域免受網路釣魚和詐騙攻擊。 它可讓您決定信箱提供者應如何處理未通過SPF和DKIM檢查的電子郵件，提供驗證傳送者網域的方式，並防止未經授權而惡意使用網域。
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## 限制和必要條件 {#limitations}
 
@@ -37,11 +39,17 @@ ht-degree: 0%
 
 1. 選擇 **[!UICONTROL Policy Type]** 當您的其中一封電子郵件失敗時，收件者伺服器應該遵循的規則。 可用的原則型別為：
 
-   * 無,
-   * 隔離（垃圾郵件資料夾位置），
-   * 拒絕（封鎖電子郵件）。
+   * **[!UICONTROL None]**，
+   * **[!UICONTROL Quarantine]** （垃圾郵件資料夾位置），
+   * **[!UICONTROL Reject]** （封鎖電子郵件）。
 
-   如果您的子網域剛剛設定，建議您將此值設為「無」，直到子網域完全設定且電子郵件正確傳送為止。 一切設定正確後，您就可以將原則型別變更為「隔離」或「拒絕」。
+   依據最佳做法的要求，建議您逐步推出DMARC實作，將DMARC原則從p=none提升至p=quarantine，再提升至p=reject，讓DMARC瞭解DMARC的潛在影響。
+
+   * **步驟1：** 分析您收到並使用的意見回饋(p=none)，這會告知接收者，對於驗證失敗的訊息不執行任何動作，但仍會傳送電子郵件報告給寄件者。 此外，如果合法訊息驗證失敗，請檢閱並修正SPF/DKIM的問題。
+
+   * **步驟2：** 判斷SPF和DKIM是否一致，並通過所有合法電子郵件的驗證，然後將原則移至(p=quarantine)，這會通知接收電子郵件伺服器隔離驗證失敗的電子郵件（這通常意味著將這些郵件放在垃圾郵件資料夾中）。 如果原則設定為隔離，其建議您從一小部分電子郵件開始。
+
+   * **步驟3：** 將原則調整為（p=拒絕）。 注意：請謹慎使用此原則，並判斷其是否適合您的組織。 p=拒絕原則會告訴接收者，對於驗證失敗的網域，要完全拒絕（退回）任何電子郵件。 啟用此原則後，只有經過網域驗證為100%驗證的電子郵件才有機會放置收件匣。
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ ht-degree: 0%
    * 彙總DMARC報表可提供高階資訊，例如在指定期間內失敗的電子郵件數量。
    * 取證DMARC失敗報告會提供詳細資訊，例如失敗的電子郵件來自哪個IP位址。
 
-1. 依預設，選取的DMARC原則會套用至所有電子郵件。 您可以變更此引數，以僅套用至特定百分比的電子郵件。
+1. 如果DMARC原則設為「無」，請輸入套用至100%電子郵件的百分比。
 
-   逐步部署DMARC時，您一開始可能會收到一小部分的訊息。 當來自您網域的更多訊息通過接收伺服器的驗證時，請使用更高的百分比更新您的記錄，直到您達到100%。
+   如果原則設定為「拒絕」或「隔離」，建議您從一小部分電子郵件開始。 由於來自您網域的電子郵件較多，且已通過接收伺服器的驗證，因此請使用較高的百分比緩慢更新您的記錄。
 
    >[!NOTE]
    >
