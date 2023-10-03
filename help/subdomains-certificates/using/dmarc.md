@@ -6,13 +6,13 @@ description: 瞭解如何為子網域新增DMARC記錄。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # 新增DMARC記錄 {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 網域型訊息驗證、報告及一致性(DMARC)是一種電子郵件驗證通訊協定標準，可協助組織保護其電子郵件網域免受網路釣魚和詐騙攻擊。 它可讓您決定信箱提供者應如何處理未通過SPF和DKIM檢查的電子郵件，提供驗證傳送者網域的方式，並防止未經授權而惡意使用網域。
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+有關DMARC實施的詳細資訊，請參閱 [Adobe傳遞性最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## 限制和必要條件 {#limitations}
 
