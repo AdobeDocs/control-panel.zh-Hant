@@ -6,20 +6,20 @@ description: 瞭解如何管理 TXT 記錄以進行網域擁有權驗證。
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 118fa4d722980e507d15647453e96a8b6189f837
+exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
+source-git-commit: 9548bef1500498c1778ce5854017388490320595
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
-
 
 # 開始使用TXT記錄 {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="管理 TXT 記錄"
->abstract="TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。「控制面板」可讓您將三種記錄型別新增至子網域：Google網站驗證、DMARC和BIMI記錄。"
+>abstract="TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。控制面板可讓您為子網域新增三種類型的記錄：Google 網站驗證、DMARC 和 BIMI 記錄。"
 
 ## 關於 TXT 記錄 {#about}
 
