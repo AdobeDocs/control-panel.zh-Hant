@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 70%
 
 ## 新增功能
 
-**DMARC與BIMI記錄管理**
+**DMARC 與 BIMI 記錄管理**
 
-您現在可以直接從「控制面板」新增DMARC和BIMI記錄：
+您現在可以直接從「控制面板」新增 DMAR C和 BIMI 記錄：
 
-* **DMARC記錄** 提供驗證傳送者網域的方式，並防止未經授權而惡意使用網域。 [瞭解如何新增DMARC記錄](subdomains-certificates/using/dmarc.md)
+* **DMARC 記錄**&#x200B;提供驗證寄件者網域的方式，並防止未經授權而惡意使用網域。 [瞭解如何新增 DMARC 記錄](subdomains-certificates/using/dmarc.md)
 
 
-* **BIMI記錄** 可讓您在信箱提供者的收件匣中，於您的電子郵件旁邊顯示核准的標誌，以提升品牌認知度和信任度。 [瞭解如何新增BIMI記錄](subdomains-certificates/using/bimi.md)
+* **BIMI 記錄**&#x200B;可讓您在郵箱提供者的收件匣中，於您的電子郵件旁邊顯示核准的標誌，以提升品牌認知度和信任度。 [瞭解如何新增 BIMI 記錄](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
