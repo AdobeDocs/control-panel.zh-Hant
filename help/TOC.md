@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ ht-degree: 87%
    + 委派子網域 {#delegate-subdomains}
       + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [移除給 Adobe 的子網域委派](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + 處理TXT記錄(Google、BIMI、DMARC) {#txt-records}
-      + [開始使用TXT記錄](subdomains-certificates/using/gs-txt-records.md)
-      + [新增Google網站驗證記錄](subdomains-certificates/using/managing-txt-records.md)
-      + [新增DMARC記錄](subdomains-certificates/using/dmarc.md)
-      + [新增BIMI記錄](subdomains-certificates/using/bimi.md)
+   + 處理 TXT 記錄 (Google、BIMI、DMARC) {#txt-records}
+      + [開始使用 TXT 記錄](subdomains-certificates/using/gs-txt-records.md)
+      + [新增 Google 網站驗證記錄](subdomains-certificates/using/managing-txt-records.md)
+      + [新增 DMARC 記錄](subdomains-certificates/using/dmarc.md)
+      + [新增 BIMI 記錄](subdomains-certificates/using/bimi.md)
    + 管理子網域的 SSL 憑證{#manage-certificates}
       + [監視 SSL 憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [將 SSL 憑證委派給 Adobe](subdomains-certificates/using/delegate-ssl.md)
