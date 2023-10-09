@@ -3,7 +3,7 @@ title: 發行說明 2023 年
 description: 本頁面列出了「控制面板」的所有 2023 版本。
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
