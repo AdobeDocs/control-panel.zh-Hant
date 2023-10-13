@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 79%
@@ -50,12 +50,12 @@ ht-degree: 79%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="條件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>管理您的執行個體設定</strong></a></div>
-        <br/><em>瞭解如何管理您的執行個體設定（僅限Campaign v7/v8）。</em>
+        <em>瞭解如何管理您的執行個體設定（僅限Campaign v7/v8）。</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="條件" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>監控效能</strong></a></div>
-        <br/><em>瞭解如何監控執行個體上關鍵資源的使用率。</em>
+        <em>瞭解如何監控執行個體上關鍵資源的使用率。</em>
     </td>
 </tr>
 </table>
