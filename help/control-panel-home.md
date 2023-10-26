@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 62%
 
 ---
 
@@ -26,14 +26,21 @@ ht-degree: 100%
 
 ## 新增功能
 
-**DMARC 與 BIMI 記錄管理**
+**使用者介面**
 
-您現在可以直接從「控制面板」新增 DMAR C和 BIMI 記錄：
+* 控制面板現在提供其他語言版本。 [了解更多](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-* **DMARC 記錄**&#x200B;提供驗證寄件者網域的方式，並防止未經授權而惡意使用網域。 [瞭解如何新增 DMARC 記錄](subdomains-certificates/using/dmarc.md)
+**作用中設定檔監控**
 
+* 如果您使用多個執行個體，您現在可以監視組織有權使用的作用中設定檔數量，以及組織內所有執行個體中使用的設定檔總數。 [了解更多](performance-monitoring/using/active-profiles-monitoring.md)
 
-* **BIMI 記錄**&#x200B;可讓您在郵箱提供者的收件匣中，於您的電子郵件旁邊顯示核准的標誌，以提升品牌認知度和信任度。 [瞭解如何新增 BIMI 記錄](subdomains-certificates/using/bimi.md)
+**DMARC記錄**
+
+* 多個電子郵件地址現在可以接收彙總報告和失敗報告電子郵件。 [了解更多](subdomains-certificates/using/dmarc.md)
+* 如果子網域同時存在DMARC和BIMI記錄，則已進行變更：
+
+   * 無法刪除DMARC記錄。 如果您想要刪除其中一個，您必須先刪除BIMI記錄。
+   * DMARC記錄可以編輯，但原則降級為「無」是不允許的，其百分比值必須為100。
 
 >[!CAUTION]
 >

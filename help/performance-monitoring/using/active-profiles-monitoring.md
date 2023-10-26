@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 87%
+source-wordcount: '433'
+ht-degree: 41%
 
 ---
 
-# 作用中設定檔監視 {#active-profiles-monitoring}
+# 監視作用中設定檔 {#active-profiles-monitoring}
 
 ## 關於作用中設定檔 {#about-active-profiles}
 
@@ -34,33 +34,30 @@ ht-degree: 87%
 
 有關作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 檔案。
 
-## 監視作用中設定檔 {#monitoring-active-profiles}
+## 監視您使用中的設定檔使用情況 {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="關於作用中設定檔監視"
->abstract="在此索引標籤中，您可以取得每個 Campaign 執行個體最新和歷史的作用中設定檔使用和演變的即時資訊。"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant" text="關於效能監視"
+>abstract="在此索引標籤中，您可以取得您的Campaign執行個體和組織中每個活動設定檔的最新和歷史使用情況和演變的即時資訊。"
 
-「控制面板」可讓您監控每個 Campaign 執行個體的作用中設定檔使用量。
+與作用中設定檔使用相關的資訊會根據專用在「控制面板」中更新 [!DNL Campaign] 每天在執行個體上執行的技術工作流程：
+* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant)工作流程、
+* 此 [「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant) Campaign v7/v8的工作流程。
 
-要執行此操作，請依照下列步驟執行：
 
-1. 開啟 **[!UICONTROL Performance Monitoring]** 卡片，然後選取 **[!UICONTROL Active Profiles]** 索引標籤。
+若要在「控制面板」中監視您作用中設定檔的使用情況，請導覽至 **[!UICONTROL Performance Monitoring]** 卡片> **[!UICONTROL Active Profiles]** 標籤，然後從中選擇所需的執行個體 **[!UICONTROL Instance List]**.
 
-1. 從 **[!UICONTROL Instance List]** 中選擇所需的執行個體。
-
-1. 此時會顯示執行個體使用的作用中設定檔數目，也會顯示上次在執行個體上執行計費工作流程的時間。
+有關使用中設定檔的資訊隨即顯示。
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->會依據每天在執行個體上執行的專屬技術工作流程，來計算作用中設定檔。
->
->* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant)工作流程、
->* 此 [「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant) Campaign v7/v8的工作流程。
+上方區段會顯示下列資訊：
 
-下方區域以圖形化表示過去 30 天的作用中設定檔使用量。您可以使用右上方的可用篩選器，將顯示的時段變更為 1 年。
+* 所選執行個體中目前使用的作用中設定檔計數，以及執行個體最近計費工作流程執行的時間戳記。
 
-將滑鼠指標暫留在其中一個圖形列上，這可讓您取得所選時段使用之作用中設定檔的確切數目。
+* 所有執行個體中，整個組織使用的作用中設定檔總數。 只有當您有多個與組織相關聯的執行個體時，此區段才會顯示。
+
+* 配置給貴組織的作用中設定檔總數。
+
+下方區段以視覺化方式呈現過去30天的使用中設定檔使用量。 您可以使用右上角的篩選器將此時間範圍變更為1年。 將游標暫留在圖形上可讓您取得所選期間使用的作用中設定檔的確切數目。
