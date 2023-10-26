@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%
@@ -56,7 +56,11 @@ ht-degree: 41%
 
 * 所選執行個體中目前使用的作用中設定檔計數，以及執行個體最近計費工作流程執行的時間戳記。
 
-* 所有執行個體中，整個組織使用的作用中設定檔總數。 只有當您有多個與組織相關聯的執行個體時，此區段才會顯示。
+* 所有執行個體中，整個組織使用的作用中設定檔總數。
+
+  >[!NOTE]
+  >
+  >只有當您有多個與組織相關聯的執行個體時，此區段才會顯示。
 
 * 配置給貴組織的作用中設定檔總數。
 
