@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
+source-git-commit: 5980b9d978e20996ac58fb730a286f0c0b92b781
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 62%
@@ -19,8 +19,6 @@ ht-degree: 62%
 >title="關於「控制面板」"
 >abstract="「控制面板」首頁可讓您存取所有可在 Campaign 執行個體上執行的動作。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=zh-Hant" text="存取「控制面板」"
-
-![](assets/do-not-localize/banner.png)
 
 「Campaign 控制面板」可讓您以 Campaign Standard 和 v7/v8 產品管理員的身分，管理設定並追蹤每個 Campaign 執行個體的使用量，協助您提升工作效率。
 
