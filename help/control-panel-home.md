@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 62%
 
 **使用者介面**
 
-* 控制面板現在提供其他語言版本。 [了解更多](discover/using/discovering-the-interface.md#supported-languages-languages)
+* 「控制面板」現在提供其他語言版本。 [了解更多](discover/using/discovering-the-interface.md#supported-languages-languages)
 
 **作用中設定檔監控**
 
-* 如果您使用多個執行個體，您現在可以監視組織有權使用的作用中設定檔數量，以及組織內所有執行個體中使用的設定檔總數。 [了解更多](performance-monitoring/using/active-profiles-monitoring.md)
+* 如果您正在使用多個執行個體，現在可以監視組織有權使用的作用中設定檔數量，以及組織內所有執行個體中使用的設定檔總數。[了解更多](performance-monitoring/using/active-profiles-monitoring.md)
 
-**DMARC記錄**
+**DMARC 記錄**
 
 * 多個電子郵件地址現在可以接收彙總報告和失敗報告電子郵件。 [了解更多](subdomains-certificates/using/dmarc.md)
-* 如果子網域同時存在DMARC和BIMI記錄，則已進行變更：
+* 如果子網域同時存在 DMARC 和 BIMI 記錄，則已進行變更：
 
-   * 無法刪除DMARC記錄。 如果您想要刪除其中一個，您必須先刪除BIMI記錄。
-   * DMARC記錄可以編輯，但原則降級為「無」是不允許的，其百分比值必須為100。
+   * 無法刪除 DMARC 記錄。 如果要刪除其中一個，您必須先刪除 BIMI 記錄。
+   * DMARC 記錄可加以編輯，但不允許將原則降級至「無」且其百分比值必須為 100。
 
 >[!CAUTION]
 >
