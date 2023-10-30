@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 92%
 
 * SPF 和 DKIM 記錄是建立 DMARC 記錄的先決條件。
 * 只能使用完整子網域委派為子網域新增 DMARC 記錄。 [進一步瞭解子網域設定方法](subdomains-branding.md#subdomain-delegation-methods)
-* 如果子網域同時存在DMARC和BIMI記錄：
-   * 無法刪除DMARC記錄。 如果要刪除DMARC記錄，請先刪除BIMI記錄。
-   * 可以編輯DMARC記錄，但是不允許DMARC原則降級為「無」，並且百分比值必須設定為「100」。
+* 如果子網域同時存在 DMARC 和 BIMI 記錄：
+   * 無法刪除 DMARC 記錄。 如果要刪除 DMARC 記錄，請先刪除 BIMI 記錄。
+   * DMARC 記錄可加以編輯，但不允許將 DMARC 原則降級至「無」且其百分比值必須為 100。
 
 ## 為子網域新增 DMARC 記錄 {#add}
 
@@ -58,7 +58,7 @@ ht-degree: 92%
    >
    > DMARC 記錄原則型別設為「無」時，無法建立 BIMI 記錄。
 
-1. 填寫應接收 DMARC 報告的電子郵件地址。 您可以新增多個電子郵件地址，以逗號分隔。 當您的其中一封電子郵件失敗時，DMARC 報告會自動傳送至您選擇的電子郵件地址：
+1. 填寫應接收 DMARC 報告的電子郵件地址。 您可以新增多個電子郵件地址 (以逗號分隔)。 當您的其中一封電子郵件失敗時，DMARC 報告會自動傳送至您選擇的電子郵件地址：
 
    * 彙總 DMARC 報告可提供高階資訊，例如在指定期間內失敗的電子郵件數量。
    * 取證 DMARC 失敗報告會提供詳細資訊，例如失敗的電子郵件來自哪個 IP 位址。
