@@ -6,7 +6,7 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [存取「控制面板」](discover/using/accessing-control-panel.md)
    + [管理「控制面板」的權限](discover/using/managing-permissions.md)
    + [探索「控制面板」介面](discover/using/discovering-the-interface.md)
+   + [常見問答集](faq.md)
 + 事件與電子郵件警示 {#alerts-events}
    + [監視主要聯絡人及事件](service-events/service-events.md)
    + [電子郵件警示](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [執行個體詳細資訊](instances-settings/using/instance-details.md)
    + [GPG 金鑰管理](instances-settings/using/gpg-keys-management.md)
    + [新增 MID/RT 例項 (混合模型)](instances-settings/using/external-accounts.md)
-+ [常見問答集](faq.md)
