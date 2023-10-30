@@ -6,10 +6,10 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
    + [存取「控制面板」](discover/using/accessing-control-panel.md)
    + [管理「控制面板」的權限](discover/using/managing-permissions.md)
    + [探索「控制面板」介面](discover/using/discovering-the-interface.md)
-+ [監視主要聯絡人及事件](service-events/service-events.md)
-+ [電子郵件警示](performance-monitoring/using/email-alerting.md)
++ 事件與電子郵件警示 {#alerts-events}
+   + [監視主要聯絡人及事件](service-events/service-events.md)
+   + [電子郵件警示](performance-monitoring/using/email-alerting.md)
 + SFTP 管理{#sftp-management}
    + [關於 SFTP 管理](sftp/using/about-sftp-management.md)
    + [管理 SFTP 儲存空間](sftp/using/sftp-storage-management.md)
