@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 41%
 
 >[!IMPORTANT]
 >
->從「控制面板」進行作用中設定檔監視的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。它可從Campaign Standard10368建置中使用。
+>從「控制面板」進行作用中設定檔監視的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。其可從 Campaign Standard 版本編號 10368 中使用。
 
 根據您的合約，您的每個 Campaign 執行個體都已佈建特定數量的作用中設定檔，而且會計算這些設定檔數量以結算費用。請參閱您的最新合約，以參考已購買作用中設定檔數目。
 
@@ -32,36 +32,36 @@ ht-degree: 41%
 >
 >Facebook 和 Twitter 通路不包含在內。
 
-有關作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) 檔案。
+如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=zh-Hant#active-profiles) 文件。
 
-## 監視您使用中的設定檔使用情況 {#monitoring-active-profiles}
+## 監視作用中設定檔的使用情況 {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="關於作用中設定檔監視"
->abstract="在此索引標籤中，您可以取得您的Campaign執行個體和組織中每個活動設定檔的最新和歷史使用情況和演變的即時資訊。"
+>abstract="在此標籤中，您可以取得每個 Campaign 執行個體與您組織最新和歷史作用中設定檔使用情況和演變的即時資訊。"
 
-與作用中設定檔使用相關的資訊會根據專用在「控制面板」中更新 [!DNL Campaign] 每天在執行個體上執行的技術工作流程：
-* Campaign Standard的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant)工作流程、
-* 此 [「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant) Campaign v7/v8的工作流程。
+與作用中設定檔使用情況相關的資訊會在「控制面板」中，根據每天在執行個體上執行的專屬 [!DNL Campaign] 技術工作流程更新：
+* Campaign Standard 的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant)工作流程、
+* Campaign v7/v8 的[「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant)工作流程。
 
 
-若要在「控制面板」中監視您作用中設定檔的使用情況，請導覽至 **[!UICONTROL Performance Monitoring]** 卡片> **[!UICONTROL Active Profiles]** 標籤，然後從中選擇所需的執行個體 **[!UICONTROL Instance List]**.
+若要在「控制面板」中監視作用中設定檔的使用情況，請導覽至 **[!UICONTROL Performance Monitoring]**&#x200B;卡片> **[!UICONTROL Active Profiles]**&#x200B;標籤，然後從&#x200B;**[!UICONTROL Instance List]**&#x200B;中選取所需的執行個體。
 
-有關使用中設定檔的資訊隨即顯示。
+作用中設定檔使用情況的相關資訊隨即顯示。
 
 ![](assets/active-profiles-graph.png)
 
-上方區段會顯示下列資訊：
+上半區段顯示下列資訊：
 
-* 所選執行個體中目前使用的作用中設定檔計數，以及執行個體最近計費工作流程執行的時間戳記。
+* 所選執行個體目前使用的作用中設定檔計數，以及執行個體最近執行計費工作流程的時間戳記。
 
-* 所有執行個體中，整個組織使用的作用中設定檔總數。
+* 組織內所有執行個體中使用的作用中設定檔總數。
 
   >[!NOTE]
   >
-  >只有當您有多個與組織相關聯的執行個體時，此區段才會顯示。
+  >只有當您有多個與組織相關聯的執行個體時，才會看到此區段。
 
-* 配置給貴組織的作用中設定檔總數。
+* 分配給組織的作用中設定檔總數。
 
-下方區段以視覺化方式呈現過去30天的使用中設定檔使用量。 您可以使用右上角的篩選器將此時間範圍變更為1年。 將游標暫留在圖形上可讓您取得所選期間使用的作用中設定檔的確切數目。
+下半區段會以視覺化方式呈現過去 30 天的作用中設定檔使用情況。您可以使用位於右上角的篩選器，將此時間範圍變更為 1 年。將滑鼠游標暫留在圖形上，這可讓您取得所選時段使用之作用中設定檔的確切數目。
