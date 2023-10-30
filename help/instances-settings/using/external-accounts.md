@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 新增 MID/RT 執行個體 (混合模型)
 description: 瞭解如何新增 MID/RT 執行個體到具有混合託管模型的控制面板。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Access Management
+role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%

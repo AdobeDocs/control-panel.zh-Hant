@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 新增 DMARC 記錄
 description: 瞭解如何為子網域新增 DMARC 記錄。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 92%

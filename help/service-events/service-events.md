@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 識別主要聯絡人與事件
 description: 瞭解如何識別在執行個體上發生的事件和 Adobe 的主要聯絡人。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%

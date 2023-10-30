@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 常見問題
 description: 進一步瞭解與 SFTP 管理相關的常見問題
-feature: Control Panel
-role: Architect
+feature: Control Panel, SFTP Management
+role: Admin
 level: Intermediate
 exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

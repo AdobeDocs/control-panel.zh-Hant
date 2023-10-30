@@ -1,8 +1,11 @@
 ---
 title: 發行說明 2022 年
 description: 本頁面列出了「控制面板」的所有 2022 版本。
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%

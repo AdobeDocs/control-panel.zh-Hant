@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 前 10 大臨時資源
 description: 瞭解如何在「控制面板」中監視Campaign資料庫上工作流程與傳遞內容所產生的10大臨時資源。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Monitoring
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 69%

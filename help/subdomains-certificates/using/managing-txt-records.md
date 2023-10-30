@@ -3,18 +3,18 @@ product: campaign
 solution: Campaign
 title: 新增子網域的Google網站驗證記錄
 description: 瞭解如何為子網域新增Google網站驗證記錄，以進行網域所有權驗證。
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
-# 新增Google網站驗證記錄 {#adding-a-google-txt-record}
+# 新增 Google 網站驗證記錄 {#adding-a-google-txt-record}
 
 為了確保達到高郵件到達率和低垃圾郵件率，Google 這類服務會要求您在網域設定中新增 TXT 記錄，以驗證您擁有該網域。
 
@@ -22,9 +22,9 @@ Gmail 是目前最受歡迎的電子郵件地址供應商之一。為了確保�
 
 若要將 Google TXT 記錄新增至您用來傳送電子郵件至 Gmail 地址的子網域，請執行下列步驟：
 
-1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取 **[!UICONTROL Subdomain details]**.
+1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL Subdomain details]**。
 
-1. 按一下 **[!UICONTROL Add TXT record]** 按鈕，然後選擇 **[!UICONTROL Google Site Verification]** 從 **[!UICONTROL Record Type]** 下拉式清單。
+1. 按一下&#x200B;**[!UICONTROL Add TXT record]**&#x200B;按鈕，然後從&#x200B;**[!UICONTROL Record Type]**&#x200B;下拉式清單選取&#x200B;**[!UICONTROL Google Site Verification]**。
 
 1. 輸入G Suite管理工具中產生的值。 如需詳細資訊，請參閱 [G Suite 管理員說明](https://support.google.com/a/answer/183895)。
 

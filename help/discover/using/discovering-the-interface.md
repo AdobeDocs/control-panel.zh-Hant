@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: 探索「控制面板」介面
 description: 進一步瞭解「控制面板」介面
-feature: Control Panel
-role: Architect
+feature: Control Panel, Overview
+role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 19%
