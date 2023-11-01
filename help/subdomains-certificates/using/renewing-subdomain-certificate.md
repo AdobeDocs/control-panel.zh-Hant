@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '993'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 75%
 
 ---
 
@@ -61,40 +61,40 @@ SSL 憑證續約流程包含 3 個步驟：
 
 若要產生憑證簽署要求 (CSR)，請執行下列步驟：
 
-1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的執行個體，再按一下 **[!UICONTROL Manage Certificate]** 按鈕。
+1. 在 **[!UICONTROL 子網域和憑證]** 卡片，選取所需的執行個體，然後按一下 **[!UICONTROL 管理憑證]** 按鈕。
 
    ![](assets/renewal1.png)
 
-1. 選取「**[!UICONTROL 1 - Generate a CSR]**」，然後按一下「**[!UICONTROL Next]**」以啟動精靈，引導您完成 CSR 產生流程。
+1. 選取 **[!UICONTROL 1 — 產生CSR]**，然後按一下 **[!UICONTROL 下一個]** 以啟動精靈，引導您完成CSR產生流程。
 
    ![](assets/renewal2.png)
 
 1. 隨即會顯示表格，其中包含產生 CSR 所需的所有詳細資訊。
 
-   請確定您完整且正確地填妥要求的資訊，否則不會續約憑證 (若有需要，請聯絡您的內部團隊、安全性和 IT 團隊)，然後按一下「**[!UICONTROL Next]**」。
+   請確定您完整且正確地填妥要求的資訊，否則不會續約憑證（若有需要，請聯絡您的內部團隊、安全性和IT團隊），然後按一下 **[!UICONTROL 下一個]**.
 
-   * **[!UICONTROL Organization]**：正式組織名稱。
-   * **[!UICONTROL Organization Unit]**：連結至子網域的單位 (範例：行銷、IT)。
-   * **[!UICONTROL Instance]**(預填)：與子網域相關聯之 Campaign 執行個體的 URL。
-   * **[!UICONTROL Common name]**：預設會選取一般名稱，您可以在必要時選取其中一個子網域。
+   * **[!UICONTROL 組織]**：正式組織名稱。
+   * **[!UICONTROL 組織單位]**：連結至子網域的單位（範例：行銷、IT）。
+   * **[!UICONTROL 例項]** （預填）：與子網域相關聯之Campaign執行個體的URL。
+   * **[!UICONTROL 一般名稱]**：預設會選取一般名稱，必要時您可以選取其中一個子網域。
 
    ![](assets/renewal3.png)
 
-1. 選取要包含在 CSR 中的子網域，然後按一下「**[!UICONTROL OK]**」。
+1. 選取要包含在CSR中的子網域，然後按一下 **[!UICONTROL 確定]**.
 
    ![](assets/renewal4.png)
 
-1. 選取的子網域會顯示在清單中。選取每個要包含的子網域，然後按一下「**[!UICONTROL Next]**」。
+1. 選取的子網域會顯示在清單中。選取每個要包含的子網域，然後按一下「 」 **[!UICONTROL 下一個]**.
 
    ![](assets/renewal5.png)
 
-1. 隨即顯示包含在 CSR 的子網域摘要。按一下「**[!UICONTROL Submit]**」下以確認您的請求。
+1. 隨即顯示包含在 CSR 的子網域摘要。按一下 **[!UICONTROL 提交]** 以確認您的請求。
 
    ![](assets/renewal6.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Copy CSR content]** 按鈕可讓您複製與 CSR 相關的所有資訊 (組織 ID、執行個體、組織名稱、一般名稱、包含的子網域等)
+   >此 **[!UICONTROL 複製CSR內容]** 按鈕可讓您複製與CSR相關的所有資訊（組織ID、執行個體、組織名稱、一般名稱、包含的子網域等）
 
 1. 系統會自動產生並下載與您選取範圍相應的 .csr 檔案。您現在可以用它透過貴公司核准的憑證機構購買 SSL 憑證。如果您需要再次下載 CSR，請按照[本章節](#download)詳述的步驟操作。
 
@@ -106,11 +106,11 @@ SSL 憑證續約流程包含 3 個步驟：
 
 若要購買 SSL 憑證，您必須先下載憑證申請檔。 CSR 會在產生後自動下載。 您也可以隨時從工作記錄再次下載：
 
-1. 在 **[!UICONTROL Job Logs]**，選取 **[!UICONTROL Finished]** 標籤，然後篩選清單以顯示與子網域管理相關的工作。
+1. 在 **[!UICONTROL 工作記錄檔]**，選取 **[!UICONTROL 已完成]** 標籤，然後篩選清單以顯示與子網域管理相關的作業。
 
    ![](assets/renewal-download.png)
 
-1. 開啟與 CSR 產生相對應的工作，然後按一下 **[!UICONTROL Downbload]** 連結以取得 .csr 檔案。
+1. 開啟與CSR產生相對應的工作，然後按一下 **[!UICONTROL 下載]** 取得.csr檔案的連結。
 
    ![](assets/renewal-download-button.png)
 
@@ -139,15 +139,15 @@ SSL 憑證續約流程包含 3 個步驟：
 
 請依照下列步驟以安裝憑證：
 
-1. 在「**[!UICONTROL Subdomains & Certificates]**」卡片中，選取所需的執行個體，再按一下 **[!UICONTROL Manage Certificate]** 按鈕。
+1. 在 **[!UICONTROL 子網域和憑證]** 卡片，選取所需的執行個體，然後按一下 **[!UICONTROL 管理憑證]** 按鈕。
 
    ![](assets/renewal1.png)
 
-1. 選取「**[!UICONTROL 3 - Install Certificate Bundle]**」，然後按一下「**[!UICONTROL Next]**」以啟動精靈，引導您完成憑證安裝流程。
+1. 選取 **[!UICONTROL 3 — 安裝憑證套裝]**，然後按一下 **[!UICONTROL 下一個]** 以啟動精靈，引導您完成憑證安裝程式。
 
    ![](assets/install1.png)
 
-1. 選取包含要安裝之憑證的 .zip 檔案，然後按一下「**[!UICONTROL Submit]**」。
+1. 選取包含要安裝之憑證的.zip檔案，然後按一下 **[!UICONTROL 提交]**.
 
    ![](assets/install2.png)
 

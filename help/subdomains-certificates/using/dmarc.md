@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '774'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '795'
+ht-degree: 83%
 
 ---
 
@@ -34,17 +34,17 @@ ht-degree: 100%
 
 若要為子網域新增 DMARC 記錄，請遵循下列步驟：
 
-1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL Subdomain details]**。
+1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取 **[!UICONTROL 子網域詳細資料]**.
 
-1. 按一下&#x200B;**[!UICONTROL Add TXT record]**&#x200B;按鈕，然後從&#x200B;**[!UICONTROL Record Type]**&#x200B;下拉式清單選取&#x200B;**[!UICONTROL DMARC]**。
+1. 按一下 **[!UICONTROL 新增TXT記錄]** 按鈕，然後選擇 **[!UICONTROL DMARC]** 從 **[!UICONTROL 記錄型別]** 下拉式清單。
 
    ![](assets/dmarc-add.png)
 
-1. 選擇當您的其中一封電子郵件失敗時，收件者伺服器應該遵循的&#x200B;**[!UICONTROL Policy Type]**。 可用的原則型別為：
+1. 選擇 **[!UICONTROL 原則型別]** 當您的其中一封電子郵件失敗時，收件者伺服器應該遵循的規則。 可用的原則型別為：
 
-   * **[!UICONTROL None]**,
-   * **[!UICONTROL Quarantine]** (垃圾郵件資料夾位置)，
-   * **[!UICONTROL Reject]** (封鎖電子郵件)。
+   * **[!UICONTROL 無]**,
+   * **[!UICONTROL 隔離]** （垃圾郵件資料夾位置），
+   * **[!UICONTROL 拒絕]** （封鎖電子郵件）。
 
    依據最佳實務的要求，建議您逐步推出 DMARC 實作，方法是將 DMARC 原則從 p=none 提升至 p=quarantine，再提升至 p=reject，讓您瞭解 DMARC 的潛在影響。
 
@@ -73,15 +73,15 @@ ht-degree: 100%
 
    ![](assets/dmarc-add2.png)
 
-1. DMARC 報告每 24 小時傳送一次。 您可以在&#x200B;**[!UICONTROL Reporting Interval]**&#x200B;欄位中變更報告傳送頻率 。 最小授權間隔為 1 小時，而最大授權值為 2190 小時 (即 3 個月)。
+1. DMARC 報告每 24 小時傳送一次。 您可以在以下位置變更報表傳送頻率： **[!UICONTROL 報告間隔]** 欄位。 最小授權間隔為 1 小時，而最大授權值為 2190 小時 (即 3 個月)。
 
-1. 在 **SPF** 和&#x200B;**[!UICONTROL DKIM Identifier Alignment]**&#x200B;欄位中，指定在檢查電子郵件的 SPF 和 DKIM 驗證時，收件者伺服器的嚴格程度。
+1. 在 **SPF** 和 **[!UICONTROL DKIM識別碼對齊]** 欄位，指定在檢查電子郵件的SPF和DKIM驗證時，收件者伺服器的嚴格程度。
 
-   * **[!UICONTROL Relaxed]** 模式：即使電子郵件是從子網域傳送，伺服器仍接受驗證，
-   * **[!UICONTROL Strict]** 模式：只有當傳送者網域與 SPF 和 DKIM 網域完全相符時，該模式才會接受驗證。
+   * **[!UICONTROL 寬鬆]** 模式：即使電子郵件是從子網域傳送，伺服器仍接受驗證，
+   * **[!UICONTROL 嚴格]** 只有當傳送者網域與SPF和DKIM網域完全相符時，模式才會接受驗證。
 
    假設我們正在使用`http://www.luma.com`網域。在「寬鬆」模式中，來自`marketing.luma.com`子網域的電子郵件將由伺服器授權，但在「嚴格」模式下將會遭到拒絕。
 
-1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以確認建立 DMARC 記錄。
+1. 按一下 **[!UICONTROL 新增]** 以確認建立DMARC記錄。
 
 建立 DMARC 記錄之後 (大約 5 分鐘)，它就會顯示在子網域的詳細資訊畫面中。 [瞭解如何監視子網域的 TXT 記錄](gs-txt-records.md#monitor)

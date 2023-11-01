@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 75%
+source-wordcount: '536'
+ht-degree: 71%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 75%
 
 若要獲得與您執行個體連結的資訊，請執行以下步驟：
 
-1. 開啟「**[!UICONTROL Instances Settings]**」卡片以存取「**[!UICONTROL Instance Details]**」標籤。
+1. 開啟&#x200B;**[!UICONTROL 「執行個體設定」]**&#x200B;卡片以存取&#x200B;**[!UICONTROL 「執行個體詳細資料」]**&#x200B;標籤。
 
    >[!NOTE]
    >
@@ -62,10 +62,10 @@ ht-degree: 75%
 
 可用資訊包括：
 
-* **[!UICONTROL Type]**：伺服器的類型。可能的值包括 MKT (行銷)、MID (Mid sourcing) 和 RT (Message Center/即時傳送訊息)。
-* **[!UICONTROL Name]**：伺服器的名稱。
-* **[!UICONTROL Build:]**：安裝在伺服器上的版本編號。
-* **[!UICONTROL Upgrade info]**：此欄會通知您伺服器是否需要更新。
+* **[!UICONTROL 型別]**：伺服器的型別。 可能的值包括 MKT (行銷)、MID (Mid sourcing) 和 RT (Message Center/即時傳送訊息)。
+* **[!UICONTROL 名稱]**：伺服器的名稱。
+* **[!UICONTROL 組建：]**&#x200B;安裝在伺服器上的組建版本。
+* **[!UICONTROL 升級資訊]**：此欄會通知您伺服器是否需要更新。
    * 綠色：您的伺服器為最新狀態，不需要升級。
    * 黃色：您應考慮升級。您缺少了最新的功能和修正項目。
    * 紅色：盡快升級。您缺少了新功能，伺服器可能無法提供最佳效能。

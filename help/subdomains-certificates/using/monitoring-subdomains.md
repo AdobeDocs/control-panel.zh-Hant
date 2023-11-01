@@ -9,8 +9,8 @@ level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '154'
+ht-degree: 9%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 10%
 
 監視子網域十分重要，以確保所有子網域皆已正確設定為可與Adobe Campaign搭配使用。
 
-選取「 」時，可直接存取每個生產執行個體的子網域清單 **[!UICONTROL Subdomains & Certificates]** 卡片。
+選取「 」時，可直接存取每個生產執行個體的子網域清單 **[!UICONTROL 子網域和憑證]** 卡片。
 
-此 **[!UICONTROL Last verification]** 欄指出上次驗證子網域的時間。 您可以隨時按一下 **...** / **[!UICONTROL Verify subdomain]** 按鈕。
+此 **[!UICONTROL 上次驗證]** 欄指出上次驗證子網域的時間。 您可以隨時按一下 **...** / **[!UICONTROL 驗證子網域]** 按鈕。
 
 ![](assets/subdomain_verification.png)
 

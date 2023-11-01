@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 91%
 
 ---
 
@@ -26,19 +26,19 @@ ht-degree: 100%
 
 ## 工作記錄 {#job-logs}
 
-右上角的 **[!UICONTROL Job Logs]** 按鈕可讓您稽核組織的使用者所作的所有變更。
+右上角的&#x200B;**[!UICONTROL 「工作記錄」]**&#x200B;按鈕可讓您稽核組織的使用者所作的所有變更。
 
 ![](assets/control_panel_interface2.png)
 
 如需詳細資訊，請按一下清單的元素。
 
-**[!UICONTROL Open]** 按鈕允許您直接存取「控制面板」標籤，也就是作出變更的位置。
+**[!UICONTROL 「開啟」]**&#x200B;按鈕允許您直接存取「控制面板」標籤，也就是作出變更的位置。
 
 ![](assets/control_panel_logdetails.png)
 
 ## 說明資源 {#help-resources}
 
-**[!UICONTROL Help Resources]** 區段提供實用文件，協助您使用「控制面板」和 Campaign 產品。 歡迎隨時探索。
+此 **[!UICONTROL 說明資源]** 區段提供實用檔案，協助您使用控制面板和Campaign產品。 歡迎隨時探索。
 
 ![](assets/helpresources.png)
 

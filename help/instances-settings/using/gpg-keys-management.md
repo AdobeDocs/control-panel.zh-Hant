@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 11%
+source-wordcount: '1232'
+ht-degree: 10%
 
 ---
 
@@ -77,9 +77,9 @@ GPG加密可讓您使用一套公私金鑰組，並遵循 [OpenPGP](https://www.
 
    `gpg -a --export <fingerprint>`
 
-1. 若要將公開金鑰安裝至「控制面板」，請開啟 **[!UICONTROL Instance settings]** 卡片，然後選取 **[!UICONTROL GPG keys]** 標籤和所需的執行個體。
+1. 若要將公開金鑰安裝至「控制面板」，請開啟 **[!UICONTROL 執行個體設定]** 卡片，然後選取 **[!UICONTROL gpg金鑰]** 標籤和所需的執行個體。
 
-1. 按一下 **[!UICONTROL Install Key]** 按鈕。
+1. 按一下 **[!UICONTROL 安裝金鑰]** 按鈕。
 
    ![](assets/gpg_install_button.png)
 
@@ -91,7 +91,7 @@ GPG加密可讓您使用一套公私金鑰組，並遵循 [OpenPGP](https://www.
 
    ![](assets/gpg_install_paste.png)
 
-1. 按一下 **[!UICONTROL Install Key]** 按鈕。
+1. 按一下 **[!UICONTROL 安裝金鑰]** 按鈕。
 
 安裝公開金鑰後，便會顯示於清單中。 您可以使用 **...** 按鈕來下載或複製其指紋。
 
@@ -126,13 +126,13 @@ GPG加密可讓您使用一套公私金鑰組，並遵循 [OpenPGP](https://www.
 
 若要在「控制面板」中產生金鑰組，請遵循下列步驟：
 
-1. 開啟 **[!UICONTROL Instance settings]** 卡片，然後選取 **[!UICONTROL GPG keys]** 標籤和所需的Adobe Campaign例項。
+1. 開啟 **[!UICONTROL 執行個體設定]** 卡片，然後選取 **[!UICONTROL gpg金鑰]** 標籤和所需的Adobe Campaign例項。
 
-1. 按一下 **[!UICONTROL Generate Key]** 按鈕。
+1. 按一下 **[!UICONTROL 產生金鑰]** 按鈕。
 
    ![](assets/gpg_generate.png)
 
-1. 指定金鑰的名稱，然後按一下 **[!UICONTROL Generate Key]**. 此名稱可協助您識別用於行銷活動工作流程解密的金鑰
+1. 指定金鑰的名稱，然後按一下 **[!UICONTROL 產生金鑰]**. 此名稱可協助您識別用於行銷活動工作流程解密的金鑰
 
    ![](assets/gpg_generate_name.png)
 
@@ -158,21 +158,21 @@ GPG加密可讓您使用一套公私金鑰組，並遵循 [OpenPGP](https://www.
 
 ## 監控GPG金鑰
 
-若要存取針對執行個體安裝和產生的GPG金鑰，請開啟 **[!UICONTROL Instance settings]** 卡片，然後選取 **[!UICONTROL GPG keys]** 標籤。
+若要存取針對執行個體安裝和產生的GPG金鑰，請開啟 **[!UICONTROL 執行個體設定]** 卡片，然後選取 **[!UICONTROL gpg金鑰]** 標籤。
 
 ![](assets/gpg_list.png)
 
 此清單會顯示已安裝並為執行個體產生的所有加密和解密GPG金鑰，以及每個金鑰的詳細資訊：
 
-* **[!UICONTROL Name]**：安裝或產生金鑰時定義的名稱。
-* **[!UICONTROL Use case]**：此欄指定索引鍵的使用案例：
+* **[!UICONTROL 名稱]**：安裝或產生金鑰時定義的名稱。
+* **[!UICONTROL 使用案例]**：此欄指定索引鍵的使用案例：
 
   ![](assets/gpg_icon_encrypt.png)：已安裝用於資料加密的金鑰。
 
   ![](assets/gpg_icon_decrypt.png)：金鑰已產生，以允許資料解密。
 
-* **[!UICONTROL Fingerprint]**：金鑰的指紋。
-* **[!UICONTROL Expires]**：金鑰的到期日。 請注意，「控制面板」會在主要專案接近到期日時提供視覺指示：
+* **[!UICONTROL 指紋]**：金鑰的指紋。
+* **[!UICONTROL 過期]**：金鑰的到期日。 請注意，「控制面板」會在主要專案接近到期日時提供視覺指示：
 
    * 緊急（紅色）會在30天前顯示。
    * 警告（黃色）會在60天前顯示。
@@ -182,7 +182,7 @@ GPG加密可讓您使用一套公私金鑰組，並遵循 [OpenPGP](https://www.
   >
   >請注意，「控制面板」不會傳送任何電子郵件通知。
 
-根據最佳實務，建議您移除不再需要的任何金鑰。 若要這麼做，請按一下 **...** 按鈕，然後選取 **[!UICONTROL Delete Key].**.
+根據最佳實務，建議您移除不再需要的任何金鑰。 若要這麼做，請按一下 **...** 按鈕，然後選取 **[!UICONTROL 刪除金鑰].**.
 
 ![](assets/gpg_delete.png)
 

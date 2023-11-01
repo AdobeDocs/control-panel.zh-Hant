@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 36%
+source-wordcount: '81'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 控制面板提供數種功能，協助您監視執行個體並確保最佳效能。 
 
-此 **[!UICONTROL Performance monitoring]** 「控制面板」首頁中的卡片可讓您監視Campaign執行個體的使用狀況，例如其資料庫容量。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/database-monitoring.md)。
+此 **[!UICONTROL 效能監視]** 「控制面板」首頁中的卡片可讓您監視Campaign執行個體的使用狀況，例如其資料庫容量。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/database-monitoring.md)。
 
 ![](assets/performance_card.png)
 

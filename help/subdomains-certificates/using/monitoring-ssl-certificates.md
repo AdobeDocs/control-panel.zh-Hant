@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 65%
+source-wordcount: '573'
+ht-degree: 57%
 
 ---
 
@@ -51,7 +51,7 @@ SSL憑證監視是確保子網域安全的關鍵。 使用「控制面板」，�
 >title="子網域詳細資訊"
 >abstract="擷取有關子網域的 SSL 憑證的資訊。"
 
-選取「**[!UICONTROL Subdomains & Certificates]**」卡片時，您可以直接從子網域清單中取得子網域 SSL 憑證的狀態。
+選取「 」時，您可以直接從子網域清單中取得子網域SSL憑證的狀態 **[!UICONTROL 子網域和憑證]** 卡片。
 
 子網域會依 SSL 憑證的最近到期日排序，並提供過期的視覺化資訊 (以天為單位)：
 
@@ -62,10 +62,10 @@ SSL憑證監視是確保子網域安全的關鍵。 使用「控制面板」，�
 
 ![](assets/subdomains_list.png)
 
-若要取得子網域的詳細資訊，請按一下&#x200B;**[!UICONTROL Subdomain Details]**按鈕。
+若要取得子網域的詳細資訊，請按一下 **[!UICONTROL 子網域詳細資訊]** 按鈕。
 隨即顯示所有相關子網域的清單。這通常會包括登陸頁面、資源頁面等等的子網域。
 
-「**[!UICONTROL Sender info]**」標籤提供有關已設定收件匣的資訊 (寄件人、回覆、錯誤電子郵件)。
+此 **[!UICONTROL 寄件者資訊]** 索引標籤提供有關已設定收件匣的資訊（寄件者、回覆、錯誤電子郵件）。
 
 ![](assets/subdomain_details.png)
 

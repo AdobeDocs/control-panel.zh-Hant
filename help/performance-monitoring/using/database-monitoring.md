@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 78%
+source-wordcount: '397'
+ht-degree: 68%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 78%
 >abstract="在此索引標籤中，您可以取得每個 Campaign 執行個體最新和歷史資料庫使用和演變的即時資訊。"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=zh-Hant" text="關於效能監視"
 
-控制面板允許您監視每個 Campaign 執行個體的資料庫使用情況。若要這麼做，請開啟 **[!UICONTROL Performance Monitoring]** 卡片，然後選取 **[!UICONTROL Databases]** 標籤。
+控制面板允許您監視每個 Campaign 執行個體的資料庫使用情況。若要這麼做，請開啟 **[!UICONTROL 效能監視]** 卡片，然後選取 **[!UICONTROL 資料庫]** 標籤。
 
-從 **[!UICONTROL Instance List]** 中選擇所需的執行個體，以顯示有關執行個體的資料庫容量和已用空間的資訊。
+從中選擇所需的執行個體 **[!UICONTROL 執行個體清單]** 顯示有關執行處理的資料庫容量和已用空間的資訊。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 78%
 
 ![](assets/databases_dashboard.png)
 
-此儀表板的資料會根據 **[!UICONTROL Database cleanup technical workflow]** 在您的Campaign執行個體上執行的專案(請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) 檔案)。 您可以檢查工作流程上次在下列位置執行的時間： **[!UICONTROL Used Space]** 和 **[!UICONTROL Provided Space]** 量度。 請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
+此儀表板的資料會根據 **[!UICONTROL 資料庫清理技術工作流程]** 在您的Campaign執行個體上執行的專案(請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) 檔案)。 您可以檢查工作流程上次在下列位置執行的時間： **[!UICONTROL 已用空間]** 和 **[!UICONTROL 已提供的空間]** 量度。 請注意，如果工作流程在 3 天後仍未執行，我們建議您與 Adobe 客戶服務聯絡，以便他們調查工作流程未執行的原因。
 
 此儀表板提供其他度量，協助您分析執行處理資料庫的使用情況。 這些區段將詳細說明：
 

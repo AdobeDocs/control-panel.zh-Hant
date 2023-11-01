@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 84%
 
 ---
 
@@ -39,15 +39,15 @@ ht-degree: 100%
 
 若要新增子網域的 BIMI 記錄，請遵循下列步驟：
 
-1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL Subdomain details]**。
+1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取 **[!UICONTROL 子網域詳細資料]**.
 
-1. 按一下&#x200B;**[!UICONTROL Add TXT record]**&#x200B;按鈕，然後從&#x200B;**[!UICONTROL Record type]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL BIMI]**。
+1. 按一下 **[!UICONTROL 新增TXT記錄]** 按鈕，然後選擇 **[!UICONTROL BIMI]** 從 **[!UICONTROL 記錄型別]** 下拉式清單。
 
    ![](assets/bimi-add.png)
 
-1. 在&#x200B;**[!UICONTROL Company Logo URL]**&#x200B;中，指定包含您標誌之 SVG 檔案的 URL。
+1. 在 **[!UICONTROL 公司標誌URL]**，指定包含您標誌之SVG檔案的URL。
 
-1. 雖然&#x200B;**[!UICONTROL Certificate URL]**&#x200B;為選擇性，但某些郵箱提供者 (例如 Gmail 和 Apple) 還是需要它，這些提供者占郵箱市場的 80%。 因此，建議您取得經過認證的標籤憑證 (VMC)，以確實善用 BIMI。
+1. 不過 **[!UICONTROL 憑證URL]** 這是選用專案，因此某些信箱供應商(例如Gmail和Apple)需要此專案，這些供應商涵蓋信箱市場的80%。 因此，建議您取得經過認證的標籤憑證 (VMC)，以確實善用 BIMI。
 
    +++如何取得 VMC？
 
@@ -64,6 +64,6 @@ ht-degree: 100%
    有關 BIMI 實作的詳細資訊，請參閱 [BIMI 標準文件](https://bimigroup.org/implementation-guide/)
 +++
 
-1. 按一下&#x200B;**[!UICONTROL Add]**&#x200B;以確認建立 BIMI 記錄。
+1. 按一下 **[!UICONTROL 新增]** 以確認BIMI記錄建立。
 
 建立 BIMI 記錄之後 (大約 5 分鐘)，它就會顯示在子網域的詳細資訊畫面中。 [瞭解如何監視子網域的 TXT 記錄](gs-txt-records.md#monitor)

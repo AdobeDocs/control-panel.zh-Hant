@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 75%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 監視一段時間內傳遞輸送量和延時趨勢如何，是瞭解執行個體使用情況並確保其正常運作的關鍵。
 
-此資訊可在「控制面板」中為每個&#x200B;**[!UICONTROL Performance Monitoring]**&#x200B;卡片&#x200B;**[!UICONTROL Throughputs & Latency]**&#x200B;標籤中的 Campaign 執行個體提供 (請注意，「控制面板」可能需要最多 1 小時才能顯示這些圖)。
+此資訊可在「控制面板」中為每個位於以下位置的Campaign執行個體提供： **[!UICONTROL 效能監視]** 卡片， **[!UICONTROL 輸送量和延遲]** 標籤（請注意，「控制面板」可能需要最多1小時才能顯示這些圖）。
 
 >[!NOTE]
 >
@@ -37,18 +37,18 @@ ht-degree: 100%
 
 ![](assets/throughput-latencies-overview.png)
 
-在預設情況下，顯示當天的資料。 您可以使用 **[!UICONTROL 6 months]**、**[!UICONTROL 30 days]** 和 **[!UICONTROL 7 days]** 按鈕變更顯示的時間段。以下為提供資料：
+在預設情況下，顯示當天的資料。 您可以使用 **[!UICONTROL 6個月]**， **[!UICONTROL 30天]** 和 **[!UICONTROL 7天]** 按鈕。 以下為提供資料：
 * 為期 1 天和 7 天的每小時檢視，
 * 為期 30 天每 6 小時的檢視，
 * 為期 6 個月的每日檢視。
 
-您還可使用排序 (而非圖形) 以表格格式顯示此資訊。 若要執行此操作，請按一下 **[!UICONTROL Visualization settings]** 按鈕，然後選取 **[!UICONTROL Table]**。
+您還可使用排序 (而非圖形) 以表格格式顯示此資訊。 若要這麼做，請按一下 **[!UICONTROL 視覺效果設定]** 按鈕，然後選取 **[!UICONTROL 表格]**.
 
 ![](assets/throughput-latencies-table.png)
 
 ## 監視輸送量 {#throughput}
 
-**[!UICONTROL Throughput]** 區針對您有權存取的所有通訊頻道，提供每小時從選定 Campaign 執行個體傳送的訊息數目。
+此 **[!UICONTROL 輸送量]** 區針對您有權存取的所有通訊頻道，提供每小時從選定Campaign執行個體傳送的訊息數。
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 ## 監視延遲 {#latency}
 
-**[!UICONTROL Latency]** 區針對在傳送即時異動通訊時選定執行個體遇到的延時提供有關資訊。 
+此 **[!UICONTROL 延遲]** 區域會提供在傳送即時異動通訊時，選定執行個體遇到的延遲相關資訊。
 
 >[!NOTE]
 >

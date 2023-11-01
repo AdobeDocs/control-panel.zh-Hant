@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 * Campaign v7/v8 的[「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant)工作流程。
 
 
-若要在「控制面板」中監視作用中設定檔的使用情況，請導覽至 **[!UICONTROL Performance Monitoring]**&#x200B;卡片> **[!UICONTROL Active Profiles]**&#x200B;標籤，然後從&#x200B;**[!UICONTROL Instance List]**&#x200B;中選取所需的執行個體。
+若要在「控制面板」中監視您作用中設定檔的使用情況，請導覽至 **[!UICONTROL 效能監視]** 卡片> **[!UICONTROL 使用中的設定檔]** 標籤，然後從中選擇所需的執行個體 **[!UICONTROL 執行個體清單]**.
 
 作用中設定檔使用情況的相關資訊隨即顯示。
 

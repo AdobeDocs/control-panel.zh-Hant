@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 84%
+source-wordcount: '612'
+ht-degree: 79%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 84%
 
 若要新增您執行個體可連線的 URL，請執行下列步驟：
 
-1. 開啟 **[!UICONTROL Instances Settings]** 卡片以存取 **[!UICONTROL URL Permissions]** 索引標籤。
+1. 開啟&#x200B;**[!UICONTROL 「執行個體設定」]**&#x200B;卡片以存取&#x200B;**[!UICONTROL 「URL 權限」]**&#x200B;標籤。
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ ht-degree: 84%
    >
    ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 
-1. 在左側窗格中選取想要的執行個體，然後按一下 **[!UICONTROL Add new URL]** 按鈕。
+1. 在左窗格中選取想要的執行個體，然後按一下 **[!UICONTROL 新增網址]** 按鈕。
 
    ![](assets/add_url1.png)
 
@@ -90,7 +90,7 @@ ht-degree: 84%
 
    ![](assets/add_url_listnew.png)
 
-您隨時可以選取 URL 並按一下 **[!UICONTROL Delete URL]**&#x200B;按鈕以刪除該 URL。
+您可以隨時刪除URL，只要選取URL並按一下 **[!UICONTROL 刪除URL]** 按鈕。
 
 請注意，如果您刪除 URL，您的執行個體就無法再呼叫它。
 

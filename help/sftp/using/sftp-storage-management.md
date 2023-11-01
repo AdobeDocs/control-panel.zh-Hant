@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 存取儲存容量資訊 {#accessing-storage-capacity-information}
 
-SFTP 卡片 **[!UICONTROL Storage]** 索引標籤中會提供關於您有權存取之所有執行個體使用的空間資訊。每次重新整理頁面時都會更新。
+有關您有權存取之所有執行個體使用的空間資訊，請參閱 **[!UICONTROL 儲存]** SFTP卡片的「 」標籤。 每次重新整理頁面時都會更新。
 
 ![](assets/control_panel_space.png)
 

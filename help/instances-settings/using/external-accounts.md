@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 79%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 100%
 >
 >如果您在存取「控制面板」時遇到任何問題，您的行銷執行個體很可能尚未對應您的[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。 請聯絡客戶服務部完成此設定才能繼續。 在成功連線時，您會看到「控制面板」首頁。
 
-若要能夠存取「控制面板」功能，您需要在 **[!UICONTROL Instances Settings]** 卡片提供 MID/RT 執行個體資訊。 請依照下列步驟以執行此操作。
+若要能夠存取「控制面板」功能，您必須在以下位置提供您的MID/RT執行個體資訊： **[!UICONTROL 執行個體設定]** 卡片。 請依照下列步驟以執行此操作。
 
-1. 在 **[!UICONTROL Instances Settings]** 卡片上，選擇 **[!UICONTROL External Accounts]** 標籤。
+1. 在 **[!UICONTROL 執行個體設定]** 卡片，選取 **[!UICONTROL 外部帳戶]** 標籤。
 
-1. 從下拉式清單選擇所需的行銷執行個體，然後按一下 **[!UICONTROL Add new URL]**。
+1. 從下拉式清單中選取所需的行銷執行個體，然後按一下 **[!UICONTROL 新增網址]**.
 
    ![](assets/external-account-addbutton.png)
 
@@ -65,17 +65,17 @@ ht-degree: 100%
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**：可在 **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]** 功能表的「Campaign 用戶端主控台」找到執行個體的 URL。
+   * **[!UICONTROL URL]**：可在的Campaign使用者端主控台中找到執行個體的URL **[!UICONTROL 管理]** > **[!UICONTROL Platform]** > **[!UICONTROL 外部帳戶]** 功能表。
 
      ![](assets/external-account-url.png)
 
-   * **[!UICONTROL Operator]** / **[!UICONTROL Password]**：Adobe 管理員在初始佈建後提供的操作員憑證。
+   * **[!UICONTROL 運運算元]** / **[!UICONTROL 密碼]**：Adobe管理員在初始布建後提供的操作員憑證。
 
      >[!NOTE]
      >
      >如果無法取得這些詳細資訊，請聯絡客戶服務部。
 
-1. 按一下 **[!UICONTROL Save]** 確認。
+1. 按一下 **[!UICONTROL 儲存]** 以確認。
 
 在新增 MID/RT URL 時，會觸發非同步處理程序來驗證 URL 的正確性。 此過程可能需要幾分鐘。 在驗證 MID/RT 執行個體 URL 之前，工作將暫時擱置。 只有驗證完成後，您才能存取「控制面板」的主要功能。
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 ![](assets/external-account-edit.png)
 
-請注意，您可以在 **[!UICONTROL Job Logs]** 的 MID/RT 執行個體的 URL 監視 **[!UICONTROL External Accounts]** 標籤上的任何動作 :
+請注意，您可以監視中執行的任何動作 **[!UICONTROL 外部帳戶]** 標籤上的MID/RT執行個體URL **[!UICONTROL 工作記錄檔]**：
 
 ![](assets/external-account-logs.png)
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 新增 MID/RT 執行個體後，您必須將其 IP 位址新增至允許清單，這樣您的行銷執行個體就能連線至該 IP 位址。
 
-這可從 **[!UICONTROL Instances Settings]** 卡片的 **[!UICONTROL IP Allow Listing]** 標籤執行。[了解如何將 IP 位址新增至允許清單](ip-allow-listing-instance-access.md)
+這可以從以下位置執行 **[!UICONTROL IP允許清單]** 索引標籤中的 **[!UICONTROL 執行個體設定]** 卡片。 [了解如何將 IP 位址新增至允許清單](ip-allow-listing-instance-access.md)
 
 完成後，您就能將「控制面板」功能用於 MID/RT 執行個體。
 

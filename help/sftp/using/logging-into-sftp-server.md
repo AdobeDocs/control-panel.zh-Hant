@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 若要連線至您的SFTP伺服器，請遵循下列步驟：
 
-1. 啟動「控制面板」，然後選取 **[!UICONTROL Key Management]** 標籤從 **[!UICONTROL SFTP]** 卡片。
+1. 啟動「控制面板」，然後選取 **[!UICONTROL 金鑰管理]** 標籤從 **[!UICONTROL SFTP]** 卡片。
 
    ![](assets/sftp_card.png)
 
@@ -38,11 +38,11 @@ ht-degree: 6%
 
    ![](assets/do-not-localize/connect1.png)
 
-1. 在 **[!UICONTROL SSH Private Key]** 欄位中，選取儲存在電腦中的私密金鑰檔案。 它對應至與您的公開金鑰同名的文字檔，不含「.pub」副檔名（例如「enable」）。
+1. 在 **[!UICONTROL SSH私密金鑰]** 欄位中，選取儲存在電腦中的私密金鑰檔案。 它對應至與您的公開金鑰同名的文字檔，不含「.pub」副檔名（例如「enable」）。
 
    ![](assets/do-not-localize/connect2.png)
 
-   此 **[!UICONTROL Password]** 欄位會自動填入檔案中的私密金鑰。
+   此 **[!UICONTROL 密碼]** 欄位會自動填入檔案中的私密金鑰。
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -56,6 +56,6 @@ ht-degree: 6%
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. 填入所有資訊後，按一下 **[!UICONTROL Connect]** 以登入您的SFTP伺服器。
+1. 填入所有資訊後，按一下 **[!UICONTROL 連線]** 以登入您的SFTP伺服器。
 
    ![](assets/do-not-localize/sftpconnected.png)

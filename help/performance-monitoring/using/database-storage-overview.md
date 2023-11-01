@@ -9,8 +9,8 @@ level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 59%
+source-wordcount: '175'
+ht-degree: 30%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 59%
 >title="關於儲存概述"
 >abstract="在此索引標籤中，您可以取得佔用資料庫空間的不同 Campaign 資源的詳細資訊。"
 
-**[!UICONTROL Storage overview]** 區域以圖形呈現以下項目佔用的空間：
+此 **[!UICONTROL 儲存空間概覽]** 區域以圖形呈現以下專案佔用的空間：
 
-* **[!UICONTROL System resources]**
+* **[!UICONTROL 系統資源]**
 
   請注意，如果系統資源耗用大部分的資料庫空間，我們建議您聯絡客戶服務。
 
-* 您的 Campaign 執行個體預設提供的 **[!UICONTROL Out-of-the-box tables]**、
-* 由工作流程和傳遞內容建立的 **[!UICONTROL Temporary tables]**、
-* 在建立自訂資源後產生的 **[!UICONTROL Non-out of the box tables]**。
+* **[!UICONTROL 現成可用的表格]** 您的Campaign執行個體預設提供的、
+* **[!UICONTROL 臨時表格]** 由工作流程和傳遞內容建立的、
+* **[!UICONTROL 非現成可用的表格]** 在建立自訂資源後產生。
 
 ![](assets/database-storage-overview.png)
 
-按一下 **[!UICONTROL View details]** 按鈕，以針對消耗資料庫空間的不同資產獲取更多詳細資訊。
+按一下 **[!UICONTROL 檢視詳細資料]** 按鈕，以針對消耗資料庫空間的不同資產取得更多詳細資訊。
 
 您可以使用下拉式清單來縮小搜尋範圍並顯示特定資產型別（工作流程、傳送、收件者）的表格。
 

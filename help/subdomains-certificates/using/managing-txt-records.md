@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 83%
+source-wordcount: '300'
+ht-degree: 70%
 
 ---
 
@@ -22,15 +22,15 @@ Gmail 是目前最受歡迎的電子郵件地址供應商之一。為了確保�
 
 若要將 Google TXT 記錄新增至您用來傳送電子郵件至 Gmail 地址的子網域，請執行下列步驟：
 
-1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL Subdomain details]**。
+1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取 **[!UICONTROL 子網域詳細資料]**.
 
-1. 按一下&#x200B;**[!UICONTROL Add TXT record]**&#x200B;按鈕，然後從&#x200B;**[!UICONTROL Record Type]**&#x200B;下拉式清單選取&#x200B;**[!UICONTROL Google Site Verification]**。
+1. 按一下 **[!UICONTROL 新增TXT記錄]** 按鈕，然後選擇 **[!UICONTROL Google網站驗證]** 從 **[!UICONTROL 記錄型別]** 下拉式清單。
 
 1. 輸入G Suite管理工具中產生的值。 如需詳細資訊，請參閱 [G Suite 管理員說明](https://support.google.com/a/answer/183895)。
 
    ![](assets/txt_addtxt.png)
 
-1. 按一下 **[!UICONTROL Add]**&#x200B;按鈕以確認。
+1. 按一下 **[!UICONTROL 新增]** 按鈕確認。
 
    ![](assets/txt_txtadded.png)
 

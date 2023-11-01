@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 71%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 若要有效監控您的 Campaign 執行個體，必須持續追蹤可能影響執行個體的重要事件。 「控制面板」可讓您識別各項事件，如新版本、升級、修補程式、Hotfix 等等 並提供任何請求或問題的 Adobe 重要聯絡人清單。
 
-該資訊可在控制面板首頁的&#x200B;**[!UICONTROL Service Calendar]**&#x200B;卡片取得。
+此資訊可從以下位置存取： **[!UICONTROL 服務行事曆]** 卡片於「控制面板」首頁。
 
 ## 主要聯絡人 {#key-contacts}
 
-**[!UICONTROL Key contacts]**&#x200B;區段列出了 Adobe 的聯絡窗口，以便您提出任何有關執行個體上的請求或問題。
+此 **[!UICONTROL 主要聯絡人]** 區段列出了Adobe的聯絡視窗，以便您提出任何有關執行個體上的請求或問題。
 
 >[!NOTE]
 >
@@ -43,15 +43,15 @@ ht-degree: 100%
 
 * **[!UICONTROL TAM]**：技術客戶經理，
 * **[!UICONTROL CSM]**：客戶成功經理，
-* **[!UICONTROL Deliverability]**：傳遞作業的聯絡點，
-* **[!UICONTROL Transition Manager]**：Managed Services 轉變經理 (僅限 Managed Services 客戶)，
-* **[!UICONTROL On-boarding Specialist]**：指派給客戶的專家，可幫助您上手 Campaign Classic (僅限 Managed Services 客戶)。
+* **[!UICONTROL 傳遞能力]**：傳遞作業的聯絡點，
+* **[!UICONTROL 轉換管理員]**：Managed Services轉換經理(僅限Managed Services帳戶)、
+* **[!UICONTROL 入門專家]**：指派給客戶的專家，可幫助您上手Campaign Classic(僅限Managed Services客戶)。
 
 ## 持續追蹤重要事件 {#events}
 
-**[!UICONTROL Service Event Calendar]**&#x200B;區段顯示所有過去與即將發行的版本，以及使用者在「控制面板」電子郵件警示所訂閱的警示。 此外，「控制面板」可讓使用者為選定的執行個體設定提醒並標幟相關事件，以便更妥善組織並提高效率。
+此 **[!UICONTROL 服務事件行事曆]** 區段顯示所有過去和即將發佈的版本，以及使用者在「控制面板」中訂閱的電子郵件警示。 此外，「控制面板」可讓使用者為選定的執行個體設定提醒並標幟相關事件，以便更妥善組織並提高效率。
 
-事件會顯示在行事曆或清單。 您可利用本區段右上角的&#x200B;**[!UICONTROL Calendar]**&#x200B;與&#x200B;**[!UICONTROL List]**&#x200B;按鈕來切換兩種檢視。
+事件會顯示在行事曆或清單。 您可以使用 **[!UICONTROL 行事曆]** 和 **[!UICONTROL 清單]** 區段右上角的按鈕。
 
 ![](assets/service-events-calendar.png)
 
@@ -67,12 +67,12 @@ ht-degree: 100%
 
 * **版本**&#x200B;指出執行個體過去與即將進行的部署，在行事曆檢視分別以灰色與藍色顯示。 事件詳細資料會指定與每個部署相關聯的版本類型：
 
-   * **[!UICONTROL General availability]**：最新可用的穩定版本。
-   * **[!UICONTROL Limited availability]**：僅限隨選部署。
-   * **[!UICONTROL Release candidate]**：工程驗證。 等待生產校訂。 
-   * **[!UICONTROL Pre release]**：針對特定客戶需求的更早可用性。
-   * **[!UICONTROL No longer available]**：此版本雖無重大問題，仍有附加錯誤修復的新版可用。需要更新。
-   * **[!UICONTROL Deprecated]**：建立嵌入已知的迴歸。不再支援此版本。須更新。
+   * **[!UICONTROL 全面發佈]**：最新可用的穩定版本。
+   * **[!UICONTROL 可用性限制]**：僅限隨選部署。
+   * **[!UICONTROL 候選版本]**：工程驗證。 等待生產校訂。 
+   * **[!UICONTROL 搶鮮版]**：針對特定客戶需求的更早可用性。
+   * **[!UICONTROL 不再提供]**：此版本雖無重大問題，仍有附加錯誤修正的新版可用。 需要更新。
+   * **[!UICONTROL 已棄用]**：建立嵌入已知的回歸。 不再支援此版本。須更新。
 
 您可為一個或多個即將發生的事件指派旗標，以追蹤這些事件。 若要執行此動作，請按一下事件名稱旁邊的按鈕。
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 設定事件警示，請執行以下步驟：
 
-1. 將滑鼠移到要提醒的事件，或按一下清單檢視的橢圓按鈕並選取&#x200B;**[!UICONTROL Set Reminder]**。
+1. 將游標停留在您要提醒的事件上，或按一下清單檢視中的橢圓按鈕，然後選取 **[!UICONTROL 設定提醒]**.
 
 1. 為提醒事項提供標題，並選取要在事件發生之前收到通知的日期。
 
@@ -106,4 +106,4 @@ ht-degree: 100%
    >
    >您可以為同一事件設定 2 個提醒。
 
-1. 在指定的提醒日期當天將傳送一封電子郵件，通知您即將發生的事件，並且該提醒會自動從 **[!UICONTROL Reminders]** 服務日曆選單的項目個數中移除。
+1. 在指定的提醒日期當天將傳送一封電子郵件，通知您即將發生的事件，並且該提醒會自動從 **[!UICONTROL 提醒]** 在[服務行事曆]功能表計數。

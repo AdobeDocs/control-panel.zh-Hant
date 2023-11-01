@@ -9,8 +9,8 @@ level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 85%
+source-wordcount: '1596'
+ht-degree: 72%
 
 ---
 
@@ -78,11 +78,11 @@ ht-degree: 85%
 
 ![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant#subdomains-and-certificates) 在影片中瞭解此功能
 
-1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
+1. 在 **[!UICONTROL 子網域和憑證]** 卡片，選取所需的生產執行個體，然後按一下 **[!UICONTROL 設定新子網域]**.
 
    ![](assets/subdomain1.png)
 
-1. 按一下 **[!UICONTROL Next]** 以確認採取完全委派的方法。
+1. 按一下 **[!UICONTROL 下一個]** 以確認完全委派方法。
 
    ![](assets/subdomain3.png)
 
@@ -94,17 +94,17 @@ ht-degree: 85%
 
    ![](assets/subdomain4.png)
 
-1. 在使用對應的 Adobe 名稱伺服器資訊建立子網域後，請按一下 **[!UICONTROL Next]**。
+1. 在使用對應的Adobe名稱伺服器資訊建立子網域後，請按一下 **[!UICONTROL 下一個]**.
 
 1. 如果您選取Campaign v7/v8執行個體，請為子網域選取所需的使用案例： **行銷通訊** 或 **交易與營運通訊**. [本章節](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)介紹子網域使用案例的全域概念。
 
    ![](assets/subdomain5.png)
 
-1. 輸入您建立到託管解決方案的子網域，再按一下 **[!UICONTROL Submit]**。
+1. 輸入您建立到託管解決方案的子網域，然後按一下 **[!UICONTROL 提交]**.
 
    請務必填寫要委派之子網域的&#x200B;**完整名稱**。舉例來說，若要委派「usoffers.email.weretail.com」子網域，請輸入「usoffers.email.weretail.com」。
 
-1. 若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 選項。 [深入瞭解SSL憑證委派](delegate-ssl.md)
+1. 若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL 子網域選擇使用Adobe管理的SSL]** 選項。 [深入瞭解SSL憑證委派](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -134,11 +134,11 @@ ht-degree: 85%
 
 ![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=zh-Hant) 在影片中瞭解此功能
 
-1. 在 **[!UICONTROL Subdomains & Certificates]** 卡片中，選取所需的生產執行個體，再按一下 **[!UICONTROL Setup new subdomain]**。
+1. 在 **[!UICONTROL 子網域和憑證]** 卡片，選取所需的生產執行個體，然後按一下 **[!UICONTROL 設定新子網域]**.
 
    ![](assets/subdomain1.png)
 
-1. 選取 **[!UICONTROL CNAME]** 方法，然後按一下 **[!UICONTROL Next]**。
+1. 選取 **[!UICONTROL CNAME]** 方法，然後按一下 **[!UICONTROL 下一個]**.
 
    ![](assets/cname-method-selection.png)
 
@@ -148,7 +148,7 @@ ht-degree: 85%
 
 1. 輸入您建立到託管解決方案的子網域。
 
-   若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** 選項。 [深入瞭解SSL憑證委派](delegate-ssl.md)
+   若要將子網域的SSL憑證產生委派給Adobe，請啟用 **[!UICONTROL 子網域選擇使用Adobe管理的SSL]** 選項。 [深入瞭解SSL憑證委派](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -160,13 +160,13 @@ ht-degree: 85%
 
    ![](assets/cname-generate-record.png)
 
-1. 請確定先前步驟中的所有 DNS 記錄都已產生至您的網域託管解決方案。 如果所有項目都已正確設定，請選取第一個陳述式，然後按一下 **[!UICONTROL Next]** 以確認。
+1. 請確定先前步驟中的所有 DNS 記錄都已產生至您的網域託管解決方案。 如果所有專案都已正確設定，請選取第一個陳述式，然後按一下 **[!UICONTROL 下一個]** 以確認。
 
-   如果要建立記錄並稍後提交子網域設定，請選取第二個陳述式。 然後，您就可以直接從子網域管理螢幕&#x200B;**[!UICONTROL Processing]**&#x200B;區域恢復子網域設定。請注意，要放置在伺服器上的 DNS 記錄將由控制面板保留 30 天。 在這段期間之後，您必須從頭開始設定子網域。
+   如果要建立記錄並稍後提交子網域設定，請選取第二個陳述式。 然後，您就可以直接從子網域管理畫面恢復子網域設定 **[!UICONTROL 處理中]** 區域。 請注意，要放置在伺服器上的 DNS 記錄將由控制面板保留 30 天。 在這段期間之後，您必須從頭開始設定子網域。
 
    >[!NOTE]
    >
-   >如果您選擇不將SSL憑證委派給Adobe，這是子網域設定的最後一個步驟。 按一下 **[!UICONTROL Submit]** 按鈕。
+   >如果您選擇不將SSL憑證委派給Adobe，這是子網域設定的最後一個步驟。 按一下 **[!UICONTROL 提交]** 按鈕。
 
    ![](assets/cname-confirmation.png)
 
@@ -174,7 +174,7 @@ ht-degree: 85%
 
    ![](assets/cname-csr-generation.png)
 
-1. 請確定已在網域託管解決方案中產生所有憑證記錄。 如果所有項目都已正確設定，請選取第一個陳述式，然後按一下 **[!UICONTROL Submit]** 以確認。
+1. 請確定已在網域託管解決方案中產生所有憑證記錄。 如果所有專案都已正確設定，請選取第一個陳述式，然後按一下 **[!UICONTROL 提交]** 以確認。
 
    ![](assets/cnames-submit.png)
 
@@ -192,7 +192,7 @@ ht-degree: 85%
 
    ![](assets/subdomain7.png)
 
-   您可以按一下子網域設定的&#x200B;**[!UICONTROL Details]**&#x200B;按鈕，以取得有關設定進度的詳細資訊。
+   您可以按一下子網域設定，以取得有關設定進度的詳細資訊 **[!UICONTROL 詳細資料]** 按鈕。
 
    ![](assets/subdomain_audit.png)
 
@@ -212,7 +212,7 @@ ht-degree: 85%
 
    依預設，「控制面板」的「回覆」收件匣會設為清除電子郵件，且無法重新檢視。如果您想要監視行銷活動的「回覆」收件匣，請勿使用此位址。
 
-您可以按一下 **[!UICONTROL Subdomain details]**&#x200B;和 **[!UICONTROL Sender info]** 按鈕，以取得子網域的詳細資訊。
+您可以按一下 **[!UICONTROL 子網域詳細資料]** 和 **[!UICONTROL 寄件者資訊]** 按鈕。
 
 ![](assets/detail_buttons.png)
 
@@ -222,6 +222,6 @@ ht-degree: 85%
 
 ## 疑難排解 {#troubleshooting}
 
-* 在某些情況下，子網域會完成設定，但可能無法成功驗證子網域。會將子網域持續列在 **[!UICONTROL Configured]** 清單中，而且會包含作業記錄，其中會提供關於錯誤的資訊。如果您無法解決問題，請聯絡客戶服務。
-* 如果在設定後，子網域顯示為「未驗證」，請啟動新的子網域驗證　(**...** / **[!UICONTROL Verify subdomain]**)。如果它仍顯示相同的狀態，原因可能是對收件者架構進行某些自訂，而無法使用標準流程進行驗證。請嘗試使用該子網域傳送行銷活動。
+* 在某些情況下，子網域會完成設定，但可能無法成功驗證子網域。子網域將保留在 **[!UICONTROL 已設定]** 具有作業記錄檔的清單，其中提供有關錯誤的資訊。 如果您無法解決問題，請聯絡客戶服務。
+* 如果在設定後，子網域顯示為「未驗證」，請啟動新的子網域驗證(**...** / **[!UICONTROL 驗證子網域]**)。 如果它仍顯示相同的狀態，原因可能是對收件者架構進行某些自訂，而無法使用標準流程進行驗證。請嘗試使用該子網域傳送行銷活動。
 * 如果子網域設定在進行傳遞稽核步驟時花費太長時間（超過 10 個工作日），請聯繫客戶服務。
