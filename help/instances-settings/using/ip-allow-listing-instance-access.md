@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 68%
 * **如果您暫時對 IP 位址啟用了執行個體的存取權限**，請確保在不再需要連線至執行個體時，從允許清單的 IP 位址中刪除該 IP 位址。
 * **我們不建議將公共場所的 IP 位址新增至允許清單**（機場、飯店等）。請一律使用您的公司 VPN 地址，確保執行個體安全無虞。
 
-## 將IP位址新增至允許執行個體存取的清單 {#adding-ip-addresses-allow-list}
+## 將 IP 位址新增至提供執行個體存取權限的允許清單 {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"

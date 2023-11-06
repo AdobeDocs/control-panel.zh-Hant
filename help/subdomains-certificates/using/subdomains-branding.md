@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 78%
 
 如果您對子網域設定方法有任何疑問，請聯絡Adobe傳遞團隊，或最終聯絡客戶服務以請求傳遞能力諮詢。
 
-## 子網域的使用案例(Campaign v7/v8){#subdomains-use-cases}
+## 子網域的使用案例 (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
