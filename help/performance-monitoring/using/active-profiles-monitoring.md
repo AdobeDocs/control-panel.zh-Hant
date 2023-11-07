@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 93%
+source-wordcount: '438'
+ht-degree: 85%
 
 ---
 
@@ -41,11 +41,6 @@ ht-degree: 93%
 >title="關於作用中設定檔監視"
 >abstract="在此標籤中，您可以取得每個 Campaign 執行個體與您組織最新和歷史作用中設定檔使用情況和演變的即時資訊。"
 
-與作用中設定檔使用情況相關的資訊會在「控制面板」中，根據每天在執行個體上執行的專屬 [!DNL Campaign] 技術工作流程更新：
-* Campaign Standard 的[「計費」](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant)工作流程、
-* Campaign v7/v8 的[「作用中計費設定檔數目」](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant)工作流程。
-
-
 若要在「控制面板」中監視您作用中設定檔的使用情況，請導覽至 **[!UICONTROL 效能監視]** 卡片> **[!UICONTROL 使用中的設定檔]** 標籤，然後從中選擇所需的執行個體 **[!UICONTROL 執行個體清單]**.
 
 作用中設定檔使用情況的相關資訊隨即顯示。
@@ -65,3 +60,10 @@ ht-degree: 93%
 * 分配給組織的作用中設定檔總數。
 
 下半區段會以視覺化方式呈現過去 30 天的作用中設定檔使用情況。您可以使用位於右上角的篩選器，將此時間範圍變更為 1 年。將滑鼠游標暫留在圖形上，這可讓您取得所選時段使用之作用中設定檔的確切數目。
+
+與作用中設定檔使用相關的資訊會根據專用在「控制面板」中更新 [!DNL Campaign] 定期在執行個體上執行的「計費」技術工作流程。
+
+| Campaign 版本 | 技術工作流程 | 執行 |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [帳單](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant) | 每日 |
+| Campaign v7/v8 | [帳單](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | 每月 |
