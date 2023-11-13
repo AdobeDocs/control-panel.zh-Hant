@@ -2,34 +2,34 @@
 product: campaign
 solution: Campaign
 title: 監視子網域
-description: 監視您的子網域，確保所有子網域都已正確設定為搭配Adobe Campaign使用。
+description: 監視子網域，確保全部都已正確設定為與 Adobe Campaign 搭配使用。
 feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
 # 監視您的子網域 {#monitoring-subdomains}
 
-監視子網域十分重要，以確保所有子網域皆已正確設定為可與Adobe Campaign搭配使用。
+務必要監視子網域，以確保全部皆已正確設定為與 Adobe Campaign 搭配使用。
 
-選取「 」時，可直接存取每個生產執行個體的子網域清單 **[!UICONTROL 子網域和憑證]** 卡片。
+選取&#x200B;**[!UICONTROL 子網域和憑證]**&#x200B;卡片時，可直接存取每個生產執行個體的子網域清單。
 
-此 **[!UICONTROL 上次驗證]** 欄指出上次驗證子網域的時間。 您可以隨時按一下 **...** / **[!UICONTROL 驗證子網域]** 按鈕。
+**[!UICONTROL 上次驗證]**&#x200B;欄指出上次驗證子網域的時間。 您可以隨時按一下 **...** / **[!UICONTROL 驗證子網域]**&#x200B;按鈕來啟動驗證。
 
 ![](assets/subdomain_verification.png)
 
 >[!IMPORTANT]
 >
->Adobe不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有一些傳遞問題。
+>Adobe 不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有一些傳遞能力問題。
 
-啟動驗證時，會執行數個操作來檢查子網域是否已正確設定（例項租使用者檢查、電子郵件傳送測試等） 如果子網域驗證失敗，請聯絡Adobe客戶服務以進一步調查。
+啟動驗證時，系統會執行數個作業來檢查是否已正確設定子網域 (執行個體租用戶檢查、電子郵件傳送測試等) 如果子網域的驗證失敗，請聯絡 Adobe 客戶服務以進一步調查。
 
 **相關主題：**
 
