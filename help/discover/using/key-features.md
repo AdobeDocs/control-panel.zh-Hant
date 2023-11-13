@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 「控制面板」可協助您以Adobe Campaign Standard和/或Classic產品管理員的身分，提高工作效率。
+title: 「控制面板」可協助您以 Adobe Campaign Standard 和/或 Classic 產品管理員的身分，提高工作效率。
 description: 瞭解如何存取「控制面板」
 feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 79%
 >
 >控制面板僅限管理員使用者存取。授予使用者管理員存取權限的步驟已詳載於[本章節](managing-permissions.md)。
 >
->請注意，就Campaign v7/v8而言，您的執行個體必須託管至Amazon Web Services (AWS)，並升級至最新版本 [Campaign穩定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或建置9032或以上版本。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md#hosted-aws)詳述的步驟操作。
+>請注意，就 Campaign v7/v8 而言，您的執行個體必須託管至 Amazon Web Services (AWS)，並升級至最新的 [Campaign 穩定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或版本編號 9032 或以上。在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md#hosted-aws)詳述的步驟操作。
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ ht-degree: 79%
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="條件" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>管理您的執行個體設定</strong></a></div>
-        <em>瞭解如何管理您的執行個體設定（僅限Campaign v7/v8）。</em>
+        <em>了解如何管理執行個體設定 (僅限 Campaign v7/v8)。</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="條件" src="assets/do-not-localize/monitoring-performance.png"/></a>
