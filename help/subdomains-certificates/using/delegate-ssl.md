@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -34,18 +34,18 @@ ht-degree: 81%
 
 ## 委派新子網域的 SSL 憑證 {#new}
 
-若要在設定新子網域時委派SSL憑證，請啟用 **[!UICONTROL 子網域選擇使用Adobe管理的SSL]** 子網域設定精靈的選項。 稍後會在設定精靈中提供要複製到託管解決方案的憑證記錄。 詳細步驟記錄於[此章節](setting-up-new-subdomain.md)。
+若要在設定新子網域時委派 SSL 憑證，請啟用子網域設定精靈的&#x200B;**[!UICONTROL 為子網域選擇 Adobe 管理的 SSL]** 選項。 稍後會在設定精靈中提供要複製到託管解決方案的憑證記錄。 詳細步驟記錄於[此章節](setting-up-new-subdomain.md)。
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
 ## 針對已委派的子網域委派 SSL 憑證 {#delegated}
 
-若要委派已委派子網域的SSL憑證，請按一下所需子網域旁的省略符號按鈕，然後按一下 **[!UICONTROL 切換到受管理的SSL]**.
+若要針對已委派的子網域委派 SSL 憑證，請按一下所需子網域旁的省略符號按鈕，然後按一下&#x200B;**[!UICONTROL 切換到受管理的 SSL]**。
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
 隨即顯示對話方塊，其中包含 Adobe 自動產生的憑證記錄。 逐一複製這些記錄，或下載 CSV 檔案，然後瀏覽至網域託管解決方案，以產生相符的憑證。
 
-請確定已在網域託管解決方案中產生所有憑證記錄。 如果所有專案都已正確設定，請確認記錄建立，然後按一下 **[!UICONTROL 提交]**.
+請確定已在網域託管解決方案中產生所有憑證記錄。 如果所有項目都已正確設定，請確認記錄建立完成，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
 ![](assets/delegate-ssl.png){width="70%" align="left"}
