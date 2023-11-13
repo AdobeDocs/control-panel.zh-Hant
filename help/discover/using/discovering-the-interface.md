@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 ## 說明資源 {#help-resources}
 
-此 **[!UICONTROL 說明資源]** 區段提供實用檔案，協助您使用控制面板和Campaign產品。 歡迎隨時探索。
+**[!UICONTROL 說明資源]**&#x200B;章節提供實用文件，協助您使用「控制面板」和 Campaign 產品。歡迎隨時探索。
 
 ![](assets/helpresources.png)
 
