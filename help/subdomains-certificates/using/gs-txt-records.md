@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="管理 TXT 記錄"
->abstract="TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。「控制面板」可讓您將三種記錄類型新增至子網域： Google網站驗證、DMARC和BIMI記錄。"
+>abstract="TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。「控制面板」可讓您將三種記錄類型新增至子網域：Google 網站驗證、DMARC 和 BIMI 記錄。"
 
 ## 關於 TXT 記錄 {#about}
 
