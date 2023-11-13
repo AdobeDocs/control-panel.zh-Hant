@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->此功能僅適用於Campaign v7/v8執行個體。
+>此功能僅適用於 Campaign v7/v8 執行個體。
 
 您的 Adobe Campaign 執行個體架構可以包含數個伺服器，以便提供行銷活動的彈性。例如，您可以有行銷、即時 (或 Message Center) 和 Mid Sourcing 伺服器以支援您的執行個體。
 
@@ -33,28 +33,28 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->建議您每年升級一次執行個體，以免降低效能，並能利用Adobe Campaign v7/v8提供的最新功能和修正。
+>我們建議您至少每年升級一次您的執行個體，以免效能下降，並能利用 Adobe Campaign v7/v8 提供的最新功能和修正。
 
 **相關主題：**
 
-* [執行版本編號升級](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [更新 Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [執行版本編號升級](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=zh-Hant)
+* [更新 Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=zh-Hant)
 
 ## 擷取關於執行個體的資訊 {#retrieving-information-about-instances}
 
-若要獲得與您執行個體連結的資訊，請執行以下步驟：
+若要獲得與您執行個體連結之伺服器的資訊，請執行以下步驟：
 
 1. 開啟&#x200B;**[!UICONTROL 「執行個體設定」]**&#x200B;卡片以存取&#x200B;**[!UICONTROL 「執行個體詳細資料」]**&#x200B;標籤。
 
    >[!NOTE]
    >
-   >如果「控制面板」首頁上並未顯示「執行個體設定」卡片，表示您的組織ID未與任何Adobe Campaign v7/v8執行個體建立關聯
+   >如果「控制面板」首頁上並未顯示「執行個體設定」卡片，表示您的組織 ID 未與任何 Adobe Campaign v7/v8 執行個體建立關聯
 
 1. 在左窗格中，選取所需的 Campaign 執行個體。
 
    >[!NOTE]
    >
-   >所有 Campaign 執行個體都會顯示在左側窗格清單中。由於「執行個體詳細資訊」功能專屬於Campaign v7/v8執行個體，如果您選取Campaign Standard執行個體，則會顯示「不適用執行個體」訊息。
+   >所有 Campaign 執行個體都會顯示在左側窗格清單中。由於「執行個體詳細資訊」功能專屬於 Campaign v7/v8 執行個體，如果您選取 Campaign Standard 執行個體，則會顯示「不適用執行個體」訊息。
 
 1. 隨即顯示伺服器連結的執行個體。
 
@@ -62,15 +62,15 @@ ht-degree: 71%
 
 可用資訊包括：
 
-* **[!UICONTROL 型別]**：伺服器的型別。 可能的值包括 MKT (行銷)、MID (Mid sourcing) 和 RT (Message Center/即時傳送訊息)。
+* **[!UICONTROL 類型]**：伺服器的類型。可能的值包括 MKT (行銷)、MID (中間來源) 和 RT (訊息中心 / 即時傳送訊息)。
 * **[!UICONTROL 名稱]**：伺服器的名稱。
 * **[!UICONTROL 組建：]**&#x200B;安裝在伺服器上的組建版本。
-* **[!UICONTROL 升級資訊]**：此欄會通知您伺服器是否需要更新。
+* **[!UICONTROL 更新資訊]**：此欄會通知您伺服器是否需要更新。
    * 綠色：您的伺服器為最新狀態，不需要升級。
    * 黃色：您應考慮升級。您缺少了最新的功能和修正項目。
    * 紅色：盡快升級。您缺少了新功能，伺服器可能無法提供最佳效能。
 
-如果您的其中一台伺服器需要升級，請參閱[本文件](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)以瞭解如何處理的詳細資訊。
+如果您的其中一台伺服器需要升級，請參閱[本文件](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=zh-Hant)以瞭解如何處理的詳細資訊。
 
 ## 常見問題 {#common-questions}
 
