@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 新增子網域的Google網站驗證記錄
-description: 瞭解如何為子網域新增Google網站驗證記錄，以進行網域所有權驗證。
+title: 新增子網域的 Google 網站驗證記錄
+description: 了解如何為子網域新增 Google 網站驗證記錄，以進行網域擁有權驗證。
 feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ Gmail 是目前最受歡迎的電子郵件地址供應商之一。為了確保�
 
 若要將 Google TXT 記錄新增至您用來傳送電子郵件至 Gmail 地址的子網域，請執行下列步驟：
 
-1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取 **[!UICONTROL 子網域詳細資料]**.
+1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL 子網域詳細資料]**。
 
-1. 按一下 **[!UICONTROL 新增TXT記錄]** 按鈕，然後選擇 **[!UICONTROL Google網站驗證]** 從 **[!UICONTROL 記錄型別]** 下拉式清單。
+1. 按一下&#x200B;**[!UICONTROL 新增 TXT 記錄]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 記錄類型]**&#x200B;下拉式清單中的 **[!UICONTROL Google 網站驗證]**。
 
-1. 輸入G Suite管理工具中產生的值。 如需詳細資訊，請參閱 [G Suite 管理員說明](https://support.google.com/a/answer/183895)。
+1. 輸入 G Suite 管理工具中產生的值。 如需詳細資訊，請參閱 [G Suite 管理員說明](https://support.google.com/a/answer/183895)。
 
    ![](assets/txt_addtxt.png)
 
-1. 按一下 **[!UICONTROL 新增]** 按鈕確認。
+1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;按鈕以確認。
 
    ![](assets/txt_txtadded.png)
 
@@ -42,4 +42,4 @@ Gmail 是目前最受歡迎的電子郵件地址供應商之一。為了確保�
 >
 >您只能從 DNS 記錄中刪除您先前新增的記錄 (在此情況中，即為 TXT 記錄)。
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png)在利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=zh-Hant#subdomains-and-certificates) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=zh-Hant#subdomains-and-certificates) 的影片中瞭解此功能
