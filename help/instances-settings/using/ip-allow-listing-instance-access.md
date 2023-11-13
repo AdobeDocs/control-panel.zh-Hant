@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->此功能僅適用於Campaign v7/v8執行個體。
+>此功能僅適用於 Campaign v7/v8 執行個體。
 
 依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
@@ -36,7 +36,7 @@ ht-degree: 69%
 
 將 IP 位址新增至允許清單之後，您就可以建立 Campaign 運算子，並將其連結至這些 IP 位址，以便使用者可以存取該執行個體。
 
-![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [在影片中探索此功能](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=zh-Hant#instance-settings)
 
 ## 最佳實務 {#best-practices}
 
@@ -55,11 +55,11 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->如果 **[!UICONTROL 執行個體設定]** 卡片未顯示在「控制面板」首頁上，這表示 [組織ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant) 並未關聯任何Adobe Campaign v7/v8執行個體。
+>如果「控制面板」首頁上並未顯示&#x200B;**[!UICONTROL 執行個體設定]**&#x200B;卡片，表示您的[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant) 未與任何 Adobe Campaign v7/v8 執行個體建立關聯。
 
 若要將 IP 位址新增至允許清單，請執行下列步驟：
 
-1. 開啟 **[!UICONTROL 執行個體設定卡片]** 若要存取IP允許清單索引標籤，然後按一下 **[!UICONTROL 新增IP範圍]**.
+1. 開啟&#x200B;**[!UICONTROL 「執行個體設定」卡片]**&#x200B;以存取 IP 允許清單標籤，然後按一下&#x200B;**[!UICONTROL 新增 IP 範圍]**。
 
 
 
@@ -69,8 +69,8 @@ ht-degree: 69%
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL 例項]**：IP位址可連線的執行個體， 可同時操作多個執行個體。例如，您可透過相同步驟，在「生產」和「階段」執行個體上執行 IP 允許清單。
-   * **[!UICONTROL IP範圍]**：您想要新增至允許清單的IP範圍，並以CIDR格式顯示。 請注意，IP 範圍不能與允許清單上的現有範圍重疊。在該情況下，請先刪除包含重疊 IP 的範圍。
+   * **[!UICONTROL 執行個體]**：IP 位址可連線的執行個體。可同時操作多個執行個體。例如，您可透過相同步驟，在「生產」和「階段」執行個體上執行 IP 允許清單。
+   * **[!UICONTROL IP 範圍]**：您希望新增至允許清單的 IP 範圍，以 CIDR 格式表示。請注意，IP 範圍不能與允許清單上的現有範圍重疊。在該情況下，請先刪除包含重疊 IP 的範圍。
 
    >[!NOTE]
    >
@@ -79,30 +79,30 @@ ht-degree: 69%
    >您可以在網際網路上搜尋免費線上工具，協助您將現有的 IP 範圍轉換為 CIDR 格式。
 
    * **[!UICONTROL 標籤]**：將顯示在允許清單中的標籤。
-   * **[!UICONTROL 名稱]**：此名稱必須是「存取型別」、「執行個體」（若是外部API連線）和IP位址的唯一名稱。
+   * **[!UICONTROL 名稱]**：此名稱必須是存取類型、執行個體 (若是外部 API 連線) 和 IP 位址的唯一名稱。
 
 1. 指定要授予 IP 位址的存取類型：
 
-   * **[!UICONTROL Campaign主控台存取權]**：IP位址可連線至Campaign使用者端主控台。 請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
-   * **[!UICONTROL AEM連線]**：指定的AEM IP位址可以連線至行銷執行個體。
-   * **[!UICONTROL 外部API連線]**：具有指定IP位址的外部API可以連線至行銷和/或Message Center (RT)執行個體。 請注意，系統並未啟用與 RT 執行個體控制台的連線。
+   * **[!UICONTROL Campaign 主控台存取權]**：IP 位址可允許連線至 Campaign 用戶端主控台。請注意，Console 僅為行銷執行個體啟用。由於不允許存取 MID 和 RT 執行個體，因此並未啟用此功能。
+   * **[!UICONTROL AEM 連線]**：指定的 AEM IP 位址可允許連線至行銷執行個體。
+   * **[!UICONTROL 外部 API 連線]**：具有指定 IP 位址的外部 API 可允許連線至行銷和/或訊息中心 (RT) 執行個體。請注意，系統並未啟用與 RT 執行個體控制台的連線。
 
    >[!NOTE]
    >
-   >如果您使用搭配混合託管模型的執行個體，您只能在「外部API連線」中為MID和RT執行個體新增IP位址。
+   >如果您使用搭配混合託管模式的執行個體，您只能在「外部 API 連線」中為 MID 和 RT 執行個體新增 IP 位址。
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. 按一下 **[!UICONTROL 儲存]** 按鈕。 會將 IP 範圍新增至允許清單。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕。會將 IP 範圍新增至允許清單。
 
    <!--![](assets/ip_whitelist_added.png)-->
 
 依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
-若要從允許清單中刪除一個或多個IP範圍，請選取範圍，然後按一下 **[!UICONTROL 刪除IP範圍]** 按鈕。
+若要從允許清單中刪除一個或多個 IP 範圍，請選取範圍，然後按一下&#x200B;**[!UICONTROL 刪除 IP 範圍]**&#x200B;按鈕。
 
 ![](assets/ip_whitelist_delete.png)
 
 **相關主題：**
 
-* [將安全區域連結到運算子](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [將安全區域連結到運算子](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=zh-Hant#linking-a-security-zone-to-an-operator)
