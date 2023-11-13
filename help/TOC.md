@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
    + 舊的發行版本 {#previous-releases}
       + [發行說明 2023 年](rn/release-notes-2023.md)
       + [發行說明 2022 年](rn/release-notes-2022.md)
-      + [發行說明 2021 年](rn/release-notes-2021.md)
+      + [2021 年發行說明](rn/release-notes-2021.md)
       + [發行說明 2020 年](rn/release-notes-2020.md)
       + [發行說明 2019 年](rn/release-notes-2019.md)
 + 探索「控制面板」{#discover-control-panel}
@@ -31,7 +31,7 @@ ht-degree: 98%
    + [管理「控制面板」的權限](discover/using/managing-permissions.md)
    + [探索「控制面板」介面](discover/using/discovering-the-interface.md)
    + [常見問答集](faq.md)
-+ 事件與電子郵件警示 {#alerts-events}
++ 事件與電子郵件警報 {#alerts-events}
    + [監視主要聯絡人及事件](service-events/service-events.md)
    + [電子郵件警示](performance-monitoring/using/email-alerting.md)
 + SFTP 管理{#sftp-management}
@@ -66,7 +66,7 @@ ht-degree: 98%
       + [活動查詢](performance-monitoring/using/database-active-queries.md)
       + [監視工作流程](performance-monitoring/using/workflow-monitoring.md)
       + [防止資料庫超過負荷](performance-monitoring/using/database-preventing-overload.md)
-   + [使用中設定檔監視](performance-monitoring/using/active-profiles-monitoring.md)
+   + [作用中設定檔監視](performance-monitoring/using/active-profiles-monitoring.md)
    + [輸送量和延時監視](performance-monitoring/using/throughputs-latencies.md)
 + 執行個體設定 {#instances-settings}
    + [存取執行個體的 IP 允許清單](instances-settings/using/ip-allow-listing-instance-access.md)
