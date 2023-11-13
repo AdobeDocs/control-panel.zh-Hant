@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 38%
 
 Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立與其 SFTP 伺服器的連線。
 
-以下說明了產生公開 SSH 金鑰以及新增金鑰以存取 SFTP 伺服器的步驟，還有身份驗證相關的建議。
+以下說明了產生公開 SSH 金鑰以及新增金鑰以存取 SFTP 伺服器的步驟，還有身分驗證相關的建議。
 
 設定了伺服器的存取權限後，請記得&#x200B;**將存取伺服器所需的 IP 位址新增至允許清單**，如此您才能連線至伺服器。如需詳細資訊，請參閱[本章節](../../instances-settings/using/ip-allow-listing-instance-access.md)。
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png)在利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=zh-Hant#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=zh-Hant#sftp-management) 的影片中瞭解此功能
 
 ## 最佳實務 {#best-practices}
 
@@ -38,11 +38,11 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 **API 與使用者名稱和密碼的整合**
 
-在極少數的情況下，某些SFTP伺服器會啟用密碼式驗證。 Adobe建議您使用金鑰式驗證，因為此方法更有效且更安全。 您可以聯絡客戶服務，以要求切換至金鑰式驗證。
+在極少數的情況下，某些 SFTP 伺服器會啟用密碼式驗證。Adobe 建議您使用金鑰式驗證，因為此方法更有效且更安全。您可以聯絡客戶服務，以要求切換至金鑰式驗證。
 
 >[!IMPORTANT]
 >
->如果您的密碼過期，即使系統上已安裝金鑰，您也無法登入 SFTP 帳戶。
+>如果您的密碼到期，即使系統上已安裝金鑰，您也無法登入 SFTP 帳戶。
 
 ## 安裝 SSH 金鑰 {#installing-ssh-key}
 
@@ -53,9 +53,9 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 >[!IMPORTANT]
 >
->關於SSH金鑰，您必須一律遵循組織方針。 以下步驟只是如何建立SSH金鑰的範例，可做為向團隊或內部網路群組溝通需求的有用參考點。
+>關於 SSH 金鑰，您必須始終遵循組織方針。以下只是如何建立 SSH 金鑰的範例，這可做為您向團隊或內部網路群組溝通需求時的有用參考。
 
-1. 導覽至 **[!UICONTROL 金鑰管理]** 標籤，然後按一下 **[!UICONTROL 新增公開金鑰]** 按鈕。
+1. 導覽至&#x200B;**[!UICONTROL 金鑰管理]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 新增公開金鑰]**&#x200B;按鈕。
 
    ![](assets/key0.png)
 
@@ -65,21 +65,21 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
    >[!NOTE]
    >
-   >「控制面板」會檢查指定的使用者名稱是否在指定的執行個體上有效，並可讓您在一或多個執行個體上啟用金鑰。
+   >控制面板會檢查指定的使用者名稱是否在指定的執行個體上有效，並為您提供在一或多個執行個體上啟用金鑰的選項。
    >
    >您可以為每位使用者新增一或多個公開 SSH 金鑰。
 
-1. 為了更好地管理您的公開金鑰，您可以設定每個金鑰的可用期間。 若要這麼做，請選取 **[!UICONTROL 型別]** 下拉式清單，並在對應欄位中定義持續時間。 如需公開金鑰到期的詳細資訊，請參閱 [本節](#expiry).
+1. 為了更好地管理您的公開金鑰，您可以設定每個金鑰的可用期間。若要這麼做，請選取&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單，並在對應欄位中定義持續時間。 如需公開金鑰到期的詳細資訊，請參閱[本節](#expiry)。
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >根據預設， **[!UICONTROL 型別]** 欄位已設為 **[!UICONTROL 無限制]**，這表示公開金鑰永不過期。
+   >預設情況下，**[!UICONTROL 類型]**&#x200B;欄位已設為&#x200B;**[!UICONTROL 無限制]**，這表示公開金鑰永不到期。
 
-1. 在 **[!UICONTROL 註解]** 欄位，您可以指出新增此公開金鑰的原因（原因、對象等）。
+1. 在&#x200B;**[!UICONTROL 註解]**&#x200B;欄位，您可以指出新增此公開金鑰的原因 (原因、對象等)。
 
-1. 若要能夠填寫 **[!UICONTROL 公開金鑰]** 欄位中，您必須產生公開SSH金鑰。 根據您的作業系統，請遵循下列步驟。
+1. 為了能夠填寫&#x200B;**[!UICONTROL 公開金鑰]**&#x200B;欄位，您必須產生公開 SSH 金鑰。 根據您的作業系統，請遵循下列步驟。
 
    **Linux 和 Mac：**
 
@@ -91,7 +91,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
    **Windows：**
 
-   您可能需要安裝協力廠商工具，協助您以相同格式「name.pub」產生私密/公開金鑰組。
+   您可能需要安裝協力廠商工具，協助您以相同格式「name.pub」產生私密/公開金鑰配對。
 
 1. 開啟 .pub 檔案，然後複製以「ssh...」開頭的整個字串並貼到「控制面板」中。
 
@@ -99,15 +99,15 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
    >[!NOTE]
    >
-   >此 **[!UICONTROL 公開金鑰]** 欄位僅接受OpenSSH格式。 公開 SSH 金鑰的大小應為 **2048 位元**。
+   >此&#x200B;**[!UICONTROL 公開金鑰]**&#x200B;欄位僅接受 OpenSSH 格式。 公開 SSH 金鑰的大小應為 **2048 位元**。
 
-1. 按一下 **[!UICONTROL 儲存]** 按鈕以建立金鑰。 「控制面板」會儲存公開金鑰及其相關聯的指紋，並使用SHA256格式加密。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;按鈕以建立金鑰。「控制面板」會儲存公開金鑰及其相關聯的指紋，並使用 SHA256 格式加密。
 
 >[!IMPORTANT]
 >
->如果您建立的金鑰是用來與之前從未連線至所選SFTP伺服器的系統建立連線，您必須先將該系統的公用IP新增至允許清單，才能將此系統與SFTP伺服器搭配使用。 請參閱[本節](ip-range-allow-listing.md)。
+>如果您建立的金鑰是用來與先前從未連線至所選 SFTP 伺服器的系統建立連線，則您必須將該系統的公開 IP 新增至允許清單，然後才能將此系統與 SFTP 伺服器搭配使用。請參閱[本節](ip-range-allow-listing.md)。
 
-您可以使用指紋來比對儲存在電腦上的私密金鑰與儲存在「控制面板」中的對應公開金鑰。
+您可以使用指紋，比對儲存在電腦上的私密金鑰與儲存在「控制面板」中的對應公開金鑰。
 
 ![](assets/fingerprint_compare.png)
 
@@ -117,33 +117,33 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 ## 管理公開金鑰 {#managing-public-keys}
 
-您建立的公開金鑰會顯示在 **[!UICONTROL 金鑰管理]** 標籤。
+您建立的公開金鑰會顯示在&#x200B;**[!UICONTROL 金鑰管理]**&#x200B;標籤中。
 
-您可以根據建立日期或編輯日期、建立或編輯的使用者以及IP範圍到期日來排序專案。
+您可以根據建立日期或編輯日期、建立或編輯的使用者，以及 IP 範圍到期日來排序項目。
 
-您也可以開始輸入名稱或註解，以搜尋公開金鑰。
+您也可以開始輸入名稱或註解，來搜尋公開金鑰。
 
 ![](assets/control_panel_key_management_sort.png)
 
-若要編輯一或多個IP範圍，請參閱 [本節](#editing-public-keys).
+若要編輯一或多個 IP 範圍，請參閱[本章節](#editing-public-keys)。
 
-若要從清單中刪除一或多個公開金鑰，請選取這些金鑰，然後按一下 **[!UICONTROL 刪除公開金鑰]** 按鈕。
+若要刪除清單中的一或多個公開金鑰，請選取這些金鑰，然後按一下&#x200B;**[!UICONTROL 刪除公開金鑰]**&#x200B;按鈕。
 
 ![](assets/control_panel_delete_key.png)
 
-### 到期 {#expiry}
+### 到期日 {#expiry}
 
-此 **[!UICONTROL 過期]** 欄會顯示公開金鑰到期前的剩餘天數。
+此&#x200B;**[!UICONTROL 到期]**&#x200B;欄會顯示公開金鑰到期前的剩餘天數。
 
-如果您訂閱 [電子郵件警示](../../performance-monitoring/using/email-alerting.md)，您將會在公開金鑰到期的10天及5天前，以及到期的當天，收到電子郵件通知。 收到警示後，您可以 [編輯公開金鑰](#editing-public-keys) 以視需要延長其有效期間。
+如果您訂閱[電子郵件警示](../../performance-monitoring/using/email-alerting.md)，您會在公開金鑰即將到期的 10 天及 5 天前，以及到期的當天，收到電子郵件通知。 收到警示後，您可以[編輯公開金鑰](#editing-public-keys)，以視需要延長其有效期間。
 
-過期的公開金鑰將在7天後自動刪除。 它顯示為 **[!UICONTROL 已過期]** 在 **[!UICONTROL 過期]** 欄。 在此7天期間：
+已到期的公開金鑰會在 7 天後自動刪除。 其會在&#x200B;**[!UICONTROL 到期]**&#x200B;欄顯示為&#x200B;**[!UICONTROL 已到期]**。 這 7 天的期間內：
 
-* 過期的公開金鑰無法再用來連線至SFTP伺服器。
+* 已到期的公開金鑰無法再用來連線至 SFTP 伺服器。
 
-* 您可以 [編輯](#editing-public-keys) 過期的公開金鑰並更新其持續時間，以使其再次可用。
+* 您可以[編輯](#editing-public-keys)已到期的公開金鑰，並更新其期間，予以再次使用。
 
-* 您可以從清單中刪除它。
+* 您可以從清單中加以刪除。
 
 ## 編輯公開金鑰 {#editing-public-keys}
 
@@ -152,21 +152,21 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 >title="編輯公開金鑰"
 >abstract="更新選取的公開金鑰以存取您的 SFTP 伺服器。"
 
-若要編輯公開金鑰，請遵循下列步驟。
+若要編輯公開金鑰，請依照下列步驟進行。
 
 >[!NOTE]
 >
->您只能編輯自控制面板2021年10月版本以來建立的公開金鑰。
+>您只能編輯自「控制面板」2021 年 10 月發行版本以來建立的公開金鑰。
 
-1. 從中選擇一或多個專案 **[!UICONTROL 金鑰管理]** 清單。
-1. 按一下 **[!UICONTROL 更新公開金鑰]** 按鈕。
+1. 從&#x200B;**[!UICONTROL 金鑰管理]**&#x200B;清單中選取一或多個項目。
+1. 按一下&#x200B;**[!UICONTROL 更新公開金鑰]**&#x200B;按鈕。
 
    ![](assets/control_panel_edit_key.png)
 
-1. 您只能編輯公開金鑰到期和/或新增註解。
+1. 您只能編輯公開金鑰到期日和/或新增註解。
 
    >[!NOTE]
    >
-   >若要以OpenSSH格式修改使用者名稱、執行個體和公開金鑰，請刪除公開金鑰，並根據您的需求建立新的公開金鑰。
+   >若要修改使用者名稱、執行個體和 OpenSSH 格式的公開金鑰，請刪除公開金鑰，並根據您的需求建立新的公開金鑰。
 
 1. 儲存您的變更。
