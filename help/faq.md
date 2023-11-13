@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 98%
 
 ### 我可以在哪裡找到我的組織 ID？
 
-一種方式是導覽至[「Adobe Experience Cloud 首頁」](https://experiencecloud.adobe.com/)>**[!UICONTROL 「管理」]**。您會在「管理人員」的底部找到您的組織ID **[!UICONTROL 快速存取]** 區段。 您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)中找到更多詳細資訊。
+一種方式是導覽至[「Adobe Experience Cloud 首頁」](https://experiencecloud.adobe.com/)>**[!UICONTROL 「管理」]**。您會在「管理&#x200B;**[!UICONTROL 快速存取]**」區段的底部找到組織 ID。您可在 [Adobe Experience Cloud 文件](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)中找到更多詳細資訊。
 
 另一種方式是啟動 **Admin Console**。您的組織 ID 將會顯示在您的 URL 中，看起來會像這樣：https://adminconsole.adobe.com/xxx@AdobeOrg/overview。
 
