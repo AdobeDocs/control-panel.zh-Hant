@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 作用中設定檔監控
+title: 作用中設定檔監視
 description: 瞭解如何取得每個 Campaign 執行個體之最新和歷史「作用中設定檔」使用量和演化的即時資訊。
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 85%
+source-wordcount: '442'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->Facebook 和 Twitter 通路不包含在內。
+>facebook和X (原稱為Twitter)管道不包含在內。
 
-如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=zh-Hant) 和 [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=zh-Hant#active-profiles) 文件。
+如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=zh-Hant) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=zh-Hant#active-profiles) 文件。
 
 ## 監視作用中設定檔的使用情況 {#monitoring-active-profiles}
 
@@ -41,7 +41,7 @@ ht-degree: 85%
 >title="關於作用中設定檔監視"
 >abstract="在此標籤中，您可以取得每個 Campaign 執行個體與您組織最新和歷史作用中設定檔使用情況和演變的即時資訊。"
 
-若要在「控制面板」中監視您作用中設定檔的使用情況，請導覽至 **[!UICONTROL 效能監視]** 卡片> **[!UICONTROL 使用中的設定檔]** 標籤，然後從中選擇所需的執行個體 **[!UICONTROL 執行個體清單]**.
+若要在「控制面板」中監視作用中設定檔的使用情況，請導覽至&#x200B;**[!UICONTROL 效能監視]**&#x200B;卡片 > **[!UICONTROL 作用中設定檔]**&#x200B;標籤，然後從&#x200B;**[!UICONTROL 執行個體清單]**&#x200B;中選取所需的執行個體。
 
 作用中設定檔使用情況的相關資訊隨即顯示。
 
