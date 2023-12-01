@@ -1,16 +1,16 @@
 ---
 product: campaign
 solution: Campaign
-title: 子網域名稱
+title: 子網域品牌化
 description: 進一步瞭解子網域名稱
 feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '729'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 79%
 
 ## 子網域設定方法 {#subdomain-delegation-methods}
 
-子網域設定可讓您設定網域的子區段（技術上稱為「DNS區域」），以便與Adobe Campaign搭配使用。 可用的設定方法有：
+子網域設定可讓您設定網域的子區域 (技術上稱為「DNS 區域」)，以便與 Adobe Campaign 搭配使用。可用的設定方法有：
 
 * **將子網域完全委派給 Adobe Campaign**（建議）：子網域已完全委派給 Adobe。Adobe 可以控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的 DNS 的各個層面，以受管理的方式提供 Campaign。
 
-* **使用CNAME**：建立子網域並使用CNAME指向Adobe特定記錄。 若使用此設定，Adobe 和客戶都有責任維護 DNS。
+* **使用 CNAME**：建立子網域並使用 CNAME 以指向 Adobe 特定記錄。 若使用此設定，Adobe 和客戶都有責任維護 DNS。
 
 下表提供這些方法的運作方式摘要，以及所需投入的精力：
 
@@ -48,9 +48,9 @@ ht-degree: 79%
 | **完全委派** | 建立子網域和命名空間記錄。Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
-有關網域設定的其他資訊，請參閱 [本檔案](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+如需網域設定的其他資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hant)。
 
-如果您對子網域設定方法有任何疑問，請聯絡Adobe傳遞團隊，或最終聯絡客戶服務以請求傳遞能力諮詢。
+如果您對子網域設定方法有任何疑問，請聯絡 Adobe 傳遞團隊，或最終聯絡客戶服務以要求獲得傳遞能力的諮詢。
 
 ## 子網域的使用案例 (Campaign v7/v8){#subdomains-use-cases}
 
@@ -61,9 +61,9 @@ ht-degree: 79%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant" text="設定新的子網域"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=zh-Hant" text="子網域品牌化"
 
-為Campaign v7/v8執行個體設定子網域時，您必須選取將使用子網域的使用案例(請參閱 [設定新的子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
+為 Campaign v7/v8 執行個體設定子網域時，您必須選取將會使用子網域的使用案例 (請參閱[設定新的子網域](../../subdomains-certificates/using/setting-up-new-subdomain.md))。
 
-可能的使用案例包括：
+可能的使用案例：
 
 * **行銷通訊**：用於商業目的的通訊。範例：銷售電子行銷活動。
 
@@ -71,14 +71,14 @@ ht-degree: 79%
 
 **根據使用案例劃分子網域是傳遞能力的最佳實務**。如此一來，就能分隔和保護每個子網域的信譽。舉例來說，如果行銷通訊的子網域最後被網際網路服務提供者新增至封鎖清單，您的交易通訊子網域將不會受到影響，而且會繼續傳送通訊。
 
-**您可以為行銷和交易使用案例設定子網域**：
+**您可以為行銷和異動使用案例設定子網域**：
 
 * 若是行銷使用案例，子網域將會設定在 **MID** (Mid sourcing) 執行個體上。
 * 若是交易使用案例，子網域將會設定在 ALL **RT** (Message Center/即時傳送訊息) 執行個體上，以確保連線能力。因此，子網域將會搭配您所有 RT 執行個體一起運作。
 
 >[!NOTE]
 >
->如果您使用Campaign v7/v8，「控制面板」可讓您檢視哪些RT/MID執行個體已連線至您正在使用的行銷執行個體。 有關詳情，請參閱[執行個體詳細資訊](../../instances-settings/using/instance-details.md)區段。
+>如果您使用 Campaign v7/v8，「控制面板」可讓您查看哪些 RT/MID 執行個體已連線至您正在使用的執行個體。有關詳情，請參閱[執行個體詳細資訊](../../instances-settings/using/instance-details.md)章節。
 
 **相關主題：**
 
