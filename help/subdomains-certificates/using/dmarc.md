@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 100%
 
 * SPF 和 DKIM 記錄是建立 DMARC 記錄的先決條件。
 * 只能使用完整子網域委派為子網域新增 DMARC 記錄。 [進一步瞭解子網域設定方法](subdomains-branding.md#subdomain-delegation-methods)
+
+  若要在CNAME型子網域上建立DMARC記錄，您可以在其上層網域上設定DMARC記錄。 這可確保所有關聯的子網域都會繼承DMARC記錄引數，即使透過CNAME委派亦然。
+
 * 如果子網域同時存在 DMARC 和 BIMI 記錄：
    * 無法刪除 DMARC 記錄。 如果要刪除 DMARC 記錄，請先刪除 BIMI 記錄。
    * DMARC 記錄可加以編輯，但不允許將 DMARC 原則降級至「無」且其百分比值必須為 100。
