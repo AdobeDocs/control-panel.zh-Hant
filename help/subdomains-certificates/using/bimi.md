@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 郵件識別品牌指標 (BIMI) 是一種產業標準，允許在郵箱提供者的收件匣中寄件者的電子郵件旁邊顯示核准的標誌，以增強品牌認知度和信任。 它透過 DMARC 驗證寄件者的身分，有助於防止電子郵件詐騙和網路釣魚，讓惡意行動者更難以在電子郵件中模擬合法品牌。
 
-您可以為特定子網域設定多個圖志。 為此，您需要為每個標誌設定一個BIMI記錄，並為每個記錄指派一個BIMI選取器。 [瞭解如何新增BIMI記錄](#add)
+您可以將多個標誌用於指定的子網域。為此，您需要為每個標誌設定一個 BIMI 記錄，並為每個記錄指派 BIMI 選擇器。[瞭解如何新增 BIMI 記錄](#add)
 
 有關 BIMI 實作的詳細資訊，請參閱 [Adobe 傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=zh-Hant)
 
@@ -47,7 +47,7 @@ ht-degree: 86%
 
    ![](assets/bimi-add.png)
 
-1. 此 **[!UICONTROL 選擇器]** 欄位可讓您指定記錄的BIMI選取器。 BIMI選擇器是可指派給BIMI記錄的唯一識別碼。 這可讓您為特定子網域定義多個標誌。
+1. **[!UICONTROL 選擇器]**&#x200B;欄位可讓您為記錄指定 BIMI 選擇器。BIMI 選擇器是您可以指派給 BIMI 記錄的唯一識別碼。這可讓您為指定的子網域定義多個標誌。
 
 1. 在&#x200B;**[!UICONTROL 公司標誌 URL]** 中，指定包含貴公司標誌 SVG 檔案的 URL。
 
