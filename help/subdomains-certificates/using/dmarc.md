@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 100%
 
    * 彙總 DMARC 報告可提供高階資訊，例如在指定期間內失敗的電子郵件數量。
    * 取證 DMARC 失敗報告會提供詳細資訊，例如失敗的電子郵件來自哪個 IP 位址。
+
+   >[!CAUTION]
+   >
+   >如果您要新增以接收報告的電子郵件地址位於建立DMARC記錄的網域之外，您需要授權其外部網域以指定給您擁有此網域的DNS。 要執行此操作，請依照以下詳細步驟操作： [dmarc.org檔案](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. 如果 DMARC 原則設為「無」，請輸入套用至 100% 電子郵件的百分比。
 
