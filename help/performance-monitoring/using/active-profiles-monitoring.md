@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->facebook和X (原稱為Twitter)管道不包含在內。
+>Facebook 和 X (原稱為 Twitter) 管道不予考慮。
 
 如需作用中設定檔的詳細資訊，請參閱 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=zh-Hant) 和 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=zh-Hant#active-profiles) 文件。
 
@@ -61,10 +61,10 @@ ht-degree: 88%
 
 下半區段會以視覺化方式呈現過去 30 天的作用中設定檔使用情況。您可以使用位於右上角的篩選器，將此時間範圍變更為 1 年。將滑鼠游標暫留在圖形上，這可讓您取得所選時段使用之作用中設定檔的確切數目。
 
-與作用中設定檔使用相關的資訊會根據專用在「控制面板」中更新 [!DNL Campaign] 定期在執行個體上執行的「計費」技術工作流程。
+與活動設定檔使用相關的資訊會根據您在執行個體上執行的專屬[!DNL Campaign]「帳單」技術工作流程在「控制面板」更新。
 
 | Campaign 版本 | 技術工作流程 | 執行 |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [帳單](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant) | 每日 |
-| Campaign v7/v8 | [帳單](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant) | 每月 |
+| 促銷活動 v7/v8 | [帳單](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=zh-Hant) | 每月 |
 
