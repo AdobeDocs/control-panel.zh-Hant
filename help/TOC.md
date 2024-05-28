@@ -6,9 +6,9 @@ user-guide-title: 控制面板指南
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 100%
 + 發行說明 {#release-notes}
    + [最新版本](rn/release-notes.md)
    + 舊的發行版本 {#previous-releases}
-      + [發行說明 2023 年](rn/release-notes-2023.md)
-      + [發行說明 2022 年](rn/release-notes-2022.md)
-      + [2021 年發行說明](rn/release-notes-2021.md)
-      + [發行說明 2020 年](rn/release-notes-2020.md)
-      + [發行說明 2019 年](rn/release-notes-2019.md)
+      + [2023 年](rn/release-notes-2023.md)
+      + [2022 年](rn/release-notes-2022.md)
+      + [2021 年](rn/release-notes-2021.md)
+      + [2020](rn/release-notes-2020.md)
+      + [2019](rn/release-notes-2019.md)
 + 探索「控制面板」{#discover-control-panel}
    + [主要功能](discover/using/key-features.md)
    + [存取「控制面板」](discover/using/accessing-control-panel.md)
