@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 96%
 
 ## 2020 年 1 月 {#january-2020}
 
-我們已新增管理員使用者的功能，讓他們從「控制面板」設定子網域並續約SSL憑證。
+我們已新增管理員使用者的功能，讓他們從「控制面板」設定子網域並續約 SSL 憑證。
 
 如需詳細資訊，請參閱以下頁面：
 * [設定新的子網域](../subdomains-certificates/using/setting-up-new-subdomain.md)
