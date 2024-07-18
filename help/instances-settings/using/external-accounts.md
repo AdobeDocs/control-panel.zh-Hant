@@ -69,7 +69,7 @@ ht-degree: 100%
 
      ![](assets/external-account-url.png)
 
-   * **[!UICONTROL 操作者]** / **[!UICONTROL 密碼]**：Adobe 管理員在初始佈建後提供的操作者憑證。
+   * **[!UICONTROL 操作者]** / **[!UICONTROL 密碼]**：Adobe 管理員在初始佈建後提供的操作者認證。
 
      >[!NOTE]
      >
