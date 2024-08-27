@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 
@@ -78,19 +78,19 @@ ht-degree: 0%
 
 ### 如果我有多個組織 ID，該怎麼辦？
 
-如果您擁有多個 Adobe 解決方案的存取權限，您可能會有超過一個組織 ID。在此情況下，您在 Adobe Campaign 執行個體下看到的組織 ID 就是您應使用的正確 ID。
+如果您打算整合解決方案，以善用購物車放棄(針對Adobe Analytics + Adobe Campaign)等複雜的使用案例，Analytics和Campaign之間便需要共用同一個組織ID。 如果您擁有多個 Adobe 解決方案的存取權限，您可能會有超過一個組織 ID。在此情況下，您在 Adobe Campaign 執行個體下看到的組織 ID 就是您應使用的正確 ID。
 
+<!--
 >[!NOTE]
 >
->如果您的 Adobe Campaign 和 Adobe Analytics 擁有相同的組織 ID，這是最理想的情況。如果您打算整合解決方案，以善用購物車放棄（針對 AA + AC）等複雜的使用案例，Analytics 和 Campaign 之間便需要共用同一個組織 ID。
->
->如果您的 Adobe Campaign 和 Adobe Analytics 擁有不同的組織 ID，請聯絡客戶服務進行整合。
+>If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### 我如何得知我的 Adobe Campaign 執行個體是否託管在 AWS 上？{#hosted-aws}
 
 要檢查您的執行個體是否托管在 AWS 上，請執行下列步驟：
 
-1. 擷取您的登入 URL。這是您用來登入 Campaign 執行個體的 URL，通常會以「.campaign.adobe.com」或「.neolane.net」為結尾。
+1. 擷取您的登入 URL。這是您用來登入Campaign執行個體的URL，通常會以「.campaign.adobe.com」或「.neolane.net」結尾。
 1. 開啟終端機，然後對您的登入 URL 執行 **[!DNL nslookup]**&#x200B;操作。
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
