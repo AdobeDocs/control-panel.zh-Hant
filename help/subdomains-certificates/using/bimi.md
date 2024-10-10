@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## 關於 BIMI 記錄 {#about}
 
-訊息識別品牌指標(BIMI)是一種產業標準，允許在信箱提供者的收件匣中寄件者的電子郵件旁邊顯示核准的標誌，以增強品牌認知度和信任。
+郵件識別品牌指標 (BIMI) 是一種產業標準，允許在郵箱提供者的收件匣中寄件者的電子郵件旁邊顯示核准的標誌，以增強品牌認知度和信任。
 
 有關 BIMI 實作的詳細資訊，請參閱 [Adobe 傳遞能力最佳實務指南](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=zh-Hant)
 
@@ -28,11 +28,11 @@ ht-degree: 80%
 
 * SPF、DKIM 和 DMARC 記錄是建立 BIMI 記錄的必要條件
 
-* BIMI記錄需要在DNS中發佈，對於完全委派網域，這是可以透過「控制面板」進行。 [進一步瞭解子網域設定方法](subdomains-branding.md#subdomain-delegation-methods)
+* BIMI 記錄需要在 DNS 發布，對於完全委派網域，可以透過控制面板進行。[進一步瞭解子網域設定方法](subdomains-branding.md#subdomain-delegation-methods)
 
 * DMARC 記錄的先決條件：
 
-   * 組織網域的記錄原則型別必須設定為「隔離」或「拒絕」。 DMARC 原則類型設為「無」時，無法建立 BIMI 記錄。
+   * 組織網域的記錄原則類型必須設定為「隔離」或「拒絕」。DMARC 原則類型設為「無」時，無法建立 BIMI 記錄。
    * 套用 DMARC 原則的電子郵件百分比必須為 100%。 BIMI 不支援將此百分比設定為小於 100% 的 DMARC 原則。
 
 [瞭解如何設定 DMARC 記錄](dmarc.md)
@@ -47,11 +47,11 @@ ht-degree: 80%
 
    ![](assets/bimi-add.png)
 
-1. **[!UICONTROL 選擇器]**&#x200B;欄位可讓您為記錄指定 BIMI 選擇器。BIMI 選擇器是您可以指派給 BIMI 記錄的唯一識別碼。這可讓您為特定子網域定義多個標誌。 目前信箱提供者不支援此功能。
+1. **[!UICONTROL 選擇器]**&#x200B;欄位可讓您為記錄指定 BIMI 選擇器。BIMI 選擇器是您可以指派給 BIMI 記錄的唯一識別碼。這可讓您為指定的子網域定義多個標誌。目前郵箱提供者不支援此功能。
 
 1. 在&#x200B;**[!UICONTROL 公司標誌 URL]** 中，指定包含貴公司標誌 SVG 檔案的 URL。
 
-1. 雖然&#x200B;**[!UICONTROL 憑證URL]**&#x200B;是選擇性的，但某些信箱提供者(如Gmail和Apple)需要它。 因此，建議您取得經過認證的標籤憑證 (VMC)，以確實善用 BIMI。
+1. 雖然&#x200B;**[!UICONTROL 憑證 URL]** 為選擇性，但某些郵箱提供者 (例如 Gmail 和 Apple) 還是需要它。因此，建議您取得經過認證的標籤憑證 (VMC)，以確實善用 BIMI。
 
    +++如何取得 VMC？
 
