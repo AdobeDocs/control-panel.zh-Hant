@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1526'
+ht-degree: 99%
 
 ---
 
@@ -102,7 +102,8 @@ ht-degree: 0%
 
 1. 輸入您建立到託管解決方案的子網域，再按一下&#x200B;**[!UICONTROL 提交]**。
 
-   請務必填寫要委派之子網域的&#x200B;**完整名稱**。舉例來說，若要委派「usoffers.email.weretail.com」子網域，請輸入「usoffers.email.weretail.com」。
+   請務必填寫要委派之子網域的&#x200B;**完整名稱**。例如，若要委派「email.weretail.com」子網域，請輸入「email.weretail.com」。
+
 
 1. 若要委派 Adobe 產生子網域的 SSL 憑證，請啟用&#x200B;**[!UICONTROL 為子網域選擇 Adobe 管理的 SSL]** 選項。 [了解更多 SSL 憑證委派相關資訊](delegate-ssl.md)
 
@@ -223,5 +224,5 @@ ht-degree: 0%
 ## 疑難排解 {#troubleshooting}
 
 * 在某些情況下，子網域會完成設定，但可能無法成功驗證子網域。子網域會持續列在&#x200B;**[!UICONTROL 已設定]**&#x200B;清單中，而且會包含作業記錄，其中會提供關於錯誤的資訊。如果您無法解決問題，請聯絡客戶服務。
-* 如果在設定後，子網域顯示為「未驗證」，請啟動新的子網域驗證 (**...** / **[!UICONTROL 驗證子網域]**)。如果它仍顯示相同的狀態，原因可能是對收件者架構進行某些自訂，而無法使用標準流程進行驗證。請嘗試使用該子網域傳送行銷活動。
+* 如果在設定後，子網域顯示為「未驗證」，請啟動新的子網域驗證 (**...** / **[!UICONTROL 驗證子網域]**)。如果它仍顯示相同的狀態，原因可能是對收件者結構描述進行某些自訂，而無法使用標準流程進行驗證。請嘗試使用該子網域傳送行銷活動。
 * 如果子網域設定在進行傳遞稽核步驟時花費太長時間（超過 10 個工作日），請聯繫客戶服務。
