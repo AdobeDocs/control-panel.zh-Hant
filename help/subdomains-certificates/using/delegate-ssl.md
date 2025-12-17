@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 61%
 
 ## 委派新子網域的 SSL 憑證 {#new}
 
-若要在設定新子網域時委派 SSL 憑證，請啟用子網域設定精靈的&#x200B;**[!UICONTROL 為子網域選擇 Adobe 管理的 SSL]** 選項。 憑證產生程式會依您的子網域委派方法而有所不同：
+若要在設定新子網域時委派 SSL 憑證，請啟用子網域設定精靈的&#x200B;**[!UICONTROL 為子網域選擇 Adobe 管理的 SSL]** 選項。 憑證產生的過程會根據子網域委派方法，而有所不同：
 
-* **完整子網域委派**： Adobe會自動要求並安裝SSL憑證，您無需採取任何動作。 提交子網域設定後，系統就會立即處理憑證安裝請求，做為子網域設定工作流程的一部分。 [深入瞭解完整子網域委派](setting-up-new-subdomain.md#full-subdomain-delegation)
+* **完整子網域委派**：Adobe 會自動要求安裝 SSL 憑證，您不用進行任何操作。一旦提交子網域設定，系統就會立即處理憑證的安裝請求，可當成為子網域設定工作流程的一部分。 [了解更多完整子網域委派的相關資訊](setting-up-new-subdomain.md#full-subdomain-delegation)
 
-* **CNAME委派**：稍後將在設定精靈中提供要複製到您的託管解決方案的憑證記錄。 提交子網域設定之前，您需要在網域託管解決方案中產生這些憑證記錄。 [深入瞭解CNAME委派](setting-up-new-subdomain.md#use-cnames)
+* **CNAME 委派**：稍後會在設定精靈中，提供想複製到託管解決方案的憑證記錄。 您在提交子網域設定之前，必須先在網域託管解決方案中，產生上述憑證記錄。 [深入瞭解 CNAME 委派](setting-up-new-subdomain.md#use-cnames)
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
@@ -48,15 +48,15 @@ ht-degree: 61%
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
-憑證產生程式取決於子網域的原始設定方式：
+憑證產生流程主要取決於子網域的最初設定方式：
 
-### 完全委派的子網域
+### 完整委派的子網域
 
-對於使用完整子網域委派(具有Adobe名稱伺服器)設定的子網域，Adobe會自動請求並安裝SSL憑證。 在您按一下&#x200B;**[!UICONTROL 切換至受管理的SSL]**&#x200B;並進行確認後，憑證安裝要求會立即送出，無需您採取任何額外動作。
+針對使用完整子網域委派 (Adobe 名稱伺服器) 設定的子網域，Adobe 會自動提出請求，安裝 SSL 憑證。 當您按下&#x200B;**[!UICONTROL 切換至託管 SSL]**，完成確認後，系統就會立即送出憑證安裝要求，您不必另外採取任何動作。
 
-### CNAME委派的子網域
+### CNAME 委派的子網域
 
-對於使用CNAME委派設定的子網域，會顯示一個對話方塊，其中包含Adobe自動產生的憑證記錄。 逐一複製這些記錄，或下載 CSV 檔案，然後瀏覽至網域託管解決方案，以產生相符的憑證。
+系統會針對使用 CNAME 委派設定的子網域，顯示對話方塊，其中包括 Adobe 自動產生的憑證記錄。 逐一複製這些記錄，或下載 CSV 檔案，然後瀏覽至網域託管解決方案，以產生相符的憑證。
 
 請確定已在網域託管解決方案中產生所有憑證記錄。 如果所有項目都已正確設定，請確認記錄建立完成，然後按一下&#x200B;**[!UICONTROL 提交]**。
 

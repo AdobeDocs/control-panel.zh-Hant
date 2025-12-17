@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 99%
 
 1. 輸入您建立到託管解決方案的子網域，再按一下&#x200B;**[!UICONTROL 提交]**。
 
-   請務必填寫要委派之子網域的&#x200B;**完整名稱**。例如，若要委派「email.weretail.com」子網域，請輸入「email.weretail.com」。
+   請務必填寫要委派之子網域的&#x200B;**完整名稱**。舉例來說，若想委派 [email.weretail.com] 子網域，請輸入 [email.weretail.com]。
 
 
 1. 若要委派 Adobe 產生子網域的 SSL 憑證，請啟用&#x200B;**[!UICONTROL 為子網域選擇 Adobe 管理的 SSL]** 選項。 [了解更多 SSL 憑證委派相關資訊](delegate-ssl.md)
