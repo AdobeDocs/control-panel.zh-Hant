@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 0%
 
 ![](assets/database-top10.png)
 
-**[!UICONTROL 檢視全部]**&#x200B;按鈕可讓您存取&#x200B;**[!UICONTROL 儲存空間總覽]**&#x200B;詳細資料，以取得這些臨時資源的詳細資訊。如需詳細資訊，請參閱[此頁面](database-storage-overview.md)。
+**[!UICONTROL 檢視全部]**&#x200B;按鈕可讓您存取&#x200B;**[!UICONTROL 儲存空間概觀]**&#x200B;詳細資料，以取得這些臨時資源的詳細資訊。如需詳細資訊，請參閱[此頁面](database-storage-overview.md)。

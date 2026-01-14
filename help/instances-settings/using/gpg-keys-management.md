@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1146'
+ht-degree: 100%
 
 ---
 
@@ -64,12 +64,11 @@ GPG 加密可讓您使用一套公私金鑰配對，並遵循 [OpenPGP](https://
    * **金鑰長度**：3072 - 4096 位元
    * **實際名稱**&#x200B;和&#x200B;**電子郵件地址**：允許追蹤誰建立了金鑰配對。輸入連結至組織或部門的名稱和電子郵件地址。
    * **評論**：在評論欄位中新增標籤，可協助您輕鬆識別用來加密資料的金鑰。
-
      >[!IMPORTANT]
      >
      >確定此欄位未留空且已填入註解。
 
-   * **到期**：日期或以「0」表示無到期日期。
+   * **期限**：日期或以「0」表示無過期日期。
    * **複雜密碼**
 
    ![](assets/do-not-localize/gpg_command.png)
@@ -137,7 +136,7 @@ GPG 加密可讓您使用一套公私金鑰配對，並遵循 [OpenPGP](https://
 
    ![](assets/gpg_generate_name.png)
 
-產生金鑰配對後，公開金鑰隨即顯示在清單中。請注意，產生解密金鑰配對時沒有到期日。
+產生金鑰配對後，公開金鑰隨即顯示在清單中。請注意，產生解密金鑰配對時沒有過期日。
 
 您可以使用 **...** 按鈕，以下載公開金鑰或複製其指紋。
 
@@ -173,7 +172,7 @@ GPG 加密可讓您使用一套公私金鑰配對，並遵循 [OpenPGP](https://
   ![](assets/gpg_icon_decrypt.png)：金鑰已產生以允許資料進行解密。
 
 * **[!UICONTROL 指紋]**：金鑰的指紋。
-* **[!UICONTROL 到期]**：金鑰的到期日期。 請注意，「控制面板」會在接近金鑰到期日時提供視覺指示：
+* **[!UICONTROL 過期]**：金鑰的過期日期。 請注意，「控制面板」會在接近金鑰到期日時提供視覺指示：
 
    * 緊急 (紅色) 會在 30天 前顯示。
    * 警告 (黃色) 會在 60 天前顯示。

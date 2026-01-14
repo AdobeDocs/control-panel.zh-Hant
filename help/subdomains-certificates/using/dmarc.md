@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '885'
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 1. 在 **SPF** 和 **[!UICONTROL DKIM 識別碼對齊]**&#x200B;欄位中，指定在檢查電子郵件的 SPF 和 DKIM 驗證時，收件者伺服器的嚴格程度。
 
    * **[!UICONTROL 寬松]**&#x200B;模式：即使電子郵件是從子網域傳送，伺服器仍接受驗證，
-   * **[!UICONTROL 嚴格]**&#x200B;模式：只有當傳送者網域與 SPF 和 DKIM 網域完全相符時，該模式才會接受驗證。
+   *  **[!UICONTROL 嚴格]**&#x200B;模式：只有當傳送者網域與 SPF 和 DKIM 網域完全相符時，該模式才會接受驗證。
 
    假設我們正在使用`http://www.luma.com`網域。在「寬鬆」模式中，來自`marketing.luma.com`子網域的電子郵件將由伺服器授權，但在「嚴格」模式下將會遭到拒絕。
 

@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '365'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 此儀表板提供的其他度量可協助您分析執行個體資料庫的使用狀況。其會於下列章節中詳細說明：
 
 * [資料庫使用率](../../performance-monitoring/using/database-utilization.md)
-* [儲存空間概覽](../../performance-monitoring/using/database-storage-overview.md)
+* [儲存空間概觀](../../performance-monitoring/using/database-storage-overview.md)
 * [前 10 大臨時資源](../../performance-monitoring/using/database-top-ten-resources.md)
 * [活動查詢](../../performance-monitoring/using/database-active-queries.md)
 

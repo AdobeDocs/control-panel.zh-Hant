@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 * **資料庫使用情況**：其中一個執行個體的資料庫已達到其容量的 80% 或以上。請參閱[資料庫監視](../../performance-monitoring/using/database-monitoring.md)。
 
-* **SFTP IP 允許清單到期**：您定義的其中一個 IP 範圍已到期，或即將在 10 天內或更短的時間內到期。請參閱 [IP 範圍允許清單](../../sftp/using/ip-range-allow-listing.md)。
+* **SFTP IP 允許清單過期**：您定義的其中一個 IP 範圍已過期，或即將在 10 天內或更短的時間內過期。請參閱 [IP 範圍允許清單](../../sftp/using/ip-range-allow-listing.md)。
 
-* **SFTP 公開金鑰到期**：您定義的其中一個公開金鑰已到期，或即將在 10 天內或更短的時間內到期。 請參閱[金鑰管理](../../sftp/using/key-management.md)。
+* **SFTP 公開金鑰過期**：您定義的其中一個公開金鑰已過期，或即將在 10 天內或更短的時間內過期。 請參閱[金鑰管理](../../sftp/using/key-management.md)。
 
-* **SSL 憑證到期**：您的其中一個子網域的 SSL 憑證已到期，或即將在 30 天內或更短的時間內到期。 請參閱[監視子網域的 SSL 憑證](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
+* **SSL 憑證過期**：您的其中一個子網域的 SSL 憑證已過期，或即將在 30 天內或更短的時間內過期。 請參閱[監視子網域的 SSL 憑證](../../subdomains-certificates/using/monitoring-ssl-certificates.md)。
 
 <!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
 
