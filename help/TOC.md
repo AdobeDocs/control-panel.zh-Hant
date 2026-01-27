@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 88%
 + [產品文件](control-panel-home.md)
 + 發行說明 {#release-notes}
    + [最新版本](rn/release-notes.md)
-   + 舊版 {#previous-releases}
+   + 先前版本 {#previous-releases}
       + [2023 年](rn/release-notes-2023.md)
-      + [2022 年](rn/release-notes-2022.md)
+      + [2022](rn/release-notes-2022.md)
       + [2021 年](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
@@ -31,9 +31,9 @@ ht-degree: 88%
    + [管理「控制面板」的權限](discover/using/managing-permissions.md)
    + [探索「控制面板」介面](discover/using/discovering-the-interface.md)
    + [常見問答集](faq.md)
-+ 事件與電子郵件警示 {#alerts-events}
++ 事件和電子郵件警示 {#alerts-events}
    + [監視主要聯絡人及事件](service-events/service-events.md)
-   + [電子郵件警示](performance-monitoring/using/email-alerting.md)
+   + [電子郵件警報](performance-monitoring/using/email-alerting.md)
 + SFTP 管理 {#sftp-management}
    + [關於 SFTP 管理](sftp/using/about-sftp-management.md)
    + [管理 SFTP 儲存空間](sftp/using/sftp-storage-management.md)
@@ -47,12 +47,12 @@ ht-degree: 88%
    + 委派子網域 {#delegate-subdomains}
       + [設定新子網域](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [移除給 Adobe 的子網域委派](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + 處理TXT記錄(Google、BIMI、DMARC) {#txt-records}
+   + 可用來處理 TXT 記錄 (Google、BIMI、DMARC) {#txt-records}
       + [開始使用 TXT 記錄](subdomains-certificates/using/gs-txt-records.md)
       + [新增 Google 網站驗證記錄](subdomains-certificates/using/managing-txt-records.md)
       + [新增 DMARC 記錄](subdomains-certificates/using/dmarc.md)
       + [新增 BIMI 記錄](subdomains-certificates/using/bimi.md)
-   + 管理子網域的SSL憑證 {#manage-certificates}
+   + 管理子網域的 SSL 憑證 {#manage-certificates}
       + [監視 SSL 憑證](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [將 SSL 憑證委派給 Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [續約 SSL 憑證](subdomains-certificates/using/renewing-subdomain-certificate.md)

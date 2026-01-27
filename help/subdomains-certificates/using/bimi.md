@@ -41,7 +41,7 @@ ht-degree: 100%
 
 若要新增子網域的 BIMI 記錄，請遵循下列步驟：
 
-1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL 子網域詳細資訊]**。
+1. 從子網域清單中，按一下所需子網域旁的省略符號按鈕，然後選取&#x200B;**[!UICONTROL 子網域詳細資料]**。
 
 1. 按一下&#x200B;**[!UICONTROL 新增 TXT 記錄]**&#x200B;按鈕，然後從&#x200B;**[!UICONTROL 記錄類型]**&#x200B;下拉式清單中選擇 **[!UICONTROL BIMI]**。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
    1. 一旦特定子網域的子網域詳細資訊頁面中顯示 BIMI 記錄，您就可以使用[此處](https://bimigroup.org/bimi-generator/)提供的 BIMI 檢測器來檢查 BIMI 記錄是否正常運作。
 
    有關 BIMI 實作的詳細資訊，請參閱 [BIMI 標準文件](https://bimigroup.org/implementation-guide/)
-+++
+   +++
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以確認建立 BIMI 記錄。
 

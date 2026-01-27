@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1010'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子網域的 SSL 憑證委派給 Adobe 管理，因為 Adobe 每年都會在憑證過期前，自動建立並更新憑證。[了解更多 SSL 憑證管理相關資訊](monitoring-ssl-certificates.md#management)
+>只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子網域的 SSL 憑證委派給 Adobe 管理，因為 Adobe 每年都會在憑證到期前，自動建立並更新憑證。[了解更多 SSL 憑證管理相關資訊](monitoring-ssl-certificates.md#management)
 
 SSL 憑證續約流程包含 3 個步驟：
 
@@ -39,7 +39,7 @@ SSL 憑證續約流程包含 3 個步驟：
 
    安裝購買的 SSL 憑證到所需的子網域上以保護它們。 [了解更多](#install)
 
-![](assets/do-not-localize/how-to-video.png)利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 在影片中瞭解此功能
+![](assets/do-not-localize/how-to-video.png)在利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 的影片中瞭解此功能
 
 **相關主題：**
 
@@ -155,4 +155,4 @@ SSL 憑證續約流程包含 3 個步驟：
 >
 >此憑證將會安裝在 CSR 中包含的所有網域/子網域上。憑證中出現的任何其他網域/子網域都不會考慮在內。
 
-安裝 SSL 憑證後，憑證的到期日和狀態圖示會隨之更新。
+安裝 SSL 憑證後，憑證的過期日和狀態圖示會隨之更新。

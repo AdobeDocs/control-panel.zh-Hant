@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 >此功能僅適用於版本編號 8850 的 Campaign v7/v8 執行個體。 如果您使用舊版組建，則需進行升級，才能使用此功能。
 
-可由 JavaScript 程式碼 (工作流程等等) 呼叫之預設 URL 清單有限。這些是可讓您的執行個體正常運作的 URL。
+可透過您的 Campaign 執行個體，由 JavaScript 程式碼 (工作流程等功能) 呼叫預設 URL 清單這些是可讓您的執行個體正常運作的 URL。
 
 依預設，執行個體不得連線到外部 URL。「控制面板」可讓您將一些外部 URL 新增至授權 URL 清單，以便您的執行個體可以連結到這些 URL。這可讓您將 Campaign 執行個體連結到外部系統，例如 SFTP 伺服器或網站，以啟用檔案和/或資料傳輸。
 

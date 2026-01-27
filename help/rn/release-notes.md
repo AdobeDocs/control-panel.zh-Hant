@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 * 「控制面板」現在提供其他語言版本。 [了解更多](../discover/using/discovering-the-interface.md#supported-languages-languages)
 
-**作用中設定檔監控**
+**活躍輪廓監控**
 
-* 如果您正在使用多個執行個體，現在可以監視組織有權使用的作用中設定檔數量，以及組織內所有執行個體中使用的設定檔總數。[了解更多](../performance-monitoring/using/active-profiles-monitoring.md)
+* 如果您使用多個執行個體，您現在可以監視組織有權使用的活躍輪廓數量，以及組織內所有執行個體中使用的輪廓總數。[了解更多](../performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC 記錄**
 

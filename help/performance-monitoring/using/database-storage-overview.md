@@ -1,27 +1,27 @@
 ---
 product: campaign
 solution: Campaign
-title: 儲存空間概覽
+title: 儲存空間概觀
 description: 了解如何在「控制面板」中監視佔用執行個體上資料庫空間的不同 Campaign 資源。
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
-# 儲存空間概覽 {#storage-overview}
+# 儲存空間概觀 {#storage-overview}
 
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"
->title="關於儲存概述"
+>title="關於儲存概觀"
 >abstract="在此索引標籤中，您可以取得佔用資料庫空間的不同 Campaign 資源的詳細資訊。"
 
-**[!UICONTROL 儲存空間總覽]**&#x200B;區域以圖形呈現以下項目佔用的空間：
+**[!UICONTROL 儲存空間概觀]**&#x200B;區域以圖形呈現以下項目佔用的空間：
 
 * **[!UICONTROL 系統資源]**
 

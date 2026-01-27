@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign 執行個體的所有管理員使用者都可使用「控制面板」�
 
 ![](assets/do-not-localize/how-to-video.png)在[影片](../../discover/using/managing-permissions.md#video)中探索此功能
 
-1. 導覽至[Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}。
+1. 瀏覽至 [Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/){target="_blank"}。
 
 1. 按一下&#x200B;**快速存取**&#x200B;區段或右上方選單中的可用連結，來啟動 **Admin Console**。
 
@@ -52,9 +52,9 @@ Campaign 執行個體的所有管理員使用者都可使用「控制面板」�
 
    >[!IMPORTANT]
    >
-   >依預設，屬於「管理員」產品設定檔的管理員使用者可以存取「控制面板」。 根據您的組織設定，產品設定檔的名稱可以不同（「管理員」、「管理員」、「核准管理員」等）。 **任何名稱包含「admin」字詞的產品設定檔都會自動授與「控制面板」的存取權。**
+   >依預設情況，只有屬於「管理員」產品設定檔的管理員使用者，才能存取控制面板。根據貴組織的設定，產品設定檔可以有不同的名稱（「admin」、「admins」、「approval admin」等）。**任何名稱有包含「admin」字詞的產品設定檔，都會自動授予「控制面板」的存取權。**
    >
-   >請仔細檢閱您在Admin Console中的產品設定檔命名慣例，以確保只有授權使用者才能存取「控制面板」，因為它允許對Campaign執行個體進行重大變更。
+   >請仔細審核 Admin Console 中的產品設定檔慣例，確保只有授權使用者，才能存取控制面板，原因是這讓使用者可以針對行銷活動的執行個體，進行重大變更。
 
 1. 隨即顯示管理員使用者清單。 按一下&#x200B;**[!UICONTROL 新增使用者]**&#x200B;按鈕，以新增所需的使用者。
 

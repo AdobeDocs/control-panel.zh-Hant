@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 >
 >Adobe 不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有一些傳遞能力問題。
 
-啟動驗證時，系統會執行數個作業來檢查是否已正確設定子網域 (執行個體租用戶檢查、電子郵件傳送測試等) 如果子網域的驗證失敗，請聯絡 Adobe 客戶服務以進一步調查。
+啟動驗證時，就會執行多次操作，檢查子網域是否已正確設定 (例如：執行個體的租用戶檢查、傳送電子郵件測試等)。如果子網域驗證失敗，請聯絡 Adobe 客戶服務，以便展開進一步調查。
 
 **相關主題：**
 

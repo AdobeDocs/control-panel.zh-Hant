@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1057'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ SFTP 伺服器會受到保護。為了能夠存取這些檔案進行檢視或撰
 
 CIDR (無類別域間路由) 是使用「控制面板」介面新增 IP 範圍時支援的格式。
 
-語法由 IP 位址、後面加上「/」字元和十進位數字組成。[此文章](https://whatismyipaddress.com/cidr){target="_blank"}會詳細說明格式及其語法。
+語法由 IP 位址、後面加上「/」字元和十進位數字組成。[本文](https://whatismyipaddress.com/cidr){target="_blank"}會詳細說明格式及其語法。
 
 您可以在網際網路上搜尋免費線上工具，協助您將現有的 IP 範圍轉換為 CIDR 格式。
 
@@ -75,7 +75,7 @@ CIDR (無類別域間路由) 是使用「控制面板」介面新增 IP 範圍�
 
    >[!NOTE]
    >
-   >**[!UICONTROL 標籤]**&#x200B;欄位允許使用下列特殊字元：
+   >**[!UICONTROL 標籤]**欄位允許使用下列特殊字元：
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
 1. 若要以更佳的方式管理 IP 允許清單，您可以設定每個 IP 範圍可用的期間。若要這樣做，請選取&#x200B;**[!UICONTROL 類型]**&#x200B;下拉式清單，然後在對應欄位中定義期間 如需 IP 範圍到期日的詳細資訊，請參閱[本章節](#expiry)。

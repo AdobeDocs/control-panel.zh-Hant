@@ -1,5 +1,5 @@
 ---
-title: 2021 年發行說明
+title: 發行說明 2021 年
 description: 本頁面列出了「控制面板」的所有 2021 版本。
 feature: Control Panel, Release Notes
 role: Admin
@@ -8,13 +8,13 @@ hide: true
 hidefromtoc: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
-# 2021 年發行說明 {#rn-2021}
+# 發行說明 2021 年 {#rn-2021}
 
 ## 2021 年 10 月 {#october-2021}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td>
-<p>電子郵件警示功能現在包括 SFTP IP 的警示，允許列出到期日和到期的 SFTP 公開金鑰。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/email-alerting.md">詳細文件</a>以瞭解詳情。</p>
+<p>電子郵件警示功能現在包括 SFTP IP 允許列表過期和 SFTP 公開金鑰過期的警示。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/email-alerting.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>

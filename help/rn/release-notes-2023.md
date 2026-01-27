@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '350'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 <td>
 <p><p>您現在可以直接從「控制面板」新增 DMARC 和 BIMI 記錄：
 
-<ul><li><strong>DMARC 記錄</strong>提供驗證寄件者網域的方式，並防止未經授權而惡意使用網域。 <a href="../subdomains-certificates/using/dmarc.md">瞭解如何新增 DMARC 記錄</a></li>
+<ul><li><strong>DMARC 記錄</strong>提供了一種驗證寄件者網域的方式，並防止未經授權而惡意使用網域。 <a href="../subdomains-certificates/using/dmarc.md">瞭解如何新增 DMARC 記錄</a></li>
 <li><strong>BIMI 記錄</strong>可讓您在郵箱提供者的收件匣中，於您的電子郵件旁邊顯示核准的標誌，以提升品牌認知度和信任度。 <a href="../subdomains-certificates/using/bimi.md">瞭解如何新增 BIMI 記錄</a></li></ul>
 </td>
 </tr>

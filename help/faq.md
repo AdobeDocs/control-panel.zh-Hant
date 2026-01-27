@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 身為 Campaign Classic v7 使用者，存取「控制面板」的條件為何？ {#v7-restrictions}
 
-控制面板僅限管理員使用者存取。[深入瞭解](discover/using/managing-permissions.md)。
+控制面板僅限管理員使用者存取。[了解更多資訊](discover/using/managing-permissions.md)。
 
 請注意，就 Campaign v7 而言，您的執行個體必須託管至 Amazon Web Services (AWS)，並升級至最新的 [Campaign 穩定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或版本編號 9032 或以上。您可透過[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)瞭解如何查看 Campaign Classic v7 版本。若要檢查您的 Campaign Classic 執行個體是否託管至 AWS，請依照 [本節](#hosted-aws)詳述步驟操作。
 

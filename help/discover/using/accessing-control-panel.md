@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 56%
 
 >[!IMPORTANT]
 >
->依預設，屬於「管理員」產品設定檔的管理員使用者可以存取「控制面板」。 根據您的組織設定，產品設定檔的名稱可以不同（「管理員」、「管理員」、「核准管理員」等）。 **任何名稱包含「admin」字詞的產品設定檔都會自動授與「控制面板」的存取權。**
+>依預設情況，只有屬於「管理員」產品設定檔的管理員使用者，才能存取控制面板。根據貴組織的設定，產品設定檔可以有不同的名稱（「admin」、「admins」、「approval admin」等）。**任何名稱有包含「admin」字詞的產品設定檔，都會自動授予「控制面板」存取權。**
 >
->請仔細檢閱您的產品設定檔命名，確保只有授權使用者才能存取「控制面板」。
+>請仔細審核您的產品設定檔命名，確保只有經授權的使用者，才能存取控制面板。
 
 ## 從 Experience Cloud Platform 存取 {#access-experience-cloud-platform}
 
 若要從 Adobe e Experience Cloud Platform 存取「控制面板」，請依照下列步驟進行。
 
-1. 導覽至[Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}。
+1. 瀏覽至 [Experience Cloud 首頁](https://experiencecloud.adobe.com/){target="_blank"}。
 
 1. 按一下&#x200B;**快速存取**&#x200B;區段中的專屬連結。
 
@@ -38,7 +38,7 @@ ht-degree: 56%
 
 您也可以從 Experience Cloud Platform **解決方案選取器**&#x200B;存取「控制面板」：
 
-1. 從[Adobe Experience Cloud首頁](https://experiencecloud.adobe.com/){target="_blank"}，從&#x200B;**快速存取**&#x200B;區段或右上方的功能表選取&#x200B;**促銷活動**。
+1. 請到 [Adobe Experience Cloud 首頁](https://experiencecloud.adobe.com/){target="_blank"}那邊，從&#x200B;**快速存取**&#x200B;區段，或可至右上方的熱門選單，選取 **行銷活動**。
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -50,7 +50,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->產品內的存取權僅適用於[Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hant){target="_blank"}。
+>只有 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hant){target="_blank"}，才提供可從產品那邊存取的功能。
 
 1. 開啟 Campaign Standard 產品。
 

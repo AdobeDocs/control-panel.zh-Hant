@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 * 「控制面板」現在提供其他語言版本。 [了解更多](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-**作用中設定檔監控**
+**活躍輪廓監控**
 
-* 如果您正在使用多個執行個體，現在可以監視組織有權使用的作用中設定檔數量，以及組織內所有執行個體中使用的設定檔總數。[了解更多](performance-monitoring/using/active-profiles-monitoring.md)
+* 如果您使用多個執行個體，您現在可以監視組織有權使用的活躍輪廓數量，以及組織內所有執行個體中使用的輪廓總數。[了解更多](performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC 記錄**
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->* 控制面板僅限管理員使用者存取。[瞭解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)
+>* 控制面板僅限管理員使用者存取。[了解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)
 >
 >* 對於 Campaign v7，則套用部署限制。 [了解更多](faq.md#v7-restrictions)
 

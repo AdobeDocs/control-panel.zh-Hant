@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '437'
+ht-degree: 100%
 
 ---
 
@@ -83,13 +83,13 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>作用中設定檔監視</strong><br/></th>
+<th><strong>活躍輪廓監視</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>「控制面板」現在可讓您監控執行個體使用的作用中設定檔數目，而且會計算這些設定檔數目以結算費用。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/active-profiles-monitoring.md">詳細文件</a>以瞭解詳情。</p>
+<p>「控制面板」現在可讓您監控執行個體使用的活躍輪廓數目，而且會計算這些輪廓數目以結算費用。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/active-profiles-monitoring.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->從「控制面板」進行作用中設定檔監視的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
+>從「控制面板」進行活躍輪廓監視的功能會在測試版提供，且可能會不時更新和修改，恕不另行通知。
 
 ## 2020 年 5 月 {#may-2020}
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 <table>
 <thead>
 <tr>
-<th><strong>電子郵件警示</strong><br/></th>
+<th><strong>電子郵件警報</strong><br/></th>
 </tr>
 </thead>
 <tbody>
