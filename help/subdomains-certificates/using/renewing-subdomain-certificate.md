@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1010'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 90%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL 憑證續約"
->abstract="若要續約 SSL 憑證，您必須產生 CSR、購買子網域的 SSL 憑證並安裝憑證套裝。只有在您選擇手動管理憑證而不是將其委託給 Adobe 時，才需要執行此操作。 "
+>abstract="若要續約 SSL 憑證，您必須產生 CSR、購買子網域的 SSL 憑證並安裝憑證套裝。 只有在您選擇手動管理憑證而不是將其委託給 Adobe 時，才需要執行此操作。 "
 
 >[!NOTE]
 >
->只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子網域的 SSL 憑證委派給 Adobe 管理，因為 Adobe 每年都會在憑證到期前，自動建立並更新憑證。[了解更多 SSL 憑證管理相關資訊](monitoring-ssl-certificates.md#management)
+>只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子域的SSL證書的管理委託給Adobe，因為Adobe將自動建立證書並在證書過期前每年對其進行續訂。[瞭解有關SSL證書管理的詳細資訊](monitoring-ssl-certificates.md#management)
 
 SSL 憑證續約流程包含 3 個步驟：
 
 1. **產生憑證申請檔 (CSR)**
 
-   您必須在購買憑證之前，先針對您打算保護的執行個體和子網域產生憑證申請檔。您需要提供產生 CSR 所需的一些資訊 (例如通用名稱、組織名稱和地址等等)。[了解更多](#generate)
+   您必須在購買憑證之前，先針對您打算保護的執行個體和子網域產生憑證申請檔。  您需要提供生成CSR所需的一些資訊（如公用名、組織名稱和地址等）。[瞭解詳細資訊](#generate)
 
 1. **購買 SSL 憑證**
 
@@ -37,13 +37,13 @@ SSL 憑證續約流程包含 3 個步驟：
 
 1. **安裝 SSL 憑證**
 
-   安裝購買的 SSL 憑證到所需的子網域上以保護它們。 [了解更多](#install)
+   將購買的SSL證書安裝到所需的子域上以保護它們。[瞭解詳細資訊](#install)
 
 ![](assets/do-not-localize/how-to-video.png)在利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 的影片中瞭解此功能
 
 **相關主題：**
 
-* [傳遞能力最佳實務指南 — Adobe Campaign 的 SSL 憑證請求流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hant)
+* [可交付性最佳實踐指南 — Adobe Campaign的SSL證書申請流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hant)
 * [子網域品牌化](../../subdomains-certificates/using/subdomains-branding.md)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
@@ -57,7 +57,7 @@ SSL 憑證續約流程包含 3 個步驟：
 >[!CONTEXTUALHELP]
 >id="cp_select_subdomains"
 >title="選擇 CSR 的子網域"
->abstract="您可以選擇將所有或僅特定子網域納入您的憑證簽署請求。只有選取的子網域才會透過購買的 SSL 憑證取得認證。"
+>abstract="您可以選擇將所有或僅特定子網域納入您的憑證簽署請求。 只有選取的子網域才會透過購買的 SSL 憑證取得認證。"
 
 若要產生憑證申請檔 (CSR)，請執行下列步驟：
 
@@ -84,11 +84,11 @@ SSL 憑證續約流程包含 3 個步驟：
 
    ![](assets/renewal4.png)
 
-1. 選取的子網域會顯示在清單中。選取每個要包含的子網域，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+1. 選取的子網域會顯示在清單中。 選取每個要包含的子網域，然後按一下&#x200B;**[!UICONTROL 下一步]**。
 
    ![](assets/renewal5.png)
 
-1. 隨即顯示包含在 CSR 的子網域摘要。按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以確認您的請求。
+1. 隨即顯示包含在 CSR 的子網域摘要。 按一下&#x200B;**[!UICONTROL 提交]**&#x200B;以確認您的請求。
 
    ![](assets/renewal6.png)
 
@@ -96,11 +96,11 @@ SSL 憑證續約流程包含 3 個步驟：
    >
    >**[!UICONTROL 複製 CSR 內容]**&#x200B;按鈕可讓您複製與 CSR 相關的所有資訊 (組織 ID、執行個體、組織名稱、一般名稱、包含的子網域等)
 
-1. 系統會自動產生並下載與您選取範圍相應的 .csr 檔案。您現在可以用它透過貴公司核准的憑證機構購買 SSL 憑證。如果您需要再次下載 CSR，請按照[本章節](#download)詳述的步驟操作。
+1. 系統會自動產生並下載與您選取範圍相應的 .csr 檔案。 您現在可以用它透過貴公司核准的憑證機構購買 SSL 憑證。 如果您需要再次下載 CSR，請按照[本章節](#download)詳述的步驟操作。
 
 產生並下載 CSR 後，您就可以用來從貴組織核准的憑證授權單位購買 SSL 憑證。
 
-購買 SSL 憑證後，您就能在執行個體上安裝該憑證，以保護子網域。 [了解更多](#install)
+購買SSL證書後，您將能夠在實例上安裝它以保護子域。[瞭解詳細資訊](#install)
 
 ## 下載 CSR {#download}
 
@@ -121,11 +121,11 @@ SSL 憑證續約流程包含 3 個步驟：
 >title="SSL 憑證安裝"
 >abstract="安裝您從貴組織核准的憑證機構購買的 SSL 憑證。"
 
-購買 SSL 憑證後，您就可以將它安裝在您的執行個體上。繼續操作之前，請確定您已瞭解下列必要條件：
+購買 SSL 憑證後，您就可以將它安裝在您的執行個體上。 繼續操作之前，請確定您已瞭解下列必要條件：
 
-* 憑證簽署要求 (CSR) 必須從「控制面板」產生。否則，您將無法從「控制面板」安裝憑證。
+* 憑證簽署要求 (CSR) 必須從「控制面板」產生。 否則，您將無法從「控制面板」安裝憑證。
 * 憑證申請檔 (CSR) 應符合已設定為要配合 Adobe 使用的子網域。 例如，其亦不能包含已設定的子網域。
-* 憑證應具有目前日期。您不能安裝具有未來日期的憑證，也不應安裝過期的應憑證 (即有效的開始日期和結束日期)。
+* 憑證應具有目前日期。 您不能安裝具有未來日期的憑證，也不應安裝過期的應憑證 (即有效的開始日期和結束日期)。
 * 憑證應由受信任的憑證機構 (CA) 核發，例如 Comodo、DigiCert、GoDaddy 等等。
 * 憑證大小應為 2048 位元，演算法應為 RSA。
 * 憑證應為 X.509 PEM 格式。
@@ -153,6 +153,6 @@ SSL 憑證續約流程包含 3 個步驟：
 
 >[!NOTE]
 >
->此憑證將會安裝在 CSR 中包含的所有網域/子網域上。憑證中出現的任何其他網域/子網域都不會考慮在內。
+>此憑證將會安裝在 CSR 中包含的所有網域/子網域上。 憑證中出現的任何其他網域/子網域都不會考慮在內。
 
 安裝 SSL 憑證後，憑證的過期日和狀態圖示會隨之更新。

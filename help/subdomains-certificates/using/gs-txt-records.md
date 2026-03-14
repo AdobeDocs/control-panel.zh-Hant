@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 67%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="管理 TXT 記錄"
->abstract="TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。控制面板可讓您為子網域新增三種類型的記錄：Google 網站驗證、DMARC 和 BIMI 記錄。"
+>abstract="TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。 控制面板可讓您為子網域新增三種類型的記錄：Google 網站驗證、DMARC 和 BIMI 記錄。"
 
 ## 關於 TXT 記錄 {#about}
 
-TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。「控制面板」可讓您將三種記錄類型新增至子網域：
+TXT 記錄是一種 DNS 記錄，用於提供關於網域的文字資訊，可由外部來源讀取。 「控制面板」可讓您將三種記錄類型新增至子網域：
 
-* **Google TXT 記錄**&#x200B;可讓您驗證您是否擁有網域，確保高收件率和低垃圾郵件率。 [瞭解如何新增 Google TXT 記錄](managing-txt-records.md)
-* **DMARC 記錄**&#x200B;提供了一種驗證寄件者網域的方式，並防止未經授權而惡意使用網域。 [瞭解如何新增 DMARC 記錄](dmarc.md)
-* **BIMI 記錄**&#x200B;可讓您在郵箱提供者的收件匣中，於您的電子郵件旁邊顯示核准的標誌，以提升品牌認知度和信任度。 [瞭解如何新增 BIMI 記錄](bimi.md)
+* **GoogleTXT記錄**&#x200B;允許您證明您擁有域，確保電子郵件的收件箱率高且垃圾郵件率低。[瞭解如何添加GoogleTXT記錄](managing-txt-records.md)
+* **DMARC記錄**&#x200B;提供了驗證發件人域並防止出於惡意目的未經授權使用域的方法。[瞭解如何添加DMARC記錄](dmarc.md)
+* **BIMI記錄**&#x200B;允許您在郵箱提供商收件箱中的電子郵件旁顯示已批准的徽標，以增強品牌認知和信任。[瞭解如何添加BIMI記錄](bimi.md)
 
 ## 監視子網域的記錄 {#monitor}
 

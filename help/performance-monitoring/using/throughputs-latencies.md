@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '444'
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="關於輸送量和延時監視 "
->abstract="在此標籤中，您可以監視執行個體的傳遞輸送量和延時在一段時間內的趨勢。有關影響輸送量的傳遞資訊，請切換到表格檢視。"
+>abstract="在此標籤中，您可以監視執行個體的傳遞輸送量和延時在一段時間內的趨勢。 有關影響輸送量的傳遞資訊，請切換到表格檢視。"
 
 控制面板可讓您監視每個執行個體的傳遞輸送量及延遲。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ![](assets/throughput-latencies-overview.png)
 
-在預設情況下，顯示當天的資料。 您可以使用 **[!UICONTROL 6 個月]**、**[!UICONTROL 30 天]**&#x200B;和 **[!UICONTROL 7 天]**&#x200B;按鈕變更顯示的期間。以下為提供資料：
+在預設情況下，顯示當天的資料。 您可以使用 **[!UICONTROL 6 個月]**、**[!UICONTROL 30 天]**&#x200B;和 **[!UICONTROL 7 天]**&#x200B;按鈕變更顯示的期間。 以下為提供資料：
 * 為期 1 天和 7 天的每小時檢視，
 * 為期 30 天每 6 小時的檢視，
 * 為期 6 個月的每日檢視。
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Campaig v7/v8 顯示的輸送量編號是從 MID (中間來源) 執行個體獲得的輸送量。對於獨立行銷 (MKT) 部署 (沒有任何 MID 執行個體)，則會顯示 MKT 執行個體的輸送量。
+>Campaig v7/v8 顯示的輸送量編號是從 MID (中間來源) 執行個體獲得的輸送量。 對於獨立行銷 (MKT) 部署 (沒有任何 MID 執行個體)，則會顯示 MKT 執行個體的輸送量。
 
 此外，在選定的時間區段，「控制面板」允許您識別前 5 筆對輸送量造成最大影響的傳遞 ID 。 此資訊僅見於表格檢視：
 
