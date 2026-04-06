@@ -5,16 +5,17 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
+source-git-commit: bf1bbf0d85cf4f8e33232e4e19d08a6f31d4a35a
 workflow-type: ht
-source-wordcount: '269'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
 
 # 監視工作流程 {#monitor-workflows}
 
-<!-- Clean paused and completed workflows
+<!-- 
+Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -22,7 +23,7 @@ Control Panel allows you to identify those workflows and clean the temporary res
 
 >[!NOTE]
 >
->Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=zh-Hant#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=zh-Hant) documentation). 
+>Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation). 
 
 To clean paused and completed workflows, follow these steps:
 
@@ -42,7 +43,8 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-Monitor workflow parameters -->
+Monitor workflow parameters 
+-->
 
 在 Adobe Campaign，某些工作流程參數可能需要特別注意，以避免在執行個體上出現任何問題。 您可藉由控制面板&#x200B;**[!UICONTROL 儲存空間概觀]**&#x200B;詳細資料，檢查是否為工作流程啟用這些選項中的任何一項。
 
