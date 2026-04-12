@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 90%
+source-wordcount: '833'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="移除子網域委派"
->abstract="此畫面可讓您移除給 Adobe 的子網域委派。 請記住，此程序無法復原，並且在執行完成之前是不可逆的。<br><br>如果您嘗試移除所選實例的主網域委派，系統將要求您選擇用於替代它的網域。"
+>abstract="此畫面可讓您移除給 Adobe 的子網域委派。 請記住，此流程無法取消，且必須等到執行完成之後才能復原。<br><br>如果您嘗試移除選定執行個體的主要網域委派，系統會要求您選擇取代的網域。"
 
 「控制面板」可讓您移除已委派給 Adobe 或由 CNAME 委派的子網域委派。
 
@@ -49,7 +49,7 @@ ht-degree: 90%
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. 如果您移除CNAME型別的委派，或如果您將主要網域取代為使用CNAME委派的網域，則會顯示額外的&#x200B;**[!UICONTROL 動作]**&#x200B;步驟來管理DNS記錄。[在本節](#dns)瞭解更多資訊
+1. 如果您移除 CNAME 類型委派，或以使用 CNAME 委派的網域來取代主網域，則會另外顯示&#x200B;**[!UICONTROL 動作]**&#x200B;步驟來管理 DNS 記錄。 [在本節了解更多資訊](#dns)
 
 1. 檢閱顯示的摘要。 若要確認移除，請輸入您要移除委派的網域 URL，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
@@ -61,7 +61,7 @@ ht-degree: 90%
 
 ## DNS 記錄管理 {#dns}
 
-若要使用CNAME設定網域委派，「控制面板」需要您在DNS伺服器上新增特定記錄。[瞭解如何使用CNAME](setting-up-new-subdomain.md#use-cnames)設定子網域
+若要由 CNAME 設定網域委派，「控制面板」需要您在 DNS 伺服器新增特定記錄。 [了解如何使用 CNAME 設定子網域](setting-up-new-subdomain.md#use-cnames)
 
 於移除 CNAME 類型委派時，您需要&#x200B;**移除這些 DNS 記錄**&#x200B;以避免任何問題。 此外，如果您想要移除主要子網域委派，並將其取代為由 CNAME 委派的網域，您可能需要&#x200B;**新增 DNS 記錄** ，視子網域設定的 IP 相關性而定。
 
