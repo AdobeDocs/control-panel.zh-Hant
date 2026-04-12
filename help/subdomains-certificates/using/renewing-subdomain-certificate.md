@@ -10,7 +10,7 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子域的SSL證書的管理委託給Adobe，因為Adobe將自動建立證書並在證書過期前每年對其進行續訂。[瞭解有關SSL證書管理的詳細資訊](monitoring-ssl-certificates.md#management)
+>只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子網域的 SSL 憑證委派給 Adobe 管理，因為 Adobe 每年都會在憑證到期前，自動建立並更新憑證。 [了解更多 SSL 憑證管理相關資訊](monitoring-ssl-certificates.md#management)
 
 SSL 憑證續約流程包含 3 個步驟：
 
 1. **產生憑證申請檔 (CSR)**
 
-   您必須在購買憑證之前，先針對您打算保護的執行個體和子網域產生憑證申請檔。  您需要提供生成CSR所需的一些資訊（如公用名、組織名稱和地址等）。[瞭解詳細資訊](#generate)
+   您必須在購買憑證之前，先針對您打算保護的執行個體和子網域產生憑證申請檔。  您需要提供產生 CSR 所需的一些資訊 (例如通用名稱、組織名稱和地址等等)。 [了解更多](#generate)
 
 1. **購買 SSL 憑證**
 
@@ -37,13 +37,13 @@ SSL 憑證續約流程包含 3 個步驟：
 
 1. **安裝 SSL 憑證**
 
-   將購買的SSL證書安裝到所需的子域上以保護它們。[瞭解詳細資訊](#install)
+   安裝購買的 SSL 憑證到所需的子網域上以保護它們。 [了解更多](#install)
 
 ![](assets/do-not-localize/how-to-video.png)在利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) 的影片中瞭解此功能
 
 **相關主題：**
 
-* [可交付性最佳實踐指南 — Adobe Campaign的SSL證書申請流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hant)
+* [傳遞能力最佳實務指南 — 適用於Adobe Campaign的SSL憑證請求流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hant)
 * [子網域品牌化](../../subdomains-certificates/using/subdomains-branding.md)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
@@ -61,7 +61,7 @@ SSL 憑證續約流程包含 3 個步驟：
 
 若要產生憑證申請檔 (CSR)，請執行下列步驟：
 
-1. 在&#x200B;**[!UICONTROL 子網域和憑證]**&#x200B;卡片，選取所需的執行個體，然後按一下&#x200B;**[!UICONTROL 管理憑證]** 按鈕。
+1. 在&#x200B;**[!UICONTROL 子網域和憑證]**&#x200B;卡片中，選取所需的執行個體，然後按一下&#x200B;**[!UICONTROL 管理憑證]**&#x200B;按鈕。
 
    ![](assets/renewal1.png)
 
@@ -100,7 +100,7 @@ SSL 憑證續約流程包含 3 個步驟：
 
 產生並下載 CSR 後，您就可以用來從貴組織核准的憑證授權單位購買 SSL 憑證。
 
-購買SSL證書後，您將能夠在實例上安裝它以保護子域。[瞭解詳細資訊](#install)
+購買 SSL 憑證後，您就能在執行個體上安裝該憑證，以保護子網域。 [了解更多](#install)
 
 ## 下載 CSR {#download}
 

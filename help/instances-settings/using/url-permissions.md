@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 >
 >此功能僅適用於版本編號 8850 的 Campaign v7/v8 執行個體。 如果您使用舊版組建，則需進行升級，才能使用此功能。
 
-可透過您的 Campaign 執行個體，由 JavaScript 程式碼 (工作流程等功能) 呼叫預設 URL 清單這些是可讓您的執行個體正常運作的 URL。
+可由JavaScript程式碼（工作流程等）呼叫的預設URL清單 有限。 這些是可讓您的執行個體正常運作的 URL。
 
-依預設，執行個體不得連線到外部 URL。「控制面板」可讓您將一些外部 URL 新增至授權 URL 清單，以便您的執行個體可以連結到這些 URL。這可讓您將 Campaign 執行個體連結到外部系統，例如 SFTP 伺服器或網站，以啟用檔案和/或資料傳輸。
+依預設，執行個體不得連線到外部 URL。 「控制面板」可讓您將一些外部 URL 新增至授權 URL 清單，以便您的執行個體可以連結到這些 URL。 這可讓您將 Campaign 執行個體連結到外部系統，例如 SFTP 伺服器或網站，以啟用檔案和/或資料傳輸。
 
 新增 URL 後，執行個體的設定檔案 (serverConf.xml) 便會參照該 URL。
 
@@ -38,14 +38,14 @@ ht-degree: 100%
 
 **相關主題：**
 
-* [設定 Campaign 伺服器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=zh-Hant)
+* [設定Campaign伺服器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=zh-Hant)
 * [傳出連線的保護](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=zh-Hant#outgoing-connection-protection)
 
 ## 最佳實務 {#best-practices}
 
 * 請勿將您的 Campaign 執行個體連結到您不想連結的網站/伺服器。
-* 刪除您不再使用的 URL。不過請注意，如果您公司的其他區域仍然連線到您刪除的 URL，則沒有人能再使用它。
-* 「控制面板」支援 **http**、**https** 和 **sftp** 通訊協定。輸入無效的 URL 或通訊協定將會導致錯誤。
+* 刪除您不再使用的 URL。 不過請注意，如果您公司的其他區域仍然連線到您刪除的 URL，則沒有人能再使用它。
+* 「控制面板」支援 **http**、**https** 和 **sftp** 通訊協定。 輸入無效的 URL 或通訊協定將會導致錯誤。
 
 ## 管理 URL 權限 {#managing-url-permissions}
 
@@ -62,7 +62,7 @@ ht-degree: 100%
    >
    >如果「控制面板」首頁上並未顯示「執行個體設定」卡片，表示您的[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant) 未與任何 Adobe Campaign 執行個體建立關聯
    >
-   ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
+   ><b><span class="uicontrol">URL 權限</span></b> 索引標籤會列出您執行個體可連線的所有外部 URL。 此清單不包含 Campaign 運作所需的 URL (例如基礎架構元件之間的連線)。
 
 1. 在左側窗格中選取想要的執行個體，然後按一下&#x200B;**[!UICONTROL 新增 URL]** 按鈕。
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >您可授權多個執行個體以連線至 URL。若要這麼做，只要輸入執行個體的第一個字母，即可直接從「執行個體」欄位中新增。
+   >您可授權多個執行個體以連線至 URL。 若要這麼做，只要輸入執行個體的第一個字母，即可直接從「執行個體」欄位中新增。
 
    ![](assets/add_url2.png)
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >「/.*」字元經過驗證後，就會自動新增到您輸入的 URL 結尾中，以覆蓋輸入頁面的所有子頁面。
+   >「/.*」字元經過驗證後，就會自動新增到您輸入的URL結尾中，以涵蓋輸入頁面的所有子頁面。
 
    ![](assets/add_url_listnew.png)
 
@@ -96,6 +96,6 @@ ht-degree: 100%
 
 ## 常見問題 {#common-questions}
 
-**我新增了新的 URL，但我執行個體仍然無法連線至該 URL。為什麼？**
+**我新增了新的 URL，但我執行個體仍然無法連線至該 URL。 為什麼？**
 
-在某些情況下，您嘗試連結的 URL 需要列入清單、輸入密碼或其他驗證形式。「控制面板」不會管理其他驗證。
+在某些情況下，您嘗試連結的 URL 需要列入清單、輸入密碼或其他驗證形式。 「控制面板」不會管理其他驗證。

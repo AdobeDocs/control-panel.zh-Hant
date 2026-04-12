@@ -8,8 +8,8 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '567'
+workflow-type: tm+mt
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
 >
 >如果您在存取「控制面板」時遇到任何問題，您的行銷執行個體很可能尚未對應您的[組織 ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hant)。 請聯絡客戶服務部完成此設定才能繼續。 在成功連線時，您會看到「控制面板」首頁。
 
-若要能夠存取「控制面板」功能，您需要在&#x200B;**[!UICONTROL 執行個體設定]**&#x200B;卡片提供 MID/RT 執行個體資訊。請依照下列步驟以執行此操作。
+若要能夠存取「控制面板」功能，您需要在&#x200B;**[!UICONTROL 執行個體設定]**&#x200B;卡片提供 MID/RT 執行個體資訊。 請依照下列步驟以執行此操作。
 
 1. 在&#x200B;**[!UICONTROL 執行個體設定]**&#x200B;卡片，選取&#x200B;**[!UICONTROL 外部帳戶]**&#x200B;標籤。
 

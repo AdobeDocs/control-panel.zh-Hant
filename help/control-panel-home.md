@@ -6,8 +6,8 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: ht
-source-wordcount: '248'
+workflow-type: tm+mt
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 **活躍輪廓監控**
 
-* 如果您使用多個執行個體，您現在可以監視組織有權使用的活躍輪廓數量，以及組織內所有執行個體中使用的輪廓總數。[了解更多](performance-monitoring/using/active-profiles-monitoring.md)
+* 如果您使用多個執行個體，您現在可以監視組織有權使用的活躍輪廓數量，以及組織內所有執行個體中使用的輪廓總數。 [了解更多](performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC 記錄**
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->* 控制面板僅限管理員使用者存取。[了解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)
+>* 控制面板僅限管理員使用者存取。 [了解更多](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hant#discover-control-panel)
 >
 >* 對於 Campaign v7，則套用部署限制。 [了解更多](faq.md#v7-restrictions)
 

@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 91%
+source-wordcount: '756'
+ht-degree: 96%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 91%
 
 | 設定方法 | 運作方式 | 所需投入的精力 |
 |---|---|---|
-| **完全委派** | 建立子網域和命名空間記錄。 Adobe隨後將配置Adobe Campaign所需的所有DNS記錄。<br/><br/>在此設定中，Adobe完全負責管理子域和所有DNS記錄。 | 低 |
-| **CNAME，自訂方法** | 建立子網域和命名空間記錄。 然後，Adobe將提供要放入DNS伺服器中的記錄，並將在Adobe CampaignDNS伺服器中配置相應值。<br/><br/>在此設定中，您和Adobe共用維護DNS的責任。 | 高 |
+| **完全委派** | 建立子網域和命名空間記錄。 Adobe接著會設定Adobe Campaign所需的所有DNS記錄。<br/><br/>在此設定中，Adobe會完全負責管理子網域和所有DNS記錄。 | 低 |
+| **CNAME，自訂方法** | 建立子網域和命名空間記錄。 Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
 如需網域設定的其他資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hant)。
 
