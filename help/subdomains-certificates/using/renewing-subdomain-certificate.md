@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1084'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >[!NOTE]
 >
 >只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子網域的 SSL 憑證委派給 Adobe 管理，因為 Adobe 每年都會在憑證到期前，自動建立並更新憑證。 [了解更多 SSL 憑證管理相關資訊](monitoring-ssl-certificates.md#management)
+>
+>客戶管理的SSL憑證管理適用於託管在AWS上的Campaign v7/v8執行個體以及託管在Microsoft Azure上的Campaign v8執行個體。
 
 SSL 憑證續約流程包含 3 個步驟：
 

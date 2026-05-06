@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 99%
+source-wordcount: '857'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->此功能僅適用於 Campaign v7/v8 執行個體。
+>此功能適用於在AWS上託管的Campaign v7/v8執行個體，以及在Microsoft Azure上託管的Campaign v8執行個體。
 
 依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
