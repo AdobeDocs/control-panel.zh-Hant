@@ -7,10 +7,10 @@ feature: Control Panel, SFTP Management
 role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 100%
+source-wordcount: '1136'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="觀看示範影片"
 
 SFTP 伺服器會受到保護。 為了能夠存取這些檔案進行檢視或撰寫新檔案，您需要將存取該伺服器的系統或用戶端之公開 IP 位址新增至允許清單。
+
+>[!NOTE]
+>
+>SFTP伺服器的IP允許清單適用於在AWS上託管的Campaign v7/v8執行個體、Campaign Standard執行個體和在Microsoft Azure上託管的Campaign v8執行個體。
 
 ![](assets/do-not-localize/how-to-video.png)在利用 [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hant#sftp-management) 或 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=zh-Hant#sftp-management) 的影片中瞭解此功能
 

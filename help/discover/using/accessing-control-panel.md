@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
@@ -18,13 +18,15 @@ ht-degree: 100%
 
 您可以直接從 Experience Cloud 或從產品本身來使用「控制面板」。
 
-僅供&#x200B;**管理員使用者**&#x200B;存取。 如需如何將使用者指派給管理員群組的詳細資訊，請參閱[本章節](../../discover/using/managing-permissions.md)。
+## 先決條件 {#prerequisites}
+
+請注意，就 Campaign v7/v8 而言，您的執行個體必須託管至 Amazon Web Services (AWS)，並升級至最新的 [Campaign 穩定版本](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=zh-Hant#rn-statuses) 或版本編號 9032 或以上。 在[本章節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=zh-Hant#getting-your-campaign-version)中瞭解如何確認您的版本。 若要檢查您的執行個體是否託管在 AWS 上，請按照[本頁面](../../faq.md#hosted-aws)詳述的步驟操作。
+
+在Microsoft Azure上託管的Campaign v8執行個體也可存取控制面板功能的子集： [執行個體存取的IP允許清單](../../instances-settings/using/ip-allow-listing-instance-access.md)、[SFTP伺服器的IP允許清單](../../sftp/using/ip-range-allow-listing.md)以及[客戶管理的SSL憑證管理](../../subdomains-certificates/using/renewing-subdomain-certificate.md)。
 
 >[!IMPORTANT]
 >
->依預設情況，只有屬於「管理員」產品設定檔的管理員使用者，才能存取控制面板。根據貴組織的設定，產品設定檔可以有不同的名稱（「admin」、「admins」、「approval admin」等）。**任何名稱有包含「admin」字詞的產品設定檔，都會自動授予「控制面板」存取權。**
->
->請仔細審核您的產品設定檔命名，確保只有經授權的使用者，才能存取控制面板。
+>依預設情況，只有屬於「管理員」產品設定檔的管理員使用者，才能存取控制面板。 根據貴組織的設定，產品設定檔可以有不同的名稱（「admin」、「admins」、「approval admin」等）。 **任何名稱包含「admin」字詞的產品設定檔都會自動授與「控制面板」的存取權**。 請仔細審核您的產品設定檔命名，確保只有經授權的使用者，才能存取控制面板。 [瞭解如何管理控制面板](../../discover/using/managing-permissions.md)的許可權。
 
 ## 從 Experience Cloud Platform 存取 {#access-experience-cloud-platform}
 
