@@ -7,9 +7,12 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '290'
+TQID: https://experienceleague.adobe.com/fi3blSxprlmaWVtQtyLjfwZtjJTUvqyHuEOYtbzg3xU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 291
 ht-degree: 100%
 
 ---
@@ -22,11 +25,11 @@ ht-degree: 100%
 
 警報清單如下：
 
-* **SFTP 儲存空間使用情況**：其中一個 SFTP 伺服器已達其容量的 80% 或以上。請參閱 [SFTP 儲存空間管理](../../sftp/using/sftp-storage-management.md)。
+* **SFTP 儲存空間使用情況**：其中一個 SFTP 伺服器已達其容量的 80% 或以上。 請參閱 [SFTP 儲存空間管理](../../sftp/using/sftp-storage-management.md)。
 
-* **資料庫使用情況**：其中一個執行個體的資料庫已達到其容量的 80% 或以上。請參閱[資料庫監視](../../performance-monitoring/using/database-monitoring.md)。
+* **資料庫使用情況**：其中一個執行個體的資料庫已達到其容量的 80% 或以上。 請參閱[資料庫監視](../../performance-monitoring/using/database-monitoring.md)。
 
-* **SFTP IP 允許清單過期**：您定義的其中一個 IP 範圍已過期，或即將在 10 天內或更短的時間內過期。請參閱 [IP 範圍允許清單](../../sftp/using/ip-range-allow-listing.md)。
+* **SFTP IP 允許清單過期**：您定義的其中一個 IP 範圍已過期，或即將在 10 天內或更短的時間內過期。 請參閱 [IP 範圍允許清單](../../sftp/using/ip-range-allow-listing.md)。
 
 * **SFTP 公開金鑰過期**：您定義的其中一個公開金鑰已過期，或即將在 10 天內或更短的時間內過期。 請參閱[金鑰管理](../../sftp/using/key-management.md)。
 
@@ -38,7 +41,7 @@ ht-degree: 100%
 >
 >此外，「控制面板」可讓您&#x200B;**設定提醒**，以便在執行個體 (版本和服務審查) 發生事件之前透過電子郵件通知您。
 >
->若要這樣做，您必須訂閱電子郵件竟是，並為想要的即將到來事件設定提醒。[了解如何為即將到來的事件設定提醒](../../service-events/service-events.md#reminders)
+>若要這樣做，您必須訂閱電子郵件竟是，並為想要的即將到來事件設定提醒。 [了解如何為即將到來的事件設定提醒](../../service-events/service-events.md#reminders)
 
 ## 訂閱警報 {#subscribe}
 
@@ -52,6 +55,6 @@ ht-degree: 100%
 
    ![](assets/email_subscription.png)
 
-1. 訂閱後，「控制面板」會通知您發生的系統問題並建議要採取的動作。電子郵件警示的傳送對象為，對其身為管理員的&#x200B;**所有執行個體**&#x200B;申請訂閱的每個人員。
+1. 訂閱後，「控制面板」會通知您發生的系統問題並建議要採取的動作。 電子郵件警示的傳送對象為，對其身為管理員的&#x200B;**所有執行個體**&#x200B;申請訂閱的每個人員。
 
    ![](assets/alert_sample.png)

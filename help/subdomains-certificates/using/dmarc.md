@@ -7,9 +7,13 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: ht
-source-wordcount: '885'
+TQID: https://experienceleague.adobe.com/UQ6VccQByzkAi0wVcfHOhvmcl1DdhumLZ1lFW-OyTuw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 911
 ht-degree: 100%
 
 ---
@@ -43,7 +47,7 @@ ht-degree: 100%
 
    ![](assets/dmarc-add.png)
 
-1. 選擇當您的其中一封電子郵件失敗時，收件者伺服器應該遵循的&#x200B;**[!UICONTROL 原則類型]**。可用的原則型別為：
+1. 選擇當您的其中一封電子郵件失敗時，收件者伺服器應該遵循的&#x200B;**[!UICONTROL 原則類型]**。 可用的原則型別為：
 
    * **[!UICONTROL 無]**,
    * **[!UICONTROL 隔離]**（垃圾郵件資料夾位置），
@@ -80,14 +84,14 @@ ht-degree: 100%
 
    ![](assets/dmarc-add2.png)
 
-1. DMARC 報告每 24 小時傳送一次。 您可以在&#x200B;**[!UICONTROL 報告間隔]**&#x200B;欄位中變更報告傳送頻率。最小授權間隔為 1 小時，而最大授權值為 2190 小時 (即 3 個月)。
+1. DMARC 報告每 24 小時傳送一次。 您可以在&#x200B;**[!UICONTROL 報告間隔]**&#x200B;欄位中變更報告傳送頻率。 最小授權間隔為 1 小時，而最大授權值為 2190 小時 (即 3 個月)。
 
 1. 在 **SPF** 和 **[!UICONTROL DKIM 識別碼對齊]**&#x200B;欄位中，指定在檢查電子郵件的 SPF 和 DKIM 驗證時，收件者伺服器的嚴格程度。
 
    * **[!UICONTROL 寬松]**&#x200B;模式：即使電子郵件是從子網域傳送，伺服器仍接受驗證，
-   *  **[!UICONTROL 嚴格]**&#x200B;模式：只有當傳送者網域與 SPF 和 DKIM 網域完全相符時，該模式才會接受驗證。
+   * **[!UICONTROL 嚴格]**&#x200B;模式：只有當傳送者網域與 SPF 和 DKIM 網域完全相符時，該模式才會接受驗證。
 
-   假設我們正在使用`http://www.luma.com`網域。在「寬鬆」模式中，來自`marketing.luma.com`子網域的電子郵件將由伺服器授權，但在「嚴格」模式下將會遭到拒絕。
+   假設我們正在使用`http://www.luma.com`網域。 在「寬鬆」模式中，來自`marketing.luma.com`子網域的電子郵件將由伺服器授權，但在「嚴格」模式下將會遭到拒絕。
 
 1. 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;以確認建立 DMARC 記錄。
 

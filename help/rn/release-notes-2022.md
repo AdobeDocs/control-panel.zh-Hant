@@ -5,9 +5,12 @@ feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '601'
+TQID: https://experienceleague.adobe.com/Dpa90tq2F5m7mfxeGGDjLg6Aw7bjh0Obx9qt-aUTvVA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 601
 ht-degree: 100%
 
 ---
@@ -111,7 +114,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>控制面板現在可供混合託管模型的客戶使用。 這些客戶可以利用控制面板的功能，在控制面板的行銷執行個體提供他們的 MID/RT 執行個體 URL。 </p><p>如需詳細資訊，請參閱<a href="../instances-settings/using/external-accounts.md">詳細文件</a>。</p>
+<p>控制面板現在可供混合託管模型的客戶使用。 這些客戶可以利用控制面板的功能，在控制面板的行銷執行個體提供他們的 MID/RT 執行個體 URL。</p><p>如需詳細資訊，請參閱<a href="../instances-settings/using/external-accounts.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +147,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您現在可以監視執行個體上過去和即將發佈的版本和服務審查，並為某項請求或問題存取 Adobe 的主要聯絡人清單。 </p><p>如需詳細資訊，請參閱<a href="../service-events/service-events.md">詳細文件</a>。</p>
+<p>您現在可以監視執行個體上過去和即將發佈的版本和服務審查，並為某項請求或問題存取 Adobe 的主要聯絡人清單。</p><p>如需詳細資訊，請參閱<a href="../service-events/service-events.md">詳細文件</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -178,7 +181,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您現在可以監視可能需要特別注意的工作流程參數，以避免執行個體上出現任何問題。  </p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/workflow-monitoring.md">詳細文件</a>以瞭解詳情。</p>
+<p>您現在可以監視可能需要特別注意的工作流程參數，以避免執行個體上出現任何問題。 </p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/workflow-monitoring.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -195,7 +198,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>允許您可以藉由控制面板監視在執行個體上執行時間最長的查詢。 </p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/database-active-queries.md">詳細文件</a>以瞭解詳情。</p>
+<p>允許您可以藉由控制面板監視在執行個體上執行時間最長的查詢。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/database-active-queries.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>
@@ -210,7 +213,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>您現在可以監視執行個體上一段時間內的傳遞輸送量和延時趨勢。 </p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/throughputs-latencies.md">詳細文件</a>以瞭解詳情。</p>
+<p>您現在可以監視執行個體上一段時間內的傳遞輸送量和延時趨勢。</p><p>如需詳細資訊，請參閱<a href="../performance-monitoring/using/throughputs-latencies.md">詳細文件</a>以瞭解詳情。</p>
 </td>
 </tr>
 </tbody>

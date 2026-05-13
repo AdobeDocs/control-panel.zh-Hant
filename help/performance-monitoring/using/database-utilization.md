@@ -7,9 +7,12 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 5ecb4f0b-7f77-4856-9704-e1f317f3239d
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '118'
+TQID: https://experienceleague.adobe.com/o1DKu0ZY3pvHreW-OMzMKxMjZ7NAcA6L5gbOPlrjL2c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 119
 ht-degree: 100%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 100%
 
 若要變更時間週期，請使用圖表右上角可用的篩選條件。
 
-為了提高閱讀方便性，您也可以在圖形中強調一條或多條曲線。為此，請從&#x200B;**[!UICONTROL 彙總類型]**&#x200B;圖例選取。
+為了提高閱讀方便性，您也可以在圖形中強調一條或多條曲線。 為此，請從&#x200B;**[!UICONTROL 彙總類型]**&#x200B;圖例選取。
 
 如需特定期間的詳細資訊，請將滑鼠游標暫留在圖表上，以顯示有關目前資料庫使用狀況的資訊。
 

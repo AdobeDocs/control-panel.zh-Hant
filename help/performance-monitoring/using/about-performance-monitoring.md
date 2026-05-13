@@ -7,16 +7,19 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '81'
+TQID: https://experienceleague.adobe.com/iKiPBz2XXIiaiZusBBbfK7Y9QVw5658otOPmazLcpo8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 81
 ht-degree: 100%
 
 ---
 
 # 關於效能監視 {#about-performance-monitoring}
 
-控制面板提供數種功能，協助您監視執行個體並確保最佳效能。 
+控制面板提供數種功能，協助您監視執行個體並確保最佳效能。
 
 「控制面板」首頁中的&#x200B;**[!UICONTROL 效能監視]**&#x200B;卡片可讓您監視 Campaign 執行個體的使用情況，例如其資料庫容量。 如需詳細資訊，請參閱[本章節](../../performance-monitoring/using/database-monitoring.md)。
 
