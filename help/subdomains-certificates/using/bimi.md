@@ -7,9 +7,17 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: ht
-source-wordcount: '523'
+TQID: https://experienceleague.adobe.com/gdmtHgMWI-8y3w6uzXdNxOatrjJMDdp6EWLuXz1mhhg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 543
 ht-degree: 100%
 
 ---
@@ -28,14 +36,14 @@ ht-degree: 100%
 
 * SPF、DKIM 和 DMARC 記錄是建立 BIMI 記錄的必要條件
 
-* BIMI 記錄需要在 DNS 發布，對於完全委派網域，可以透過控制面板進行。[進一步瞭解子網域設定方法](subdomains-branding.md#subdomain-delegation-methods)
+* BIMI 記錄需要在 DNS 發布，對於完全委派網域，可以透過控制面板進行。 [進一步瞭解子網域設定方法](subdomains-branding.md#subdomain-delegation-methods)
 
 * DMARC 記錄的先決條件：
 
-   * 組織網域的記錄原則類型必須設定為「隔離」或「拒絕」。DMARC 原則類型設為「無」時，無法建立 BIMI 記錄。
+   * 組織網域的記錄原則類型必須設定為「隔離」或「拒絕」。 DMARC 原則類型設為「無」時，無法建立 BIMI 記錄。
    * 套用 DMARC 原則的電子郵件百分比必須為 100%。 BIMI 不支援將此百分比設定為小於 100% 的 DMARC 原則。
 
-[瞭解如何設定 DMARC 記錄](dmarc.md)
+     [瞭解如何設定 DMARC 記錄](dmarc.md)
 
 ## 為子網域新增 BIMI 記錄 {#add}
 
@@ -47,17 +55,17 @@ ht-degree: 100%
 
    ![](assets/bimi-add.png)
 
-1. **[!UICONTROL 選擇器]**&#x200B;欄位可讓您為記錄指定 BIMI 選擇器。BIMI 選擇器是您可以指派給 BIMI 記錄的唯一識別碼。這可讓您為指定的子網域定義多個標誌。目前郵箱提供者不支援此功能。
+1. **[!UICONTROL 選擇器]**&#x200B;欄位可讓您為記錄指定 BIMI 選擇器。 BIMI 選擇器是您可以指派給 BIMI 記錄的唯一識別碼。 這可讓您為指定的子網域定義多個標誌。 目前郵箱提供者不支援此功能。
 
 1. 在&#x200B;**[!UICONTROL 公司標誌 URL]** 中，指定包含貴公司標誌 SVG 檔案的 URL。
 
-1. 雖然&#x200B;**[!UICONTROL 憑證 URL]** 為選擇性，但某些郵箱提供者 (例如 Gmail 和 Apple) 還是需要它。因此，建議您取得經過認證的標籤憑證 (VMC)，以確實善用 BIMI。
+1. 雖然&#x200B;**[!UICONTROL 憑證 URL]** 為選擇性，但某些郵箱提供者 (例如 Gmail 和 Apple) 還是需要它。 因此，建議您取得經過認證的標籤憑證 (VMC)，以確實善用 BIMI。
 
    +++如何取得 VMC？
 
    取得 VMC 的主要步驟如下：
 
-   1. 在 VMC 發行者認可的智慧財產辦公室註冊您的品牌標誌為商標。 如果您有法務團隊，建議您與其合作以取得商標標誌，或確認商標已註冊。 
+   1. 在 VMC 發行者認可的智慧財產辦公室註冊您的品牌標誌為商標。 如果您有法務團隊，建議您與其合作以取得商標標誌，或確認商標已註冊。
 
    1. 確認標誌已註冊為商標後，請連絡 DigiCert 或 Entrust 憑證授權單位 (CA) 請求 VMC。
 

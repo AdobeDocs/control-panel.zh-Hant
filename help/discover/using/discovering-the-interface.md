@@ -7,9 +7,16 @@ feature: Control Panel, Overview
 role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '226'
+TQID: https://experienceleague.adobe.com/NqU3T433k-fxW4ZpkbH-ux11sB9pDViLxuA-A-bunis
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 227
 ht-degree: 100%
 
 ---
@@ -38,7 +45,7 @@ ht-degree: 100%
 
 ## 說明資源 {#help-resources}
 
-**[!UICONTROL 說明資源]**&#x200B;章節提供實用文件，協助您使用「控制面板」和 Campaign 產品。歡迎隨時探索。
+**[!UICONTROL 說明資源]**&#x200B;章節提供實用文件，協助您使用「控制面板」和 Campaign 產品。 歡迎隨時探索。
 
 ![](assets/helpresources.png)
 

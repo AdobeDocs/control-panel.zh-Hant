@@ -7,13 +7,17 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '154'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/49fMBOZ2iN7xs7PpnYRLDHpQO5eXMTvn-veAxpjeH7w
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 154
+ht-degree: 77%
 
 ---
-
 
 # 監視您的子網域 {#monitoring-subdomains}
 
@@ -29,7 +33,7 @@ ht-degree: 100%
 >
 >Adobe 不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有一些傳遞能力問題。
 
-啟動驗證時，就會執行多次操作，檢查子網域是否已正確設定 (例如：執行個體的租用戶檢查、傳送電子郵件測試等)。如果子網域驗證失敗，請聯絡 Adobe 客戶服務，以便展開進一步調查。
+啟動驗證時，會執行數個操作來檢查子網域是否已正確設定（例項租使用者檢查、電子郵件傳送測試等） 如果子網域驗證失敗，請聯絡Adobe客戶服務以進一步調查。
 
 **相關主題：**
 
