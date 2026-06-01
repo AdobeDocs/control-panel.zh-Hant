@@ -8,13 +8,10 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 TQID: https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 100%
@@ -47,13 +44,13 @@ ht-degree: 100%
 
 * **CNAME 委派**：稍後會在設定精靈中，提供想複製到託管解決方案的憑證記錄。 您在提交子網域設定之前，必須先在網域託管解決方案中，產生上述憑證記錄。 [深入瞭解 CNAME 委派](setting-up-new-subdomain.md#use-cnames)
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## 針對已委派的子網域委派 SSL 憑證 {#delegated}
 
 若要針對已委派的子網域委派 SSL 憑證，請按一下所需子網域旁的省略符號按鈕，然後按一下&#x200B;**[!UICONTROL 切換到受管理的 SSL]**。
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 憑證產生流程主要取決於子網域的最初設定方式：
 
@@ -67,4 +64,4 @@ ht-degree: 100%
 
 請確定已在網域託管解決方案中產生所有憑證記錄。 如果所有項目都已正確設定，請確認記錄建立完成，然後按一下&#x200B;**[!UICONTROL 提交]**。
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
