@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->控制面板僅限管理員使用者存取。 授予使用者管理員存取權限的步驟已詳載於[本章節](managing-permissions.md)。 如需執行個體主控需求的先決條件，請參閱[此頁面](accessing-control-panel.md)。
+>控制面板僅限管理員使用者存取。 授予使用者管理員存取權限的步驟已詳載於[本章節](managing-permissions.md)。 如需執行個體託管需求的先決條件，請參閱[此頁面](accessing-control-panel.md)。
 
 <table style="table-layout:fixed">
 <tr>

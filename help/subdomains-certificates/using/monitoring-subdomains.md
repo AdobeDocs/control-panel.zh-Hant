@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 77%
 >
 >Adobe 不建議使用沒有憑證日期的子網域，因為這可能表示這些子網域可能有一些傳遞能力問題。
 
-啟動驗證時，會執行數個操作來檢查子網域是否已正確設定（例項租使用者檢查、電子郵件傳送測試等） 如果子網域驗證失敗，請聯絡Adobe客戶服務以進一步調查。
+啟動驗證時，就會執行多次操作，檢查子網域是否已正確設定 (例如：執行個體的租用戶檢查、傳送電子郵件測試等)。如果子網域驗證失敗，請聯絡 Adobe 客戶服務，以便展開進一步調查。
 
 **相關主題：**
 

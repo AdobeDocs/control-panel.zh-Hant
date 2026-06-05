@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 176
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>現在可以編輯 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範圍</a>和您建立的<a href="../sftp/using/key-management.md#editing-public-keys">公開金鑰</a>。 請注意，此功能不適用於目前的「控制面板」發行前所建立的項目。
+<p>您現在可以編輯 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範圍</a>和您建立的<a href="../sftp/using/key-management.md#editing-public-keys">公開金鑰</a>。請注意，此功能不適用於目前的「控制面板」發行前所建立的項目。
 </td>
 </tr>
 </tbody>

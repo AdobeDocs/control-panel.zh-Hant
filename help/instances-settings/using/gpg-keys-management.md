@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1348
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -113,12 +113,12 @@ GPG 加密可讓您使用一套公私金鑰配對，並遵循 [OpenPGP](https://
 **Campaign v7/v8：**
 
 * [壓縮或加密檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=zh-Hant)
-* [使用案例：使用安裝於控制面板的金鑰加密及匯出資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hant#use-case-gpg-encrypt)
+* [使用案例：使用安裝於「控制面板」的金鑰加密和匯出資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hant#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [管理已加密的資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hant)
-* [使用案例：使用安裝於控制面板的金鑰加密及匯出資料](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=zh-Hant#use-case-gpg-encrypt)
+* [使用案例：使用安裝於「控制面板」的金鑰加密和匯出資料](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=zh-Hant#use-case-gpg-encrypt)
 
 ## 解密資料 {#decrypting-data}
 
@@ -156,12 +156,12 @@ GPG 加密可讓您使用一套公私金鑰配對，並遵循 [OpenPGP](https://
 **Campaign v7 與 v8：**
 
 * [在處理前解壓縮或解密檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hant)
-* [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hant#use-case-gpg-decrypt)
+* [使用案例：匯入使用「控制面板」產生的金鑰加密的資料](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=zh-Hant#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [管理已加密的資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hant)
-* [使用案例：匯入使用控制面板產生的金鑰加密的資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hant#use-case-gpg-decrypt)
+* [使用案例：匯入使用「控制面板」產生的金鑰加密的資料](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=zh-Hant#use-case-gpg-decrypt)
 
 ## 監視 GPG 金鑰
 

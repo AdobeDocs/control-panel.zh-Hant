@@ -24,9 +24,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 93%
 
 ### 我可以使用「控制面板」嗎？
 
-「控制面板」可供將Adobe Campaign託管在AWS上之客戶的產品管理員使用。 在Microsoft Azure上託管的Campaign v8執行個體也可存取控制面板功能的子集： IP允許執行個體存取清單、 SFTP伺服器的IP允許清單，以及客戶管理的SSL憑證管理。
+「控制面板」開放給將 Adobe Campaign 託管在 AWS 上之客戶的產品管理員。在 Microsoft Azure 上託管的 Campaign v8 執行個體也可存取控制面板功能的子集：執行個體存取的 IP 允許清單、SFTP 伺服器的 IP 允許清單，以及客戶管理的 SSL 憑證管理。
 
 控制面板允許使用混合託管模型的客戶利用特定的控制面板功能。 為此，他們需要提供在「控制面板」行銷執行個體設定的 MID/RT 執行個體 URL。 [了解更多](instances-settings/using/external-accounts.md)
 
