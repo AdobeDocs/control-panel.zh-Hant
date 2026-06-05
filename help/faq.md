@@ -8,25 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 TQID: https://experienceleague.adobe.com/QzCaKeB3zqjFQTyDXRI5JQ2YoM98F5pZxOoMK1J9bjE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +45,7 @@ ht-degree: 93%
 
 ### 我可以使用「控制面板」嗎？
 
-「控制面板」可供將Adobe Campaign託管在AWS上之客戶的產品管理員使用。 在Microsoft Azure上託管的Campaign v8執行個體也可存取控制面板功能的子集： IP允許執行個體存取清單、 SFTP伺服器的IP允許清單，以及客戶管理的SSL憑證管理。
+「控制面板」開放給將 Adobe Campaign 託管在 AWS 上之客戶的產品管理員。在 Microsoft Azure 上託管的 Campaign v8 執行個體也可存取控制面板功能的子集：執行個體存取的 IP 允許清單、SFTP 伺服器的 IP 允許清單，以及客戶管理的 SSL 憑證管理。
 
 控制面板允許使用混合託管模型的客戶利用特定的控制面板功能。 為此，他們需要提供在「控制面板」行銷執行個體設定的 MID/RT 執行個體 URL。 [了解更多](instances-settings/using/external-accounts.md)
 

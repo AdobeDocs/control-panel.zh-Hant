@@ -8,18 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 787
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +30,7 @@ ht-degree: 96%
 >
 >服務行事曆現在提供測試版，且可能會不時更新和修改，恕不另行通知。
 
-若要有效監控您的 Campaign 執行個體，必須持續追蹤可能影響執行個體的重要事件。 「控制面板」可以讓您識別新版本、升級、修補程式、修補程式等事件，並提供任何要求或問題的重要Adobe聯絡人清單。
+若要有效監控您的 Campaign 執行個體，必須持續追蹤可能影響執行個體的重要事件。 「控制面板」可以讓您識別新版本、升級、修補程式、熱修補等事件，並提供任何要求或問題的重要 Adobe 聯絡人清單。
 
 您可以在「控制面板」首頁的&#x200B;**[!UICONTROL 服務行事曆]**&#x200B;卡片存取此資訊。
 

@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 TQID: https://experienceleague.adobe.com/rTb49TVxUqe2IeONpjiEMmhu1vZ-o6sStCwHxcWcAms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1084
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +29,7 @@ ht-degree: 96%
 >
 >只有當您選擇自行管理憑證，而非將此程序委派給 Adobe 時，才需要更新子網域的 SSL 憑證。 強烈建議將子網域的 SSL 憑證委派給 Adobe 管理，因為 Adobe 每年都會在憑證到期前，自動建立並更新憑證。 [了解更多 SSL 憑證管理相關資訊](monitoring-ssl-certificates.md#management)
 >
->客戶管理的SSL憑證管理適用於託管在AWS上的Campaign v7/v8執行個體以及託管在Microsoft Azure上的Campaign v8執行個體。
+>客戶管理的 SSL 憑證管理適用於在 AWS 上託管的 Campaign v7/v8 執行個體，以及在 Microsoft Azure 上託管的 Campaign v8 執行個體。
 
 SSL 憑證續約流程包含 3 個步驟：
 
@@ -52,7 +49,7 @@ SSL 憑證續約流程包含 3 個步驟：
 
 **相關主題：**
 
-* [傳遞能力最佳實務指南 — 適用於Adobe Campaign的SSL憑證請求流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hant)
+* [傳遞能力最佳做法指南 - Adobe Campaign 的 SSL 憑證請求流程](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=zh-Hant)
 * [子網域品牌化](../../subdomains-certificates/using/subdomains-branding.md)
 * [監視子網域](../../subdomains-certificates/using/monitoring-subdomains.md)
 
@@ -70,7 +67,7 @@ SSL 憑證續約流程包含 3 個步驟：
 
 若要產生憑證申請檔 (CSR)，請執行下列步驟：
 
-1. 在&#x200B;**[!UICONTROL 子網域和憑證]**&#x200B;卡片中，選取所需的執行個體，然後按一下&#x200B;**[!UICONTROL 管理憑證]**&#x200B;按鈕。
+1. 在&#x200B;**[!UICONTROL 子網域和憑證]**&#x200B;卡片，選取所需的執行個體，然後按一下&#x200B;**[!UICONTROL 管理憑證]** 按鈕。
 
    ![](assets/renewal1.png)
 

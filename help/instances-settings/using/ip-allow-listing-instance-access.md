@@ -8,21 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 TQID: https://experienceleague.adobe.com/IkDCWdMCDIIDWT-OC3Jwm3CVt3oHplnP3iO-cKUyiCo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 857
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +32,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->此功能適用於在AWS上託管的Campaign v7/v8執行個體，以及在Microsoft Azure上託管的Campaign v8執行個體。
+>此功能適用於在 AWS 上託管的 Campaign v7/v8 執行個體，以及在 Microsoft Azure 上託管的 Campaign v8 執行個體。
 
 依預設，您的 Adobe Campaign 執行個體無法從各種 IP 位址進行存取。
 
@@ -117,4 +111,4 @@ ht-degree: 96%
 
 **相關主題：**
 
-* [將安全區域連結至運運算元](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=zh-Hant#linking-a-security-zone-to-an-operator)
+* [將安全區域連結到運算子](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=zh-Hant#linking-a-security-zone-to-an-operator)

@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 TQID: https://experienceleague.adobe.com/fCmnWIo7FfgfreWs9oFucCL1PNgSN7-1sWXbagwvn6I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +96,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
    您可能需要安裝第三方工具，協助您以相同格式「name.pub」產生私密/公開金鑰配對。
 
-1. 開啟.pub檔案，然後複製並貼上以「ssh...」開頭的整個字串 移至「控制面板」。
+1. 開啟 .pub 檔案，然後複製以「ssh...」開頭的整個字串並貼到「控制面板」中。
 
    ![](assets/publickey.png)
 
@@ -116,7 +114,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 ![](assets/fingerprint_compare.png)
 
-「**...**」 按鈕可讓您刪除現有的金鑰，或將其相關聯的指紋複製到剪貼簿。
+「**...**」按鈕可讓您刪除現有的金鑰，或將其相關聯的指紋複製到剪貼簿中。
 
 ![](assets/key_options.png)
 
@@ -130,7 +128,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 ![](assets/control_panel_key_management_sort.png)
 
-若要編輯一或多個 IP 範圍，請參閱[本節](#editing-public-keys)。
+若要編輯一或多個 IP 範圍，請參閱[本章節](#editing-public-keys)。
 
 若要刪除清單中的一或多個公開金鑰，請選取這些金鑰，然後按一下&#x200B;**[!UICONTROL 刪除公開金鑰]**&#x200B;按鈕。
 

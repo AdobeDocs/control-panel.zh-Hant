@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 TQID: https://experienceleague.adobe.com/kKfXYnZLuU5W0GX4KwGDjFsmL5pxkhBunBYrDVUUUsM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 556
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +40,8 @@ ht-degree: 98%
 
 **相關主題：**
 
-* [執行建置升級](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=zh-Hant)
-* [更新Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=zh-Hant)
+* [執行版本編號升級](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=zh-Hant)
+* [更新 Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=zh-Hant)
 
 ## 擷取關於執行個體的資訊 {#retrieving-information-about-instances}
 

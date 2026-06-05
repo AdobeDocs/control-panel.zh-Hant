@@ -8,18 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 TQID: https://experienceleague.adobe.com/-uCuc2B992O4JmoJhGOAfIuU-NGON1zTpKwd3roYIXo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 756
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +50,7 @@ ht-degree: 96%
 
 | 設定方法 | 運作方式 | 所需投入的精力 |
 |---|---|---|
-| **完全委派** | 建立子網域和命名空間記錄。 Adobe接著會設定Adobe Campaign所需的所有DNS記錄。<br/><br/>在此設定中，Adobe會完全負責管理子網域和所有DNS記錄。 | 低 |
+| **完全委派** | 建立子網域和命名空間記錄。 Adobe 便會設定 Adobe Campaign 所需的所有 DNS 記錄。<br/><br/>在此設定中，Adobe 會完全負責管理子網域和所有 DNS 記錄。 | 低 |
 | **CNAME，自訂方法** | 建立子網域和命名空間記錄。 Adobe 便會提供要放置在 DNS 伺服器中的記錄，並在 Adobe Campaign DNS 伺服器中設定對應的值。<br/><br/>在此設定中，您和 Adobe 都有責任維護 DNS。 | 高 |
 
 如需網域設定的其他資訊，請參閱[此文件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=zh-Hant)。
