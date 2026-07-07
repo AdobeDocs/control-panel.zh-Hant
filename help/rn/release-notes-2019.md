@@ -11,7 +11,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 100%
@@ -22,8 +22,7 @@ ht-degree: 100%
 
 ## 2019 年 9 月 {#september-2019}
 
-我們已新增功能，讓管理員使用者將 IP 位址新增至允許清單，以便連結至 Campaign v7/v8 執行個體。
-此外，管理員使用者現在可以檢視 Campaign v7/v8 執行個體的清單和資格，以建立升級。
+我們已新增功能，讓管理員使用者將 IP 位址新增至允許清單，以便連結至 Campaign v7/v8 執行個體。此外，管理員使用者現在可以檢視 Campaign v7/v8 執行個體的清單和資格，以建立升級。
 
 如需詳細資訊，請參閱[專屬文件](../instances-settings/using/ip-allow-listing-instance-access.md)。
 
@@ -38,3 +37,4 @@ ht-degree: 100%
 我們已新增管理員使用者的功能，讓他們對 Campaign v7/v8 執行個體設定有更全面的控制。 全新的「控制面板」功能包括新增與 Adobe Campaign 連線的 URL，以進行資料/檔案傳輸。
 
 如需詳細資訊，請參閱[詳細文件](../instances-settings/using/url-permissions.md)以瞭解詳情。
+
