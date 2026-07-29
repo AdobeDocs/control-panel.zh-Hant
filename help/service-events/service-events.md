@@ -8,16 +8,12 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 TQID: https://experienceleague.adobe.com/qV--ZZUxv3WImUWYbWhboXoO-Hyo1geHtIVvrvwcfMQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 787
 ht-degree: 100%
 
@@ -76,12 +72,12 @@ ht-degree: 100%
 
 * **版本**&#x200B;指出執行個體過去與即將進行的部署，在行事曆檢視分別以灰色與藍色顯示。 事件詳細資料會指定與每個部署相關聯的版本類型：
 
-   * **[!UICONTROL 一般可用性]**：最新可用的穩定版本編號。
-   * **[!UICONTROL 有限可用性]**：僅限隨需部署。
-   * **[!UICONTROL 候選版本]**：經過工程驗證。 等待生產校訂。
-   * **[!UICONTROL 搶鮮版]**：早期針對特定客戶需求提供的版本。
-   * **[!UICONTROL 不再提供]**：此版本雖無重大問題，仍有附加錯誤修復的新版可用。 需要更新。
-   * **[!UICONTROL 已棄用]**：嵌入已知迴歸的版本編號。 不再支援此版本。 須更新。
+  * **[!UICONTROL 一般可用性]**：最新可用的穩定版本編號。
+  * **[!UICONTROL 有限可用性]**：僅限隨需部署。
+  * **[!UICONTROL 候選版本]**：經過工程驗證。 等待生產校訂。
+  * **[!UICONTROL 搶鮮版]**：早期針對特定客戶需求提供的版本。
+  * **[!UICONTROL 不再提供]**：此版本雖無重大問題，仍有附加錯誤修復的新版可用。 需要更新。
+  * **[!UICONTROL 已棄用]**：嵌入已知迴歸的版本編號。 不再支援此版本。 須更新。
 
 您可為一個或多個即將發生的事件指派旗標，以追蹤這些事件。 若要執行此動作，請按一下事件名稱旁邊的按鈕。
 

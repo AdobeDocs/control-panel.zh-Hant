@@ -8,14 +8,11 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 TQID: https://experienceleague.adobe.com/Ug0vHjgyTK-BRO4IMdCwSQuiwO--XagzjW-MFTPcZrY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 353
 ht-degree: 100%
 
@@ -33,7 +30,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->依預設情況，只有屬於「管理員」產品設定檔的管理員使用者，才能存取控制面板。 根據貴組織的設定，產品設定檔可以有不同的名稱（「admin」、「admins」、「approval admin」等）。 **任何名稱有包含「admin」字詞的產品設定檔，都會自動授予「控制面板」存取權**。請仔細審核您的產品設定檔命名，確保只有經授權的使用者，才能存取控制面板。 [了解如何管理「控制面板」的權限](../../discover/using/managing-permissions.md)。
+>依預設情況，只有屬於「管理員」產品設定檔的管理員使用者，才能存取控制面板。 根據貴組織的設定，產品設定檔可以有不同的名稱（「admin」、「admins」、「approval admin」等）。 **任何名稱有包含「admin」字詞的產品設定檔，都會自動授予「控制面板」存取權**。 請仔細審核您的產品設定檔命名，確保只有經授權的使用者，才能存取控制面板。 [了解如何管理「控制面板」的權限](../../discover/using/managing-permissions.md)。
 
 ## 從 Experience Cloud Platform 存取 {#access-experience-cloud-platform}
 

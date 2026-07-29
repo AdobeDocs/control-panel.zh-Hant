@@ -7,13 +7,11 @@ level: Experienced
 hide: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 TQID: https://experienceleague.adobe.com/vx-DFjLWS2pyJOUYeWZJL18MC-2AlpPo-iyRWTEtaks
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: 175
 ht-degree: 100%
 
 ---
@@ -46,7 +44,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>現在可以編輯 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範圍</a>和您建立的<a href="../sftp/using/key-management.md#editing-public-keys">公開金鑰</a>。 請注意，此功能不適用於目前的「控制面板」發行前所建立的項目。</td>
+<p>您現在可以編輯 <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP 範圍</a>和您建立的<a href="../sftp/using/key-management.md#editing-public-keys">公開金鑰</a>。請注意，此功能不適用於目前的「控制面板」發行前所建立的項目。
+</td>
 </tr>
 </tbody>
 </table>
