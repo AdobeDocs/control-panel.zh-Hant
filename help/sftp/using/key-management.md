@@ -13,7 +13,7 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1106
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
    您可能需要安裝第三方工具，協助您以相同格式「name.pub」產生私密/公開金鑰配對。
 
-1. 開啟 .pub 檔案，然後複製以「ssh...」開頭的整個字串並貼到「控制面板」中。
+1. 開啟 .pub 檔案，然後複製以「ssh...」開頭的整個字串 並貼到「控制面板」中。
 
    ![](assets/publickey.png)
 
@@ -116,7 +116,7 @@ Adobe 建議所有客戶使用&#x200B;**公開和私密金鑰組**&#x200B;建立
 
 ![](assets/fingerprint_compare.png)
 
-「**...**」按鈕可讓您刪除現有的金鑰，或將其相關聯的指紋複製到剪貼簿中。
+「**...**」 按鈕可讓您刪除現有的金鑰，或將其相關聯的指紋複製到剪貼簿中。
 
 ![](assets/key_options.png)
 

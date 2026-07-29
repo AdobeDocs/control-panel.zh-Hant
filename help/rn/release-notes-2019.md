@@ -13,8 +13,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
-source-wordcount: 156
-ht-degree: 100%
+source-wordcount: 138
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,8 @@ ht-degree: 100%
 
 ## 2019 年 9 月 {#september-2019}
 
-我們已新增功能，讓管理員使用者將 IP 位址新增至允許清單，以便連結至 Campaign v7/v8 執行個體。此外，管理員使用者現在可以檢視 Campaign v7/v8 執行個體的清單和資格，以建立升級。
+我們已新增功能，讓管理員使用者將IP位址新增至允許清單，以便連線至Campaign v7/v8執行個體。
+此外，管理員使用者現在可以檢視Campaign v7/v8執行個體的清單和資格，以建立升級。
 
 如需詳細資訊，請參閱[專屬文件](../instances-settings/using/ip-allow-listing-instance-access.md)。
 

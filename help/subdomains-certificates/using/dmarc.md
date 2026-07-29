@@ -38,8 +38,8 @@ ht-degree: 100%
   若要在 CNAME 子網域上建立 DMARC 記錄，您可以在其父系網域設定 DMARC 記錄。 這可確保所有關聯的子網域都會繼承 DMARC 記錄參數，即使透過 CNAME 委派亦然。
 
 * 如果子網域同時存在 DMARC 和 BIMI 記錄：
-   * 無法刪除 DMARC 記錄。 如果要刪除 DMARC 記錄，請先刪除 BIMI 記錄。
-   * DMARC 記錄可加以編輯，但不允許將 DMARC 原則降級至「無」且其百分比值必須為 100。
+  * 無法刪除 DMARC 記錄。 如果要刪除 DMARC 記錄，請先刪除 BIMI 記錄。
+  * DMARC 記錄可加以編輯，但不允許將 DMARC 原則降級至「無」且其百分比值必須為 100。
 
 ## 為子網域新增 DMARC 記錄 {#add}
 

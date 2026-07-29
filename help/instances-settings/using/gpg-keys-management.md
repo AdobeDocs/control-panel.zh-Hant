@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 1348
 ht-degree: 100%
 
@@ -181,9 +181,9 @@ GPG 加密可讓您使用一套公私金鑰配對，並遵循 [OpenPGP](https://
 * **[!UICONTROL 指紋]**：金鑰的指紋。
 * **[!UICONTROL 過期]**：金鑰的過期日期。 請注意，「控制面板」會在接近金鑰到期日時提供視覺指示：
 
-   * 緊急 (紅色) 會在 30天 前顯示。
-   * 警告 (黃色) 會在 60 天前顯示。
-   * 金鑰到期後，將會顯示「已到期」紅色橫幅。
+  * 緊急 (紅色) 會在 30天 前顯示。
+  * 警告 (黃色) 會在 60 天前顯示。
+  * 金鑰到期後，將會顯示「已到期」紅色橫幅。
 
   >[!NOTE]
   >
