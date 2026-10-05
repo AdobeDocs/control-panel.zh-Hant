@@ -6,24 +6,35 @@ role: Admin
 level: Experienced
 hide: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
-TQID: https://experienceleague.adobe.com/sZ7Aa1q9RMGlTbATRYM0AXlUe8vNwlM0Dl4E9LGuu8E
+TQID: 'https://experienceleague.adobe.com/sZ7Aa1q9RMGlTbATRYM0AXlUe8vNwlM0Dl4E9LGuu8E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 138
-ht-degree: 82%
-
+source-wordcount: '156'
+ht-degree: 100%
 ---
-
 # 發行說明 2019 年 {#rn-2019}
 
 ## 2019 年 9 月 {#september-2019}
 
-我們已新增功能，讓管理員使用者將IP位址新增至允許清單，以便連線至Campaign v7/v8執行個體。
-此外，管理員使用者現在可以檢視Campaign v7/v8執行個體的清單和資格，以建立升級。
+我們已新增功能，讓管理員使用者將 IP 位址新增至允許清單，以便連結至 Campaign v7/v8 執行個體。
+此外，管理員使用者現在可以檢視 Campaign v7/v8 執行個體的清單和資格，以建立升級。
 
 如需詳細資訊，請參閱[專屬文件](../instances-settings/using/ip-allow-listing-instance-access.md)。
 
