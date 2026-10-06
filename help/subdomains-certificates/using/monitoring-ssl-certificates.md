@@ -7,13 +7,28 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: f807e46f-d823-43a9-98be-82e0b2f3a05c
+    internal-label: Subdomains and certificates
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 97%
-
+source-wordcount: '578'
+ht-degree: 100%
 ---
-
 # 監視子網域的 SSL 憑證 {#monitoring-ssl-certificates}
 
 ## 關於 SSL 憑證 {#about-ssl-certificates}
@@ -62,8 +77,8 @@ SSL 憑證監視是確保子網域安全無虞的關鍵。 使用「控制面板
 
 ![](assets/subdomains_list.png)
 
-若要取得子網域的詳細資訊，請按一下&#x200B;**[!UICONTROL 子網域詳細資料]**&#x200B;按鈕。
-隨即顯示所有相關子網域的清單。這通常會包括登陸頁面、資源頁面等等的子網域。
+若要取得子網域的詳細資料，請按一下&#x200B;**[!UICONTROL 子網域詳細資料]**按鈕。
+隨即顯示所有相關子網域的清單。 這通常會包括登陸頁面、資源頁面等等的子網域。
 
 **[!UICONTROL 寄件者資訊]**&#x200B;標籤提供有關已設定收件匣的資訊 (寄件人、回覆、錯誤電子郵件)。
 
